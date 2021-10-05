@@ -19,6 +19,7 @@ Team member contact information can also be found on the slides.
 
 ### Codes
 * Data Accessing and Preprocessing
+* Data Visualization
 * Models
 ### Data
 
