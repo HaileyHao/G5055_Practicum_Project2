@@ -19,7 +19,7 @@ Team member contact information can also be found on the slides.
 
 The group will first look at the examples of two specific countries, Indonesia and Guatemala, and at the second phase of the project find the appropriate method of scaling for universal application.
 
-The reasons of choosing the two countries:
+The two countries were chosen for their similarities in population density, political stability, GDP growth, etc.
 
 The team is looking at data starting from 2012, and with the voluntary national reviews (VNRs) released in the year of 2017, 2019, 2021, the team looks at the models' progress over time every two years.
 
