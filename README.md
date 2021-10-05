@@ -30,14 +30,19 @@ The team is looking at data starting from 2012, and with the voluntary national 
 The data sources include:
 
 * [UN SDG Indicators](https://unstats.un.org/sdgs/indicators/database/)
-* [UN High Level Political Forum Voluntary National  Reviews (VNRs) on the SDGs Database](https://sustainabledevelopment.un.org/memberstates)
+* [UN High Level Political Forum Voluntary National Reviews (VNRs) on the SDGs Database](https://sustainabledevelopment.un.org/memberstates)
 
 ## Directory of the Repository
 
 ### Codes
-* Data Accessing and Preprocessing
-* Data Visualization
-* Models
+
+* [Data Accessing and Preprocessing](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Accessing%20and%20Preprocessing)
+* [Data Visualization](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Visualization)
+
 ### Data
+
+* Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
+* Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
+* indonesia_indicators_time.csv: data for 
 
 ## Code Description
