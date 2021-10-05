@@ -15,6 +15,23 @@ Additional information about the project can be found on the project slides [her
 
 Team member contact information can also be found on the slides.
 
+## Project Scope
+
+The group will first look at the examples of two specific countries, Indonesia and Guatemala, and at the second phase of the project find the appropriate method of scaling for universal application.
+
+The reasons of choosing the two countries:
+
+The team is looking at data starting from 2012, and with the voluntary national reviews (VNRs) released in the year of 2017, 2019, 2021, the team looks at the models' progress over time every two years.
+
+## Model
+
+## Data
+
+The data sources include:
+
+* [UN SDG Indicators](https://unstats.un.org/sdgs/indicators/database/)
+* [UN High Level Political Forum Voluntary National  Reviews (VNRs) on the SDGs Database](https://sustainabledevelopment.un.org/memberstates)
+
 ## Directory of the Repository
 
 ### Codes
