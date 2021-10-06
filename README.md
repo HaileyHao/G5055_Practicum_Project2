@@ -38,6 +38,7 @@ The data sources include:
 
 * [Data Accessing and Preprocessing](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Accessing%20and%20Preprocessing)
 * [Data Visualization](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Visualization)
+* [Correlation Analysis](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Correlation%20Analysis)
 
 ### Data
 
