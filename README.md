@@ -46,3 +46,6 @@ The data sources include:
 * indonesia_indicators_time.csv: data in pivot format (Output from [the code]())
 
 ## User Guide of Codes
+*[UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py)
+  - This python package includes a function called **preprocess**. If users ```import UN_SDG_2_Functions```, read an SDG file (2012-2021) CSV from the API, they can use this function to directly pivot data into indicator metric / time (year) format. 
+*Note: All functions currently are in development phase. If users have feedback, please feel free to contact our team with questions, issues, and concerns.* 
