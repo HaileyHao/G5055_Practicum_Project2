@@ -29,11 +29,11 @@ library(gridExtra)
 ```
 
 ```{r}
-df <- read.csv('~/QMSS/G5055_Practicum_Project2/Data/indonesia_indicators_time.csv')
+df <- read.csv('../Data/indonesia_indicators_time.csv')
 ```
 
 ```{r}
-df_9 <- df %>% subset(Indicator == '9.2.1')
+df_9 <- df %>% subset(Target == '9.2')
 df_9
 
 # Goal 12: Ensure sustainable conusumption and production patterns 
@@ -43,19 +43,20 @@ df_9_pivot <- df_9_pivot %>% tidyr::pivot_longer(cols = '2018':'2021', names_to=
 
 df_9_pivot <- df_9_pivot %>% group_by(UniqueID,year,value) %>% summarize()
 df_9_pivot <- df_9_pivot %>% mutate(year = as.numeric(year))
-df_9_pivot %>% 
+p <- df_9_pivot %>% 
   ggplot(., aes(x=year, y = value, color = UniqueID )) +
   geom_point(alpha = 0.4) +
   geom_line()+
   theme_ipsum(base_size = 10, axis_title_size = 12) +
+  scale_colour_viridis(direction = -1, discrete = T) +
   theme(
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank())
 
+ggplotly(p)
 ```
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+```{r}
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
+```
