@@ -1,0 +1,8 @@
+UniqueID,TimePeriod,SH_STA_SCIDE BOTHSEX                        ,SH_STA_SCIDE FEMALE                        ,SH_STA_SCIDE MALE                        ,SH_STA_SCIDEN BOTHSEX                        ,SH_STA_SCIDEN FEMALE                        ,SH_STA_SCIDEN MALE                        
+TimePeriod,1.0,,,1.0,1.0,1.0,1.0
+SH_STA_SCIDE BOTHSEX                        ,,,,,,,
+SH_STA_SCIDE FEMALE                        ,,,,,,,
+SH_STA_SCIDE MALE                        ,1.0,,,1.0,1.0,1.0,1.0000000000000002
+SH_STA_SCIDEN BOTHSEX                        ,1.0,,,1.0,1.0,1.0,1.0
+SH_STA_SCIDEN FEMALE                        ,1.0,,,1.0,1.0,1.0,1.0
+SH_STA_SCIDEN MALE                        ,1.0,,,1.0000000000000002,1.0,1.0,1.0
