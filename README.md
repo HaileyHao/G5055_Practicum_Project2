@@ -38,12 +38,16 @@ The data sources include:
 
 * [Data Accessing and Preprocessing](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Accessing%20and%20Preprocessing)
 * [Data Visualization](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Data%20Visualization)
+* [Correlation Analysis](https://github.com/PeishanLi/G5055_Practicum_Project2/tree/main/Codes/Correlation%20Analysis)
 
 ### Data
 
 * Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
 * Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
-* indonesia_indicators_time.csv: data in pivot format (Output from [the code]())
+* indonesia_indicators_time.csv: data in pivot format (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Preprocessing_UNSDG_Data.ipynb))
+* guatemala_indicators_time.csv: data in pivot format (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Preprocessing_UNSDG_Data.ipynb))
+* Indonesia Correlation among measuremests: contain seperate files of the correlations of different measurements reflected by their unique ID of indicators for Indonesia (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Correlation%20Analysis/Correlation_Analysis_(Indicator_Measurement_Level).ipynb))
+* Guatemala Correlation among measuremests: contain seperate files of the correlations of different measurements reflected by their unique ID of indicators for Guatemala (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Correlation%20Analysis/Correlation_Analysis_(Indicator_Measurement_Level).ipynb))
 
 ## User Guide of Codes
 *[UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py)
