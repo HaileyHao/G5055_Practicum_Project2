@@ -1,6 +1,7 @@
 import pandas as pd 
 import numpy as np 
 
+# This function is designed to generate a unique ID and transform data into a year format. 
 def preprocess(df): 
     df_copy  = df.copy()
 
