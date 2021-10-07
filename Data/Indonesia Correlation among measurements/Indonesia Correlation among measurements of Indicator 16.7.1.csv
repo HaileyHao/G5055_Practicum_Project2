@@ -1,0 +1,11 @@
+UniqueID,TimePeriod,SG_DMK_PARLCC_LC FEMALE   FAFF_DEF              <=45Y       ,SG_DMK_PARLCC_LC MALE   FINANCE              46+       ,SG_DMK_PARLCC_LC MALE   GEN_EQU              46+       ,SG_DMK_PARLCC_LC MALE   HUM_RIGH              46+       ,SG_DMK_PARLMP_LC                         ,SG_DMK_PARLSP_LC FEMALE                 46+       ,SG_DMK_PARLYN_LC                  <=45Y       ,SG_DMK_PARLYP_LC                  <=45Y       ,SG_DMK_PARLYR_LC                  <=45Y       
+TimePeriod,,,,,,,,,,
+SG_DMK_PARLCC_LC FEMALE   FAFF_DEF              <=45Y       ,,,,,,,,,,
+SG_DMK_PARLCC_LC MALE   FINANCE              46+       ,,,,,,,,,,
+SG_DMK_PARLCC_LC MALE   GEN_EQU              46+       ,,,,,,,,,,
+SG_DMK_PARLCC_LC MALE   HUM_RIGH              46+       ,,,,,,,,,,
+SG_DMK_PARLMP_LC                         ,,,,,,,,,,
+SG_DMK_PARLSP_LC FEMALE                 46+       ,,,,,,,,,,
+SG_DMK_PARLYN_LC                  <=45Y       ,,,,,,,,,,
+SG_DMK_PARLYP_LC                  <=45Y       ,,,,,,,,,,
+SG_DMK_PARLYR_LC                  <=45Y       ,,,,,,,,,,

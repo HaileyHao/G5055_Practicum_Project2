@@ -1,0 +1,8 @@
+UniqueID,TimePeriod,PD_AGR_LSFP BOTHSEX                        ,PD_AGR_LSFP FEMALE                        ,PD_AGR_LSFP MALE                        ,PD_AGR_SSFP BOTHSEX                        ,PD_AGR_SSFP FEMALE                        ,PD_AGR_SSFP MALE                        
+TimePeriod,1.0,,,,,,
+PD_AGR_LSFP BOTHSEX                        ,,,,,,,
+PD_AGR_LSFP FEMALE                        ,,,,,,,
+PD_AGR_LSFP MALE                        ,,,,,,,
+PD_AGR_SSFP BOTHSEX                        ,,,,,,,
+PD_AGR_SSFP FEMALE                        ,,,,,,,
+PD_AGR_SSFP MALE                        ,,,,,,,

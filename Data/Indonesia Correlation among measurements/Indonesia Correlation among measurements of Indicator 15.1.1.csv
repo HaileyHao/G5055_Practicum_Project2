@@ -1,0 +1,5 @@
+UniqueID,TimePeriod,AG_LND_FRST                         ,AG_LND_FRSTN                         ,AG_LND_TOTL                         
+TimePeriod,1.0,-0.9711652187911936,-0.9711647016902692,
+AG_LND_FRST                         ,-0.9711652187911936,1.0,0.9999999999910703,
+AG_LND_FRSTN                         ,-0.9711647016902692,0.9999999999910703,1.0,
+AG_LND_TOTL                         ,,,,

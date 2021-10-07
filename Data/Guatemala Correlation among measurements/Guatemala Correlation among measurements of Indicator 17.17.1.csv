@@ -1,0 +1,4 @@
+UniqueID,TimePeriod,GF_COM_PPPI                         ,GF_COM_PPPI_KD                         
+TimePeriod,1.0,0.4735190858027297,-0.671977136762326
+GF_COM_PPPI                         ,0.4735190858027297,1.0,0.9998977666099074
+GF_COM_PPPI_KD                         ,-0.671977136762326,0.9998977666099074,1.0
