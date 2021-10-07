@@ -32,11 +32,12 @@ library(gridExtra)
 df <- read.csv('../Data/indonesia_indicators_time.csv')
 ```
 
+## This is a test use case of the dataset. 
 ```{r}
+# Goal 9: Industry, Innovation, and Infrastructure 
+
 df_9 <- df %>% subset(Target == '9.2')
 df_9
-
-# Goal 12: Ensure sustainable conusumption and production patterns 
 
 df_9_pivot <- df_9 %>% rename('2018' = X2018.0, '2019' = X2019.0, '2020' = X2020.0,'2021' = X2021.0) #%>% 
 df_9_pivot <- df_9_pivot %>% tidyr::pivot_longer(cols = '2018':'2021', names_to='year')
