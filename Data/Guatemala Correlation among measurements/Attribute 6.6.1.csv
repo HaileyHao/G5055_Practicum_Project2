@@ -1,0 +1,132 @@
+,UniqueID,Goal,Target,Indicator,SeriesCode
+2061,EN_WBE_INWTL                         ,6.0,6.6,6.6.1,EN_WBE_INWTL
+2062,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2063,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2064,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2065,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2066,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2067,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2068,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2069,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2070,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN
+2071,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2072,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2073,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2074,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2075,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2076,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2077,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2078,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2079,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP
+2080,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2081,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2082,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2083,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2084,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2085,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2086,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2087,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2088,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN
+2089,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2090,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2091,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2092,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2093,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2094,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2095,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2096,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2097,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP
+2098,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2099,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2100,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2101,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2102,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2103,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2104,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2105,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2106,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC
+2107,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2108,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2109,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2110,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2111,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2112,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2113,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2114,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2115,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC
+2116,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2117,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2118,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2119,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2120,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2121,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2122,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2123,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2124,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN
+2125,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2126,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2127,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2128,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2129,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2130,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2131,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2132,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2133,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP
+2134,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2135,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2136,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2137,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2138,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2139,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2140,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2141,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2142,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN
+2143,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2144,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2145,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2146,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2147,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2148,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2149,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2150,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2151,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP
+2152,EN_WBE_WTLN                         ,6.0,6.6,6.6.1,EN_WBE_WTLN
+2153,EN_WBE_WTLP                         ,6.0,6.6,6.6.1,EN_WBE_WTLP
+2154,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2155,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2156,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2157,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2158,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2159,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2160,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2161,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2162,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2163,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2164,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2165,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB
+2166,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2167,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2168,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2169,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2170,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2171,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2172,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2173,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2174,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2175,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2176,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2177,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST
+2178,EN_WBE_MANGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGN
+2179,EN_WBE_MANGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGN
+2180,EN_WBE_MANGBN                         ,6.0,6.6,6.6.1,EN_WBE_MANGBN
+2181,EN_WBE_MANGBN                         ,6.0,6.6,6.6.1,EN_WBE_MANGBN
+2182,EN_WBE_MANGGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGGN
+2183,EN_WBE_MANGGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGGN
+2184,EN_WBE_MANGGP                         ,6.0,6.6,6.6.1,EN_WBE_MANGGP
+2185,EN_WBE_MANGGP                         ,6.0,6.6,6.6.1,EN_WBE_MANGGP
+2186,EN_WBE_MANGLN                         ,6.0,6.6,6.6.1,EN_WBE_MANGLN
+2187,EN_WBE_MANGLN                         ,6.0,6.6,6.6.1,EN_WBE_MANGLN
+2188,EN_WBE_MANGLP                         ,6.0,6.6,6.6.1,EN_WBE_MANGLP
+2189,EN_WBE_MANGLP                         ,6.0,6.6,6.6.1,EN_WBE_MANGLP
+2190,EN_WBE_MANGC                         ,6.0,6.6,6.6.1,EN_WBE_MANGC
+2191,EN_WBE_MANGC                         ,6.0,6.6,6.6.1,EN_WBE_MANGC

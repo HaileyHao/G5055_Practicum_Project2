@@ -1,5 +1,0 @@
-UniqueID,TimePeriod,SH_ALC_CONSPT BOTHSEX             A    15+       ,SH_ALC_CONSPT FEMALE             A    15+       ,SH_ALC_CONSPT MALE             A    15+       
-TimePeriod,1.0,-1.0,-1.0,-1.0
-SH_ALC_CONSPT BOTHSEX             A    15+       ,-1.0,1.0,1.0,1.0000000000000002
-SH_ALC_CONSPT FEMALE             A    15+       ,-1.0,1.0,1.0,1.0000000000000002
-SH_ALC_CONSPT MALE             A    15+       ,-1.0,1.0000000000000002,1.0000000000000002,1.0

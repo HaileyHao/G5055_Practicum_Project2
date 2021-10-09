@@ -1,0 +1,4 @@
+UniqueID,EN_ATM_PM25          ALLAREA               ,EN_ATM_PM25          RURAL               ,EN_ATM_PM25          URBAN               
+EN_ATM_PM25          ALLAREA               ,1.0,0.9833672365428745,0.988558670297418
+EN_ATM_PM25          RURAL               ,0.9833672365428745,1.0,0.9452006333559931
+EN_ATM_PM25          URBAN               ,0.988558670297418,0.9452006333559931,1.0

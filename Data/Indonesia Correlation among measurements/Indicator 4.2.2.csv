@@ -1,0 +1,4 @@
+UniqueID,SE_PRE_PARTN BOTHSEX                        ,SE_PRE_PARTN FEMALE                        ,SE_PRE_PARTN MALE                        
+SE_PRE_PARTN BOTHSEX                        ,1.0,-0.4361145223988378,0.9911415273557846
+SE_PRE_PARTN FEMALE                        ,-0.4361145223988378,1.0,-0.5517551340345775
+SE_PRE_PARTN MALE                        ,0.9911415273557846,-0.5517551340345775,1.0

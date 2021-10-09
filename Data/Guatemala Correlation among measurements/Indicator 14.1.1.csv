@@ -1,0 +1,6 @@
+UniqueID,TimePeriod,EN_MAR_BEALITSQ                         ,EN_MAR_CHLANM                    High     ,EN_MAR_CHLANM                    Moderate     ,EN_MAR_CHLDEV                         
+TimePeriod,1.0,-0.35219553904659395,-0.7038723651123727,-0.593253213517201,-0.6058458321469554
+EN_MAR_BEALITSQ                         ,-0.35219553904659395,1.0,,,-0.5459540818911571
+EN_MAR_CHLANM                    High     ,-0.7038723651123727,,1.0,0.989398656056136,1.0
+EN_MAR_CHLANM                    Moderate     ,-0.593253213517201,,0.989398656056136,1.0,1.0
+EN_MAR_CHLDEV                         ,-0.6058458321469554,-0.5459540818911571,1.0,1.0,1.0

@@ -1,0 +1,49 @@
+---
+title: "Pick Central"
+author: "Qinyue Hao"
+date: "10/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+```
+
+```{r libraries}
+library(igraph)
+library(dplyr)
+library(plyr)
+```
+
+```{r define function}
+pick_central <- function(matrix_file) {
+  # import measure matrix
+  init_matrix <- read.csv(matrix_file, header=TRUE, row.names=1, check.names=FALSE, na.strings = "")
+  # set missing values to 0
+  init_matrix[is.na(init_matrix)] <- 0
+  # prepare matrix for graph
+  matrix <- as.matrix(init_matrix) 
+  diag(matrix) <- 0
+  g <- graph_from_adjacency_matrix(matrix, mode = "undirected", weighted = TRUE)
+  df <- data.frame(ID = V(g)$name,
+                   degree = degree(g, loops = FALSE),
+                   weighted_degree = graph.strength(g))
+  measureID <- df[, c(1,3)] %>% arrange(desc(weighted_degree)) %>% head(1)[1]
+  measureID
+}
+```
+
+```{r set path}
+country <- readline(prompt="Country: ")
+mydir <-paste("Data/",country, " Correlation among measurements")
+corfiles = list.files(mydir, pattern="Indicator.*.csv", full.names=TRUE)
+```
+
+
+```{r list of central variables}
+measureIDs <- sapply(as.list(corfiles), pick_central)
+measureIDs
+```
+
+
+

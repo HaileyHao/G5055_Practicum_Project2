@@ -1,0 +1,12 @@
+UniqueID,VC_DSR_AGLH                         ,VC_DSR_BSDN                         ,VC_DSR_CDAN                         ,VC_DSR_CDYN                         ,VC_DSR_CILN                         ,VC_DSR_EFDN                         ,VC_DSR_ESDN                         ,VC_DSR_GDPLS                         ,VC_DSR_HFDN                         ,VC_DSR_HOLH                         ,VC_DSR_LSGP                         
+VC_DSR_AGLH                         ,1.0,,,,-0.18112119989581538,,,0.5971697419153981,,,0.7905118350971061
+VC_DSR_BSDN                         ,,,,,,,,,,,
+VC_DSR_CDAN                         ,,,,,,,,,,,
+VC_DSR_CDYN                         ,,,,,,,,,,,
+VC_DSR_CILN                         ,-0.18112119989581538,,,,1.0,,,-0.96667609983044,,,-0.6320579418048073
+VC_DSR_EFDN                         ,,,,,,,,,,,
+VC_DSR_ESDN                         ,,,,,,,,,,,
+VC_DSR_GDPLS                         ,0.5971697419153981,,,,-0.96667609983044,,,1.0,,,0.9606903533624941
+VC_DSR_HFDN                         ,,,,,,,,,,,
+VC_DSR_HOLH                         ,,,,,,,,,,,
+VC_DSR_LSGP                         ,0.7905118350971061,,,,-0.6320579418048073,,,0.9606903533624941,,,1.0

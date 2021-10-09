@@ -1,0 +1,8 @@
+UniqueID,ER_MTN_GRNCVI   1           A           ,ER_MTN_GRNCVI   2           A           ,ER_MTN_GRNCVI   3           A           ,ER_MTN_GRNCVI   4           A           ,ER_MTN_GRNCVI   5           A           ,ER_MTN_GRNCVI   6           A           ,ER_MTN_GRNCVI   ALL           A           
+ER_MTN_GRNCVI   1           A           ,,,,,,,
+ER_MTN_GRNCVI   2           A           ,,,,,,,
+ER_MTN_GRNCVI   3           A           ,,,1.0,1.000000000000151,1.0,1.0000000000002494,1.0
+ER_MTN_GRNCVI   4           A           ,,,1.000000000000151,1.0,0.9999999999998489,1.0000000000000981,0.9999999999998489
+ER_MTN_GRNCVI   5           A           ,,,1.0,0.9999999999998489,1.0,1.0000000000002494,1.0
+ER_MTN_GRNCVI   6           A           ,,,1.0000000000002494,1.0000000000000981,1.0000000000002494,1.0,0.9999999999997508
+ER_MTN_GRNCVI   ALL           A           ,,,1.0,0.9999999999998489,1.0,0.9999999999997508,1.0

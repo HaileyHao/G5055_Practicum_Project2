@@ -1,0 +1,4 @@
+UniqueID,EG_ACS_ELEC          ALLAREA               ,EG_ACS_ELEC          RURAL               ,EG_ACS_ELEC          URBAN               
+EG_ACS_ELEC          ALLAREA               ,1.0,0.9564422442668696,0.5528162322313451
+EG_ACS_ELEC          RURAL               ,0.9564422442668696,1.0,0.47497894279306285
+EG_ACS_ELEC          URBAN               ,0.5528162322313451,0.47497894279306285,1.0

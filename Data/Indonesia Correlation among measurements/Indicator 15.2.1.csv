@@ -1,0 +1,6 @@
+UniqueID,AG_LND_FRSTBIOPHA                         ,AG_LND_FRSTCERT                         ,AG_LND_FRSTCHG                         ,AG_LND_FRSTMGT                         ,AG_LND_FRSTPRCT                         
+AG_LND_FRSTBIOPHA                         ,1.0,0.3340937485845714,,,-0.8783100656534427
+AG_LND_FRSTCERT                         ,0.3340937485845714,1.0,,,-0.7377831013685735
+AG_LND_FRSTCHG                         ,,,,,
+AG_LND_FRSTMGT                         ,,,,,
+AG_LND_FRSTPRCT                         ,-0.8783100656534427,-0.7377831013685735,,,1.0
