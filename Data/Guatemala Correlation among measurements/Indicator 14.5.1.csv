@@ -1,0 +1,5 @@
+UniqueID,TimePeriod,ER_MRN_MARIN              A           ,ER_MRN_MARINT              A           ,ER_MRN_MPA                         
+TimePeriod,1.0,,,0.8867704208003158
+ER_MRN_MARIN              A           ,,,,
+ER_MRN_MARINT              A           ,,,,
+ER_MRN_MPA                         ,0.8867704208003158,,,1.0

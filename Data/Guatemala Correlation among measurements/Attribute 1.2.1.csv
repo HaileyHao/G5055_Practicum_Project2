@@ -1,0 +1,4 @@
+,UniqueID,Goal,Target,Indicator,SeriesCode
+64,SI_POV_NAHC          URBAN               ,1.0,1.2,1.2.1,SI_POV_NAHC
+65,SI_POV_NAHC          RURAL               ,1.0,1.2,1.2.1,SI_POV_NAHC
+66,SI_POV_NAHC          ALLAREA               ,1.0,1.2,1.2.1,SI_POV_NAHC

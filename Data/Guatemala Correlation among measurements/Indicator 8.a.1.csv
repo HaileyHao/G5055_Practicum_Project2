@@ -1,0 +1,4 @@
+UniqueID,TimePeriod,DC_TOF_TRDCML                         ,DC_TOF_TRDDBML                         
+TimePeriod,1.0,-0.7068599332959202,-0.10175814659300424
+DC_TOF_TRDCML                         ,-0.7068599332959202,1.0,0.6498838825273878
+DC_TOF_TRDDBML                         ,-0.10175814659300424,0.6498838825273878,1.0

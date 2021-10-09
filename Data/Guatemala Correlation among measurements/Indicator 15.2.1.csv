@@ -1,0 +1,7 @@
+UniqueID,TimePeriod,AG_LND_FRSTBIOPHA                         ,AG_LND_FRSTCERT                         ,AG_LND_FRSTCHG                         ,AG_LND_FRSTMGT                         ,AG_LND_FRSTPRCT                         
+TimePeriod,1.0,,0.21620479271300488,,-0.724192796022674,-0.8608357780994464
+AG_LND_FRSTBIOPHA                         ,,,,,,
+AG_LND_FRSTCERT                         ,0.21620479271300488,,1.0,,0.18089199456646046,-0.3855864653748018
+AG_LND_FRSTCHG                         ,,,,,,
+AG_LND_FRSTMGT                         ,-0.724192796022674,,0.18089199456646046,,1.0,0.2770566449416649
+AG_LND_FRSTPRCT                         ,-0.8608357780994464,,-0.3855864653748018,,0.2770566449416649,1.0

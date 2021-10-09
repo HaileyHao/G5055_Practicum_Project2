@@ -1,0 +1,7 @@
+UniqueID,TimePeriod,ER_CBD_ABSCLRHS                         ,ER_CBD_NAGOYA                         ,ER_CBD_ORSPGRFA                         ,ER_CBD_PTYPGRFA                         ,ER_CBD_SMTA                         
+TimePeriod,1.0,,,0.8783100656536799,,0.9841126336355069
+ER_CBD_ABSCLRHS                         ,,,,,,
+ER_CBD_NAGOYA                         ,,,,,,
+ER_CBD_ORSPGRFA                         ,0.8783100656536799,,,1.0,,0.9279913969358151
+ER_CBD_PTYPGRFA                         ,,,,,,
+ER_CBD_SMTA                         ,0.9841126336355069,,,0.9279913969358151,,1.0

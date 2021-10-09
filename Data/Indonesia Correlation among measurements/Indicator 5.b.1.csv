@@ -1,0 +1,4 @@
+UniqueID,IT_MOB_OWN BOTHSEX                        ,IT_MOB_OWN FEMALE                        ,IT_MOB_OWN MALE                        
+IT_MOB_OWN BOTHSEX                        ,1.0,0.9993886758699672,0.9984331396549238
+IT_MOB_OWN FEMALE                        ,0.9993886758699672,1.0,0.9958681155614598
+IT_MOB_OWN MALE                        ,0.9984331396549238,0.9958681155614598,1.0

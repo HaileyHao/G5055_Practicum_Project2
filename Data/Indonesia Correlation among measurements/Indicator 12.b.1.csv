@@ -1,0 +1,4 @@
+UniqueID,ST_EEV_ACCSEEA                         ,ST_EEV_ACCTSA                         ,ST_EEV_STDACCT                         
+ST_EEV_ACCSEEA                         ,1.0,-0.3779644730092272,0.06788442333021306
+ST_EEV_ACCTSA                         ,-0.3779644730092272,1.0,0.8980265101338745
+ST_EEV_STDACCT                         ,0.06788442333021306,0.8980265101338745,1.0

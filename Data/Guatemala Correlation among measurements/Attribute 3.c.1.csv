@@ -1,0 +1,15 @@
+,UniqueID,Goal,Target,Indicator,SeriesCode
+1001,SH_MED_DEN               NURSMID          ,3.0,3.c,3.c.1,SH_MED_DEN
+1002,SH_MED_DEN               NURSMID          ,3.0,3.c,3.c.1,SH_MED_DEN
+1003,SH_MED_DEN               NURSMID          ,3.0,3.c,3.c.1,SH_MED_DEN
+1004,SH_MED_DEN               DENT          ,3.0,3.c,3.c.1,SH_MED_DEN
+1005,SH_MED_DEN               NURSMID          ,3.0,3.c,3.c.1,SH_MED_DEN
+1006,SH_MED_DEN               PHYS          ,3.0,3.c,3.c.1,SH_MED_DEN
+1007,SH_MED_DEN               DENT          ,3.0,3.c,3.c.1,SH_MED_DEN
+1008,SH_MED_DEN               NURSMID          ,3.0,3.c,3.c.1,SH_MED_DEN
+1009,SH_MED_DEN               PHAR          ,3.0,3.c,3.c.1,SH_MED_DEN
+1010,SH_MED_DEN               PHYS          ,3.0,3.c,3.c.1,SH_MED_DEN
+1011,SH_MED_HWRKDIS MALE              PHYS          ,3.0,3.c,3.c.1,SH_MED_HWRKDIS
+1012,SH_MED_HWRKDIS FEMALE              PHYS          ,3.0,3.c,3.c.1,SH_MED_HWRKDIS
+1013,SH_MED_HWRKDIS FEMALE              NURS          ,3.0,3.c,3.c.1,SH_MED_HWRKDIS
+1014,SH_MED_HWRKDIS MALE              NURS          ,3.0,3.c,3.c.1,SH_MED_HWRKDIS

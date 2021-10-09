@@ -1,8 +1,0 @@
-UniqueID,TimePeriod,AG_FPA_CFPI                         ,AG_FPA_COMM             MAZ            ,AG_FPA_COMM             MIL            ,AG_FPA_COMM             RIC            ,AG_FPA_COMM             SOR            ,AG_FPA_COMM             WHE            
-TimePeriod,1.0,-0.3973597071195131,0.38434407077726773,,0.6356741560367711,,
-AG_FPA_CFPI                         ,-0.3973597071195131,1.0,-0.44403499584748723,,-0.7748248826331181,,
-AG_FPA_COMM             MAZ            ,0.38434407077726773,-0.44403499584748723,1.0,,0.42899536920925435,,
-AG_FPA_COMM             MIL            ,,,,,,,
-AG_FPA_COMM             RIC            ,0.6356741560367711,-0.7748248826331181,0.42899536920925435,,1.0,,
-AG_FPA_COMM             SOR            ,,,,,,,
-AG_FPA_COMM             WHE            ,,,,,,,

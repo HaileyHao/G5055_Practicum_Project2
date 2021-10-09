@@ -1,0 +1,4 @@
+UniqueID,TimePeriod,ER_H2O_STRESS              A           ,ER_H2O_STRESS              I           
+TimePeriod,1.0,,0.8916451401205556
+ER_H2O_STRESS              A           ,,,
+ER_H2O_STRESS              I           ,0.8916451401205556,,1.0

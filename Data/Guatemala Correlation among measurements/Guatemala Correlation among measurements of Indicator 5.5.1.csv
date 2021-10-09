@@ -1,6 +1,0 @@
-UniqueID,TimePeriod,SG_GEN_LOCGELS FEMALE                        ,SG_GEN_PARL FEMALE                        ,SG_GEN_PARLN FEMALE                        ,SG_GEN_PARLNT BOTHSEX                        
-TimePeriod,1.0,1.0,0.7640033366830274,0.7665432375357257,
-SG_GEN_LOCGELS FEMALE                        ,1.0,1.0,1.0,1.0,
-SG_GEN_PARL FEMALE                        ,0.7640033366830274,1.0,1.0,0.9997547195045119,
-SG_GEN_PARLN FEMALE                        ,0.7665432375357257,1.0,0.9997547195045119,1.0,
-SG_GEN_PARLNT BOTHSEX                        ,,,,,
