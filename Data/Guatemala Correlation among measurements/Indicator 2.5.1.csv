@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,ER_GRF_ANIMRCNTN                         ,ER_GRF_PLNTSTOR                         
-TimePeriod,1.0,,
-ER_GRF_ANIMRCNTN                         ,,,
-ER_GRF_PLNTSTOR                         ,,,
+UniqueID,ER_GRF_ANIMRCNTN                         ,ER_GRF_PLNTSTOR                         
+ER_GRF_ANIMRCNTN                         ,,
+ER_GRF_PLNTSTOR                         ,,

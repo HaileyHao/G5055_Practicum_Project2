@@ -1,7 +1,6 @@
-UniqueID,TimePeriod,SG_STT_NSDSFDDNR                         ,SG_STT_NSDSFDGVT                         ,SG_STT_NSDSFDOTHR                         ,SG_STT_NSDSFND                         ,SG_STT_NSDSIMPL                         
-TimePeriod,1.0,,,,,
-SG_STT_NSDSFDDNR                         ,,,,,,
-SG_STT_NSDSFDGVT                         ,,,,,,
-SG_STT_NSDSFDOTHR                         ,,,,,,
-SG_STT_NSDSFND                         ,,,,,,
-SG_STT_NSDSIMPL                         ,,,,,,
+UniqueID,SG_STT_NSDSFDDNR                         ,SG_STT_NSDSFDGVT                         ,SG_STT_NSDSFDOTHR                         ,SG_STT_NSDSFND                         ,SG_STT_NSDSIMPL                         
+SG_STT_NSDSFDDNR                         ,,,,,
+SG_STT_NSDSFDGVT                         ,,,,,
+SG_STT_NSDSFDOTHR                         ,,,,,
+SG_STT_NSDSFND                         ,,,,,
+SG_STT_NSDSIMPL                         ,,,,,

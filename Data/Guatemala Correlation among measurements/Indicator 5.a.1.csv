@@ -1,6 +1,5 @@
-UniqueID,TimePeriod,SP_GNP_WNOWNS                         ,SP_LGL_LNDAGSEC BOTHSEX                        ,SP_LGL_LNDAGSEC FEMALE                        ,SP_LGL_LNDAGSEC MALE                        
-TimePeriod,,,,,
-SP_GNP_WNOWNS                         ,,,,,
-SP_LGL_LNDAGSEC BOTHSEX                        ,,,,,
-SP_LGL_LNDAGSEC FEMALE                        ,,,,,
-SP_LGL_LNDAGSEC MALE                        ,,,,,
+UniqueID,SP_GNP_WNOWNS                         ,SP_LGL_LNDAGSEC BOTHSEX                        ,SP_LGL_LNDAGSEC FEMALE                        ,SP_LGL_LNDAGSEC MALE                        
+SP_GNP_WNOWNS                         ,,,,
+SP_LGL_LNDAGSEC BOTHSEX                        ,,,,
+SP_LGL_LNDAGSEC FEMALE                        ,,,,
+SP_LGL_LNDAGSEC MALE                        ,,,,

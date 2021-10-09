@@ -1,5 +1,4 @@
-UniqueID,TimePeriod,ST_EEV_ACCSEEA                         ,ST_EEV_ACCTSA                         ,ST_EEV_STDACCT                         
-TimePeriod,1.0,,,
-ST_EEV_ACCSEEA                         ,,,,
-ST_EEV_ACCTSA                         ,,,,
-ST_EEV_STDACCT                         ,,,,
+UniqueID,ST_EEV_ACCSEEA                         ,ST_EEV_ACCTSA                         ,ST_EEV_STDACCT                         
+ST_EEV_ACCSEEA                         ,,,
+ST_EEV_ACCTSA                         ,,,
+ST_EEV_STDACCT                         ,,,

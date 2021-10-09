@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,ER_PTD_FRHWTR                         ,ER_PTD_TERR                         
-TimePeriod,1.0,,0.8394338107279937
-ER_PTD_FRHWTR                         ,,,
-ER_PTD_TERR                         ,0.8394338107279937,,1.0
+UniqueID,ER_PTD_FRHWTR                         ,ER_PTD_TERR                         
+ER_PTD_FRHWTR                         ,1.0,-6.803932536940788e-16
+ER_PTD_TERR                         ,-6.803932536940788e-16,1.0

@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,EG_IFF_RANDN                         
-TimePeriod,1.0,-0.5499408643102538
-EG_IFF_RANDN                         ,-0.5499408643102538,1.0
+UniqueID,EG_IFF_RANDN                         
+EG_IFF_RANDN                         ,1.0

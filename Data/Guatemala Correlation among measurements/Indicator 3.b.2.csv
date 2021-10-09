@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,DC_TOF_HLTHL                         ,DC_TOF_HLTHNT                         
-TimePeriod,1.0,-0.25301846965316505,-0.23566764850396374
-DC_TOF_HLTHL                         ,-0.25301846965316505,1.0,0.9990319583239915
-DC_TOF_HLTHNT                         ,-0.23566764850396374,0.9990319583239915,1.0
+UniqueID,DC_TOF_HLTHL                         ,DC_TOF_HLTHNT                         
+DC_TOF_HLTHL                         ,1.0,0.9990319583239917
+DC_TOF_HLTHNT                         ,0.9990319583239917,1.0

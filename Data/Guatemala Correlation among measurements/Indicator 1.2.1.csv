@@ -1,5 +1,4 @@
-UniqueID,TimePeriod,SI_POV_NAHC          ALLAREA               ,SI_POV_NAHC          RURAL               ,SI_POV_NAHC          URBAN               
-TimePeriod,,,,
-SI_POV_NAHC          ALLAREA               ,,,,
-SI_POV_NAHC          RURAL               ,,,,
-SI_POV_NAHC          URBAN               ,,,,
+UniqueID,SI_POV_NAHC          ALLAREA               ,SI_POV_NAHC          RURAL               ,SI_POV_NAHC          URBAN               
+SI_POV_NAHC          ALLAREA               ,,,
+SI_POV_NAHC          RURAL               ,,,
+SI_POV_NAHC          URBAN               ,,,

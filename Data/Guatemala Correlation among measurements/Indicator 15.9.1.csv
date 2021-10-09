@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,ER_BDY_ABT2NP                 ABT2INSUFNT        ,ER_BDY_SEEA                 LS_DISSEM        
-TimePeriod,,,
-ER_BDY_ABT2NP                 ABT2INSUFNT        ,,,
-ER_BDY_SEEA                 LS_DISSEM        ,,,
+UniqueID,ER_BDY_ABT2NP                 ABT2INSUFNT        ,ER_BDY_SEEA                 LS_DISSEM        
+ER_BDY_ABT2NP                 ABT2INSUFNT        ,,
+ER_BDY_SEEA                 LS_DISSEM        ,,

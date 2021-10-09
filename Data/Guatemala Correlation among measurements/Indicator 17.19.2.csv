@@ -1,5 +1,4 @@
-UniqueID,TimePeriod,SG_REG_BRTH90N                         ,SG_REG_CENSUSN                         ,SG_REG_DETH75N                         
-TimePeriod,1.0,,,
-SG_REG_BRTH90N                         ,,,,
-SG_REG_CENSUSN                         ,,,,
-SG_REG_DETH75N                         ,,,,
+UniqueID,SG_REG_BRTH90N                         ,SG_REG_CENSUSN                         ,SG_REG_DETH75N                         
+SG_REG_BRTH90N                         ,,,
+SG_REG_CENSUSN                         ,,,
+SG_REG_DETH75N                         ,,,

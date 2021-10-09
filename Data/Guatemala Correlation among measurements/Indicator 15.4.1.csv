@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,ER_PTD_MTN                         
-TimePeriod,1.0,0.850352444950246
-ER_PTD_MTN                         ,0.850352444950246,1.0
+UniqueID,ER_PTD_MTN                         
+ER_PTD_MTN                         ,1.0

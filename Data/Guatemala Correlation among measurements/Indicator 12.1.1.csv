@@ -1,5 +1,4 @@
-UniqueID,TimePeriod,SG_SCP_CNTRY                         ,SG_SCP_POLINS       POLICY_MACRO                  ,SG_SCP_TOTLN                         
-TimePeriod,,,,
-SG_SCP_CNTRY                         ,,,,
-SG_SCP_POLINS       POLICY_MACRO                  ,,,,
-SG_SCP_TOTLN                         ,,,,
+UniqueID,SG_SCP_CNTRY                         ,SG_SCP_POLINS       POLICY_MACRO                  ,SG_SCP_TOTLN                         
+SG_SCP_CNTRY                         ,,,
+SG_SCP_POLINS       POLICY_MACRO                  ,,,
+SG_SCP_TOTLN                         ,,,

@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,EN_LND_SLUM          URBAN               
-TimePeriod,1.0,-0.8660254037844389
-EN_LND_SLUM          URBAN               ,-0.8660254037844389,1.0
+UniqueID,EN_LND_SLUM          URBAN               
+EN_LND_SLUM          URBAN               ,1.0

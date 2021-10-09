@@ -1,6 +1,5 @@
-UniqueID,TimePeriod,ER_IAS_GLOFUN                         ,ER_IAS_LEGIS                         ,ER_IAS_NATBUD                         ,ER_IAS_NBSAP                         
-TimePeriod,1.0,,,,
-ER_IAS_GLOFUN                         ,,,,,
-ER_IAS_LEGIS                         ,,,,,
-ER_IAS_NATBUD                         ,,,,,
-ER_IAS_NBSAP                         ,,,,,
+UniqueID,ER_IAS_GLOFUN                         ,ER_IAS_LEGIS                         ,ER_IAS_NATBUD                         ,ER_IAS_NBSAP                         
+ER_IAS_GLOFUN                         ,,,,
+ER_IAS_LEGIS                         ,,,,
+ER_IAS_NATBUD                         ,,,,
+ER_IAS_NBSAP                         ,,,,

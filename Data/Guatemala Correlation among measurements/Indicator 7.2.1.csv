@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,EG_FEC_RNEW                         
-TimePeriod,1.0,-0.7648431026381113
-EG_FEC_RNEW                         ,-0.7648431026381113,1.0
+UniqueID,EG_FEC_RNEW                         
+EG_FEC_RNEW                         ,1.0

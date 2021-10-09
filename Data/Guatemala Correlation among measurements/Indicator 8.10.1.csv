@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,FB_ATM_TOTL              A    15+       ,FB_CBK_BRCH              A    15+       
-TimePeriod,1.0,0.8447161162063925,-0.8332780150038273
-FB_ATM_TOTL              A    15+       ,0.8447161162063925,1.0,-0.42225415201874406
-FB_CBK_BRCH              A    15+       ,-0.8332780150038273,-0.42225415201874406,1.0
+UniqueID,FB_ATM_TOTL              A    15+       ,FB_CBK_BRCH              A    15+       
+FB_ATM_TOTL              A    15+       ,1.0,-0.42225415201874467
+FB_CBK_BRCH              A    15+       ,-0.42225415201874467,1.0

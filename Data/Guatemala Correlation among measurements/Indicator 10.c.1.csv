@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,SI_RMT_COST                         
-TimePeriod,1.0,-0.3286515927790287
-SI_RMT_COST                         ,-0.3286515927790287,1.0
+UniqueID,SI_RMT_COST                         
+SI_RMT_COST                         ,1.0

@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,SN_ITK_DEFC                         ,SN_ITK_DEFCN                         
-TimePeriod,1.0,-0.6772226689769824,0.7957587675990376
-SN_ITK_DEFC                         ,-0.6772226689769824,1.0,-0.13424331212112955
-SN_ITK_DEFCN                         ,0.7957587675990376,-0.13424331212112955,1.0
+UniqueID,SN_ITK_DEFC                         ,SN_ITK_DEFCN                         
+SN_ITK_DEFC                         ,1.0,-0.13424331212112903
+SN_ITK_DEFCN                         ,-0.13424331212112903,1.0

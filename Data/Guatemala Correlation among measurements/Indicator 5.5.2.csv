@@ -1,4 +1,3 @@
-UniqueID,TimePeriod,IC_GEN_MGTL FEMALE                        ,IC_GEN_MGTN FEMALE                        
-TimePeriod,1.0,-0.4077594551804513,0.3937674790660922
-IC_GEN_MGTL FEMALE                        ,-0.4077594551804513,1.0,0.5093561831090148
-IC_GEN_MGTN FEMALE                        ,0.3937674790660922,0.5093561831090148,1.0
+UniqueID,IC_GEN_MGTL FEMALE                        ,IC_GEN_MGTN FEMALE                        
+IC_GEN_MGTL FEMALE                        ,1.0,0.5093561831090151
+IC_GEN_MGTN FEMALE                        ,0.5093561831090151,1.0

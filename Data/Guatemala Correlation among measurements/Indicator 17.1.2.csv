@@ -1,3 +1,2 @@
-UniqueID,TimePeriod,GC_GOB_TAXD              A           
-TimePeriod,1.0,-0.2779613215324572
-GC_GOB_TAXD              A           ,-0.2779613215324572,1.0
+UniqueID,GC_GOB_TAXD              A           
+GC_GOB_TAXD              A           ,1.0

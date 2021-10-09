@@ -1,5 +1,4 @@
-UniqueID,TimePeriod,IT_MOB_2GNTWK                         ,IT_MOB_3GNTWK                         ,IT_MOB_4GNTWK                         
-TimePeriod,1.0,,0.7094819159632434,0.9476815863761352
-IT_MOB_2GNTWK                         ,,,,
-IT_MOB_3GNTWK                         ,0.7094819159632434,,1.0,0.9571275736955182
-IT_MOB_4GNTWK                         ,0.9476815863761352,,0.9571275736955182,1.0
+UniqueID,IT_MOB_2GNTWK                         ,IT_MOB_3GNTWK                         ,IT_MOB_4GNTWK                         
+IT_MOB_2GNTWK                         ,,,
+IT_MOB_3GNTWK                         ,,1.0,0.9571275736955178
+IT_MOB_4GNTWK                         ,,0.9571275736955178,1.0

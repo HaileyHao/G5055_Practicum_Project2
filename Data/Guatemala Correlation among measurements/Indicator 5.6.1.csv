@@ -1,6 +1,5 @@
-UniqueID,TimePeriod,SH_FPL_INFM FEMALE                 15-49       ,SH_FPL_INFMCU FEMALE                 15-49       ,SH_FPL_INFMRH FEMALE                 15-49       ,SH_FPL_INFMSR FEMALE                 15-49       
-TimePeriod,,,,,
-SH_FPL_INFM FEMALE                 15-49       ,,,,,
-SH_FPL_INFMCU FEMALE                 15-49       ,,,,,
-SH_FPL_INFMRH FEMALE                 15-49       ,,,,,
-SH_FPL_INFMSR FEMALE                 15-49       ,,,,,
+UniqueID,SH_FPL_INFM FEMALE                 15-49       ,SH_FPL_INFMCU FEMALE                 15-49       ,SH_FPL_INFMRH FEMALE                 15-49       ,SH_FPL_INFMSR FEMALE                 15-49       
+SH_FPL_INFM FEMALE                 15-49       ,,,,
+SH_FPL_INFMCU FEMALE                 15-49       ,,,,
+SH_FPL_INFMRH FEMALE                 15-49       ,,,,
+SH_FPL_INFMSR FEMALE                 15-49       ,,,,
