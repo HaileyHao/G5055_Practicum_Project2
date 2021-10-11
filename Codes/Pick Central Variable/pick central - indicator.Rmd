@@ -1,5 +1,5 @@
 ---
-title: "Pick Central"
+title: "Pick Central - indicator"
 author: "Qinyue Hao"
 date: "10/8/2021"
 output: html_document
@@ -11,11 +11,12 @@ knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
 
 ```{r libraries}
 library(igraph)
-library(dplyr)
 library(plyr)
+library(dplyr)
+library(readr)
 ```
 
-```{r define function}
+```{r define pick_central function}
 pick_central <- function(matrix_file) {
   # import measure matrix
   init_matrix <- read.csv(matrix_file, header=TRUE, row.names=1, check.names=FALSE, na.strings = "")
@@ -33,21 +34,21 @@ pick_central <- function(matrix_file) {
 }
 ```
 
-```{r set path}
+
+```{r set path indo}
 # country <- readline(prompt="Country: ")
 # mydir <-paste("Data/",country, " Correlation among measurements")
 mydir <- "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Indonesia Correlation among Indicators"
 corfiles = list.files(mydir, pattern="*.csv", full.names=TRUE)
 ```
 
-
-```{r list of central variables}
-Indo_indicatorIDs <- sapply(as.list(corfiles), pick_central)
-Indo_indicatorIDs <- unique(Indo_indicatorIDs)
+```{r list of central variables(of those has many variables)}
+Indo_indicatorIDs0 <- sapply(as.list(corfiles), pick_central)
+Indo_indicatorIDs0 <- unique(Indo_indicatorIDs0)
 ```
 
 
-```{r set path}
+```{r set path guate}
 # country <- readline(prompt="Country: ")
 # mydir <- paste("Data/",country, " Correlation among measurements")
 mydir <- "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Guatemala Correlation among Indicators"
@@ -55,10 +56,46 @@ corfiles = list.files(mydir, pattern = "*.csv", full.names = TRUE)
 ```
 
 
-```{r list of central variables}
-Gua_indicatorIDs <- sapply(as.list(corfiles), pick_central)
-Gua_indicatorIDs <- unique(Gua_indicatorIDs)
+```{r list of central variables (of those has many variables)}
+Gua_indicatorIDs0 <- sapply(as.list(corfiles), pick_central)
+Gua_indicatorIDs0 <- unique(Gua_indicatorIDs0)
 ```
+
+```{r list of central variables (of those has only one variables -- the only variable}
+# load full variable lists
+indo <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
+gua <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
+
+# find the targets that only have one indicator, and extract those only measures
+only_Indicator <- function(df) {
+  target <- df %>%
+    select(c("Target", "Indicator")) %>%
+    unique() %>%
+    group_by(Target) %>%
+    dplyr::summarize(n = n()) %>%
+    filter(n == 1) %>%
+    select(1)
+  indicator <- df %>% 
+    filter(Target %in% target$Target) %>% 
+    select(Indicator) %>% 
+    unique()
+}
+Indo_indicatorIDs1 <- only_Indicator(indo)
+Gua_indicatorIDs1 <- only_Indicator(gua)
+```
+
+```{r}
+# merge the two lists to make a whole list of indicators
+Indo_indicatorIDs0 <- as_tibble(Indo_indicatorIDs0) %>% rename(Indicator = value)
+Indo_indicatorIDs <- rbind(Indo_indicatorIDs0, Indo_indicatorIDs1) %>% 
+  rename(x = Indicator) %>% 
+  unique()
+Gua_indicatorIDs0 <- as_tibble(Gua_indicatorIDs0) %>% rename(Indicator = value) 
+Gua_indicatorIDs <- rbind(Gua_indicatorIDs0, Gua_indicatorIDs1) %>% 
+  rename(x = Indicator) %>% 
+  unique()
+```
+
 
 ```{r save to csv}
 write.csv(Indo_indicatorIDs, 
@@ -68,4 +105,6 @@ write.csv(Gua_indicatorIDs,
           "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/indicator_picked/Gua_indicatorIDs.csv", 
           row.names = FALSE)
 ```
+
+
 
