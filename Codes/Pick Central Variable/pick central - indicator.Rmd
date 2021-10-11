@@ -1,5 +1,5 @@
 ---
-title: "Pick Central"
+title: "Pick Central - indicator"
 author: "Qinyue Hao"
 date: "10/8/2021"
 output: html_document
@@ -11,11 +11,12 @@ knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
 
 ```{r libraries}
 library(igraph)
-library(dplyr)
 library(plyr)
+library(dplyr)
+library(readr)
 ```
 
-```{r define function}
+```{r define pick_central function}
 pick_central <- function(matrix_file) {
   # import measure matrix
   init_matrix <- read.csv(matrix_file, header=TRUE, row.names=1, check.names=FALSE, na.strings = "")
@@ -28,44 +29,82 @@ pick_central <- function(matrix_file) {
   df <- data.frame(ID = V(g)$name,
                    degree = degree(g, loops = FALSE),
                    weighted_degree = graph.strength(g))
-  measureID <- df[, c(1,3)] %>% arrange(desc(weighted_degree)) %>% head(1)[1]
-  measureID
+  indicatorID <- df[, c(1,3)] %>% arrange(desc(weighted_degree)) %>% head(1)[1]
+  indicatorID
 }
 ```
 
-```{r set path}
+
+```{r set path indo}
 # country <- readline(prompt="Country: ")
 # mydir <-paste("Data/",country, " Correlation among measurements")
-mydir <- "/Users/hailey/G5055_Practicum_Project2/Data/Indonesia Correlation among measurements"
-corfiles = list.files(mydir, pattern="Indicator.*.csv", full.names=TRUE)
+mydir <- "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Indonesia Correlation among Indicators"
+corfiles = list.files(mydir, pattern="*.csv", full.names=TRUE)
+```
+
+```{r list of central variables(of those has many variables)}
+Indo_indicatorIDs0 <- sapply(as.list(corfiles), pick_central)
+Indo_indicatorIDs0 <- unique(Indo_indicatorIDs0)
 ```
 
 
-```{r list of central variables}
-Indo_measureIDs <- sapply(as.list(corfiles), pick_central)
-Indo_measureIDs <- unique(Indo_measureIDs)
-```
-
-
-```{r set path}
+```{r set path guate}
 # country <- readline(prompt="Country: ")
-# mydir <-paste("Data/",country, " Correlation among measurements")
-mydir <- "/Users/hailey/G5055_Practicum_Project2/Data/Guatemala Correlation among measurements"
-corfiles = list.files(mydir, pattern="Indicator.*.csv", full.names=TRUE)
+# mydir <- paste("Data/",country, " Correlation among measurements")
+mydir <- "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Guatemala Correlation among Indicators"
+corfiles = list.files(mydir, pattern = "*.csv", full.names = TRUE)
 ```
 
 
-```{r list of central variables}
-Gua_measureIDs <- sapply(as.list(corfiles), pick_central)
-Gua_measureIDs <- unique(Gua_measureIDs)
+```{r list of central variables (of those has many variables)}
+Gua_indicatorIDs0 <- sapply(as.list(corfiles), pick_central)
+Gua_indicatorIDs0 <- unique(Gua_indicatorIDs0)
 ```
+
+```{r list of central variables (of those has only one variables -- the only variable}
+# load full variable lists
+indo <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
+gua <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
+
+# find the targets that only have one indicator, and extract those only measures
+only_Indicator <- function(df) {
+  target <- df %>%
+    select(c("Target", "Indicator")) %>%
+    unique() %>%
+    group_by(Target) %>%
+    dplyr::summarize(n = n()) %>%
+    filter(n == 1) %>%
+    select(1)
+  indicator <- df %>% 
+    filter(Target %in% target$Target) %>% 
+    select(Indicator) %>% 
+    unique()
+}
+Indo_indicatorIDs1 <- only_Indicator(indo)
+Gua_indicatorIDs1 <- only_Indicator(gua)
+```
+
+```{r}
+# merge the two lists to make a whole list of indicators
+Indo_indicatorIDs0 <- as_tibble(Indo_indicatorIDs0) %>% rename(Indicator = value)
+Indo_indicatorIDs <- rbind(Indo_indicatorIDs0, Indo_indicatorIDs1) %>% 
+  rename(x = Indicator) %>% 
+  unique()
+Gua_indicatorIDs0 <- as_tibble(Gua_indicatorIDs0) %>% rename(Indicator = value) 
+Gua_indicatorIDs <- rbind(Gua_indicatorIDs0, Gua_indicatorIDs1) %>% 
+  rename(x = Indicator) %>% 
+  unique()
+```
+
 
 ```{r save to csv}
-write.csv(Indo_measureIDs, 
-          "/Users/hailey/G5055_Practicum_Project2/Data/measure_picked/Indo_measureIDs.csv", 
+write.csv(Indo_indicatorIDs, 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/indicator_picked/Indo_indicatorIDs.csv", 
           row.names = FALSE)
-write.csv(Indo_measureIDs, 
-          "/Users/hailey/G5055_Practicum_Project2/Data/measure_picked/Gua_measureIDs.csv", 
+write.csv(Gua_indicatorIDs, 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/indicator_picked/Gua_indicatorIDs.csv", 
           row.names = FALSE)
 ```
+
+
 
