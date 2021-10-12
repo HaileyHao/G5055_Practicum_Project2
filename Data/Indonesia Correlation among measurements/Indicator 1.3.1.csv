@@ -1,0 +1,18 @@
+UniqueID,SI_COV_BENFTS BOTHSEX                        ,SI_COV_CHLD BOTHSEX                        ,SI_COV_DISAB BOTHSEX                        ,SI_COV_LMKT                       Q1  ,SI_COV_LMKT                       _T  ,SI_COV_MATNL FEMALE                        ,SI_COV_PENSN BOTHSEX                        ,SI_COV_POOR BOTHSEX                        ,SI_COV_SOCAST                       Q1  ,SI_COV_SOCAST                       _T  ,SI_COV_SOCINS                       Q1  ,SI_COV_SOCINS                       _T  ,SI_COV_UEMP BOTHSEX                        ,SI_COV_UEMP FEMALE                        ,SI_COV_UEMP MALE                        ,SI_COV_VULN BOTHSEX                        ,SI_COV_WKINJRY BOTHSEX                        
+SI_COV_BENFTS BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_CHLD BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_DISAB BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_LMKT                       Q1  ,,,,1.0,0.8975122088491545,,,,-0.3008812445799411,-0.30467258253253876,-1.0,-1.0,,,,,
+SI_COV_LMKT                       _T  ,,,,0.8975122088491545,1.0,,,,-0.6905994530095072,-0.693471067202399,-1.0,-1.0,,,,,
+SI_COV_MATNL FEMALE                        ,,,,,,,,,,,,,,,,,
+SI_COV_PENSN BOTHSEX                        ,,,,,,,1.0,,,,,,,,,,
+SI_COV_POOR BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_SOCAST                       Q1  ,,,,-0.3008812445799411,-0.6905994530095072,,,,1.0,0.9999920875065862,1.0,1.0000000000000002,,,,,
+SI_COV_SOCAST                       _T  ,,,,-0.30467258253253876,-0.693471067202399,,,,0.9999920875065862,1.0,1.0,0.9999999999999998,,,,,
+SI_COV_SOCINS                       Q1  ,,,,-1.0,-1.0,,,,1.0,1.0,1.0,1.0,,,,,
+SI_COV_SOCINS                       _T  ,,,,-1.0,-1.0,,,,1.0000000000000002,0.9999999999999998,1.0,1.0,,,,,
+SI_COV_UEMP BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_UEMP FEMALE                        ,,,,,,,,,,,,,,,,,
+SI_COV_UEMP MALE                        ,,,,,,,,,,,,,,,,,
+SI_COV_VULN BOTHSEX                        ,,,,,,,,,,,,,,,,,
+SI_COV_WKINJRY BOTHSEX                        ,,,,,,,,,,,,,,,,,1.0
