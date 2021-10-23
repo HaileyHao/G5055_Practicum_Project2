@@ -1,0 +1,1810 @@
+,UniqueID,Goal,Target,Indicator,SeriesCode,TimePeriod,Value
+0,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2012.0,9.5
+1,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2013.0,7.3
+2,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2014.0,6.2
+3,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2015.0,5.8
+4,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2016.0,5.2
+5,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2017.0,4.5
+6,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2018.0,3.6
+7,SI_POV_DAY1                         ,1.0,1.1,1.1.1,SI_POV_DAY1,2019.0,2.7
+71,SI_POV_NAHC          ALLAREA               ,1.0,1.2,1.2.1,SI_POV_NAHC,2015.0,11.2
+72,SI_POV_NAHC          ALLAREA               ,1.0,1.2,1.2.1,SI_POV_NAHC,2016.0,10.9
+73,SI_POV_NAHC          ALLAREA               ,1.0,1.2,1.2.1,SI_POV_NAHC,2017.0,10.6
+74,SI_COV_MATNL FEMALE                        ,1.0,1.3,1.3.1,SI_COV_MATNL,2020.0,28.4
+162,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2012.0,900280012.28
+163,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2013.0,704391153.609
+164,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2014.0,980674664.035
+165,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2015.0,1394728642.3455
+166,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2016.0,964488708.07025
+167,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2017.0,491251258.85
+168,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2018.0,432797245.7875
+169,VC_DSR_GDPLS                         ,1.0,1.5,1.5.2,VC_DSR_GDPLS,2019.0,1285046970.0305
+170,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2012.0,38.0
+171,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2013.0,44.0
+172,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2014.0,72.0
+173,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2015.0,57.0
+174,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2016.0,96.0
+175,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2017.0,69.0
+176,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2018.0,1445.0
+177,VC_DSR_MISS                         ,1.0,1.5,1.5.1,VC_DSR_MISS,2019.0,111.0
+186,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2012.0,282.0
+187,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2013.0,468.0
+188,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2014.0,532.0
+189,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2015.0,219.0
+190,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2016.0,482.0
+191,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2017.0,309.0
+192,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2018.0,3369.0
+193,VC_DSR_MORT                         ,1.0,1.5,1.5.1,VC_DSR_MORT,2019.0,478.0
+194,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2012.0,0.13039
+195,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2013.0,0.20576999999999998
+196,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2014.0,0.23953000000000002
+197,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2015.0,0.10799
+198,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2016.0,0.2236
+199,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2017.0,0.14463
+200,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2018.0,1.82237
+201,VC_DSR_MTMP                         ,1.0,1.5,1.5.1,VC_DSR_MTMP,2019.0,0.21971
+202,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2012.0,320.0
+203,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2013.0,512.0
+204,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2014.0,604.0
+205,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2015.0,276.0
+206,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2016.0,578.0
+207,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2017.0,378.0
+208,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2018.0,4814.0
+209,VC_DSR_MMHN                         ,1.0,1.5,1.5.1,VC_DSR_MMHN,2019.0,589.0
+210,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2012.0,110.62352
+211,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2013.0,181.65881000000002
+212,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2014.0,110.87352
+213,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2015.0,50.09236
+214,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2016.0,93.48869
+215,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2017.0,95.53922
+216,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2018.0,4200.03929
+217,VC_DSR_DAFF                         ,1.0,1.5,1.5.1,VC_DSR_DAFF,2019.0,39.78488
+218,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2012.0,1198.0
+219,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2013.0,3410.0
+220,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2014.0,2104.0
+221,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2015.0,370.0
+222,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2016.0,2675.0
+223,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2017.0,1042.0
+224,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2018.0,21083.0
+225,VC_DSR_IJILN                         ,1.0,1.5,1.5.1,VC_DSR_IJILN,2019.0,3421.0
+226,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2012.0,216870.0
+227,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2013.0,359955.0
+228,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2014.0,177085.0
+229,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2015.0,101575.0
+230,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2016.0,193845.0
+231,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2017.0,196395.0
+232,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2018.0,848260.0
+233,VC_DSR_PDAN                         ,1.0,1.5,1.5.1,VC_DSR_PDAN,2019.0,57910.0
+234,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2012.0,53430.0
+235,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2013.0,88635.0
+236,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2014.0,100395.0
+237,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2015.0,26085.0
+238,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2016.0,45145.0
+239,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2017.0,52260.0
+240,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2018.0,752565.0
+241,VC_DSR_PDYN                         ,1.0,1.5,1.5.1,VC_DSR_PDYN,2019.0,15813.0
+242,VC_DSR_PDLN                         ,1.0,1.5,1.5.1,VC_DSR_PDLN,2018.0,9472983.0
+243,VC_DSR_PDLN                         ,1.0,1.5,1.5.1,VC_DSR_PDLN,2019.0,29509.15
+244,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2012.0,0.0
+245,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2013.0,0.0
+246,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2014.0,0.0
+247,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2015.0,0.0
+248,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2016.0,0.0
+249,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2017.0,0.0
+250,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2018.0,0.0
+251,SG_DSR_LGRGSR                         ,1.0,1.5,1.5.3,SG_DSR_LGRGSR,2019.0,0.825
+252,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2012.0,0.0642
+253,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2013.0,0.054470000000000005
+254,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2016.0,0.02918
+255,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2017.0,0.08755
+256,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2018.0,0.05058
+257,SG_DSR_SILS                         ,1.0,1.5,1.5.4,SG_DSR_SILS,2019.0,0.017509999999999998
+258,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2012.0,33.0
+259,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2013.0,28.0
+260,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2016.0,15.0
+261,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2017.0,45.0
+262,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2018.0,26.0
+263,SG_DSR_SILN                         ,1.0,1.5,1.5.4,SG_DSR_SILN,2019.0,9.0
+264,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2012.0,514.0
+265,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2013.0,514.0
+266,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2014.0,514.0
+267,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2015.0,514.0
+268,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2016.0,514.0
+269,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2017.0,514.0
+270,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2018.0,514.0
+271,SG_GOV_LOGV                         ,1.0,1.5,1.5.4,SG_GOV_LOGV,2019.0,514.0
+272,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2012.0,0.00098
+273,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2013.0,0.000771
+274,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2014.0,0.0011539999999999999
+275,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2015.0,0.00162
+276,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2016.0,0.0010429999999999999
+277,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2017.0,0.000484
+278,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2018.0,0.00041600000000000003
+279,VC_DSR_LSGP                         ,1.0,1.5,1.5.2,VC_DSR_LSGP,2019.0,0.0011480000000000001
+280,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2012.0,900280012.28
+281,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2013.0,704391153.609
+282,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2014.0,980674664.035
+283,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2015.0,1350175672.3455
+284,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2016.0,736934403.07025
+285,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2017.0,491251258.85
+286,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2018.0,432797245.7875
+287,VC_DSR_AGLH                         ,1.0,1.5,1.5.2,VC_DSR_AGLH,2019.0,434089147.5305
+288,VC_DSR_HOLH                         ,1.0,1.5,1.5.2,VC_DSR_HOLH,2019.0,808756350.0
+289,VC_DSR_CILN                         ,1.0,1.5,1.5.2,VC_DSR_CILN,2015.0,44552970.0
+290,VC_DSR_CILN                         ,1.0,1.5,1.5.2,VC_DSR_CILN,2016.0,227554305.0
+291,VC_DSR_CILN                         ,1.0,1.5,1.5.2,VC_DSR_CILN,2019.0,42201472.5
+292,SD_XPD_ESED                         ,1.0,1.a,1.a.2,SD_XPD_ESED,2012.0,18.09042
+293,SD_XPD_ESED                         ,1.0,1.a,1.a.2,SD_XPD_ESED,2013.0,17.60393
+294,SD_XPD_ESED                         ,1.0,1.a,1.a.2,SD_XPD_ESED,2014.0,17.67152
+295,SD_XPD_ESED                         ,1.0,1.a,1.a.2,SD_XPD_ESED,2015.0,20.5033
+304,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2012.0,9.4
+305,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2013.0,8.3
+306,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2014.0,7.7
+307,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2015.0,7.0
+308,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2016.0,6.8
+309,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2017.0,6.4
+310,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2018.0,6.4
+311,SN_ITK_DEFC                         ,2.0,2.1,2.1.1,SN_ITK_DEFC,2019.0,6.5
+312,AG_PRD_FIESMS FEMALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2015.0,23.9
+313,AG_PRD_FIESMS BOTHSEX                 ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2015.0,6.0
+314,AG_PRD_FIESMS MALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2015.0,24.1
+315,AG_PRD_FIESMS MALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2016.0,27.1
+316,AG_PRD_FIESMS BOTHSEX                 ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2016.0,7.3
+317,AG_PRD_FIESMS FEMALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2016.0,25.8
+318,AG_PRD_FIESMS FEMALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2017.0,29.1
+319,AG_PRD_FIESMS BOTHSEX                 ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2017.0,7.6
+320,AG_PRD_FIESMS MALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2017.0,31.8
+321,AG_PRD_FIESMS MALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2018.0,35.6
+322,AG_PRD_FIESMS BOTHSEX                 ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2018.0,7.0
+323,AG_PRD_FIESMS FEMALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2018.0,31.1
+324,AG_PRD_FIESMS FEMALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2019.0,37.4
+325,AG_PRD_FIESMS BOTHSEX                 ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2019.0,6.2
+326,AG_PRD_FIESMS MALE                 15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMS,2019.0,39.9
+327,AG_PRD_FIESMSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2015.0,2242.1
+328,AG_PRD_FIESMSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2015.0,1548.7
+329,AG_PRD_FIESMSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2015.0,2260.2
+330,AG_PRD_FIESMSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2016.0,2579.1
+331,AG_PRD_FIESMSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2016.0,1897.1
+332,AG_PRD_FIESMSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2016.0,2452.0
+333,AG_PRD_FIESMSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2017.0,2814.2
+334,AG_PRD_FIESMSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2017.0,1999.9
+335,AG_PRD_FIESMSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2017.0,3073.9
+336,AG_PRD_FIESMSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2018.0,3500.3
+337,AG_PRD_FIESMSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2018.0,1865.1
+338,AG_PRD_FIESMSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2018.0,3057.9
+339,AG_PRD_FIESMSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2019.0,3734.0
+340,AG_PRD_FIESMSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2019.0,1677.8
+341,AG_PRD_FIESMSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESMSN,2019.0,3983.4
+342,AG_PRD_FIESS FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2015.0,8.1
+343,AG_PRD_FIESS BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2015.0,0.7
+344,AG_PRD_FIESS MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2015.0,10.5
+345,AG_PRD_FIESS MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2016.0,11.2
+346,AG_PRD_FIESS BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2016.0,0.9
+347,AG_PRD_FIESS FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2016.0,9.2
+348,AG_PRD_FIESS FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2017.0,11.0
+349,AG_PRD_FIESS BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2017.0,0.9
+350,AG_PRD_FIESS MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2017.0,12.7
+351,AG_PRD_FIESS MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2018.0,14.1
+352,AG_PRD_FIESS BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2018.0,0.8
+353,AG_PRD_FIESS FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2018.0,11.9
+354,AG_PRD_FIESS FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2019.0,14.9
+355,AG_PRD_FIESS BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2019.0,0.7
+356,AG_PRD_FIESS MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESS,2019.0,17.2
+357,AG_PRD_FIESSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2015.0,763.1
+358,AG_PRD_FIESSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2015.0,175.5
+359,AG_PRD_FIESSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2015.0,983.3
+360,AG_PRD_FIESSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2016.0,1062.0
+361,AG_PRD_FIESSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2016.0,229.0
+362,AG_PRD_FIESSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2016.0,875.9
+363,AG_PRD_FIESSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2017.0,1060.6
+364,AG_PRD_FIESSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2017.0,240.1
+365,AG_PRD_FIESSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2017.0,1225.4
+366,AG_PRD_FIESSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2018.0,1390.8
+367,AG_PRD_FIESSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2018.0,222.7
+368,AG_PRD_FIESSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2018.0,1166.7
+369,AG_PRD_FIESSN FEMALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2019.0,1488.0
+370,AG_PRD_FIESSN BOTHSEX             A    ALLAGE       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2019.0,192.7
+371,AG_PRD_FIESSN MALE             A    15+       ,2.0,2.1,2.1.2,AG_PRD_FIESSN,2019.0,1723.1
+372,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2012.0,23.4
+373,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2013.0,21.0
+374,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2014.0,19.6
+375,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2015.0,18.2
+376,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2016.0,17.7
+377,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2017.0,16.8
+378,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2018.0,17.2
+379,SN_ITK_DEFCN                         ,2.0,2.1,2.1.1,SN_ITK_DEFCN,2019.0,17.6
+380,SH_STA_STNT                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNT,2013.0,36.4
+381,SH_STA_STNT                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNT,2018.0,30.8
+382,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2012.0,8094.2
+383,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2013.0,8077.2
+384,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2014.0,8068.6
+385,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2015.0,8024.6
+386,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2016.0,8068.8
+387,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2017.0,7992.9
+388,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2018.0,7840.4
+389,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2019.0,7668.0
+390,SH_STA_STNTN                  <5Y       ,2.0,2.2,2.2.1,SH_STA_STNTN,2020.0,7526.1
+391,SH_STA_WAST                  <5Y       ,2.0,2.2,2.2.2,SH_STA_WAST,2013.0,13.5
+392,SH_STA_WAST                  <5Y       ,2.0,2.2,2.2.2,SH_STA_WAST,2018.0,10.2
+393,SH_STA_WASTN                  <5Y       ,2.0,2.2,2.2.2,SH_STA_WASTN,2013.0,3228.3
+394,SH_STA_WASTN                  <5Y       ,2.0,2.2,2.2.2,SH_STA_WASTN,2018.0,2483.7
+395,SN_STA_OVWGT                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGT,2013.0,11.5
+396,SN_STA_OVWGT                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGT,2018.0,8.0
+397,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2012.0,1917.6
+398,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2013.0,2064.8
+399,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2014.0,2206.6
+400,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2015.0,2329.5
+401,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2016.0,2467.5
+402,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2017.0,2552.9
+403,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2018.0,2596.3
+404,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2019.0,2619.1
+405,SN_STA_OVWGTN                  <5Y       ,2.0,2.2,2.2.2,SN_STA_OVWGTN,2020.0,2635.2
+406,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2012.0,27.0
+407,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2013.0,27.2
+408,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2014.0,27.6
+409,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2015.0,28.2
+410,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2016.0,28.9
+411,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2017.0,29.6
+412,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2018.0,30.4
+413,SH_STA_ANEM FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM,2019.0,31.2
+414,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2012.0,40.6
+415,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2013.0,41.0
+416,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2014.0,41.5
+417,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2015.0,42.1
+418,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2016.0,42.7
+419,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2017.0,43.2
+420,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2018.0,43.7
+421,SH_STA_ANEM_PREG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_PREG,2019.0,44.2
+422,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2012.0,26.3
+423,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2013.0,26.6
+424,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2014.0,27.0
+425,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2015.0,27.6
+426,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2016.0,28.3
+427,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2017.0,29.0
+428,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2018.0,29.8
+429,SH_STA_ANEM_NPRG FEMALE                 15-49       ,2.0,2.2,2.2.3,SH_STA_ANEM_NPRG,2019.0,30.6
+430,PD_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2012.0,
+431,PD_AGR_SSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2012.0,
+432,PD_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2012.0,
+433,PD_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2013.0,
+434,PD_AGR_SSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2013.0,
+435,PD_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2013.0,
+436,PD_AGR_SSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2014.0,
+437,PD_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2014.0,
+438,PD_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2014.0,
+439,PD_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2015.0,
+440,PD_AGR_SSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2015.0,
+441,PD_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2015.0,
+442,PD_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2016.0,
+443,PD_AGR_SSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2016.0,
+444,PD_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_SSFP,2016.0,
+445,SI_AGR_SSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2012.0,
+446,SI_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2012.0,
+447,SI_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2012.0,
+448,SI_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2013.0,
+449,SI_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2013.0,
+450,SI_AGR_SSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2013.0,
+451,SI_AGR_SSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2014.0,
+452,SI_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2014.0,
+453,SI_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2014.0,
+454,SI_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2015.0,
+455,SI_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2015.0,
+456,SI_AGR_SSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2015.0,
+457,SI_AGR_SSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2016.0,
+458,SI_AGR_SSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2016.0,
+459,SI_AGR_SSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_SSFP,2016.0,
+460,PD_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2012.0,
+461,PD_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2012.0,
+462,PD_AGR_LSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2012.0,
+463,PD_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2013.0,
+464,PD_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2013.0,
+465,PD_AGR_LSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2013.0,
+466,PD_AGR_LSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2014.0,
+467,PD_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2014.0,
+468,PD_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2014.0,
+469,PD_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2015.0,
+470,PD_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2015.0,
+471,PD_AGR_LSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2015.0,
+472,PD_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2016.0,
+473,PD_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2016.0,
+474,PD_AGR_LSFP MALE                        ,2.0,2.3,2.3.1,PD_AGR_LSFP,2016.0,
+475,SI_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2012.0,
+476,SI_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2012.0,
+477,SI_AGR_LSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2012.0,
+478,SI_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2013.0,
+479,SI_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2013.0,
+480,SI_AGR_LSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2013.0,
+481,SI_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2014.0,
+482,SI_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2014.0,
+483,SI_AGR_LSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2014.0,
+484,SI_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2015.0,
+485,SI_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2015.0,
+486,SI_AGR_LSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2015.0,
+487,SI_AGR_LSFP FEMALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2016.0,
+488,SI_AGR_LSFP BOTHSEX                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2016.0,
+489,SI_AGR_LSFP MALE                        ,2.0,2.3,2.3.2,SI_AGR_LSFP,2016.0,
+490,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2012.0,
+491,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2013.0,
+492,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2014.0,
+493,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2015.0,
+494,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2016.0,
+495,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2017.0,
+496,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2018.0,
+497,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2019.0,9.0
+498,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2020.0,9.0
+499,ER_GRF_ANIMRCNTN                         ,2.0,2.5,2.5.1,ER_GRF_ANIMRCNTN,2021.0,9.0
+500,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2012.0,4900.0
+501,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2014.0,4901.0
+502,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2016.0,4902.0
+503,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2017.0,4902.0
+504,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2018.0,4902.0
+505,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2019.0,4902.0
+506,ER_GRF_PLNTSTOR                         ,2.0,2.5,2.5.1,ER_GRF_PLNTSTOR,2020.0,4902.0
+507,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2012.0,9.0
+508,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2013.0,13.0
+509,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2014.0,14.0
+510,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2015.0,12.0
+511,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2016.0,14.0
+512,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2017.0,14.0
+513,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2018.0,20.0
+514,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2019.0,21.0
+515,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2020.0,22.0
+516,ER_RSK_LBREDS                         ,2.0,2.5,2.5.2,ER_RSK_LBREDS,2021.0,31.0
+517,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2012.0,0.1008
+518,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2013.0,0.0785
+519,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2014.0,0.0618
+520,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2015.0,0.23
+521,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2016.0,0.1164
+522,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2017.0,0.3267
+523,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2018.0,0.33
+524,AG_PRD_ORTIND              A           ,2.0,2.a,2.a.1,AG_PRD_ORTIND,2019.0,0.31
+533,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2012.0,13.37
+534,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2013.0,13.36
+535,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2014.0,13.34
+536,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2015.0,13.49
+537,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2016.0,13.48
+538,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2017.0,13.16
+539,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2018.0,12.81
+540,AG_PRD_AGVAS              A           ,2.0,2.a,2.a.1,AG_PRD_AGVAS,2019.0,12.72
+541,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2012.0,1.35
+542,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2013.0,1.05
+543,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2014.0,0.82
+544,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2015.0,3.09
+545,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2016.0,1.57
+546,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2017.0,4.3
+547,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2018.0,4.19
+548,AG_XPD_AGSGB              A           ,2.0,2.a,2.a.1,AG_XPD_AGSGB,2019.0,3.94
+549,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2012.0,0.0
+550,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2013.0,0.0
+551,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2014.0,0.0
+552,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2015.0,0.0
+553,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2016.0,0.0
+554,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2017.0,0.0
+555,AG_PRD_XSUBDY                         ,2.0,2.b,2.b.1,AG_PRD_XSUBDY,2018.0,0.0
+586,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2012.0,-0.4
+587,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2013.0,0.6
+588,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2014.0,-0.7
+589,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2015.0,-0.5
+590,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2016.0,0.4
+591,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2017.0,-1.4
+592,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2018.0,-0.3
+593,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2019.0,-0.9
+594,AG_FPA_CFPI                         ,2.0,2.c,2.c.1,AG_FPA_CFPI,2020.0,
+601,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2012.0,214.0
+602,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2013.0,207.0
+603,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2014.0,199.0
+604,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2015.0,192.0
+605,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2016.0,184.0
+606,SH_STA_MORT FEMALE                        ,3.0,3.1,3.1.1,SH_STA_MORT,2017.0,177.0
+607,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2012.0,130247.0
+608,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2012.0,56508.0
+609,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2012.0,73739.0
+610,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2013.0,70978.0
+611,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2013.0,54278.0
+612,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2013.0,125256.0
+613,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2014.0,52032.0
+614,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2014.0,68181.0
+615,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2014.0,120213.0
+616,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2015.0,65344.0
+617,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2015.0,115140.0
+618,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2015.0,49796.0
+619,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2016.0,47692.0
+620,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2016.0,110330.0
+621,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2016.0,62638.0
+622,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2017.0,59982.0
+623,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2017.0,105617.0
+624,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2017.0,45635.0
+625,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2018.0,43737.0
+626,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2018.0,101219.0
+627,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2018.0,57482.0
+628,SH_DYN_IMRTN MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2019.0,55243.0
+629,SH_DYN_IMRTN BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2019.0,97168.0
+630,SH_DYN_IMRTN FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRTN,2019.0,41925.0
+655,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2012.0,81867.0
+656,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2013.0,78781.0
+657,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2014.0,75553.0
+658,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2015.0,71869.0
+659,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2016.0,68412.0
+660,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2017.0,65254.0
+661,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2018.0,62270.0
+662,SH_DYN_NMRTN BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRTN,2019.0,59591.0
+663,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2012.0,23.1
+664,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2012.0,28.7
+665,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2012.0,26.0
+666,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2013.0,25.1
+667,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2013.0,27.7
+668,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2013.0,22.3
+669,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2014.0,21.4
+670,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2014.0,26.8
+671,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2014.0,24.2
+672,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2015.0,23.3
+673,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2015.0,25.8
+674,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2015.0,20.6
+675,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2016.0,19.9
+676,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2016.0,24.9
+677,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2016.0,22.5
+678,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2017.0,24.1
+679,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2017.0,19.2
+680,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2017.0,21.7
+681,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2018.0,20.9
+682,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2018.0,23.2
+683,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2018.0,18.5
+684,SH_DYN_IMRT FEMALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2019.0,17.9
+685,SH_DYN_IMRT MALE                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2019.0,22.5
+686,SH_DYN_IMRT BOTHSEX                 <1Y       ,3.0,3.2,3.2.1,SH_DYN_IMRT,2019.0,20.2
+687,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2012.0,16.3
+688,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2013.0,15.7
+689,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2014.0,15.2
+690,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2015.0,14.5
+691,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2016.0,13.9
+692,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2017.0,13.4
+693,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2018.0,12.9
+694,SH_DYN_NMRT BOTHSEX                 <1M       ,3.0,3.2,3.2.2,SH_DYN_NMRT,2019.0,12.4
+695,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2012.0,68417.0
+696,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2012.0,156767.0
+697,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2012.0,88350.0
+698,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2013.0,84794.0
+699,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2013.0,65537.0
+700,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2013.0,150331.0
+701,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2014.0,62673.0
+702,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2014.0,81295.0
+703,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2014.0,143968.0
+704,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2015.0,137566.0
+705,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2015.0,59826.0
+706,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2015.0,77740.0
+707,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2016.0,74348.0
+708,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2016.0,57144.0
+709,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2016.0,131492.0
+710,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2017.0,54550.0
+711,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2017.0,125557.0
+712,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2017.0,71007.0
+713,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2018.0,67906.0
+714,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2018.0,120070.0
+715,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2018.0,52164.0
+716,SH_DYN_MORTN FEMALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2019.0,49915.0
+717,SH_DYN_MORTN BOTHSEX                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2019.0,114994.0
+718,SH_DYN_MORTN MALE                 <5Y       ,3.0,3.2,3.2.1,SH_DYN_MORTN,2019.0,65079.0
+719,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2012.0,7.8559399999999995
+720,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2013.0,6.5975600000000005
+721,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2014.0,4.9515
+722,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2015.0,4.36937
+723,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2016.0,4.4924800000000005
+724,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2017.0,3.01892
+725,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2018.0,2.27736
+726,SH_STA_MALR                         ,3.0,3.3,3.3.3,SH_STA_MALR,2019.0,2.43281
+727,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2012.0,146815201.0
+728,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2013.0,141350574.0
+729,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2014.0,127886656.0
+730,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2015.0,111437132.0
+731,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2016.0,101813236.0
+732,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2017.0,100463258.0
+733,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2018.0,100847287.0
+734,SH_TRP_INTVN                         ,3.0,3.3,3.3.5,SH_TRP_INTVN,2019.0,98728063.0
+735,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2012.0,335.0
+736,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2013.0,332.0
+737,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2014.0,329.0
+738,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2015.0,325.0
+739,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2016.0,322.0
+740,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2017.0,319.0
+741,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2018.0,316.0
+742,SH_TBS_INCD                         ,3.0,3.3,3.3.2,SH_TBS_INCD,2019.0,312.0
+743,SH_HAP_HBSAG                  <5Y       ,3.0,3.3,3.3.4,SH_HAP_HBSAG,2015.0,1.07
+744,SH_DTH_NCOM MALE                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2015.0,29.0
+745,SH_DTH_NCOM BOTHSEX                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2015.0,25.6
+746,SH_DTH_NCOM FEMALE                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2015.0,22.1
+747,SH_DTH_NCOM MALE                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2019.0,28.4
+748,SH_DTH_NCOM BOTHSEX                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2019.0,24.8
+749,SH_DTH_NCOM FEMALE                 30-70       ,3.0,3.4,3.4.1,SH_DTH_NCOM,2019.0,21.1
+786,SH_ALC_CONSPT MALE             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2015.0,0.41886
+787,SH_ALC_CONSPT BOTHSEX             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2015.0,0.24535
+788,SH_ALC_CONSPT FEMALE             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2015.0,0.07178999999999999
+789,SH_ALC_CONSPT FEMALE             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2019.0,0.06323
+790,SH_ALC_CONSPT BOTHSEX             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2019.0,0.21561999999999998
+791,SH_ALC_CONSPT MALE             A    15+       ,3.0,3.5,3.5.2,SH_ALC_CONSPT,2019.0,0.36779
+792,SH_SUD_ALCOL BOTHSEX                 15+       ,3.0,3.5,3.5.1,SH_SUD_ALCOL,2016.0,0.8
+793,SH_SUD_ALCOL MALE                 15+       ,3.0,3.5,3.5.1,SH_SUD_ALCOL,2016.0,1.4
+794,SH_SUD_ALCOL FEMALE                 15+       ,3.0,3.5,3.5.1,SH_SUD_ALCOL,2016.0,0.3
+801,SH_FPL_MTMM FEMALE                 15-49       ,3.0,3.7,3.7.1,SH_FPL_MTMM,2012.0,79.0
+802,SH_FPL_MTMM FEMALE                 15-49       ,3.0,3.7,3.7.1,SH_FPL_MTMM,2015.0,78.2
+803,SH_FPL_MTMM FEMALE                 15-49       ,3.0,3.7,3.7.1,SH_FPL_MTMM,2016.0,77.0
+804,SH_FPL_MTMM FEMALE                 15-49       ,3.0,3.7,3.7.1,SH_FPL_MTMM,2017.0,77.0
+805,SP_DYN_ADKL FEMALE                 15-19       ,3.0,3.7,3.7.2,SP_DYN_ADKL,2016.0,36.0
+806,SH_XPD_EARN25                         ,3.0,3.8,3.8.2,SH_XPD_EARN25,2012.0,0.89
+807,SH_XPD_EARN25                         ,3.0,3.8,3.8.2,SH_XPD_EARN25,2013.0,0.92
+808,SH_XPD_EARN25                         ,3.0,3.8,3.8.2,SH_XPD_EARN25,2014.0,1.17
+809,SH_XPD_EARN25                         ,3.0,3.8,3.8.2,SH_XPD_EARN25,2015.0,0.41
+810,SH_XPD_EARN25                         ,3.0,3.8,3.8.2,SH_XPD_EARN25,2018.0,0.51
+811,SH_XPD_EARN10                         ,3.0,3.8,3.8.2,SH_XPD_EARN10,2012.0,3.45
+812,SH_XPD_EARN10                         ,3.0,3.8,3.8.2,SH_XPD_EARN10,2013.0,3.74
+813,SH_XPD_EARN10                         ,3.0,3.8,3.8.2,SH_XPD_EARN10,2014.0,4.38
+814,SH_XPD_EARN10                         ,3.0,3.8,3.8.2,SH_XPD_EARN10,2015.0,3.61
+815,SH_XPD_EARN10                         ,3.0,3.8,3.8.2,SH_XPD_EARN10,2018.0,2.71
+816,SH_ACS_UNHC                         ,3.0,3.8,3.8.1,SH_ACS_UNHC,2015.0,53.0
+817,SH_ACS_UNHC                         ,3.0,3.8,3.8.1,SH_ACS_UNHC,2017.0,57.0
+818,SH_HAP_ASMORT                         ,3.0,3.9,3.9.1,SH_HAP_ASMORT,2016.0,71.0
+819,SH_STA_AIRP                         ,3.0,3.9,3.9.1,SH_STA_AIRP,2016.0,81.0
+820,SH_STA_ASAIRP                         ,3.0,3.9,3.9.1,SH_STA_ASAIRP,2016.0,112.0
+821,SH_AAP_MORT                         ,3.0,3.9,3.9.1,SH_AAP_MORT,2016.0,36.0
+828,SH_STA_WASH                         ,3.0,3.9,3.9.2,SH_STA_WASH,2016.0,7.1
+829,SH_AAP_ASMORT                         ,3.0,3.9,3.9.1,SH_AAP_ASMORT,2016.0,51.0
+830,SH_HAP_MORT                         ,3.0,3.9,3.9.1,SH_HAP_MORT,2016.0,51.0
+859,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2012.0,87.0
+860,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2013.0,92.0
+861,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2014.0,88.0
+862,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2015.0,84.0
+863,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2016.0,84.0
+864,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2017.0,85.0
+865,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2018.0,85.0
+866,SH_ACS_DTP3                         ,3.0,3.b,3.b.1,SH_ACS_DTP3,2019.0,85.0
+867,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2012.0,78.0
+868,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2013.0,76.0
+869,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2014.0,28.0
+870,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2015.0,31.0
+871,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2016.0,55.0
+872,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2017.0,63.0
+873,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2018.0,67.0
+874,SH_ACS_MCV2                         ,3.0,3.b,3.b.1,SH_ACS_MCV2,2019.0,71.0
+875,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2012.0,0.0
+876,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2013.0,0.0
+877,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2014.0,0.0
+878,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2015.0,0.0
+879,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2016.0,0.0
+880,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2017.0,0.0
+881,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2018.0,0.0
+882,SH_ACS_PCV3                         ,3.0,3.b,3.b.1,SH_ACS_PCV3,2019.0,3.0
+883,SH_ACS_HPV                         ,3.0,3.b,3.b.1,SH_ACS_HPV,2017.0,3.0
+884,SH_ACS_HPV                         ,3.0,3.b,3.b.1,SH_ACS_HPV,2018.0,0.5
+885,SH_ACS_HPV                         ,3.0,3.b,3.b.1,SH_ACS_HPV,2019.0,0.5
+1027,SH_BLD_MRSA                         ,3.0,3.d,3.d.2,SH_BLD_MRSA,2018.0,52.29
+1028,SH_BLD_MRSA                         ,3.0,3.d,3.d.2,SH_BLD_MRSA,2019.0,39.85
+1029,SH_BLD_ECOLI                         ,3.0,3.d,3.d.2,SH_BLD_ECOLI,2018.0,71.88
+1030,SH_BLD_ECOLI                         ,3.0,3.d,3.d.2,SH_BLD_ECOLI,2019.0,70.14
+1031,SE_TOT_PRFL BOTHSEX       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,44.75408
+1032,SE_TOT_PRFL FEMALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,52.31
+1033,SE_TOT_PRFL BOTHSEX       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,24.306060000000002
+1034,SE_TOT_PRFL MALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,37.42
+1035,SE_TOT_PRFL MALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,25.44
+1036,SE_TOT_PRFL FEMALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2012.0,23.14
+1037,SE_TOT_PRFL BOTHSEX       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,31.35022
+1038,SE_TOT_PRFL BOTHSEX       SKILL_MATH PRIMAR                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,17.53671
+1039,SE_TOT_PRFL MALE       SKILL_MATH PRIMAR                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,17.24821
+1040,SE_TOT_PRFL MALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,38.03552
+1041,SE_TOT_PRFL FEMALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,51.233290000000004
+1042,SE_TOT_PRFL FEMALE       SKILL_MATH PRIMAR                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,17.84914
+1043,SE_TOT_PRFL BOTHSEX       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,44.62185
+1044,SE_TOT_PRFL FEMALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,32.297
+1045,SE_TOT_PRFL MALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2015.0,30.407040000000002
+1046,SE_TOT_PRFL MALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,24.39845
+1047,SE_TOT_PRFL MALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,26.12333
+1048,SE_TOT_PRFL FEMALE       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,30.08602
+1049,SE_TOT_PRFL BOTHSEX       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,30.09174
+1050,SE_TOT_PRFL FEMALE       SKILL_READ LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,35.60614
+1051,SE_TOT_PRFL BOTHSEX       SKILL_MATH LOWSEC                ,4.0,4.1,4.1.1,SE_TOT_PRFL,2018.0,28.1363
+1262,SE_DEV_ONTRK BOTHSEX                 M36T59       ,4.0,4.2,4.2.1,SE_DEV_ONTRK,2018.0,88.3
+1298,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2012.0,1.01643
+1299,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2013.0,1.0106899999999999
+1300,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2014.0,0.9845200000000001
+1301,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2016.0,1.0866200000000001
+1302,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2017.0,1.07741
+1303,SE_GPI_PTNPRE                         ,4.0,4.5,4.5.1,SE_GPI_PTNPRE,2018.0,1.08205
+1304,SE_GPI_PART                         ,4.0,4.5,4.5.1,SE_GPI_PART,2012.0,0.8678
+1305,SE_GPI_PART                         ,4.0,4.5,4.5.1,SE_GPI_PART,2013.0,0.8652200000000001
+1306,SE_GPI_PART                         ,4.0,4.5,4.5.1,SE_GPI_PART,2014.0,0.80785
+1307,SE_NAP_ACHI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_NAP_ACHI,2012.0,0.74729
+1308,SE_NAP_ACHI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_NAP_ACHI,2012.0,0.76336
+1309,SE_NAP_ACHI        SKILL_MATH PRIMAR                ,4.0,4.5,4.5.1,SE_NAP_ACHI,2015.0,1.80958
+1310,SE_NAP_ACHI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_NAP_ACHI,2018.0,0.033389999999999996
+1311,SE_NAP_ACHI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_NAP_ACHI,2018.0,0.0232
+1312,SE_LGP_ACHI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2012.0,0.98255
+1313,SE_LGP_ACHI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2012.0,0.94815
+1314,SE_LGP_ACHI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2015.0,0.90243
+1315,SE_LGP_ACHI        SKILL_MATH PRIMAR                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2015.0,0.8387100000000001
+1316,SE_LGP_ACHI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2015.0,0.86779
+1317,SE_LGP_ACHI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2018.0,0.8860600000000001
+1318,SE_LGP_ACHI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_LGP_ACHI,2018.0,0.9776100000000001
+1319,SE_TOT_GPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2012.0,0.90959
+1320,SE_TOT_GPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2012.0,1.28465
+1321,SE_TOT_GPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2015.0,1.2576
+1322,SE_TOT_GPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2015.0,1.0585200000000001
+1323,SE_TOT_GPI        SKILL_MATH PRIMAR                ,4.0,4.5,4.5.1,SE_TOT_GPI,2015.0,1.03367
+1324,SE_TOT_GPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2018.0,1.13171
+1325,SE_TOT_GPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_GPI,2018.0,1.31477
+1326,SE_TOT_SESPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2012.0,0.3415
+1327,SE_TOT_SESPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2012.0,0.57629
+1328,SE_TOT_SESPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2015.0,0.4381
+1329,SE_TOT_SESPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2015.0,0.28781999999999996
+1330,SE_TOT_SESPI        SKILL_MATH PRIMAR                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2015.0,0.43996999999999997
+1331,SE_TOT_SESPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2018.0,0.38855
+1332,SE_TOT_SESPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_SESPI,2018.0,0.36991999999999997
+1333,SE_TOT_RUPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_RUPI,2012.0,0.58862
+1334,SE_TOT_RUPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_RUPI,2012.0,0.69908
+1335,SE_TOT_RUPI        SKILL_MATH PRIMAR                ,4.0,4.5,4.5.1,SE_TOT_RUPI,2015.0,0.19099000000000002
+1336,SE_TOT_RUPI        SKILL_READ LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_RUPI,2018.0,0.34659
+1337,SE_TOT_RUPI        SKILL_MATH LOWSEC                ,4.0,4.5,4.5.1,SE_TOT_RUPI,2018.0,0.29663
+1482,SE_GCEDESD_NEP                         ,4.0,4.7,4.7.1,SE_GCEDESD_NEP,2020.0,
+1483,SE_GCEDESD_CUR                         ,4.0,4.7,4.7.1,SE_GCEDESD_CUR,2020.0,
+1484,SE_GCEDESD_TED                         ,4.0,4.7,4.7.1,SE_GCEDESD_TED,2020.0,
+1485,SE_GCEDESD_SAS                         ,4.0,4.7,4.7.1,SE_GCEDESD_SAS,2020.0,
+1531,SP_DYN_MRBF18 FEMALE                 20-24       ,5.0,5.3,5.3.1,SP_DYN_MRBF18,2017.0,16.3
+1532,SP_DYN_MRBF15 FEMALE                 20-24       ,5.0,5.3,5.3.1,SP_DYN_MRBF15,2017.0,2.0
+1533,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2012.0,19.29
+1534,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2013.0,21.6
+1535,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2014.0,23.48
+1536,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2015.0,22.38
+1537,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2017.0,27.46
+1538,IC_GEN_MGTL FEMALE                        ,5.0,5.5,5.5.2,IC_GEN_MGTL,2019.0,29.78
+1549,SG_GEN_PARLNT BOTHSEX                        ,5.0,5.5,5.5.1,SG_GEN_PARLNT,2021.0,575.0
+1566,SG_LGL_LNDFEMOD                         ,5.0,5.a,5.a.2,SG_LGL_LNDFEMOD,2019.0,
+1567,SG_LGL_LNDFEMOD                         ,5.0,5.a,5.a.2,SG_LGL_LNDFEMOD,2020.0,
+1638,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2012.0,26.0
+1639,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2013.0,27.0
+1640,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2014.0,27.9
+1641,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2015.0,28.78
+1642,ER_H2O_STRESS              A           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2016.0,29.7
+1643,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2017.0,29.7
+1644,ER_H2O_STRESS              I           ,6.0,6.4,6.4.2,ER_H2O_STRESS,2018.0,29.7
+1645,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2012.0,3.22
+1646,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2012.0,21.25
+1647,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2012.0,0.23
+1648,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2012.0,15.39
+1649,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2013.0,15.77
+1650,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2013.0,0.23
+1651,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2013.0,24.29
+1652,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2013.0,3.29
+1653,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2014.0,3.36
+1654,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2014.0,27.99
+1655,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2014.0,0.24
+1656,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2014.0,16.18
+1657,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2015.0,16.73
+1658,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2015.0,0.25
+1659,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2015.0,31.71
+1660,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2015.0,3.46
+1661,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2016.0,3.57
+1662,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2016.0,37.7
+1663,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2016.0,0.24
+1664,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2016.0,17.04
+1665,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2017.0,17.91
+1666,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2017.0,0.24
+1667,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2017.0,39.65
+1668,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2017.0,3.75
+1669,ER_H2O_WUEYST                     TOTAL    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2018.0,3.94
+1670,ER_H2O_WUEYST                     INDUSTRIES    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2018.0,42.08
+1671,ER_H2O_WUEYST                     ISIC4_A01_A0210_A0322    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2018.0,0.24
+1672,ER_H2O_WUEYST                     ISIC4_GTT    ,6.0,6.4,6.4.1,ER_H2O_WUEYST,2018.0,18.75
+1673,EG_TBA_H2CO                         ,6.0,6.5,6.5.2,EG_TBA_H2CO,2017.0,
+1674,EG_TBA_H2CO                         ,6.0,6.5,6.5.2,EG_TBA_H2CO,2020.0,1.22
+1675,EG_TBA_H2COAQ                         ,6.0,6.5,6.5.2,EG_TBA_H2COAQ,2017.0,
+1676,EG_TBA_H2COAQ                         ,6.0,6.5,6.5.2,EG_TBA_H2COAQ,2020.0,0.0
+1677,EG_TBA_H2CORL                         ,6.0,6.5,6.5.2,EG_TBA_H2CORL,2017.0,
+1678,EG_TBA_H2CORL                         ,6.0,6.5,6.5.2,EG_TBA_H2CORL,2020.0,89.93
+1679,ER_H2O_IWRMD                 _T        ,6.0,6.5,6.5.1,ER_H2O_IWRMD,2017.0,48.15404
+1680,ER_H2O_IWRMD                 _T        ,6.0,6.5,6.5.1,ER_H2O_IWRMD,2020.0,66.0
+1681,EN_WBE_HMWTL                         ,6.0,6.6,6.6.1,EN_WBE_HMWTL,2021.0,74639.48
+1682,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2012.0,8381.565999999999
+1683,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2013.0,8345.26
+1684,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2014.0,8296.296
+1685,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2015.0,8216.014000000001
+1686,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2016.0,7966.376
+1687,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2017.0,8042.226
+1688,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2018.0,8193.862
+1689,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2019.0,8229.83
+1690,EN_LKRV_PWAN                         ,6.0,6.6,6.6.1,EN_LKRV_PWAN,2020.0,8266.08
+1691,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2012.0,0.00463
+1692,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2013.0,0.00461
+1693,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2014.0,0.00458
+1694,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2015.0,0.00454
+1695,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2016.0,0.00424
+1696,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2017.0,0.00428
+1697,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2018.0,0.00436
+1698,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2019.0,0.004379999999999999
+1699,EN_LKRV_PWAP                         ,6.0,6.6,6.6.1,EN_LKRV_PWAP,2020.0,0.0044
+1700,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2012.0,7977.941999999999
+1701,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2013.0,7704.968000000001
+1702,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2014.0,8090.446
+1703,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2015.0,8412.532
+1704,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2016.0,9078.0
+1705,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2017.0,10255.462
+1706,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2018.0,11314.268
+1707,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2019.0,11824.05
+1708,EN_LKRV_SWAN                         ,6.0,6.6,6.6.1,EN_LKRV_SWAN,2020.0,12083.35
+1709,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2012.0,0.0044
+1710,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2013.0,0.00425
+1711,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2014.0,0.00447
+1712,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2015.0,0.00464
+1713,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2016.0,0.00484
+1714,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2017.0,0.0054600000000000004
+1715,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2018.0,0.00603
+1716,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2019.0,0.0063
+1717,EN_LKRV_SWAP                         ,6.0,6.6,6.6.1,EN_LKRV_SWAP,2020.0,0.00644
+1718,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2012.0,5.01152
+1719,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2013.0,4.55665
+1720,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2014.0,3.94319
+1721,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2015.0,2.9373400000000003
+1722,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2016.0,-0.19034
+1723,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2017.0,0.75998
+1724,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2018.0,2.6598
+1725,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2019.0,3.11044
+1726,EN_LKRV_PWAC                         ,6.0,6.6,6.6.1,EN_LKRV_PWAC,2020.0,3.56461
+1727,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2012.0,3.6949400000000003
+1728,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2013.0,0.1469
+1729,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2014.0,5.15723
+1730,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2015.0,9.34361
+1731,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2016.0,17.99316
+1732,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2017.0,33.297470000000004
+1733,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2018.0,47.05952
+1734,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2019.0,53.68551
+1735,EN_LKRV_SWAC                         ,6.0,6.6,6.6.1,EN_LKRV_SWAC,2020.0,57.05582
+1736,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2012.0,256.052
+1737,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2013.0,256.07
+1738,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2014.0,257.63
+1739,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2015.0,259.068
+1740,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2016.0,256.38599999999997
+1741,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2017.0,260.116
+1742,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2018.0,265.476
+1743,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2019.0,265.926
+1744,EN_RSRV_MNWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAN,2020.0,262.04200000000003
+1745,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2012.0,0.00014
+1746,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2013.0,0.00014
+1747,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2014.0,0.00014
+1748,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2015.0,0.00014
+1749,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2016.0,0.00014
+1750,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2017.0,0.00014
+1751,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2018.0,0.00014
+1752,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2019.0,0.00014
+1753,EN_RSRV_MNWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MNWAP,2020.0,0.00014
+1754,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2012.0,384.036
+1755,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2013.0,385.838
+1756,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2014.0,390.756
+1757,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2015.0,392.042
+1758,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2016.0,397.134
+1759,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2017.0,408.596
+1760,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2018.0,420.79
+1761,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2019.0,425.334
+1762,EN_RSRV_MXWAN                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAN,2020.0,430.464
+1763,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2012.0,0.00021
+1764,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2013.0,0.00021
+1765,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2014.0,0.00022
+1766,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2015.0,0.00022
+1767,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2016.0,0.00021
+1768,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2017.0,0.00022
+1769,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2018.0,0.00022
+1770,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2019.0,0.00022999999999999998
+1771,EN_RSRV_MXWAP                         ,6.0,6.6,6.6.1,EN_RSRV_MXWAP,2020.0,0.00022999999999999998
+1772,EN_WBE_WTLN                         ,6.0,6.6,6.6.1,EN_WBE_WTLN,2017.0,194031.36
+1773,EN_WBE_WTLP                         ,6.0,6.6,6.6.1,EN_WBE_WTLP,2017.0,10.27
+1774,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2017.0,10.855
+1775,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2017.0,10.66
+1776,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2017.0,14.03
+1777,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2017.0,64.45583
+1778,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2018.0,56.675830000000005
+1779,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2018.0,17.93833
+1780,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2018.0,13.576670000000002
+1781,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2018.0,11.810830000000001
+1782,EN_LKW_QLTRB  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2019.0,56.71167
+1783,EN_LKW_QLTRB  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2019.0,11.34333
+1784,EN_LKW_QLTRB  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2019.0,18.54083
+1785,EN_LKW_QLTRB  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRB,2019.0,13.40417
+1786,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2017.0,19.37833
+1787,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2017.0,13.229170000000002
+1788,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2017.0,8.96083
+1789,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2017.0,57.684169999999995
+1790,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2018.0,58.09
+1791,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2018.0,21.86083
+1792,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2018.0,12.81917
+1793,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2018.0,6.47167
+1794,EN_LKW_QLTRST  LOW                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2019.0,66.88667
+1795,EN_LKW_QLTRST  MEDIUM                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2019.0,17.0225
+1796,EN_LKW_QLTRST  EXTREME                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2019.0,5.35917
+1797,EN_LKW_QLTRST  HIGH                       ,6.0,6.6,6.6.1,EN_LKW_QLTRST,2019.0,10.48833
+1798,EN_WBE_MANGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGN,2015.0,26501.43
+1799,EN_WBE_MANGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGN,2016.0,26508.1
+1800,EN_WBE_MANGBN                         ,6.0,6.6,6.6.1,EN_WBE_MANGBN,2015.0,28239.78
+1801,EN_WBE_MANGBN                         ,6.0,6.6,6.6.1,EN_WBE_MANGBN,2016.0,28239.78
+1802,EN_WBE_MANGGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGGN,2015.0,278.91
+1803,EN_WBE_MANGGN                         ,6.0,6.6,6.6.1,EN_WBE_MANGGN,2016.0,284.38
+1804,EN_WBE_MANGGP                         ,6.0,6.6,6.6.1,EN_WBE_MANGGP,2015.0,0.99
+1805,EN_WBE_MANGGP                         ,6.0,6.6,6.6.1,EN_WBE_MANGGP,2016.0,1.01
+1806,EN_WBE_MANGLN                         ,6.0,6.6,6.6.1,EN_WBE_MANGLN,2015.0,2017.26
+1807,EN_WBE_MANGLN                         ,6.0,6.6,6.6.1,EN_WBE_MANGLN,2016.0,2016.06
+1808,EN_WBE_MANGLP                         ,6.0,6.6,6.6.1,EN_WBE_MANGLP,2015.0,7.14
+1809,EN_WBE_MANGLP                         ,6.0,6.6,6.6.1,EN_WBE_MANGLP,2016.0,7.14
+1810,EN_WBE_MANGC                         ,6.0,6.6,6.6.1,EN_WBE_MANGC,2015.0,-6.16
+1811,EN_WBE_MANGC                         ,6.0,6.6,6.6.1,EN_WBE_MANGC,2016.0,-6.13
+1828,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2012.0,53.0
+1829,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2013.0,58.0
+1830,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2014.0,63.0
+1831,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2015.0,68.0
+1832,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2016.0,72.0
+1833,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2017.0,76.0
+1834,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2018.0,79.0
+1835,EG_EGY_CLEAN                         ,7.0,7.1,7.1.2,EG_EGY_CLEAN,2019.0,82.0
+1860,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2012.0,28.7848
+1861,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2013.0,29.7025
+1862,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2014.0,28.3189
+1863,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2015.0,26.9519
+1864,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2016.0,27.8348
+1865,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2017.0,25.4328
+1866,EG_FEC_RNEW                         ,7.0,7.2,7.2.1,EG_FEC_RNEW,2018.0,20.8639
+1867,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2012.0,3.79
+1868,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2013.0,3.47
+1869,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2014.0,3.44
+1870,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2015.0,3.26
+1871,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2016.0,3.18
+1872,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2017.0,3.21
+1873,EG_EGY_PRIM                         ,7.0,7.3,7.3.1,EG_EGY_PRIM,2018.0,3.18
+1874,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2012.0,16.44
+1875,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2013.0,247.23
+1876,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2014.0,323.04
+1877,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2015.0,387.78
+1878,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2016.0,343.83
+1879,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2017.0,430.16
+1880,EG_IFF_RANDN                         ,7.0,7.a,7.a.1,EG_IFF_RANDN,2018.0,1076.35
+1881,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2012.0,30.144000000000002
+1882,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2013.0,32.806
+1883,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2014.0,32.991
+1884,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2015.0,32.946999999999996
+1885,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2016.0,33.906
+1886,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2017.0,34.594
+1887,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2018.0,35.435
+1888,EG_EGY_RNEW                         ,7.0,7.b,7.b.1,EG_EGY_RNEW,2019.0,36.437
+1889,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2012.0,4.61
+1890,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2013.0,4.15
+1891,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2014.0,3.64
+1892,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2015.0,3.56
+1893,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2016.0,3.76
+1894,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2017.0,3.84
+1895,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2018.0,3.98
+1896,NY_GDP_PCAP                         ,8.0,8.1,8.1.1,NY_GDP_PCAP,2019.0,3.88
+1897,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2012.0,35.7294574081984
+1898,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2013.0,42.0164396659936
+1899,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2014.0,49.205263208274296
+1900,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2015.0,52.9653752475954
+1901,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2016.0,54.3378226553523
+1902,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2017.0,55.14156569288279
+1903,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2018.0,54.376093119648196
+1904,FB_ATM_TOTL              A    15+       ,8.0,8.10,8.10.1,FB_ATM_TOTL,2019.0,53.4097547869812
+1911,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2012.0,16.8711993996872
+1912,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2013.0,17.6413198329675
+1913,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2014.0,17.829975721757
+1914,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2015.0,17.640010306712302
+1915,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2016.0,17.2577584673774
+1916,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2017.0,16.7467436861426
+1917,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2018.0,16.1366795271113
+1918,FB_CBK_BRCH              A    15+       ,8.0,8.10,8.10.1,FB_CBK_BRCH,2019.0,15.643470733724001
+1919,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2012.0,2.8
+1920,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2013.0,4.7
+1921,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2014.0,3.3
+1922,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2015.0,4.1
+1923,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2016.0,3.7
+1924,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2017.0,2.0
+1925,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2018.0,3.1
+1926,SL_EMP_PCAP                         ,8.0,8.2,8.2.1,SL_EMP_PCAP,2019.0,1.7
+2443,SL_LBR_NTLCPL                         ,8.0,8.8,8.8.2,SL_LBR_NTLCPL,2015.0,4.15
+2444,SL_LBR_NTLCPL                         ,8.0,8.8,8.8.2,SL_LBR_NTLCPL,2016.0,2.67
+2445,SL_LBR_NTLCPL                         ,8.0,8.8,8.8.2,SL_LBR_NTLCPL,2017.0,2.68
+2446,SL_LBR_NTLCPL                         ,8.0,8.8,8.8.2,SL_LBR_NTLCPL,2018.0,2.68
+2447,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2012.0,4.0
+2448,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2013.0,4.0
+2449,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2014.0,4.1
+2450,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2015.0,4.3
+2451,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2016.0,4.1
+2452,ST_GDP_ZS                         ,8.0,8.9,8.9.1,ST_GDP_ZS,2017.0,4.1
+2469,SL_CPA_YEMP                         ,8.0,8.b,8.b.1,SL_CPA_YEMP,2019.0,2.0
+2470,SL_CPA_YEMP                         ,8.0,8.b,8.b.1,SL_CPA_YEMP,2020.0,2.0
+2487,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2012.0,10713294.0
+2488,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2013.0,11718228.0
+2489,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2014.0,11636900.0
+2490,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2015.0,12031700.0
+2491,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2016.0,12431700.0
+2492,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2017.0,12829600.0
+2493,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2018.0,14060600.0
+2494,IS_RDP_PORFVOL     SEA                    ,9.0,9.1,9.1.2,IS_RDP_PORFVOL,2019.0,14763630.0
+2495,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2012.0,640.0
+2496,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2013.0,655.3
+2497,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2014.0,678.1
+2498,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2015.0,700.5
+2499,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2016.0,718.8
+2500,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2017.0,740.6
+2501,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2018.0,765.9
+2502,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2019.0,787.1
+2503,NV_IND_MANFPC                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANFPC,2020.0,766.0
+2504,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2012.0,13.58
+2505,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2013.0,13.5
+2506,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2014.0,13.47
+2507,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2015.0,13.71
+2508,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2016.0,13.53
+2509,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2017.0,14.11
+2510,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2018.0,14.41
+2511,SL_TLF_MANF                     ISIC4_C    ,9.0,9.2,9.2.2,SL_TLF_MANF,2019.0,14.44
+2512,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2012.0,21.46
+2513,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2013.0,21.1
+2514,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2014.0,21.07
+2515,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2015.0,21.02
+2516,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2016.0,20.8
+2517,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2017.0,20.63
+2518,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2018.0,20.52
+2519,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2019.0,20.29
+2520,NV_IND_MANF                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF,2020.0,20.37
+2521,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2012.0,21.46
+2522,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2013.0,21.03
+2523,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2014.0,21.1
+2524,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2015.0,21.02
+2525,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2016.0,20.49
+2526,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2017.0,20.1
+2527,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2018.0,19.9
+2528,NV_IND_MANF_CD                     ISIC4_C    ,9.0,9.2,9.2.1,NV_IND_MANF_CD,2019.0,19.73
+2529,NV_IND_SSIS                     ISIC4_C    ,9.0,9.3,9.3.1,NV_IND_SSIS,2012.0,10.26
+2530,NV_IND_SSIS                     ISIC4_C    ,9.0,9.3,9.3.1,NV_IND_SSIS,2013.0,11.43
+2531,NV_IND_SSIS                     ISIC4_C    ,9.0,9.3,9.3.1,NV_IND_SSIS,2014.0,10.68
+2532,FC_ACC_SSID                     ISIC4_C    ,9.0,9.3,9.3.2,FC_ACC_SSID,2015.0,34.31
+2533,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2012.0,113.012
+2534,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2012.0,451.12
+2535,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2013.0,416.85900000000004
+2536,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2013.0,73.28399999999999
+2537,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2014.0,83.75399999999999
+2538,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2014.0,452.264
+2539,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2015.0,453.86699999999996
+2540,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2015.0,93.838
+2541,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2016.0,80.658
+2542,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2016.0,454.35
+2543,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2017.0,492.711
+2544,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2017.0,95.51100000000001
+2545,EN_ATM_CO2                     ISIC4_C10T32X19    ,9.0,9.4,9.4.1,EN_ATM_CO2,2018.0,111.427
+2546,EN_ATM_CO2                     TOTAL    ,9.0,9.4,9.4.1,EN_ATM_CO2,2018.0,542.876
+2547,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2012.0,0.711
+2548,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2013.0,0.444
+2549,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2014.0,0.484
+2550,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2015.0,0.518
+2551,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2016.0,0.429
+2552,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2017.0,0.48700000000000004
+2553,EN_ATM_CO2MVA                     ISIC4_C    ,9.0,9.4,9.4.1,EN_ATM_CO2MVA,2018.0,0.544
+2554,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2012.0,0.19997
+2555,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2013.0,0.17505
+2556,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2014.0,0.18087
+2557,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2015.0,0.17307
+2558,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2016.0,0.16495
+2559,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2017.0,0.17025
+2560,EN_ATM_CO2GDP                         ,9.0,9.4,9.4.1,EN_ATM_CO2GDP,2018.0,0.17836
+2561,GB_POP_SCIERD                         ,9.0,9.5,9.5.2,GB_POP_SCIERD,2016.0,178.87538999999998
+2562,GB_POP_SCIERD                         ,9.0,9.5,9.5.2,GB_POP_SCIERD,2017.0,215.19041
+2563,GB_POP_SCIERD                         ,9.0,9.5,9.5.2,GB_POP_SCIERD,2018.0,215.99355
+2564,GB_XPD_RSDV                         ,9.0,9.5,9.5.1,GB_XPD_RSDV,2013.0,0.0847
+2565,GB_XPD_RSDV                         ,9.0,9.5,9.5.1,GB_XPD_RSDV,2016.0,0.24535
+2566,GB_XPD_RSDV                         ,9.0,9.5,9.5.1,GB_XPD_RSDV,2017.0,0.23805
+2567,GB_XPD_RSDV                         ,9.0,9.5,9.5.1,GB_XPD_RSDV,2018.0,0.22633000000000003
+2576,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2012.0,37.46
+2577,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2013.0,35.58
+2578,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2014.0,34.31
+2579,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2015.0,35.35
+2580,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2016.0,35.35
+2581,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2017.0,35.35
+2582,NV_IND_TECH                     ISIC4_C    ,9.0,9.b,9.b.1,NV_IND_TECH,2018.0,35.35
+2601,SI_HEI_TOTL                       _T  ,10.0,10.1,10.1.1,SI_HEI_TOTL,2018.0,5.0
+2602,SI_HEI_TOTL                       B40  ,10.0,10.1,10.1.1,SI_HEI_TOTL,2018.0,5.0
+2603,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2012.0,39.5
+2604,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2013.0,39.3
+2605,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2014.0,39.3
+2606,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2015.0,38.6
+2607,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2016.0,38.6
+2608,SL_EMP_GTOTL                         ,10.0,10.4,10.4.1,SL_EMP_GTOTL,2017.0,38.1
+2609,SI_DST_FISP                         ,10.0,10.4,10.4.2,SI_DST_FISP,2017.0,41.2
+2612,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2012.0,1.77338188532309
+2613,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2013.0,1.6867667801747799
+2614,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2014.0,2.0668174536709
+2615,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2015.0,2.43104248114155
+2616,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2016.0,2.89634913035996
+2617,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2017.0,2.5570048176247098
+2618,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2018.0,2.2920824647474
+2619,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2019.0,2.43274363960576
+2620,FI_FSI_FSANL              A           ,10.0,10.5,10.5.1,FI_FSI_FSANL,2020.0,2.75060076179292
+2621,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2012.0,3.0954629561470495
+2622,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2013.0,3.0502264171781897
+2623,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2014.0,2.7438011925863304
+2624,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2015.0,2.24851617807577
+2625,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2016.0,2.1193114124236
+2626,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2017.0,2.41046426269008
+2627,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2018.0,2.5139195960095497
+2628,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2019.0,2.48257247864254
+2629,FI_FSI_FSERA              A           ,10.0,10.5,10.5.1,FI_FSI_FSERA,2020.0,1.5004714170098201
+2630,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2012.0,12.2371428767523
+2631,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2013.0,12.4665107344589
+2632,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2014.0,12.7618102631708
+2633,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2015.0,13.6058696263685
+2634,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2016.0,14.4056925574665
+2635,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2017.0,15.2176820260939
+2636,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2018.0,15.1153242149689
+2637,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2019.0,15.632294638107801
+2638,FI_FSI_FSKA              A           ,10.0,10.5,10.5.1,FI_FSI_FSKA,2020.0,14.7993654723172
+2639,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2012.0,4.67087925867755
+2640,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2013.0,4.609866770498769
+2641,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2014.0,5.47733038743709
+2642,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2015.0,5.893689074982751
+2643,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2016.0,5.65926671627151
+2644,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2017.0,4.977707667296049
+2645,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2018.0,4.3760141151311
+2646,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2019.0,4.97887476020919
+2647,FI_FSI_FSKNL              A           ,10.0,10.5,10.5.1,FI_FSI_FSKNL,2020.0,3.93929876737127
+2648,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2012.0,15.718164055190801
+2649,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2013.0,18.2964783943157
+2650,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2014.0,17.8438911348625
+2651,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2015.0,18.758979164954397
+2652,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2016.0,22.2156904500528
+2653,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2017.0,22.6518794840288
+2654,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2018.0,21.204588872296696
+2655,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2019.0,21.7671209169088
+2656,FI_FSI_FSKRTC              A           ,10.0,10.5,10.5.1,FI_FSI_FSKRTC,2020.0,22.1595325053566
+2657,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2012.0,36.4429191150252
+2658,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2013.0,30.539392531694002
+2659,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2014.0,33.3356232237313
+2660,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2015.0,35.048059283201
+2661,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2016.0,32.6215139587815
+2662,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2017.0,31.6595505464853
+2663,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2018.0,31.9665147232309
+2664,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2019.0,30.763523600523502
+2665,FI_FSI_FSLS              A           ,10.0,10.5,10.5.1,FI_FSI_FSLS,2020.0,27.426327595973703
+2666,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2012.0,3.2922572376637405
+2667,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2013.0,1.73727150347341
+2668,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2014.0,2.3848154924351097
+2669,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2015.0,0.908800906910787
+2670,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2016.0,1.7798363549676002
+2671,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2017.0,1.58580807983695
+2672,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2018.0,1.6846339959911498
+2673,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2019.0,1.58915120853816
+2674,FI_FSI_FSSNO              A           ,10.0,10.5,10.5.1,FI_FSI_FSSNO,2020.0,0.8915190027247021
+2768,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2014.0,0.0
+2769,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2015.0,3.0
+2770,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2016.0,60.0
+2771,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2017.0,0.0
+2772,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2018.0,0.0
+2773,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2019.0,4.0
+2774,SM_DTH_MIGR                         ,10.0,10.7,10.7.3,SM_DTH_MIGR,2020.0,26.0
+2775,TM_TRF_ZERO             IND            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,54.27103
+2776,TM_TRF_ZERO             ARM            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,76.47059
+2777,TM_TRF_ZERO             CLO            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,22.45822
+2778,TM_TRF_ZERO             ALP            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,49.48921
+2779,TM_TRF_ZERO             TEX            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,41.530409999999996
+2780,TM_TRF_ZERO             OIL            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,85.71429
+2781,TM_TRF_ZERO             AGR            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2015.0,48.93588
+2782,TM_TRF_ZERO             CLO            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,22.74537
+2783,TM_TRF_ZERO             ARM            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,71.42857
+2784,TM_TRF_ZERO             TEX            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,43.14054
+2785,TM_TRF_ZERO             OIL            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,100.0
+2786,TM_TRF_ZERO             AGR            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,47.25291
+2787,TM_TRF_ZERO             IND            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,50.97153
+2788,TM_TRF_ZERO             ALP            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2016.0,46.84091
+2789,TM_TRF_ZERO             ALP            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,50.5039
+2790,TM_TRF_ZERO             ARM            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,45.45455
+2791,TM_TRF_ZERO             IND            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,55.04149
+2792,TM_TRF_ZERO             CLO            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,27.18178
+2793,TM_TRF_ZERO             OIL            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,93.33333
+2794,TM_TRF_ZERO             AGR            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,49.915440000000004
+2795,TM_TRF_ZERO             TEX            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2017.0,42.87165
+2796,TM_TRF_ZERO             OIL            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,93.33333
+2797,TM_TRF_ZERO             CLO            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,27.04216
+2798,TM_TRF_ZERO             TEX            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,44.19523
+2799,TM_TRF_ZERO             ALP            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,51.37546
+2800,TM_TRF_ZERO             AGR            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,50.721379999999996
+2801,TM_TRF_ZERO             IND            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,55.965090000000004
+2802,TM_TRF_ZERO             ARM            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2018.0,45.45455
+2803,TM_TRF_ZERO             OIL            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,84.61538
+2804,TM_TRF_ZERO             ALP            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,52.4084
+2805,TM_TRF_ZERO             TEX            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,47.18495
+2806,TM_TRF_ZERO             CLO            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,27.602209999999996
+2807,TM_TRF_ZERO             ARM            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,61.904759999999996
+2808,TM_TRF_ZERO             IND            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,56.81052
+2809,TM_TRF_ZERO             AGR            ,10.0,10.a,10.a.1,TM_TRF_ZERO,2019.0,51.52043
+2818,SI_RMT_COST                         ,10.0,10.c,10.c.1,SI_RMT_COST,2015.0,6.9
+2819,SI_RMT_COST                         ,10.0,10.c,10.c.1,SI_RMT_COST,2017.0,7.13
+2820,SI_RMT_COST                         ,10.0,10.c,10.c.1,SI_RMT_COST,2018.0,6.85
+2821,SI_RMT_COST                         ,10.0,10.c,10.c.1,SI_RMT_COST,2019.0,6.08
+2822,EN_LND_SLUM          URBAN               ,11.0,11.1,11.1.1,EN_LND_SLUM,2014.0,21.8
+2823,EN_LND_SLUM          URBAN               ,11.0,11.1,11.1.1,EN_LND_SLUM,2016.0,30.9
+2824,EN_LND_SLUM          URBAN               ,11.0,11.1,11.1.1,EN_LND_SLUM,2018.0,30.6
+2825,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2012.0,900280012.28
+2826,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2013.0,704391153.609
+2827,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2014.0,980674664.035
+2828,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2015.0,1394728642.3455
+2829,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2016.0,964488708.07025
+2830,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2017.0,491251258.85
+2831,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2018.0,432797245.7875
+2832,VC_DSR_GDPLS                         ,11.0,11.5,11.5.2,VC_DSR_GDPLS,2019.0,1285046970.0305
+2833,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2012.0,38.0
+2834,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2013.0,44.0
+2835,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2014.0,72.0
+2836,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2015.0,57.0
+2837,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2016.0,96.0
+2838,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2017.0,69.0
+2839,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2018.0,1445.0
+2840,VC_DSR_MISS                         ,11.0,11.5,11.5.1,VC_DSR_MISS,2019.0,111.0
+2849,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2012.0,282.0
+2850,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2013.0,468.0
+2851,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2014.0,532.0
+2852,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2015.0,219.0
+2853,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2016.0,482.0
+2854,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2017.0,309.0
+2855,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2018.0,3369.0
+2856,VC_DSR_MORT                         ,11.0,11.5,11.5.1,VC_DSR_MORT,2019.0,478.0
+2857,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2012.0,0.13039
+2858,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2013.0,0.20576999999999998
+2859,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2014.0,0.23953000000000002
+2860,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2015.0,0.10799
+2861,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2016.0,0.2236
+2862,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2017.0,0.14463
+2863,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2018.0,1.82237
+2864,VC_DSR_MTMP                         ,11.0,11.5,11.5.1,VC_DSR_MTMP,2019.0,0.21971
+2865,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2012.0,320.0
+2866,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2013.0,512.0
+2867,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2014.0,604.0
+2868,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2015.0,276.0
+2869,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2016.0,578.0
+2870,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2017.0,378.0
+2871,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2018.0,4814.0
+2872,VC_DSR_MMHN                         ,11.0,11.5,11.5.1,VC_DSR_MMHN,2019.0,589.0
+2873,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2012.0,110.62352
+2874,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2013.0,181.65881000000002
+2875,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2014.0,110.87352
+2876,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2015.0,50.09236
+2877,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2016.0,93.48869
+2878,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2017.0,95.53922
+2879,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2018.0,4200.03929
+2880,VC_DSR_DAFF                         ,11.0,11.5,11.5.1,VC_DSR_DAFF,2019.0,39.78488
+2881,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2012.0,1198.0
+2882,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2013.0,3410.0
+2883,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2014.0,2104.0
+2884,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2015.0,370.0
+2885,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2016.0,2675.0
+2886,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2017.0,1042.0
+2887,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2018.0,21083.0
+2888,VC_DSR_IJILN                         ,11.0,11.5,11.5.1,VC_DSR_IJILN,2019.0,3421.0
+2889,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2012.0,216870.0
+2890,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2013.0,359955.0
+2891,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2014.0,177085.0
+2892,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2015.0,101575.0
+2893,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2016.0,193845.0
+2894,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2017.0,196395.0
+2895,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2018.0,848260.0
+2896,VC_DSR_PDAN                         ,11.0,11.5,11.5.1,VC_DSR_PDAN,2019.0,57910.0
+2897,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2012.0,53430.0
+2898,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2013.0,88635.0
+2899,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2014.0,100395.0
+2900,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2015.0,26085.0
+2901,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2016.0,45145.0
+2902,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2017.0,52260.0
+2903,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2018.0,752565.0
+2904,VC_DSR_PDYN                         ,11.0,11.5,11.5.1,VC_DSR_PDYN,2019.0,15813.0
+2905,VC_DSR_PDLN                         ,11.0,11.5,11.5.1,VC_DSR_PDLN,2018.0,9472983.0
+2906,VC_DSR_PDLN                         ,11.0,11.5,11.5.1,VC_DSR_PDLN,2019.0,29509.15
+2907,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2012.0,0.00098
+2908,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2013.0,0.000771
+2909,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2014.0,0.0011539999999999999
+2910,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2015.0,0.00162
+2911,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2016.0,0.0010429999999999999
+2912,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2017.0,0.000484
+2913,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2018.0,0.00041600000000000003
+2914,VC_DSR_LSGP                         ,11.0,11.5,11.5.2,VC_DSR_LSGP,2019.0,0.0011480000000000001
+2915,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2012.0,900280012.28
+2916,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2013.0,704391153.609
+2917,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2014.0,980674664.035
+2918,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2015.0,1350175672.3455
+2919,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2016.0,736934403.07025
+2920,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2017.0,491251258.85
+2921,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2018.0,432797245.7875
+2922,VC_DSR_AGLH                         ,11.0,11.5,11.5.2,VC_DSR_AGLH,2019.0,434089147.5305
+2923,VC_DSR_HOLH                         ,11.0,11.5,11.5.2,VC_DSR_HOLH,2019.0,808756350.0
+2924,VC_DSR_CILN                         ,11.0,11.5,11.5.2,VC_DSR_CILN,2015.0,44552970.0
+2925,VC_DSR_CILN                         ,11.0,11.5,11.5.2,VC_DSR_CILN,2016.0,227554305.0
+2926,VC_DSR_CILN                         ,11.0,11.5,11.5.2,VC_DSR_CILN,2019.0,42201472.5
+2927,VC_DSR_CDAN                         ,11.0,11.5,11.5.2,VC_DSR_CDAN,2019.0,1946.0
+2928,VC_DSR_HFDN                         ,11.0,11.5,11.5.2,VC_DSR_HFDN,2019.0,135.0
+2929,VC_DSR_EFDN                         ,11.0,11.5,11.5.2,VC_DSR_EFDN,2019.0,1123.0
+2930,VC_DSR_CDYN                         ,11.0,11.5,11.5.2,VC_DSR_CDYN,2019.0,688.0
+2931,VC_DSR_BSDN                         ,11.0,11.5,11.5.2,VC_DSR_BSDN,2015.0,21005.0
+2932,VC_DSR_ESDN                         ,11.0,11.5,11.5.2,VC_DSR_ESDN,2015.0,21005.0
+2950,SD_CPA_UPRDP                         ,11.0,11.a,11.a.1,SD_CPA_UPRDP,2020.0,1.0
+2951,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2012.0,0.0
+2952,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2013.0,0.0
+2953,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2014.0,0.0
+2954,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2015.0,0.0
+2955,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2016.0,0.0
+2956,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2017.0,0.0
+2957,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2018.0,0.0
+2958,SG_DSR_LGRGSR                         ,11.0,11.b,11.b.1,SG_DSR_LGRGSR,2019.0,0.825
+2959,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2012.0,0.0642
+2960,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2013.0,0.054470000000000005
+2961,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2016.0,0.02918
+2962,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2017.0,0.08755
+2963,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2018.0,0.05058
+2964,SG_DSR_SILS                         ,11.0,11.b,11.b.2,SG_DSR_SILS,2019.0,0.017509999999999998
+2965,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2012.0,33.0
+2966,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2013.0,28.0
+2967,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2016.0,15.0
+2968,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2017.0,45.0
+2969,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2018.0,26.0
+2970,SG_DSR_SILN                         ,11.0,11.b,11.b.2,SG_DSR_SILN,2019.0,9.0
+2971,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2012.0,514.0
+2972,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2013.0,514.0
+2973,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2014.0,514.0
+2974,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2015.0,514.0
+2975,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2016.0,514.0
+2976,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2017.0,514.0
+2977,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2018.0,514.0
+2978,SG_GOV_LOGV                         ,11.0,11.b,11.b.2,SG_GOV_LOGV,2019.0,514.0
+2979,SG_SCP_CNTRY                         ,12.0,12.1,12.1.1,SG_SCP_CNTRY,2020.0,1.0
+2980,SG_SCP_POLINS       POLICY_MACRO                  ,12.0,12.1,12.1.1,SG_SCP_POLINS,2020.0,1.0
+2981,SG_SCP_POLINS       POLICY_VOLSRG                  ,12.0,12.1,12.1.1,SG_SCP_POLINS,2020.0,1.0
+2982,SG_SCP_OTHER                         ,12.0,12.1,12.1.1,SG_SCP_OTHER,2020.0,1.0
+2983,SG_SCP_TOTLN                         ,12.0,12.1,12.1.1,SG_SCP_TOTLN,2020.0,9.0
+3290,AG_FOOD_WST_PC           HHS   A           ,12.0,12.3,12.3.1,AG_FOOD_WST_PC,2019.0,77.36981
+3291,AG_FOOD_WST_PC           OOHC   A           ,12.0,12.3,12.3.1,AG_FOOD_WST_PC,2019.0,27.64808
+3292,AG_FOOD_WST_PC           RTL   A           ,12.0,12.3,12.3.1,AG_FOOD_WST_PC,2019.0,15.640229999999999
+3293,AG_FOOD_WST           HHS   A           ,12.0,12.3,12.3.1,AG_FOOD_WST,2019.0,20938251.72673
+3294,AG_FOOD_WST           OOHC   A           ,12.0,12.3,12.3.1,AG_FOOD_WST,2019.0,7482276.768389999
+3295,AG_FOOD_WST           RTL   A           ,12.0,12.3,12.3.1,AG_FOOD_WST,2019.0,4232646.24761
+3305,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2012.0,7650389.16016
+3306,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2013.0,6002829.5898400005
+3307,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2014.0,5842428.2226599995
+3308,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2015.0,6026797.851559999
+3309,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2016.0,9236850.58594
+3310,EN_MWT_COLLV              A           ,12.0,12.4,12.4.2,EN_MWT_COLLV,2017.0,9536610.35156
+3313,SE_GCEDESD_NEP                         ,12.0,12.8,12.8.1,SE_GCEDESD_NEP,2020.0,
+3314,SE_GCEDESD_CUR                         ,12.0,12.8,12.8.1,SE_GCEDESD_CUR,2020.0,
+3315,SE_GCEDESD_TED                         ,12.0,12.8,12.8.1,SE_GCEDESD_TED,2020.0,
+3316,SE_GCEDESD_SAS                         ,12.0,12.8,12.8.1,SE_GCEDESD_SAS,2020.0,
+3317,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2012.0,30.144000000000002
+3318,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2013.0,32.806
+3319,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2014.0,32.991
+3320,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2015.0,32.946999999999996
+3321,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2016.0,33.906
+3322,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2017.0,34.594
+3323,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2018.0,35.435
+3324,EG_EGY_RNEW                         ,12.0,12.a,12.a.1,EG_EGY_RNEW,2019.0,36.437
+3325,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2012.0,5.0
+3326,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2013.0,5.0
+3327,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2014.0,5.0
+3328,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2015.0,5.0
+3329,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2016.0,8.0
+3330,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2017.0,8.0
+3331,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2018.0,8.0
+3332,ST_EEV_STDACCT                         ,12.0,12.b,12.b.1,ST_EEV_STDACCT,2019.0,6.0
+3333,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2012.0,2.0
+3334,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2013.0,2.0
+3335,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2014.0,2.0
+3336,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2015.0,2.0
+3337,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2016.0,2.0
+3338,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2017.0,2.0
+3339,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2018.0,2.0
+3340,ST_EEV_ACCSEEA                         ,12.0,12.b,12.b.1,ST_EEV_ACCSEEA,2019.0,0.0
+3341,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2012.0,3.0
+3342,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2013.0,3.0
+3343,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2014.0,3.0
+3344,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2015.0,3.0
+3345,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2016.0,6.0
+3346,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2017.0,6.0
+3347,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2018.0,6.0
+3348,ST_EEV_ACCTSA                         ,12.0,12.b,12.b.1,ST_EEV_ACCTSA,2019.0,6.0
+3349,ER_FFS_CMPT                         ,12.0,12.c,12.c.1,ER_FFS_CMPT,2015.0,16186.256000000001
+3350,ER_FFS_CMPT                         ,12.0,12.c,12.c.1,ER_FFS_CMPT,2016.0,16113.348999999998
+3351,ER_FFS_CMPT                         ,12.0,12.c,12.c.1,ER_FFS_CMPT,2017.0,16687.004
+3352,ER_FFS_CMPT                         ,12.0,12.c,12.c.1,ER_FFS_CMPT,2018.0,33876.93
+3353,ER_FFS_CMPT                         ,12.0,12.c,12.c.1,ER_FFS_CMPT,2019.0,19217.668
+3354,ER_FFS_CMPT_PC                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_PC,2015.0,62.644369999999995
+3355,ER_FFS_CMPT_PC                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_PC,2016.0,61.60564
+3356,ER_FFS_CMPT_PC                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_PC,2017.0,63.05287
+3357,ER_FFS_CMPT_PC                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_PC,2018.0,126.56204
+3358,ER_FFS_CMPT_PC                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_PC,2019.0,71.01201999999999
+3359,ER_FFS_CMPT_GDP                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_GDP,2015.0,1.8802599999999998
+3360,ER_FFS_CMPT_GDP                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_GDP,2016.0,1.7820900000000002
+3361,ER_FFS_CMPT_GDP                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_GDP,2017.0,1.75649
+3362,ER_FFS_CMPT_GDP                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_GDP,2018.0,3.3906300000000003
+3363,ER_FFS_CMPT_GDP                         ,12.0,12.c,12.c.1,ER_FFS_CMPT_GDP,2019.0,1.8314099999999998
+3364,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2012.0,38.0
+3365,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2013.0,44.0
+3366,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2014.0,72.0
+3367,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2015.0,57.0
+3368,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2016.0,96.0
+3369,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2017.0,69.0
+3370,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2018.0,1445.0
+3371,VC_DSR_MISS                         ,13.0,13.1,13.1.1,VC_DSR_MISS,2019.0,111.0
+3380,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2012.0,282.0
+3381,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2013.0,468.0
+3382,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2014.0,532.0
+3383,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2015.0,219.0
+3384,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2016.0,482.0
+3385,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2017.0,309.0
+3386,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2018.0,3369.0
+3387,VC_DSR_MORT                         ,13.0,13.1,13.1.1,VC_DSR_MORT,2019.0,478.0
+3388,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2012.0,0.13039
+3389,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2013.0,0.20576999999999998
+3390,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2014.0,0.23953000000000002
+3391,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2015.0,0.10799
+3392,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2016.0,0.2236
+3393,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2017.0,0.14463
+3394,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2018.0,1.82237
+3395,VC_DSR_MTMP                         ,13.0,13.1,13.1.1,VC_DSR_MTMP,2019.0,0.21971
+3396,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2012.0,320.0
+3397,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2013.0,512.0
+3398,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2014.0,604.0
+3399,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2015.0,276.0
+3400,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2016.0,578.0
+3401,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2017.0,378.0
+3402,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2018.0,4814.0
+3403,VC_DSR_MMHN                         ,13.0,13.1,13.1.1,VC_DSR_MMHN,2019.0,589.0
+3404,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2012.0,110.62352
+3405,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2013.0,181.65881000000002
+3406,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2014.0,110.87352
+3407,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2015.0,50.09236
+3408,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2016.0,93.48869
+3409,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2017.0,95.53922
+3410,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2018.0,4200.03929
+3411,VC_DSR_DAFF                         ,13.0,13.1,13.1.1,VC_DSR_DAFF,2019.0,39.78488
+3412,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2012.0,1198.0
+3413,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2013.0,3410.0
+3414,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2014.0,2104.0
+3415,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2015.0,370.0
+3416,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2016.0,2675.0
+3417,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2017.0,1042.0
+3418,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2018.0,21083.0
+3419,VC_DSR_IJILN                         ,13.0,13.1,13.1.1,VC_DSR_IJILN,2019.0,3421.0
+3420,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2012.0,216870.0
+3421,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2013.0,359955.0
+3422,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2014.0,177085.0
+3423,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2015.0,101575.0
+3424,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2016.0,193845.0
+3425,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2017.0,196395.0
+3426,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2018.0,848260.0
+3427,VC_DSR_PDAN                         ,13.0,13.1,13.1.1,VC_DSR_PDAN,2019.0,57910.0
+3428,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2012.0,53430.0
+3429,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2013.0,88635.0
+3430,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2014.0,100395.0
+3431,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2015.0,26085.0
+3432,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2016.0,45145.0
+3433,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2017.0,52260.0
+3434,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2018.0,752565.0
+3435,VC_DSR_PDYN                         ,13.0,13.1,13.1.1,VC_DSR_PDYN,2019.0,15813.0
+3436,VC_DSR_PDLN                         ,13.0,13.1,13.1.1,VC_DSR_PDLN,2018.0,9472983.0
+3437,VC_DSR_PDLN                         ,13.0,13.1,13.1.1,VC_DSR_PDLN,2019.0,29509.15
+3438,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2012.0,0.0
+3439,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2013.0,0.0
+3440,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2014.0,0.0
+3441,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2015.0,0.0
+3442,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2016.0,0.0
+3443,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2017.0,0.0
+3444,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2018.0,0.0
+3445,SG_DSR_LGRGSR                         ,13.0,13.1,13.1.2,SG_DSR_LGRGSR,2019.0,0.825
+3446,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2012.0,0.0642
+3447,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2013.0,0.054470000000000005
+3448,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2016.0,0.02918
+3449,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2017.0,0.08755
+3450,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2018.0,0.05058
+3451,SG_DSR_SILS                         ,13.0,13.1,13.1.3,SG_DSR_SILS,2019.0,0.017509999999999998
+3452,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2012.0,33.0
+3453,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2013.0,28.0
+3454,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2016.0,15.0
+3455,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2017.0,45.0
+3456,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2018.0,26.0
+3457,SG_DSR_SILN                         ,13.0,13.1,13.1.3,SG_DSR_SILN,2019.0,9.0
+3458,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2012.0,514.0
+3459,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2013.0,514.0
+3460,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2014.0,514.0
+3461,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2015.0,514.0
+3462,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2016.0,514.0
+3463,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2017.0,514.0
+3464,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2018.0,514.0
+3465,SG_GOV_LOGV                         ,13.0,13.1,13.1.3,SG_GOV_LOGV,2019.0,514.0
+3466,SE_GCEDESD_NEP                         ,13.0,13.3,13.3.1,SE_GCEDESD_NEP,2020.0,
+3467,SE_GCEDESD_CUR                         ,13.0,13.3,13.3.1,SE_GCEDESD_CUR,2020.0,
+3468,SE_GCEDESD_TED                         ,13.0,13.3,13.3.1,SE_GCEDESD_TED,2020.0,
+3469,SE_GCEDESD_SAS                         ,13.0,13.3,13.3.1,SE_GCEDESD_SAS,2020.0,
+3470,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2012.0,1.87
+3471,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2013.0,1.36
+3472,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2014.0,1.4
+3473,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2015.0,2.8
+3474,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2016.0,0.84
+3475,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2017.0,1.98
+3476,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2018.0,1.27
+3477,EN_MAR_CHLDEV                         ,14.0,14.1,14.1.1,EN_MAR_CHLDEV,2019.0,4.68
+3478,EN_MAR_CHLANM                    Moderate     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2018.0,2.32405
+3479,EN_MAR_CHLANM                    High     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2018.0,1.36289
+3480,EN_MAR_CHLANM                    High     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2019.0,1.9746599999999999
+3481,EN_MAR_CHLANM                    Moderate     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2019.0,2.89171
+3482,EN_MAR_CHLANM                    Moderate     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2020.0,1.9848599999999998
+3483,EN_MAR_CHLANM                    High     ,14.0,14.1,14.1.1,EN_MAR_CHLANM,2020.0,1.2041600000000001
+3484,EN_MAR_BEALITSQ                         ,14.0,14.1,14.1.1,EN_MAR_BEALITSQ,2016.0,2090664.0
+3485,EN_MAR_BEALITSQ                         ,14.0,14.1,14.1.1,EN_MAR_BEALITSQ,2017.0,1539911.0
+3486,EN_MAR_BEALITSQ                         ,14.0,14.1,14.1.1,EN_MAR_BEALITSQ,2018.0,508551.0
+3487,ER_H2O_FWTL                         ,14.0,14.4,14.4.1,ER_H2O_FWTL,2018.0,64.0
+3488,ER_MRN_MARINT              A           ,14.0,14.5,14.5.1,ER_MRN_MARINT,2020.0,181864.6695
+3489,ER_MRN_MARIN              A           ,14.0,14.5,14.5.1,ER_MRN_MARIN,2020.0,3.06
+3501,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2012.0,
+3502,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2013.0,0.5172899999999999
+3503,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2014.0,
+3504,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2015.0,0.56313
+3505,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2016.0,
+3506,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2017.0,0.5313899999999999
+3507,EN_SCP_FSHGDP                         ,14.0,14.7,14.7.1,EN_SCP_FSHGDP,2018.0,0.51008
+3508,ER_REG_SSFRAR              A           ,14.0,14.b,14.b.1,ER_REG_SSFRAR,2018.0,5.0
+3509,ER_REG_SSFRAR              O           ,14.0,14.b,14.b.1,ER_REG_SSFRAR,2020.0,
+3510,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2015.0,187751.9
+3511,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2016.0,187751.9
+3512,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2017.0,187751.9
+3513,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2018.0,187751.9
+3514,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2019.0,187751.9
+3515,AG_LND_TOTL                         ,15.0,15.1,15.1.1,AG_LND_TOTL,2020.0,187751.9
+3516,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2015.0,95027.9
+3517,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2016.0,95271.8
+3518,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2017.0,93949.8
+3519,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2018.0,93344.27
+3520,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2019.0,92738.73
+3521,AG_LND_FRSTN                         ,15.0,15.1,15.1.1,AG_LND_FRSTN,2020.0,92133.2
+3522,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2015.0,50.61355
+3523,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2016.0,50.74345
+3524,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2017.0,50.03933
+3525,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2018.0,49.71682
+3526,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2019.0,49.3943
+3527,AG_LND_FRST                         ,15.0,15.1,15.1.1,AG_LND_FRST,2020.0,49.07178
+3546,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2015.0,178.95
+3547,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2016.0,178.89
+3548,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2017.0,178.95
+3549,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2018.0,178.95
+3550,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2019.0,178.95
+3551,AG_LND_FRSTBIOPHA                         ,15.0,15.2,15.2.1,AG_LND_FRSTBIOPHA,2020.0,178.95
+3552,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2015.0,2756.0409999999997
+3553,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2016.0,4527.564
+3554,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2017.0,6251.340999999999
+3555,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2018.0,6786.685
+3556,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2019.0,6726.871
+3557,AG_LND_FRSTCERT                         ,15.0,15.2,15.2.1,AG_LND_FRSTCERT,2020.0,7083.647
+3558,AG_LND_FRSTCHG                         ,15.0,15.2,15.2.1,AG_LND_FRSTCHG,2020.0,-0.78
+3559,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2015.0,23.27
+3560,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2016.0,23.27
+3561,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2017.0,23.27
+3562,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2018.0,23.27
+3563,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2019.0,23.27
+3564,AG_LND_FRSTMGT                         ,15.0,15.2,15.2.1,AG_LND_FRSTMGT,2020.0,23.27
+3565,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2015.0,54.49
+3566,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2016.0,54.5
+3567,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2017.0,54.48
+3568,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2018.0,54.48
+3569,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2019.0,54.48
+3570,AG_LND_FRSTPRCT                         ,15.0,15.2,15.2.1,AG_LND_FRSTPRCT,2020.0,54.48
+3571,AG_LND_DGRD                         ,15.0,15.3,15.3.1,AG_LND_DGRD,2015.0,21.0
+3572,ER_MTN_GRNCVI   2           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,96.98427
+3573,ER_MTN_GRNCVI   1           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,100.0
+3574,ER_MTN_GRNCVI   6           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,98.6511
+3575,ER_MTN_GRNCVI   ALL           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,98.84477
+3576,ER_MTN_GRNCVI   3           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,99.65789000000001
+3577,ER_MTN_GRNCVI   4           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,99.3377
+3578,ER_MTN_GRNCVI   5           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2015.0,99.24519000000001
+3579,ER_MTN_GRNCVI   4           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,99.29066999999999
+3580,ER_MTN_GRNCVI   3           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,99.6424
+3581,ER_MTN_GRNCVI   2           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,96.98427
+3582,ER_MTN_GRNCVI   6           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,98.6226
+3583,ER_MTN_GRNCVI   5           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,99.22033
+3584,ER_MTN_GRNCVI   ALL           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,98.81559
+3585,ER_MTN_GRNCVI   1           A           ,15.0,15.4,15.4.2,ER_MTN_GRNCVI,2018.0,100.0
+3595,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2012.0,0.79323
+3596,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2013.0,0.78855
+3597,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2014.0,0.78485
+3598,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2015.0,0.78061
+3599,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2016.0,0.77608
+3600,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2017.0,0.77231
+3601,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2018.0,0.7688699999999999
+3602,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2019.0,0.76517
+3603,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2020.0,0.75993
+3604,ER_RSK_LST                         ,15.0,15.5,15.5.1,ER_RSK_LST,2021.0,0.75634
+3605,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2012.0,91.0
+3606,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2013.0,112.0
+3607,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2014.0,145.0
+3608,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2015.0,166.0
+3609,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2016.0,183.0
+3610,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2017.0,208.0
+3611,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2018.0,220.0
+3612,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2019.0,223.0
+3613,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2020.0,226.0
+3614,ER_CBD_SMTA                         ,15.0,15.6,15.6.1,ER_CBD_SMTA,2021.0,226.0
+3615,ER_CBD_NAGOYA                         ,15.0,15.6,15.6.1,ER_CBD_NAGOYA,2012.0,1.0
+3616,ER_CBD_ABSCLRHS                         ,15.0,15.6,15.6.1,ER_CBD_ABSCLRHS,2012.0,0.0
+3617,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2016.0,0.0
+3618,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2017.0,0.0
+3619,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2018.0,0.0
+3620,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2019.0,1.0
+3621,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2020.0,1.0
+3622,ER_CBD_ORSPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_ORSPGRFA,2021.0,1.0
+3623,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2012.0,1.0
+3624,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2013.0,1.0
+3625,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2014.0,1.0
+3626,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2015.0,1.0
+3627,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2016.0,1.0
+3628,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2017.0,1.0
+3629,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2018.0,1.0
+3630,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2019.0,1.0
+3631,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2020.0,1.0
+3632,ER_CBD_PTYPGRFA                         ,15.0,15.6,15.6.1,ER_CBD_PTYPGRFA,2021.0,1.0
+3633,ER_IAS_LEGIS                         ,15.0,15.8,15.8.1,ER_IAS_LEGIS,2016.0,1.0
+3634,ER_IAS_LEGIS                         ,15.0,15.8,15.8.1,ER_IAS_LEGIS,2020.0,1.0
+3635,ER_IAS_NBSAP                         ,15.0,15.8,15.8.1,ER_IAS_NBSAP,2016.0,0.0
+3636,ER_IAS_NBSAP                         ,15.0,15.8,15.8.1,ER_IAS_NBSAP,2020.0,1.0
+3637,ER_IAS_NATBUD                         ,15.0,15.8,15.8.1,ER_IAS_NATBUD,2020.0,1.0
+3638,ER_IAS_GLOFUN                         ,15.0,15.8,15.8.1,ER_IAS_GLOFUN,2020.0,0.0
+3639,ER_BDY_ABT2NP                 ABT2ACHIEVE        ,15.0,15.9,15.9.1,ER_BDY_ABT2NP,2020.0,1.0
+3640,ER_BDY_SEEA                 LS_COMPDISSE        ,15.0,15.9,15.9.1,ER_BDY_SEEA,2020.0,1.0
+3655,VC_SNS_WALN BOTHSEX                        ,16.0,16.1,16.1.4,VC_SNS_WALN,2017.0,0.53
+3656,SG_INF_ACCSS                         ,16.0,16.10,16.10.2,SG_INF_ACCSS,2021.0,2008.0
+3661,VC_PRS_UNSNT                         ,16.0,16.3,16.3.2,VC_PRS_UNSNT,2015.0,35.0
+3662,VC_PRS_UNSNT                         ,16.0,16.3,16.3.2,VC_PRS_UNSNT,2018.0,30.7
+3663,IC_FRM_BRIB                         ,16.0,16.5,16.5.2,IC_FRM_BRIB,2015.0,30.62
+3664,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2012.0,103.9015
+3665,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2013.0,98.0721
+3666,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2014.0,96.4552
+3667,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2015.0,88.5771
+3668,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2016.0,88.9529
+3669,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2017.0,96.4864
+3670,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2018.0,99.6605
+3671,GF_XPD_GBPC                         ,16.0,16.6,16.6.1,GF_XPD_GBPC,2019.0,93.8685
+3672,SG_DMK_PARLMP_LC                         ,16.0,16.7,16.7.1,SG_DMK_PARLMP_LC,2021.0,0.41941999999999996
+3678,SG_DMK_PARLYR_LC                  <=45Y       ,16.0,16.7,16.7.1,SG_DMK_PARLYR_LC,2021.0,0.44282
+3679,SG_DMK_PARLYP_LC                  <=45Y       ,16.0,16.7,16.7.1,SG_DMK_PARLYP_LC,2021.0,26.26
+3680,SG_DMK_PARLYN_LC                  <=45Y       ,16.0,16.7,16.7.1,SG_DMK_PARLYN_LC,2021.0,151.0
+3765,SG_REG_BRTH                  <5Y       ,16.0,16.9,16.9.1,SG_REG_BRTH,2019.0,74.4
+3766,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2015.0,1.0
+3767,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2016.0,1.0
+3768,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2017.0,1.0
+3769,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2018.0,1.0
+3770,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2019.0,1.0
+3771,SG_NHR_IMPLN                         ,16.0,16.a,16.a.1,SG_NHR_IMPLN,2020.0,1.0
+3772,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2012.0,17.0833389190634
+3773,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2013.0,16.8520575973478
+3774,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2014.0,16.7663930350318
+3775,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2015.0,15.1136995349544
+3776,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2016.0,14.4527857965904
+3777,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2017.0,14.315428822721
+3778,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2018.0,14.774454549479598
+3779,GR_G14_GDP              A           ,17.0,17.1,17.1.1,GR_G14_GDP,2019.0,14.268394152099098
+3788,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2012.0,1471850000.0
+3789,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2013.0,1608720000.0
+3790,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2014.0,1772158333.24259
+3791,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2015.0,1742055306.7909
+3792,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2016.0,1792395255.1797
+3793,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2017.0,1945441825.21534
+3794,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2018.0,2192279588.4777102
+3795,GR_G14_XDC              A           ,17.0,17.1,17.1.1,GR_G14_XDC,2019.0,2259249454.13228
+3978,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2012.0,12.2371
+3979,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2013.0,12.4665
+3980,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2014.0,12.7618
+3981,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2015.0,13.6059
+3982,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2016.0,14.4057
+3983,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2017.0,15.2177
+3984,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2018.0,15.1153
+3985,FB_BNK_CAPA_ZS                         ,17.0,17.13,17.13.1,FB_BNK_CAPA_ZS,2019.0,15.6323
+3986,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2012.0,14.955
+3987,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2013.0,12.7797
+3988,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2014.0,11.8795
+3989,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2015.0,8.997
+3990,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2016.0,10.0285
+3991,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2017.0,8.2755
+3992,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2018.0,6.2903
+3993,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2019.0,6.5365
+3994,FM_LBL_BMNY_ZG                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_ZG,2020.0,12.4418
+3995,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2012.0,3.1239
+3996,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2013.0,3.5877
+3997,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2014.0,3.1443
+3998,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2015.0,3.2072
+3999,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2016.0,3.2318
+4000,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2017.0,3.1102
+4001,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2018.0,3.3531
+4002,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2019.0,3.3575
+4003,FM_LBL_BMNY_IR_ZS                         ,17.0,17.13,17.13.1,FM_LBL_BMNY_IR_ZS,2020.0,3.4814
+4004,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2012.0,-2.6603
+4005,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2013.0,-3.19
+4006,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2014.0,-3.0882
+4007,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2015.0,-2.035
+4008,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2016.0,-1.8192
+4009,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2017.0,-1.5947
+4010,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2018.0,-2.9391
+4011,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2019.0,-2.7057
+4012,BN_CAB_XOKA_GD_ZS                         ,17.0,17.13,17.13.1,BN_CAB_XOKA_GD_ZS,2020.0,-0.4102
+4013,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2012.0,1.6087
+4014,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2013.0,4.167
+4015,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2014.0,1.0746
+4016,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2015.0,-2.1202
+4017,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2016.0,-1.6605
+4018,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2017.0,8.8973
+4019,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2018.0,6.5141
+4020,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2019.0,-0.8623
+4021,NE_EXP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_EXP_GNFS_KD_ZG,2020.0,-7.7047
+4022,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2012.0,28.3222
+4023,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2013.0,29.7818
+4024,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2014.0,33.9818
+4025,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2015.0,36.9758
+4026,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2016.0,35.3577
+4027,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2017.0,35.9518
+4028,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2018.0,37.4983
+4029,DT_DOD_DECT_GN_ZS                         ,17.0,17.13,17.13.1,DT_DOD_DECT_GN_ZS,2019.0,37.0342
+4030,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2012.0,2.3098
+4031,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2013.0,2.5514
+4032,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2014.0,2.82
+4033,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2015.0,2.2976
+4034,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2016.0,0.4874
+4035,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2017.0,2.0195
+4036,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2018.0,1.8143
+4037,BX_KLT_DINV_WD_GD_ZS                         ,17.0,17.13,17.13.1,BX_KLT_DINV_WD_GD_ZS,2019.0,2.2334
+4038,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2012.0,6.0301
+4039,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2013.0,5.5573
+4040,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2014.0,5.0067
+4041,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2015.0,4.8763
+4042,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2016.0,5.0331
+4043,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2017.0,5.0698
+4044,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2018.0,5.1743
+4045,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2019.0,5.0182
+4046,NY_GDP_MKTP_KD_ZG                         ,17.0,17.13,17.13.1,NY_GDP_MKTP_KD_ZG,2020.0,-2.0695
+4047,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2012.0,4.5267
+4048,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2013.0,6.7456
+4049,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2014.0,1.1639
+4050,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2015.0,5.3125
+4051,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2016.0,-0.141
+4052,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2017.0,2.1247
+4053,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2018.0,4.8207
+4054,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2019.0,3.264
+4055,NE_CON_GOVT_KD_ZG                         ,17.0,17.13,17.13.1,NE_CON_GOVT_KD_ZG,2020.0,1.9426
+4056,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2012.0,10.9812
+4057,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2013.0,2.8468
+4058,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2014.0,5.658
+4059,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2015.0,3.0023
+4060,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2016.0,4.9858
+4061,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2017.0,5.6902
+4062,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2018.0,8.5239
+4063,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2019.0,2.3598
+4064,NE_GDI_TOTL_KD_ZG                         ,17.0,17.13,17.13.1,NE_GDI_TOTL_KD_ZG,2020.0,-6.8832
+4065,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2012.0,7.9984
+4066,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2013.0,1.8619
+4067,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2014.0,2.1197
+4068,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2015.0,-6.249
+4069,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2016.0,-2.4051
+4070,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2017.0,8.0679
+4071,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2018.0,12.136
+4072,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2019.0,-7.3943
+4073,NE_IMP_GNFS_KD_ZG                         ,17.0,17.13,17.13.1,NE_IMP_GNFS_KD_ZG,2020.0,-14.7125
+4074,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2012.0,4.2795
+4075,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2013.0,6.4125
+4076,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2014.0,6.3949
+4077,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2015.0,6.3631
+4078,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2016.0,3.5258
+4079,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2017.0,3.8088
+4080,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2018.0,3.1983
+4081,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2019.0,3.0306
+4082,FP_CPI_TOTL_ZG                         ,17.0,17.13,17.13.1,FP_CPI_TOTL_ZG,2020.0,1.921
+4083,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2012.0,41.5879
+4084,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2013.0,40.4571
+4085,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2014.0,39.7919
+4086,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2015.0,34.043
+4087,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2016.0,30.0622
+4088,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2017.0,32.0727
+4089,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2018.0,35.396
+4090,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2019.0,30.2888
+4091,TG_VAL_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,TG_VAL_TOTL_GD_ZS,2020.0,28.8096
+4092,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2012.0,-9908345747.7812
+4093,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2013.0,-10872605550.4642
+4094,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2014.0,-26066630211.5518
+4095,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2015.0,-16182680883.3028
+4096,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2016.0,-18995589856.8672
+4097,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2017.0,-21059012442.533
+4098,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2018.0,-9311908007.4585
+4099,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2019.0,-21990288572.0419
+4100,BN_KLT_PTXL_CD                         ,17.0,17.13,17.13.1,BN_KLT_PTXL_CD,2020.0,-3367921566.9224
+4101,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2012.0,11.3806
+4102,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2013.0,11.2853
+4103,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2014.0,10.8355
+4104,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2015.0,10.7535
+4105,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2016.0,10.3363
+4106,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2017.0,9.8773
+4107,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2018.0,10.2301
+4108,GC_TAX_TOTL_GD_ZS                         ,17.0,17.13,17.13.1,GC_TAX_TOTL_GD_ZS,2019.0,9.752
+4109,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2012.0,5.5894
+4110,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2013.0,4.9503
+4111,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2014.0,5.7443
+4112,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2015.0,6.4462
+4113,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2016.0,7.2259
+4114,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2017.0,7.0872
+4115,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2018.0,5.5956
+4116,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2019.0,6.3178
+4117,FI_RES_TOTL_MO                         ,17.0,17.13,17.13.1,FI_RES_TOTL_MO,2020.0,8.4177
+4118,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2012.0,22.4465
+4119,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2013.0,23.6709
+4120,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2014.0,23.9137
+4121,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2015.0,26.2852
+4122,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2016.0,26.9875
+4123,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2017.0,28.0676
+4124,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2018.0,29.2789
+4125,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2019.0,29.7107
+4126,DP_DOD_DLD2_CR_CG_Z1                         ,17.0,17.13,17.13.1,DP_DOD_DLD2_CR_CG_Z1,2020.0,38.6702
+4127,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2012.0,4578.0
+4128,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2013.0,2076.7
+4129,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2014.0,1690.5
+4130,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2015.0,210.0
+4131,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2016.0,8734.8
+4132,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2017.0,15381.99
+4133,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2018.0,6638.15
+4134,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2019.0,372.38
+4135,GF_COM_PPPI                         ,17.0,17.17,17.17.1,GF_COM_PPPI,2020.0,67273.92
+4136,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2012.0,5097.6946
+4137,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2013.0,2279.0626
+4138,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2014.0,1825.6139
+4139,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2015.0,226.5156
+4140,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2016.0,9304.3733
+4141,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2017.0,16043.2701
+4142,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2018.0,6758.4471
+4143,GF_COM_PPPI_KD                         ,17.0,17.17,17.17.1,GF_COM_PPPI_KD,2019.0,372.38
+4144,SG_STT_NSDSFDGVT                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDGVT,2019.0,1.0
+4145,SG_STT_NSDSFDGVT                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDGVT,2020.0,
+4146,SG_STT_FPOS                         ,17.0,17.18,17.18.2,SG_STT_FPOS,2019.0,1.0
+4147,SG_STT_FPOS                         ,17.0,17.18,17.18.2,SG_STT_FPOS,2020.0,1.0
+4148,SG_STT_NSDSFDDNR                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDDNR,2019.0,
+4149,SG_STT_NSDSFDDNR                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDDNR,2020.0,
+4150,SG_STT_NSDSFDOTHR                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDOTHR,2019.0,
+4151,SG_STT_NSDSFDOTHR                         ,17.0,17.18,17.18.3,SG_STT_NSDSFDOTHR,2020.0,
+4152,SG_STT_NSDSIMPL                         ,17.0,17.18,17.18.3,SG_STT_NSDSIMPL,2019.0,0.0
+4153,SG_STT_NSDSIMPL                         ,17.0,17.18,17.18.3,SG_STT_NSDSIMPL,2020.0,0.0
+4154,SG_STT_NSDSFND                         ,17.0,17.18,17.18.3,SG_STT_NSDSFND,2019.0,0.0
+4155,SG_STT_NSDSFND                         ,17.0,17.18,17.18.3,SG_STT_NSDSFND,2020.0,0.0
+4156,SG_STT_CAPTY                         ,17.0,17.19,17.19.1,SG_STT_CAPTY,2018.0,782839.14
+4157,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2012.0,0.7858
+4158,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2013.0,0.8344
+4159,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2014.0,0.9599
+4160,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2015.0,1.122
+4161,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2016.0,0.9558
+4162,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2017.0,0.8851
+4163,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2018.0,1.076
+4164,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2019.0,1.0425
+4165,BX_TRF_PWKR                         ,17.0,17.3,17.3.2,BX_TRF_PWKR,2020.0,0.9118
+4166,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2012.0,19137.87
+4167,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2013.0,18816.66
+4168,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2014.0,21810.52
+4169,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2015.0,16641.45
+4170,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2016.0,3921.23
+4171,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2017.0,20579.23
+4172,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2018.0,20563.47
+4173,GF_FRN_FDI                         ,17.0,17.3,17.3.1,GF_FRN_FDI,2019.0,23429.03
+4174,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2012.0,4.6137
+4175,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2013.0,5.5799
+4176,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2014.0,14.1069
+4177,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2015.0,8.1693
+4178,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2016.0,9.3051
+4179,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2017.0,9.1826
+4180,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2018.0,7.8576
+4181,DT_TDS_DECT                         ,17.0,17.4,17.4.1,DT_TDS_DECT,2019.0,10.191
+4216,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2012.0,14.52
+4217,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2013.0,14.94
+4218,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2014.0,17.14
+4219,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2015.0,22.062739999999998
+4220,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2016.0,25.44735
+4221,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2017.0,32.335809999999995
+4222,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2018.0,39.90464
+4223,IT_USE_ii99                         ,17.0,17.8,17.8.1,IT_USE_ii99,2019.0,47.69065
+4224,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2012.0,933.5716
+4225,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2013.0,1027.76824
+4226,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2014.0,439.25557000000003
+4227,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2015.0,3409.18378
+4228,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2016.0,1053.97416
+4229,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2017.0,1168.4915
+4230,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2018.0,2042.8055100000001
+4231,DC_FTA_TOTAL                         ,17.0,17.9,17.9.1,DC_FTA_TOTAL,2019.0,886.4735400000001
