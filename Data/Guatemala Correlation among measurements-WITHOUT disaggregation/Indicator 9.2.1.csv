@@ -1,0 +1,4 @@
+UniqueID,NV_IND_MANF                     ISIC4_C    ,NV_IND_MANFPC                     ISIC4_C    ,NV_IND_MANF_CD                     ISIC4_C    
+NV_IND_MANF                     ISIC4_C    ,1.0,-0.3222300383254699,0.8266377622181994
+NV_IND_MANFPC                     ISIC4_C    ,-0.3222300383254699,1.0,-0.8655385920953672
+NV_IND_MANF_CD                     ISIC4_C    ,0.8266377622181994,-0.8655385920953672,1.0

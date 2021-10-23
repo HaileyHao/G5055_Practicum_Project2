@@ -1,0 +1,4 @@
+UniqueID,SH_H2O_SAFE          ALLAREA               ,SH_H2O_SAFE          RURAL               ,SH_H2O_SAFE          URBAN               
+SH_H2O_SAFE          ALLAREA               ,1.0,0.921512225968107,0.9363821838346237
+SH_H2O_SAFE          RURAL               ,0.921512225968107,1.0,0.8660254037844387
+SH_H2O_SAFE          URBAN               ,0.9363821838346237,0.8660254037844387,1.0

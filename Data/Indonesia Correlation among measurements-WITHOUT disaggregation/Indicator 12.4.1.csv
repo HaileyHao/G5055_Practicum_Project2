@@ -1,0 +1,6 @@
+UniqueID,SG_HAZ_CMRBASEL                         ,SG_HAZ_CMRMNMT                         ,SG_HAZ_CMRMNTRL BOTHSEX        _T ALLAREA  ANNUAL ALP A isco08   ALLAGE _T  TOTAL  _T  ,SG_HAZ_CMRROTDAM                         ,SG_HAZ_CMRSTHOLM                         
+SG_HAZ_CMRBASEL                         ,1.0,,,-0.9999999999999998,-1.0
+SG_HAZ_CMRMNMT                         ,,,,,
+SG_HAZ_CMRMNTRL BOTHSEX        _T ALLAREA  ANNUAL ALP A isco08   ALLAGE _T  TOTAL  _T  ,,,,,
+SG_HAZ_CMRROTDAM                         ,-0.9999999999999998,,,1.0,1.0
+SG_HAZ_CMRSTHOLM                         ,-1.0,,,1.0,1.0

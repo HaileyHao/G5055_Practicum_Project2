@@ -1,0 +1,6 @@
+UniqueID,ER_CBD_ABSCLRHS                         ,ER_CBD_NAGOYA                         ,ER_CBD_ORSPGRFA                         ,ER_CBD_PTYPGRFA                         ,ER_CBD_SMTA                         
+ER_CBD_ABSCLRHS                         ,,,,,
+ER_CBD_NAGOYA                         ,,,,,
+ER_CBD_ORSPGRFA                         ,,,1.0,,0.6979649635834915
+ER_CBD_PTYPGRFA                         ,,,,,
+ER_CBD_SMTA                         ,,,0.6979649635834915,,1.0
