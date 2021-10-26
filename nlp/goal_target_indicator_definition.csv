@@ -118,8 +118,36 @@ per 100,000 population.
 "
 1.5.3,Goal 1. End poverty in all its forms everywhere,"1.5 By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",1.5.3 Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030,SDG-indicator-pdfs/Metadata-01-05-03.pdf,
 1.5.4,Goal 1. End poverty in all its forms everywhere,"1.5 By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",1.5.4 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,SDG-indicator-pdfs/Metadata-01-05-04.pdf,
-1.a.1,Goal 1. End poverty in all its forms everywhere,"1.a Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions",1.a.1 Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income,,
-1.a.2,Goal 1. End poverty in all its forms everywhere,"1.a Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions","1.a.2 Proportion of total government spending on essential services (education, health and social protection)",,
+1.a.1,Goal 1. End poverty in all its forms everywhere,"1.a Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions",1.a.1 Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income,SDG-indicator-pdfs/Metadata-01-0a-01.pdf," 
+Total official development assistance (ODA) grants from all donors that focus on poverty reduction as a 
+share of the recipient country’s gross national income.  
+ 
+The OECD/Development Assistance Committee (DAC) defines ODA as “flows to countries and territories 
+on the DAC List of ODA Recipients and to multilateral institutions which are i)  provided by official 
+agencies, including state and local governments, or by their executive agencies; and ii)  each transaction  
+is administered with the promotion of the economic development and welfare of developing countries as 
+its main objective; and is concessional in character and conveys a grant element of at least 25 per cent 
+(calculated at a rate of discount of 10 per cent). (See 
+http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm). 
+ 
+Poverty reduction items can be defined as ODA to basic social services (basic health, basic education, 
+basic water and sanitation, population programmes and reproductive health) and developmental food 
+aid (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm). 
+ 
+Rationale: 
+ 
+Total ODA flows to developing countries quantify the public effort (excluding non- concessional flows and 
+export credits), that all donors provide for the economic development and welfare of developing 
+countries.  Within ODA, basic social services and development food aid focus on poverty alleviation in 
+developing countries. 
+ 
+"
+1.a.2,Goal 1. End poverty in all its forms everywhere,"1.a Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions","1.a.2 Proportion of total government spending on essential services (education, health and social protection)",SDG-indicator-pdfs/Metadata-01-0a-02.pdf,"Total general (local, regional and central) government expenditure on education (current, capital, and 
+transfers), expressed as a percentage of total general government expenditure on all sectors (including 
+health, education, social services, etc.). It includes expenditure funded by transfers from international 
+sources to the government. 
+ 
+"
 1.b.1,Goal 1. End poverty in all its forms everywhere,"1.b Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions",1.b.1 Pro-poor public social spending,SDG-indicator-pdfs/Metadata-01-0b-01.pdf,"Proportion of government spending towards health and education and direct transfers which benefit 
 directly the monetary poor. Government spending measures public expenditures on health and 
 education services. Direct transfers refer to cash transfers and near-cash transfers. The definition of the 
@@ -316,10 +344,34 @@ classified as being at risk of extinctions at a certain moment in time, as well 
 percentage. 
  
 "
-2.a.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.a Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",2.a.1 The agriculture orientation index for government expenditures,,
-2.a.2,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.a Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",2.a.2 Total official flows (official development assistance plus other official flows) to the agriculture sector,,
-2.b.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.b Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round",2.b.1 Agricultural export subsidies,,
-2.c.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.c Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility",2.c.1 Indicator of food price anomalies,,
+2.a.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.a Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",2.a.1 The agriculture orientation index for government expenditures,SDG-indicator-pdfs/Metadata-02-0A-01.pdf," 
+The Agriculture Orientation Index (AOI) for Government Expenditures is defined as the Agriculture share 
+of Government Expenditure, divided by the Agriculture value added share of GDP, where Agriculture 
+refers to the agriculture, forestry, fishing and hunting sector. The measure is a currency-free index, 
+calculated as the ratio of these two shares. National governments are requested to compile Government 
+Expenditures according to the Government Finance Statistics (GFS) and the Classification of the Functions 
+of Government (COFOG), and Agriculture value added share of GDP according to the System of National 
+Accounts (SNA). 
+Last updated: March 2021 
+ 
+"
+2.a.2,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.a Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",2.a.2 Total official flows (official development assistance plus other official flows) to the agriculture sector,SDG-indicator-pdfs/Metadata-02-0A-02.pdf," 
+Gross disbursements of total ODA and other official flows from all donors to the agriculture sector. 
+ 
+Rationale: 
+ 
+Total ODA and OOF flows to developing countries quantify the public effort (excluding export credits) 
+that donors provide to developing countries for agriculture. 
+ 
+"
+2.b.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.b Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round",2.b.1 Agricultural export subsidies,SDG-indicator-pdfs/Metadata-02-0B-01.pdf,
+2.c.1,"Goal 2. End hunger, achieve food security and improved nutrition and promote sustainable agriculture","2.c Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility",2.c.1 Indicator of food price anomalies,SDG-indicator-pdfs/Metadata-02-0C-01.pdf,"The indicator of food price anomalies (IFPA) identifies market prices that are abnormally high. The IFPA 
+relies on a weighted compound growth rate that accounts for both within year and across year price 
+growth. The indicator directly evaluates growth in prices over a particular month over many years, taking 
+into account seasonality in agricultural markets and inflation, allowing to answer the question of whether 
+or not a change in price is abnormal for any particular period. 
+ 
+"
 3.1.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.1 By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",3.1.1 Maternal mortality ratio,SDG-indicator-pdfs/Metadata-03-01-01.pdf," 
 The maternal mortality ratio (MMR) is defined as the number of maternal deaths during a given time 
 period per 100,000 live births during the same time period. It depicts the risk of maternal death 
@@ -582,7 +634,24 @@ unintentional poisonings in a year, divided by the population, and multiplied by
   
   
 "
-3.a.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.a Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate",3.a.1 Age-standardized prevalence of current tobacco use among persons aged 15 years and older,,
+3.a.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.a Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate",3.a.1 Age-standardized prevalence of current tobacco use among persons aged 15 years and older,SDG-indicator-pdfs/Metadata-03-0a-01.pdf,"
+The indicator is defined as the percentage of the population aged 15 years and over who currently use 
+any tobacco product (smoked and/or smokeless tobacco) on a daily or non-daily basis.  
+ 
+ 
+Rationale:  
+Tobacco use is a major contributor to illness and death from non-communicable diseases (NCDs). There is 
+no proven safe level of tobacco use or of second-hand smoke exposure.  All daily and non-daily users of 
+tobacco are at risk of a variety of poor health outcomes across the life-course, including NCDs. Reducing 
+the prevalence of current tobacco use will make a large contribution to reducing premature mortality 
+from NCDs (Target 3.4). Routine and regular monitoring of this indicator is necessary to enable accurate 
+monitoring and evaluation of the impact of implementation of the WHO Framework Convention on 
+Tobacco Control (WHO FCTC), or tobacco control policies in the countries that are not yet Parties to the 
+WHO FCTC, over time. Tobacco use prevalence levels are an appropriate indicator of implementation of 
+SDG Target 3.a “Strengthen the implementation of the World Health Organization Framework 
+Convention on Tobacco Control in all countries, as appropriate”. 
+ 
+"
 3.b.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.b Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",3.b.1 Proportion of the target population covered by all vaccines included in their national programme,SDG-indicator-pdfs/Metadata-03-0b-01.pdf,"Coverage of DTP containing vaccine (3rd dose): Percentage of surviving infants who received the 3 doses 
 of diphtheria and tetanus toxoid with pertussis containing vaccine in a given year. 
  
@@ -610,9 +679,62 @@ While countries will develop and strengthen immunization registries it is a need
 measurement.  
  
 "
-3.b.2,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.b Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",3.b.2 Total net official development assistance to medical research and basic health sectors,,
-3.b.3,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.b Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",3.b.3 Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis,,
-3.c.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.c Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States",3.c.1 Health worker density and distribution,,
+3.b.2,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.b Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",3.b.2 Total net official development assistance to medical research and basic health sectors,SDG-indicator-pdfs/Metadata-03-0B-02.pdf," 
+Gross disbursements of total ODA from all donors to medical research and basic health sectors. 
+ 
+Rationale: 
+ 
+Total ODA flows to developing countries quantify the public effort that donors provide to developing 
+countries for medical research and basic health. 
+ 
+"
+3.b.3,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.b Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",3.b.3 Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis,SDG-indicator-pdfs/Metadata-03-0B-03.pdf,"Proportion of health facilities that have a core set of relevant essential medicines available and 
+affordable on a sustainable basis. 
+The indicator is a multidimensional index reported as a proportion (%) of health facilities that have a 
+defined core set of quality-assured medicines that are available and affordable relative to the total 
+number of surveyed health facilities at national level. 
+ 
+Rationale: 
+Measurement and monitoring of access to essential medicines are of high priority for the global 
+development agenda given access is an integral part of the Universal Health Coverage movement 
+and an indispensable element of the delivery of quality health care. Access to medicines is a 
+composite multidimensional concept that is composed of the availability of medicines and the 
+affordability of their prices. Information on these two dimensions has been collected and analysed 
+since the 54th World Health Assembly in 2001, when Member States adopted the WHO Medicines 
+Strategy (resolution WHA54.11). This resolution led to the launch of the joint project on Medicine 
+Prices and Availability by WHO and the international non-governmental organization Health Action 
+International (HAI/WHO), as well as a proposed HAI/WHO methodology for collecting data and 
+measuring components of access to medicines. To this day, this methodology has been widely 
+implemented to produce useful analyses of availability and affordability of medicines, however the 
+two dimensions have been evaluated separately. 
+While the above approach has provided an overview of the countries’ performance and progress on 
+improving the affordability and availability of medicines, it has not allowed evaluation of overall 
+access to medicines. 
+This evaluation is in turn essential as country’s success in ensuring one of the dimensions (e.g. 
+availability) does not necessarily indicate the realization of the other (e.g. affordability) and vice 
+versa. For example, a country may focus its policy efforts on ensuring the availability of a core set of 
+essential medicines in the event of low capacity of local production and/or challenges associated 
+with geographic location. As a result of the proposed policies, medicines may become available but 
+Last updated: January 2019 
+ 
+2 
+ 
+their prices may not be affordable. The opposite situation is also possible, as lowering prices of 
+medicines to increase affordability may be too restrictive for some pharmaceutical producers and 
+lead to a decreased supply. Therefore, given the multidimensionality of access to medicines, it is 
+necessary to evaluate both affordability and availability of medicines at the same time. 
+The proposed methodology for indicator 3.b.3 allows the combination of both dimensions into a 
+single indicator to evaluate the availability and affordability of medicines simultaneously. This 
+methodology also allows for disaggregation so that each dimension can be analysed separately and 
+the main driver of poor performance of the overall index can be properly identified. 
+Monitoring the core set of relevant essential medicines is based on the WHO Model List of Essential 
+Medicines (EML). The 2017 WHO EML contains 433 medications deemed essential for addressing the 
+most important public health needs globally. The current index is computed based on a subset of 32 
+tracer essential medicines for the treatment, prevention and management of acute and chronic, 
+communicable and non-communicable diseases in a primary health care setting. 
+ 
+"
+3.c.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.c Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States",3.c.1 Health worker density and distribution,SDG-indicator-pdfs/Metadata-03-0C-01.pdf,
 3.d.1,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.d Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks",3.d.1 International Health Regulations (IHR) capacity and health emergency preparedness,SDG-indicator-pdfs/Metadata-03-0d-01.pdf,
 3.d.2,Goal 3. Ensure healthy lives and promote well-being for all at all ages,"3.d Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks",3.d.2 Percentage of bloodstream infections due to selected antimicrobial-resistant organisms,SDG-indicator-pdfs/Metadata-03-0d-02.pdf,
 4.1.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.1 By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes","4.1.1 Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",SDG-indicator-pdfs/Metadata-04-01-01.pdf,"Percentage of children and young people achieving at least a minimum proficiency level in (i) reading and 
@@ -677,9 +799,32 @@ respective geographic groups of UNESCO), as well as international partners, civi
 of the Education 2030 Steering Committee. The UNESCO Institute for Statistics acts as the Secretariat. 
  
 "
-4.a.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.a Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all","4.a.1 Proportion of schools offering basic services, by type of service",,
-4.b.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.b By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries",4.b.1 Volume of official development assistance flows for scholarships by sector and type of study,,
-4.c.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.c By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States","4.c.1 Proportion of teachers with the minimum required qualifications, by education level",,
+4.a.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.a Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all","4.a.1 Proportion of schools offering basic services, by type of service",SDG-indicator-pdfs/Metadata-04-0a-01.pdf,
+4.b.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.b By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries",4.b.1 Volume of official development assistance flows for scholarships by sector and type of study,SDG-indicator-pdfs/Metadata-04-0B-01.pdf," 
+Gross disbursements of total ODA from all donors for scholarships. 
+ 
+Rationale: 
+ 
+Total ODA flows to developing countries quantify the public effort that donors provide to developing 
+countries for scholarships. 
+ 
+"
+4.c.1,Goal 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all,"4.c By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States","4.c.1 Proportion of teachers with the minimum required qualifications, by education level",SDG-indicator-pdfs/Metadata-04-0C-01.pdf," 
+The percentage of teachers by level of education taught (pre-primary, primary, lower secondary and 
+upper secondary education) who have received at least the minimum organized pedagogical teacher 
+training pre-service and in-service required for teaching at the relevant level in a given country 
+ 
+Rationale: 
+ 
+Teachers play a key role in ensuring the quality of education provided. Ideally all teachers should receive 
+adequate, appropriate and relevant pedagogical training to teach at the chosen level of education and be 
+academically well-qualified in the subject(s) they are expected to teach. This indicator measures the 
+share of the teaching work force which is pedagogically well-trained.  
+ 
+A high value indicates that students are being taught by teachers who are pedagogically well-trained to 
+teach. 
+ 
+"
 5.1.1,Goal 5. Achieve gender equality and empower all women and girls,5.1 End all forms of discrimination against all women and girls everywhere,"5.1.1 Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex",SDG-indicator-pdfs/Metadata-05-01-01.pdf,
 5.2.1,Goal 5. Achieve gender equality and empower all women and girls,"5.2 Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation","5.2.1 Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",SDG-indicator-pdfs/Metadata-05-02-01.pdf,"This indicator measures the percentage of ever-partnered women and girls aged 15 years and older who 
 have experienced physical, sexual or psychological violence by a current or former intimate partner, in 
@@ -767,8 +912,29 @@ regulations.  Indicator 5.6.2 measures only the existence of laws and regulation
 their implementation.   
  
 "
-5.a.1,Goal 5. Achieve gender equality and empower all women and girls,"5.a Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws","5.a.1 (a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",,
-5.a.2,Goal 5. Achieve gender equality and empower all women and girls,"5.a Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",5.a.2 Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control,,
+5.a.1,Goal 5. Achieve gender equality and empower all women and girls,"5.a Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws","5.a.1 (a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",SDG-indicator-pdfs/Metadata-05-0a-01.pdf,
+5.a.2,Goal 5. Achieve gender equality and empower all women and girls,"5.a Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",5.a.2 Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control,SDG-indicator-pdfs/Metadata-05-0A-02.pdf,"Indicator 5.a.2 looks at the extent to which the legal framework (including customary law) guarantees 
+women’s equal rights to land ownership and/or control.  
+ 
+The indicator “measures” the level to which a country’s legal framework supports women’s land rights, 
+by testing that framework against six proxies drawn from international law and internationally accepted 
+good practices , in particular the Convention on the Elimination of Discrimination Against Women 
+(CEDAW) ratified by 189 countries, and the Voluntary Guidelines for the Responsible Governance of the 
+Tenure of Land Fisheries and Forestry (VGGT) endorsed unanimously by Committee of Food Security 
+(CFS) members in 2012. 
+ 
+Last updated: 10 February 2021  
+The six proxies through which indicator 5.a.2 is monitored are the following: 
+Proxy A:  Joint registration of land compulsory or encouraged through economic incentives 
+Proxy B:  Compulsory spousal consent for land transactions 
+Proxy C: Women’s and girls’ equal inheritance rights 
+Proxy D: Allocation of financial resources to increase women’s ownership and control over land 
+Proxy E: In legal systems that recognise customary land tenure, existence of explicit protection of the 
+land rights of women 
+Proxy F: Mandatory quotas for women’s participation in land management and administration 
+institutions 
+ 
+"
 5.b.1,Goal 5. Achieve gender equality and empower all women and girls,"5.b Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women","5.b.1 Proportion of individuals who own a mobile telephone, by sex",SDG-indicator-pdfs/Metadata-05-0b-01.pdf,"The proportion of individuals who own a mobile telephone, by sex is defined as the ‘proportion of 
 individuals who own a mobile telephone, by sex’. 
  
@@ -1054,8 +1220,52 @@ aquifers
  
  
 "
-6.a.1,Goal 6. Ensure availability and sustainable management of water and sanitation for all,"6.a By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies",6.a.1 Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,,
-6.b.1,Goal 6. Ensure availability and sustainable management of water and sanitation for all,6.b Support and strengthen the participation of local communities in improving water and sanitation management,6.b.1 Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,,
+6.a.1,Goal 6. Ensure availability and sustainable management of water and sanitation for all,"6.a By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies",6.a.1 Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,SDG-indicator-pdfs/Metadata-06-0A-01.pdf," 
+Amount of water- and sanitation-related official development assistance that is part of a government-
+coordinated spending plan is defined as the proportion of total water and sanitation-related Official 
+Development Assistance (ODA) disbursements that are included in the government budget. 
+ 
+Rationale: 
+ 
+The amount of water and sanitation-related Official Development Assistance (ODA) is a quantifiable 
+measurement as a proxy for “international cooperation and capacity development support” in financial 
+terms. It is essential to be able to assess ODA in proportion with how much of it is included in the 
+government budget to gain a better understanding of whether donors are aligned with national 
+governments while highlighting total water and sanitation ODA disbursements to developing countries 
+over time.  
+ 
+A low value of this indicator (near 0%) would suggest that international donors are investing in water and 
+sanitation related activities and programmes in the country outside the purview of the national 
+government. A high value (near 100%) would indicate that donors are aligned with national government 
+and national policies and plans for water and sanitation. 
+ 
+"
+6.b.1,Goal 6. Ensure availability and sustainable management of water and sanitation for all,6.b Support and strengthen the participation of local communities in improving water and sanitation management,6.b.1 Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,SDG-indicator-pdfs/Metadata-06-0B-01.pdf," 
+The indicator assesses the percentage of local administrative units (as defined by the national 
+government) that have an established and operational mechanism by which individuals and communities 
+can meaningfully contribute to decisions and directions about water and sanitation management. 
+ 
+The indicator Proportion of local administrative units with established and operational policies and 
+procedures for participation of local communities in water and sanitation management is currently being 
+measured by the Proportion of countries with clearly defined procedures in law or policy for participation 
+by service users/communities in planning program in water and sanitation management, and hygiene 
+promotion and the Proportion of countries with high level of users/communities participating in planning 
+programs in water and sanitation management, and hygiene promotion. 
+ 
+Rationale: 
+ 
+Defining the procedures in policy or law for the participation of local communities is vital to ensure the 
+needs of all the community are met, including the most vulnerable and also encourages ownership of 
+schemes which in turn contributes to their sustainability. 
+ 
+A low value of this indicator would suggest that participation of local communities in water and sanitation 
+management is low, whereas a high value would indicate high levels of participation, indicating greater 
+ownership and a higher likelihood of sustainable delivery and management of water and sanitation 
+services. 
+Last updated: 11 July 2017 
+ 
+ 
+"
 7.1.1,"Goal 7. Ensure access to affordable, reliable, sustainable and modern energy for all","7.1 By 2030, ensure universal access to affordable, reliable and modern energy services",7.1.1 Proportion of population with access to electricity,SDG-indicator-pdfs/Metadata-07-01-01.pdf,"Proportion of population with access to electricity is the percentage of population with access to electricity. 
 SDG7 ensures access to affordable, reliable, sustainable and modern energy for all. Specifically, Indicator 
 7.1.1 refers to the proportion of population with access to electricity. This is expressed in percentage 
@@ -1080,7 +1290,7 @@ that is derived from renewable resources.
 Energy intensity is defined as the energy supplied to the economy per unit value of economic output. 
  
 "
-7.a.1,"Goal 7. Ensure access to affordable, reliable, sustainable and modern energy for all","7.a By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology","7.a.1 International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",,
+7.a.1,"Goal 7. Ensure access to affordable, reliable, sustainable and modern energy for all","7.a By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology","7.a.1 International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",SDG-indicator-pdfs/Metadata-07-0a-01.pdf,
 7.b.1,"Goal 7. Ensure access to affordable, reliable, sustainable and modern energy for all","7.b By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States and landlocked developing countries, in accordance with their respective programmes of support",7.b.1 Installed renewable energy-generating capacity in developing countries (in watts per capita),SDG-indicator-pdfs/Metadata-07-0b-01.pdf,"The indicator is defined as the installed capacity of power plants that generate electricity from renewable 
 energy sources divided by the total population of a country. Capacity is defined as the net maximum 
 electrical capacity installed at the year-end and renewable energy sources are as defined in the IRENA 
@@ -1157,7 +1367,16 @@ standard adopted by the UN Statistical Commission and elaborated by UNWTO, OECD 
 "
 8.10.,"Goal 8. Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all","8.10 Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all","8.10.1 (a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",,
 8.10.,"Goal 8. Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all","8.10 Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all",8.10.2 Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider,,
-8.a.1,"Goal 8. Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all","8.a Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-related Technical Assistance to Least Developed Countries",8.a.1 Aid for Trade commitments and disbursements,,
+8.a.1,"Goal 8. Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all","8.a Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-related Technical Assistance to Least Developed Countries",8.a.1 Aid for Trade commitments and disbursements,SDG-indicator-pdfs/Metadata-08-0A-01.pdf," 
+Aid for Trade commitments and disbursements is the gross disbursements and commitments of total 
+Official Development Assistance (ODA) from all donors for aid for trade. 
+ 
+Rationale: 
+ 
+Total Official Development Assistance (ODA) and Other Official Flows (OOF) to developing countries 
+quantify the public effort that donors provide to developing countries for aid for trade. 
+ 
+"
 8.b.1,"Goal 8. Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all","8.b By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization","8.b.1 Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",SDG-indicator-pdfs/Metadata-08-0b-01.pdf,
 9.1.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation","9.1 Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all",9.1.1 Proportion of the rural population who live within 2 km of an all-season road,SDG-indicator-pdfs/Metadata-09-01-01.pdf,"The indicator (commonly known as the Rural Access Index or RAI) measures the share of a country’s rural 
 population that lives within 2 km of an all-season road.  
@@ -1246,8 +1465,16 @@ The indicator is a direct measure of the number of research and development work
 people referred to in the target. 
  
 "
-9.a.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation","9.a Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and small island developing States",9.a.1 Total official international support (official development assistance plus other official flows) to infrastructure,,
-9.b.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation","9.b Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities",9.b.1 Proportion of medium and high-tech industry value added in total value added,,
+9.a.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation","9.a Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and small island developing States",9.a.1 Total official international support (official development assistance plus other official flows) to infrastructure,SDG-indicator-pdfs/Metadata-09-0A-01.pdf," 
+Gross disbursements of total ODA and other official flows from all donors in support of infrastructure. 
+ 
+Rationale: 
+ 
+Total ODA and OOF flows to developing countries quantify the public effort (excluding export credits) 
+that donors provide to developing countries for infrastructure. 
+ 
+"
+9.b.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation","9.b Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities",9.b.1 Proportion of medium and high-tech industry value added in total value added,SDG-indicator-pdfs/Metadata-09-0B-01.pdf,
 9.c.1,"Goal 9. Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",9.c Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020,"9.c.1 Proportion of population covered by a mobile network, by technology",SDG-indicator-pdfs/Metadata-09-0c-01.pdf,
 10.1.1,Goal 10. Reduce inequality within and among countries,"10.1 By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average",10.1.1 Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population,SDG-indicator-pdfs/Metadata-10-01-01.pdf,"The growth rate in the welfare aggregate of bottom 40% is computed as the annualized average growth 
 rate in per capita real consumption or income of the bottom 40% of the income distribution in a country 
@@ -1369,9 +1596,55 @@ situation.
 Population refers to total resident population in a given country in a given year. 
  
 "
-10.a.1,Goal 10. Reduce inequality within and among countries,"10.a Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements",10.a.1 Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff,,
-10.b.1,Goal 10. Reduce inequality within and among countries,"10.b Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes","10.b.1 Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",,
-10.c.1,Goal 10. Reduce inequality within and among countries,"10.c By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent",10.c.1 Remittance costs as a proportion of the amount remitted,,
+10.a.1,Goal 10. Reduce inequality within and among countries,"10.a Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements",10.a.1 Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff,SDG-indicator-pdfs/Metadata-10-0A-01.pdf," 
+Proportion of total number of tariff lines (in per cent) applied to products imported from least developed 
+countries and developing countries corresponding to a 0% tariff rate in HS chapter 01-97. 
+ 
+Rationale: 
+ 
+The calculation of this indicator will allow observing on how many products Developing countries and 
+LDCs will have free access to Developed countries markets. When compared to the tariff rates applied to 
+other countries, this indicator will allow assessing to which extent special and differential treatment has 
+been accorded in terms of import tariffs. The evolution of this indicator will indicate progress on the 
+phasing out of tariff rates on goods coming from Developing and LDCs. 
+ 
+"
+10.b.1,Goal 10. Reduce inequality within and among countries,"10.b Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes","10.b.1 Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",SDG-indicator-pdfs/Metadata-10-0B-01.pdf," 
+Total resource flows for development, by recipient and donor countries and type of flow comprises of 
+Official Development Assistance (ODA), other official flows (OOF) and private flows. 
+ 
+Rationale: 
+ 
+Total resource flows to developing countries quantify the overall expenditures that donors provide to 
+developing countries. 
+ 
+"
+10.c.1,Goal 10. Reduce inequality within and among countries,"10.c By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent",10.c.1 Remittance costs as a proportion of the amount remitted,SDG-indicator-pdfs/Metadata-10-0C-01.pdf,"The target includes two components. The first component is that transaction costs for migrant 
+remittances should be 3% or less by 2030. This transaction cost should be intended as “Global average 
+total cost of sending $200 (or equivalent in local sending currency) and expressed as % of amount 
+sent”. This indicator is readily available and published on a quarterly basis by the World Bank in the 
+Remittance Prices Worldwide database, which covers 365 country corridors, from 48 sending to 105 
+receiving countries. The second component is to eliminate corridor where cost is 5% or higher. This 
+should be intended in the sense that it should be possible for remittance senders to send money to the 
+beneficiary for an average cost of 5% or less of the amount sent. For this purpose, it should suffice that in 
+each corridor there are at least 3 services, meeting a defined set of service requirements (including 
+service quality, reach etc.), for which the average is 5% or less. 
+ 
+Rationale: 
+Data for these indicators have been collected by the World Bank through the Remittance Prices 
+Worldwide (RPW) database since 2008 for the purpose of monitoring the G8 / G20 target on reducing 
+remittance prices. Also known as the “5x5 objective”, this goal was adopted by the G8 in 2009, and it 
+refers to reduction of the global average total cost of migrant remittances by 5 percentage points in 5 
+years. To achieve this objective, the governments in both sending and receiving countries should consider 
+implementing reforms based upon the General Principles for International Remittances Services by the 
+World Bank/Committee on Payment and Settlement Systems (January 2007). This internationally agreed 
+framework has proven effective in helping reduce the cost of remittances and guiding actions to enhance 
+the efficiency of international remittances. The World Bank’s RPW database is the only global database 
+that monitors remittance prices across all regions of the world. RPW was launched by the World Bank in 
+September 2008, and is a key tool in monitoring the evolution of costs to the remitters and the 
+beneficiaries from sending and receiving money in major country corridors. 
+ 
+"
 11.1.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.1 By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums","11.1.1 Proportion of urban population living in slums, informal settlements or inadequate housing",SDG-indicator-pdfs/Metadata-11-01-01.pdf,
 11.2.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.2 By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons","11.2.1 Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",SDG-indicator-pdfs/Metadata-11-02-01.pdf,
 11.3.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.3 By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries",11.3.1 Ratio of land consumption rate to population growth rate,SDG-indicator-pdfs/Metadata-11-03-01.pdf,
@@ -1552,10 +1825,240 @@ lead to a lower participation of women in the workforce, especially in male-domi
 lower their income-generating capacity. 
  
 "
-11.a.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.a Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning",11.a.1 Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space,,
-11.b.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.b By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",11.b.1 Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030,,
-11.b.2,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.b By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",11.b.2 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,,
-,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.c Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials","No suitable replacement indicator was proposed. The global statistical community is encouraged to work to develop an indicator that could be proposed for the 2025 comprehensive review. See E/CN.3/2020/2, paragraph 23.",,
+11.a.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.a Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning",11.a.1 Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space,SDG-indicator-pdfs/Metadata-11-0a-01.pdf,"National Urban Policies and regional development plans:  
+A National Urban Policy (NUP) is defined as a coherent set of decisions or principle of actions derived through 
+a deliberate government led process of coordinating and rallying various actors for a common vision and goal 
+that will promote more transformative, productive, inclusive, and resilient urban development for the long 
+term1.  
+This standard definition is extended and adapted to country contexts and may include, where applicable terms 
+such as National Urban Plan, Framework, or Strategy as long as they are aligned with the above qualifiers.  
+Similarly, regional development plans follow the same definition, only applied at the subnational level.  
+ 
+NUP that responds to population dynamics:   
+This first qualifier examines to what extent the NUP addresses issues to do with population composition, 
+trends and projections in achieving development goals and targets.  
+- 
+Population composition includes size, geographic distribution and density, household size and 
+composition, mobility and migration, age and sex distribution and disaggregation, as specified in SDG 
+target 17.18  
+- 
+Trends are changes in composition of the population from over time  
+- 
+Projections are expected changes over time that the NUP needs to ensure that they are well addressed. 
+ 
+Key questions for the assessment:  
+- 
+To what extent are quality and timely data on urban and rural population composition, trends and 
+projections available for use in the development, implementation and monitoring of NUP or Regional 
+Development Plans (RDPs)?  
+- 
+To what extent do the strategies/interventions of the NUP and/or RDPs refer to population composition, 
+trends and projections over the timeframe of the plan?  
+ 
+Ensure balanced territorial development:   
+This second qualifier entails the promotion of a spatially coherent territory that includes a balanced system of 
+human settlements including cities and towns and including urban corridors; that addresses social, economic, 
+environmental and spatial disparities particularly considering the urban-rural continuum.  
+ 
+Key questions for the assessment:  
+                                                 
+1 UN-Habitat and Cities Alliance, 2014., The Evolution of National Urban Policy: A global overview 
+Last updated: 05 June 2020 
+ 
+- 
+To what extent does the national urban policy consider the need for balanced development of the 
+territory as a whole including the differentiated yet equivalent development of all types of settlements 
+including villages, cities and towns, including urban corridors?  
+- 
+To what extent are the linkages – social, economic, environmental and spatial – between urban, peri-
+urban and rural areas consider with the ultimate goal of strengthening the urban-rural continuum?  
+ 
+Increase local fiscal space:  
+Local fiscal space is understood as the sum of financial resources available for improved delivery of basic social 
+and economic services at the local level as a result of the budget and related decisions by governments at all 
+levels without any prejudice to the sustainability of a government’s financial position.  
+ 
+Key questions for the assessment:  
+- 
+To what extent has the policy made allowance for the provision of local financial resources to provide for 
+the implementation of the policy and for the delivery of essential basic social and economic services  
+- 
+To what extent has the policy assessed the status of human capacities required to effectively use financial 
+resources for the implementation of the policy and the delivery of essential basic social and economic 
+services?  
+ 
+Developing:  
+Developing refers to the policy development pathways and processes that consider the feasibility, diagnosis of 
+policy problems and opportunities, the formulation/drafting of the policy until the approval of the policy  
+ 
+Implementing:  
+Implementation refers to the realization of the policy proposal through legislative or financial 
+action/commitments, including the continued monitoring and evaluation of that policy  
+ 
+Rationale: 
+National Urban Policies can help achieve target 11.a.1  
+ 
+This indicator is based on the notion that the development and implementation of National Urban Policies 
+should support participation, partnership, cooperation and coordination of actors as well as facilitate dialogue. 
+National Urban Policy (NUP) and Regional Development Plans (RDP) promote coordinated and connected 
+urban development. A coordinated effort from government through a NUP or RDP provides the best 
+opportunity for achieving sustainable urbanization and balanced territorial development by linking sectorial 
+policies, connecting national, regional and local government policies, strengthening urban, peri-urban and 
+rural links through balanced territorial development.   
+  
+This indicator provides a good barometer on global progress on sustainable national urban policies. It serves as 
+gap analysis to support policy recommendations. The indicator can identify good practices and policies among 
+countries that can promote partnership and cooperation between all stakeholders. This indicator is both 
+process oriented and aspirational and has the potential to support the validation of Goal 11 and other SDGs 
+indicators with an urban component. The indicator has the ability to be applicable at multi jurisdictions levels, 
+i.e covering a number of areas while taking care of urban challenges in a more integrated national manner.  
+ 
+The explicit introduction of National Urban Policy in the wording of indicator 11.a.1 brings emphasis to a policy 
+process that can better satisfy the requirements of target 11.a through sectorial, territorial and jurisdictional 
+integration and coordination steered by the national level.  This is so because, evidence shows that NUP can 
+support positive economic, social and environmental links by ensuring at the highest level of government the 
+coherent alignment of sectorial policies to support sustainable and inclusive urbanization2. With the World 
+increasingly urbanizing, it is becoming clear today that how cities are managed and planned has ramifications 
+well beyond their boundaries and that urbanization is a key force for national and sustainable development.  
+ 
+Urbanization has indeed historically been a catalyst for economic growth and social progress, and even holds 
+the possibility for the protection and more efficient use of natural resources, and climate change mitigation 
+                                                 
+2 UN-Habitat and OECD, 2018, Global State of National Urban Policy 
+Last updated: 05 June 2020 
+ 
+and adaptation. However, this positive impact is not automatic, particularly in developing countries - where 
+rapid and/or unplanned urbanization can bring about negative economic, social and environmental 
+externalities with increasing congestion, sprawl, informality, social exclusion and conflict – if the provision of 
+services and infrastructure does not keep up with natural and internal population growth , equitable 
+distribution, migration patterns to the city, etc. Governments need to be sensitive to this fact that urbanization 
+is a nation-wide and multi-sectorial issue. Therefore, NUPs provide the framework to harness urbanization 
+dividends and mitigate its negative externalities.  A national urban policy calls attention to the impact of 
+sectorial governmental policies on the sustainable development of cities and encourages and enables the 
+vertical and horizontal coordination of government departments and their policies to best support it.  
+ 
+This consideration in turn also encourages more cooperation and coordination between different levels of 
+government to support the development and implementation of a national vision for urban development, 
+effectively strengthening national and regional development planning. The urban policy process is led at the 
+national level to ensure the articulation and coordination of different sectors and government levels but 
+engages both top down and bottom up processes. For a successful implementation, a NUP must create an 
+enabling, collaborative and cooperative institutional environment, mobilizing different levels, assessing and 
+building their capacities, and establishing jointly defined and transparent responsibilities for implementation. 
+Subnational governments are key implementation partner due to their proximity to citizens and role in 
+delivering services and infrastructure. As such, a NUP does not replace regional and local development policies 
+and plans but strengthens them and relies on their horizontal alignment and vertical articulation, especially to 
+tackle cross boundary challenges such as sustainable resource management, infrastructure development, 
+climate change adaptation and mitigation, or urban-rural linkages.  
+ 
+Finally, NUP as an overarching framework articulating and aligning subnational and local plans and policies 
+under a common vision for urbanization that also makes it particularly suited to consider the urban-peri-
+urban-rural continuum. This urban and rural consideration is a key element of data disaggregation and 
+administrative delineation in territorial planning. However, the importance of urban-rural linkages (through 
+flows of people, natural resources, capital, goods, ecosystem services, information, technology, ideas and 
+innovation) is increasingly being acknowledged for sustainable and integrated territorial development. The 
+New Urban Agenda (NUA) for instance stresses the need to reduce urban and rural disparities to foster 
+equitable development and encourage connectivity. Target 11.a is the only one that explicitly considers urban, 
+peri-urban and rural areas under a city-centric SDG 11. NUP is the adequate framework to strengthen and 
+direct urban and rural flows towards the most sustainable patterns of consumption and equitable resource 
+distribution, as they can strike the balance between competition and solidarity between territories of a 
+country.  
+ 
+Urban Policies are more broadly instrumental for the implementation and monitoring of global agendas  
+National Urban Policies therefore enable a cross-sectorial approach, and the horizontal and vertical 
+institutional coordination needed to address the challenges and opportunities of urbanization, which are 
+increasingly recognized as going beyond the boundaries of the city. Intergovernmental agreements have 
+indeed shown a new interest in urbanization for sustainable development. This is illustrated of course in 
+Agenda 2030 with its introduction of a standalone urban SDG-11, but many other SDGs also have clear urban 
+dimensions and implications. Following the Agenda 2030, the United Nations Conference on Housing and 
+Sustainable Development (Habitat III) adopted the New Urban Agenda, a roadmap for the next 20 years setting 
+new global standards for sustainable urban development. Finally, although the Paris Agreement on Climate 
+Change does not explicitly mention cities, the management of urbanization is still essential to addressing 
+climate change, as is illustrated by the fact that two third of Intended Nationally Determined Contributions 
+contain clear urban references and content3. As an instrument for governments to harness the dynamics of 
+urbanization for national development, NUPs have therefore been identified as a key tool for the 
+implementation and monitoring of such agendas.  
+ 
+The Policy Paper on National Urban Policies prepared for Habitat III for instance explained that a NUP should 
+constitute an important part of any serious attempt to implement the SDGs and should become a key 
+                                                 
+3 UN-Habitat, 2016, Sustainable Urbanization in the Paris Agreement. Comparative review for urban 
+content in the Nationally Determined Contributions (NDCs)  
+Last updated: 05 June 2020 
+ 
+instrument to measure the achievement of the SDGs. As explained above, NUPs are a particularly appropriate 
+framework to achieve target 11.a, and more generally can be instrumental in creating the necessary enabling 
+framework to implement the urban development objectives of SDG 11. For instance, the NUA explicitly 
+identifies NUPs as essential to achieve the urban paradigm shift it advocates for, recognizing the leading role of 
+national governments […] in the implementation of inclusive and effective urban policies and legislation for 
+sustainable urban development (NUA – 15.b). Moreover, the Urban-Rural Linkages Guiding Principles provide 
+practical approach and actions to enhance territorial cohesion including via policies4. OECD set of urban and 
+rural policies are additional frameworks that are very important to enhance social, economic an economic links 
+across urban-rural and peri-urban territories5.  
+ 
+Finally, NUPs can also be an instrument to coordinate the urban components of NDCs across scales and sectors 
+and mainstream the principles of climate change adaptation and mitigation for the implementation of the 
+Paris Agreement6.  
+ 
+Qualifiers for a measurable process indicator  
+Given their instrumental role for the implementation and monitoring of global urban agendas, the adoption of 
+a NUP by a national government can be considered as a strong indicator of political commitment to promoting 
+sustainable urban development. It also makes them particularly well suited for measuring target 11.a through 
+a process indicator. As a process indicator, 11.a.1 is indeed supposed to assess the progress made towards 
+creating an enabling environment that will ensure achievement of the outcomes and impacts of the targets of 
+the Sustainable Development Agenda. Its definition sets the foundation on how target 11.a can be achieved, 
+through measurable means. The proposed revision of the indicator therefore supplements national urban 
+policies and regional development plans with 3 qualifiers that indicate the means of successfully reaching the 
+requirements of target 11.a.  
+ 
+The first qualifier is that policies and plans should respond to population dynamics. Grounding policies and 
+plans in the most current and comprehensive spatial and demographic data and projections is indeed a 
+prerequisite for a successful implementation. The challenges posed by rapid urbanization indeed stem from 
+the fact that policy and planning framework and their implementation are outpaced by population growth, 
+coupled with policy priorities that may not prioritize inclusive development for all current and future urban 
+residents, which together result in straining the provision of infrastructure and services, and causing socio-
+economic and environmental damages. Forecasting demographic trends and needs in the diagnosis phase of 
+policies and plans enables governments to plan ahead for urbanization and provide adequate land and 
+infrastructure in a more cost-efficient and less socially disruptive way than trying to catch up, repair and 
+upgrade uncontrolled expansion. This process of developing urban policies and plans can also be the occasion 
+to improve national data collection on urban areas, and serve other SDG-11 indicators, as well as provide a 
+baseline for monitoring the outcomes of such interventions.  
+ 
+The second qualifier requires policies and plans to ensure balanced territorial development, in a direct answer 
+to target 11.a.1’s reference to the urban, peri-urban and rural continuum. Policies and plans should adopt a 
+broad territorial perspective and consider the linkages and flows from urban to rural areas not only to avoid 
+and reduce social, economic and environmental disparities between territories but also to promote distinctive 
+strengths and encourage beneficial interactions for the most efficient path to sustainable growth for the 
+country. Such a perspective for policies and plans is achieved higher territorial scale than cities, through 
+regional plans and national policies.  
+ 
+Finally, the third qualifier is to increase local fiscal space. As integrated NUPs and regional development plans 
+introduce a more coordinated and decentralized articulation of responsibilities for urban development, 
+                                                 
+4 UN-Habitat, 2019, Urban-Rural Linkages, Guiding Principles: Framework for Action to Advance Integrated 
+Territorial Development (https://urbanrurallinkages.files.wordpress.com/2019/09/url-gp-1.pdf) 
+5 OECD, 2019, OECD Principles on Urban Policy (https://www.oecd.org/cfe/Brochure-OECD-Principles-
+Urban-Policy.pdf) and OECD Principles on Rural Policy (https://www.oecd.org/rural/rural-development-
+conference/documents/Rural-principles.pdf) 
+6 UN-Habitat, 2016, Addressing Climate Change in National Urban Policies 
+ 
+Last updated: 05 June 2020 
+ 
+ensuring that subnational and local governments have the adequate financial resources to carry out their 
+responsibilities is essential to the successful implementation of policies and plans. The transfer of 
+competences from central to local levels must therefore be accompanied by a commensurate devolution of 
+financial resources and autonomy. Moreover, in times of shrinking governmental budgets, the capacity of local 
+governments to expand and diversify endogenous financial resources and revenues and not rely too heavily on 
+central transfers should be increased. This involves more fiscal power and capacity, better land value capture 
+mechanisms – which go hand in hand with a clear and enforceable land policy framework – and innovative 
+financial partnerships, for instance collaborating with the private sector for service and infrastructure delivery. 
+In all cases, fiscal policies and mechanisms must remain subordinated to the established urban policy and 
+planning objectives: central transfers must be embedded within the NUP framework, and take into account 
+territorial equity; and local fiscal systems must be closely tied to local territorial plans so as to incentivize 
+sustainable patterns of development.  
+ 
+"
+11.b.1,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.b By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",11.b.1 Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030,SDG-indicator-pdfs/Metadata-11-0B-01.pdf,
+11.b.2,"Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable","11.b By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",11.b.2 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,SDG-indicator-pdfs/Metadata-11-0B-02.pdf,
 12.1.1,Goal 12. Ensure sustainable consumption and production patterns,"12.1 Implement the 10‑Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries","12.1.1 Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",SDG-indicator-pdfs/Metadata-12-01-01.pdf,"This indicator allows for the quantification (#) and monitoring of countries making progress along the 
 policy cycle of binding and non-binding policy instruments aimed at supporting Sustainable Consumption 
 and Production.  
@@ -1610,7 +2113,7 @@ production.
 "
 12.2.1,Goal 12. Ensure sustainable consumption and production patterns,"12.2 By 2030, achieve the sustainable management and efficient use of natural resources","12.2.1 Material footprint, material footprint per capita, and material footprint per GDP",SDG-indicator-pdfs/Metadata-12-02-01.pdf,
 12.2.2,Goal 12. Ensure sustainable consumption and production patterns,"12.2 By 2030, achieve the sustainable management and efficient use of natural resources","12.2.2 Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",SDG-indicator-pdfs/Metadata-12-02-02.pdf,
-12.3.1,Goal 12. Ensure sustainable consumption and production patterns,"12.3 By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses",12.3.1 (a) Food loss index and (b) food waste index,,
+12.3.1,Goal 12. Ensure sustainable consumption and production patterns,"12.3 By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses",12.3.1 (a) Food loss index and (b) food waste index,SDG-indicator-pdfs/Metadata-12-03-01A.pdf,
 12.4.1,Goal 12. Ensure sustainable consumption and production patterns,"12.4 By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment","12.4.1 Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",SDG-indicator-pdfs/Metadata-12-04-01.pdf,
 12.4.2,Goal 12. Ensure sustainable consumption and production patterns,"12.4 By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment","12.4.2 (a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",SDG-indicator-pdfs/Metadata-12-04-02.pdf,
 12.5.1,Goal 12. Ensure sustainable consumption and production patterns,"12.5 By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse","12.5.1 National recycling rate, tons of material recycled",SDG-indicator-pdfs/Metadata-12-05-01.pdf,
@@ -1638,7 +2141,7 @@ respective geographic groups of UNESCO), as well as international partners, civi
 of the Education 2030 Steering Committee. The UNESCO Institute for Statistics acts as the Secretariat. 
  
 "
-12.a.1,Goal 12. Ensure sustainable consumption and production patterns,12.a Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production,12.a.1 Installed renewable energy-generating capacity in developing countries (in watts per capita),,
+12.a.1,Goal 12. Ensure sustainable consumption and production patterns,12.a Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production,12.a.1 Installed renewable energy-generating capacity in developing countries (in watts per capita),SDG-indicator-pdfs/Metadata-12-0a-01.pdf,
 12.b.1,Goal 12. Ensure sustainable consumption and production patterns,12.b Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products,12.b.1 Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability,SDG-indicator-pdfs/Metadata-12-0b-01.pdf,
 12.c.1,Goal 12. Ensure sustainable consumption and production patterns,"12.c Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities",12.c.1 Amount of fossil-fuel subsidies (production and consumption) per unit of GDP,SDG-indicator-pdfs/Metadata-12-0c-01.pdf,"In order to measure fossil fuel subsidies at the national, regional and global level, three sub-indicators are 
 recommended for reporting on this indicator: 1) direct transfer of government funds; 2) induced transfers 
@@ -1698,7 +2201,7 @@ respective geographic groups of UNESCO), as well as international partners, civi
 of the Education 2030 Steering Committee. The UNESCO Institute for Statistics acts as the Secretariat. 
  
 "
-13.a.1,Goal 13. Take urgent action to combat climate change and its impacts,13.a Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible,13.a.1 Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025,,
+13.a.1,Goal 13. Take urgent action to combat climate change and its impacts,13.a Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible,13.a.1 Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025,SDG-indicator-pdfs/Metadata-13-0a-01.pdf,
 13.b.1,Goal 13. Take urgent action to combat climate change and its impacts,"13.b Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities","13.b.1 Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the United Nations Framework Convention on Climate Change",SDG-indicator-pdfs/Metadata-13-0b-01.pdf,
 14.1.1,"Goal 14. Conserve and sustainably use the oceans, seas and marine resources for sustainable development","14.1 By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution",14.1.1 (a) Index of coastal eutrophication; and (b) plastic debris density,SDG-indicator-pdfs/Metadata-14-01-01.pdf,"
 The indicator includes 14.1.1a Index of coastal eutrophication (ICEP) and 14.1.1b Plastic debris 
@@ -1949,7 +2452,38 @@ illegal, unreported and unregulated fishing.
  
 "
 14.7.1,"Goal 14. Conserve and sustainably use the oceans, seas and marine resources for sustainable development","14.7 By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism","14.7.1 Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",SDG-indicator-pdfs/Metadata-14-07-01.pdf,
-14.a.1,"Goal 14. Conserve and sustainably use the oceans, seas and marine resources for sustainable development","14.a Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries",14.a.1 Proportion of total research budget allocated to research in the field of marine technology,,
+14.a.1,"Goal 14. Conserve and sustainably use the oceans, seas and marine resources for sustainable development","14.a Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries",14.a.1 Proportion of total research budget allocated to research in the field of marine technology,SDG-indicator-pdfs/Metadata-14-0a-01.pdf,"Definitions and mechanisms used in the development of the SDG indicator 14.a.1 are based on the IOC 
+Criteria and Guidelines on Transfer of Marine Technology – IOCCGTMT (originally published and endorsed 
+by IOC Member States in 2005. These guidelines provide an internationally agreed definition of what is 
+understood by the term marine technology and have been referenced in various UN General Assembly 
+Resolutions and specifically in the formulation of SDG target 14.a. These are further explained in the 
+Global Ocean Science Report (GOSR) referenced below. 
+Last updated: 15 February 2021 
+ 
+Marine technology as defined in the IOCCGTMT refers to instruments, equipment, vessels, processes and 
+methodologies required to produce and use knowledge to improve the study and understanding of the 
+nature and resources of the ocean and coastal areas. Toward this end, marine technology may include 
+any of the following components: 
+a) Information and data, in a user-friendly format, on marine sciences and related marine 
+operations and services; 
+b) Manuals, guidelines, criteria, standards, reference materials; 
+c) Sampling and methodology equipment (e.g., for water, geological, biological, chemical samples); 
+d) Observation facilities and equipment (e.g. remote sensing equipment, buoys, tide gauges, 
+shipboard and other means of ocean observation); 
+e) Equipment for in situ and laboratory observations, analysis and experimentation; 
+f) 
+Computer and computer software, including models and modelling techniques; 
+g) Expertise, knowledge, skills, technical/scientific/legal know-how and analytical methods related 
+to marine scientific research and observation. 
+ 
+Indicator 14.a.1 shows the annual national research budget allocated by governments in the field of 
+marine technology, relative to the overall national governmental research and development budget in 
+general. 
+ 
+Unit: percentage; raw data in national currency. The proportion can be calculated, and if needed, data 
+can be converted by the international agency into USD. 
+ 
+"
 14.b.1,"Goal 14. Conserve and sustainably use the oceans, seas and marine resources for sustainable development",14.b Provide access for small-scale artisanal fishers to marine resources and markets,14.b.1 Degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries,SDG-indicator-pdfs/Metadata-14-0b-01.pdf,"Progress by number of countries in the degree of application of a legal/regulatory/policy/institutional 
 framework which recognizes and protects access rights for small-scale fisheries. 
  
@@ -2086,9 +2620,68 @@ Sub-indicator (b)
 reporting systems, defined as implementation of the System of Environmental-Economic Accounting (SEEA). 
  
 "
-15.a.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",15.a Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems,15.a.1 (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments,,
-15.b.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss","15.b Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation",15.b.1 (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments,,
-15.c.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss","15.c Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities",15.c.1 Proportion of traded wildlife that was poached or illicitly trafficked,,
+15.a.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",15.a Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems,15.a.1 (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments,SDG-indicator-pdfs/Metadata-15-0a-01.pdf," 
+This is a twin indicator consisting of: 
+ 
+a) Official development assistance on conservation and sustainable use of biodiversity, defined as gross 
+disbursements of total Official Development Assistance (ODA) from all donors for biodiversity.  
+b) revenue generated and finance mobilised from biodiversity-relevant economic instruments, defined as 
+revenue generated and finance mobilised from biodiversity-relevant economic instruments, covering 
+biodiversity-relevant taxes, fees and charges, and positive subsidies. (New on-going work is underway to 
+collect data on payments for ecosystem services and biodiversity offsets -- including the finance they 
+mobilise for biodiversity). 
+ 
+Rationale: 
+a) Total ODA flows to developing countries quantify the public effort that donors provide to developing 
+countries for biodiversity. 
+ 
+b) Economic policy instruments can either generate revenue (e.g. biodiversity-relevant taxes) or mobilise 
+finance directly for biodiversity conservation and sustainable use (e.g. biodiversity-relevant fees and 
+charges; positive subsidies; PES and offsets) which is finance mobilised at domestic level.  
+The data are collected in a consistent and comparable way across countries. 
+ 
+"
+15.b.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss","15.b Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation",15.b.1 (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments,SDG-indicator-pdfs/Metadata-15-0B-01.pdf," 
+This is a twin indicator consisting of: 
+ 
+a) Official development assistance on conservation and sustainable use of biodiversity, defined as gross 
+disbursements of total Official Development Assistance (ODA) from all donors for biodiversity.  
+b) revenue generated and finance mobilised from biodiversity-relevant economic instruments, defined as 
+revenue generated and finance mobilised from biodiversity-relevant economic instruments, covering 
+biodiversity-relevant taxes, fees and charges, and positive subsidies. (New on-going work is underway to 
+collect data on payments for ecosystem services and biodiversity offsets -- including the finance they 
+mobilise for biodiversity). 
+ 
+Rationale: 
+a) Total ODA flows to developing countries quantify the public effort that donors provide to developing 
+countries for biodiversity. 
+ 
+b) Economic policy instruments can either generate revenue (e.g. biodiversity-relevant taxes) or mobilise 
+finance directly for biodiversity conservation and sustainable use (e.g. biodiversity-relevant fees and 
+charges; positive subsidies; PES and offsets) which is finance mobilised at domestic level.  
+The data are collected in a consistent and comparable way across countries. 
+ 
+"
+15.c.1,"Goal 15. Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss","15.c Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities",15.c.1 Proportion of traded wildlife that was poached or illicitly trafficked,SDG-indicator-pdfs/Metadata-15-0C-01.pdf," 
+The share of all trade in wildlife detected as being illegal 
+ 
+Rationale: 
+ 
+There are over 35,000 species under international protection, so it is impossible to monitor all poaching. 
+Illegal trade, however, is an indirect indicator of poaching. Wildlife seizures represent concrete instances 
+of illegal trade, but the share of overall wildlife crime they represent is unknown and variable. In addition, 
+the number of species under international protection continues to grow. Legal international trade in 
+protected species, by definition, is 100% captured in the CITES Trade Database, which now contains over 
+16 million records of trade in CITES-listed species. To ground the illegal trade data in a complete 
+indicator, the ratio of aggregated seizures to total trade is estimated. An increase in the share of total 
+wildlife trade that is illegal would be interpreted as a negative indicator, and a decrease as a positive one. 
+ 
+Because the illegal wildlife trade represents thousands of distinct products, a means of aggregation is 
+necessary. The legal trade value does not represent the true black market value of the items seized, nor 
+the true value of the legal shipments, because it is derived from a single market source (US LEMIS). It 
+does, however, present a logical and consistent means of aggregating unlike products. 
+ 
+"
 16.1.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",16.1 Significantly reduce all forms of violence and related death rates everywhere,"16.1.1 Number of victims of intentional homicide per 100,000 population, by sex and age",SDG-indicator-pdfs/Metadata-16-01-01.pdf," 
 The indicator is defined as the total count of victims of intentional homicide divided by the total 
 population, expressed per 100,000 population. 
@@ -2342,7 +2935,19 @@ It is recommended that survey results, at a minimum, be disaggregated by sex, in
 residence (urban/rural, administrative regions). To the extent possible, all efforts should be made to also 
 disaggregate results by disability status and by ‘nationally relevant population groups’. 
 "
-16.7.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels","16.7 Ensure responsive, inclusive, participatory and representative decision-making at all levels","16.7.1 Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",,
+16.7.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels","16.7 Ensure responsive, inclusive, participatory and representative decision-making at all levels","16.7.1 Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",SDG-indicator-pdfs/Metadata-16-07-01A.pdf,"This metadata sheet is focused only on the first sub-component of indicator 16.7.1, namely on positions 
+in national legislatures held by individuals of each target population (sex, age, persons with disabilities, 
+and contextually relevant population groups).  
+Last updated: March 2021 
+The legislative sub-component of indicator 16.7.1 aims to measure how representative of the general 
+population are the individuals occupying key decision-making positions in national legislatures. More 
+specifically, this indicator measures the proportional representation of various demographic groups 
+(women, age groups) in the national population amongst individuals occupying the following positions in 
+national legislatures: (1) Members, (2) Speakers and (3) Chairs of permanent committees in charge of the 
+following portfolios: Foreign Affairs, Defence, Finance, Human Rights and Gender Equality. Furthermore, 
+it looks at the electoral and constitutional provisions adopted by countries to secure representation in 
+national legislatures of persons with disabilities and contextually relevant population groups.  
+"
 16.7.2,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels","16.7 Ensure responsive, inclusive, participatory and representative decision-making at all levels","16.7.2 Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",SDG-indicator-pdfs/Metadata-16-07-02.pdf,
 16.8.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",16.8 Broaden and strengthen the participation of developing countries in the institutions of global governance,16.8.1 Proportion of members and voting rights of developing countries in international organizations,SDG-indicator-pdfs/Metadata-16-08-01.pdf,"The indicator Proportion of members and voting rights of developing countries in international 
 organizations has two components, the developing country proportion of voting rights and the 
@@ -2545,20 +3150,159 @@ high). However, it will contribute to global aggregates.
 More details on the computation method are under the section Methodology. 
  
 "
-16.a.1 ,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels","16.a Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime",16.a.1 Existence of independent national human rights institutions in compliance with the Paris Principles,,
-16.b.1 ,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",16.b Promote and enforce non-discriminatory laws and policies for sustainable development,16.b.1 Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,,
-17.1.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.1 Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection","17.1.1 Total government revenue as a proportion of GDP, by source",,
-17.1.2 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.1 Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",17.1.2 Proportion of domestic budget funded by domestic taxes,,
-17.2.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.2 Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance (ODA/GNI) to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries","17.2.1 Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",,
-17.3.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.3 Mobilize additional financial resources for developing countries from multiple sources,"17.3.1 Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",,
-17.3.2 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.3 Mobilize additional financial resources for developing countries from multiple sources,17.3.2 Volume of remittances (in United States dollars) as a proportion of total GDP,,
-17.4.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.4 Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress",17.4.1 Debt service as a proportion of exports of goods and services,,
-17.5.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.5 Adopt and implement investment promotion regimes for least developed countries,"17.5.1 Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",,
-,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,Technology,,,
-17.6.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.6 Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism","17.6.1 Fixed Internet broadband subscriptions per 100 inhabitants, by speed5",,
-17.7.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.7 Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed","17.7.1 Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",,
-17.8.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.8 Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology",17.8.1 Proportion of individuals using the Internet,,
-17.9.1 ,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.9 Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation","17.9.1 Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",,
+16.a.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels","16.a Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime",16.a.1 Existence of independent national human rights institutions in compliance with the Paris Principles,SDG-indicator-pdfs/Metadata-16-0A-01.pdf," 
+This indicator Existence of independent national human rights institutions in compliance with the Paris 
+Principles measures the compliance of existing national human rights institutions with the Principles 
+relating to the Status of National Institutions (The Paris Principles), which were adopted by the General 
+Assembly (resolution 48/134) based on the rules of procedure of the Global Alliance of National Human 
+Rights Institutions (GANHRI, formerly the International Coordinating Committee of National Institutions 
+for the Promotion and Protection of Human Rights or ICC). 
+ 
+Rationale: 
+ 
+This indicator measures the global continual efforts of countries in setting up independent national 
+institutions, through international cooperation, to promote inclusive, peaceful and accountable societies. 
+The creation and fosterage of a NHRI indicates a State’s commitment to promote and protect the human 
+rights provided in international human rights instruments. Compliance with the Paris Principles vest 
+NHRIs with a broad mandate, competence and power to investigate, report on the national human rights 
+situation, and publicize human rights through information and education. While NHRIs are essentially 
+state funded, they are to maintain independence and pluralism. When vested with a quasi-judicial 
+competence, NHRIs handle complaints and assist victims in taking their cases to courts making them an 
+essential component in the national human rights protection system. These fundamental functions that 
+NHRIs play and their increasing participation in the international human rights fora make them important 
+actors in the improvement of the human rights situation, including the elimination of discriminatory laws 
+and the promotion and enforcement of non-discriminatory laws. At the national level reporting, the 
+better the accreditation classification of the NHRI reflects that it is credible, legitimate, relevant and 
+effective in promoting human rights at the national level. 
+ 
+Last updated: 19 July 2016 
+ 
+"
+16.b.1,"Goal 16. Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",16.b Promote and enforce non-discriminatory laws and policies for sustainable development,16.b.1 Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,SDG-indicator-pdfs/Metadata-16-0b-01.pdf,"This indicator is defined as the proportion of the population (adults) who self-report that they personally 
+experienced discrimination or harassment during the last 12 months based on ground(s) prohibited by 
+international human rights law. International human rights law refers to the body of international legal 
+instruments aiming to promote and protect human rights, including the Universal Declaration of Human 
+Rights and subsequent international human rights treaties adopted by the United Nations. 
+ 
+Rationale: 
+The pledge to leave no-one behind and eliminate discrimination is at the centre of the 2030 Agenda for 
+Sustainable Development. The elimination of discrimination is also enshrined in the Universal Declaration 
+of Human Rights and the core international human rights treaties. The purpose of this indicator is to 
+measure a prevalence of discrimination based on the personal experience reported by individuals.  It is 
+considered an outcome indicator (see HR/PUB/12/5) helping to measure the effectiveness of non-
+discriminatory laws, policy and practices for the concerned population groups. 
+ 
+"
+17.1.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.1 Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection","17.1.1 Total government revenue as a proportion of GDP, by source",SDG-indicator-pdfs/Metadata-17-01-01.pdf," 
+Revenue is defined in Chapter 4 (paragraph 4.23) of GFSM 2014 an increase in net worth resulting from a 
+transaction. It is a fiscal indicator for assessing the sustainability of fiscal activities. General government 
+units have four types of revenue. The major types of revenue are taxes (GFS code 11), social 
+contributions (GFS code 12), grants (GFS code 13), and other revenue (GFS code 14). Of these, 
+compulsory levies and transfers are the main sources of revenue for most general government units. In 
+particular, taxes are compulsory, unrequited amounts receivable by government units from institutional 
+units. Social contributions are actual or imputed revenue receivable by social insurance schemes to make 
+provision for social insurance benefits payable. Grants are transfers receivable by government units from 
+other resident or nonresident government units or international organizations, and that do not meet the 
+definition of a tax, subsidy, or social contribution. Other revenue is all revenue receivable excluding taxes, 
+Last updated: March 2021 
+social contributions, and grants. Other revenue comprises: (i) property income; (ii) sales of goods and 
+services; (iii) fines, penalties, and forfeits; (iv) transfers not elsewhere classified; and (v) premiums, fees, 
+and claims related to nonlife insurance and standardized guarantee schemes. 
+ 
+"
+17.1.2,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.1 Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",17.1.2 Proportion of domestic budget funded by domestic taxes,SDG-indicator-pdfs/Metadata-17-01-02.pdf,"
+The precise definition of the indicator is the Proportion of domestic budgetary central government 
+expenditure funded by taxes. Budgetary central government, described in GFSM 2014 (paragraph 2.81) is 
+an institutional unit of the general government sector particularly important in terms of size and power, 
+particularly the power to exercise control over many other units and entities. The budgetary central 
+government is often a single unit of the central government that encompasses the fundamental activities 
+of the national executive, legislative, and judiciary powers. This component of general government is 
+usually covered by the main (or general) budget. The budgetary central government’s revenue (and 
+expense) are normally regulated and controlled by a ministry of finance, or its functional equivalent, by 
+means of a budget approved by the legislature. Most of the ministries, departments, agencies, boards, 
+commissions, judicial authorities, legislative bodies, and other entities that make up the budgetary 
+central government are not separate institutional units. This is because they generally do not have the 
+Last updated: March 2021 
+authority to own assets, incur liabilities, or engage in transactions in their own right (see GFSM 2014 
+paragraph 2.42).  including references to standards and classifications, preferably relying on international 
+agreed definitions. The indicator definition should be unambiguous and expressed in universally 
+applicable terms. It must clearly express the unit of measurement (proportion, dollars, number of people, 
+etc.). 
+ 
+"
+17.2.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.2 Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance (ODA/GNI) to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries","17.2.1 Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",SDG-indicator-pdfs/Metadata-17-02-01.pdf," 
+The indicator Net official development assistance, total and to least developed countries, as a proportion 
+of the Organization for Economic Cooperation and Development (OECD) Development Assistance 
+Committee donors' gross national income (GNI) is defined as Net ODA disbursements as a per cent of 
+GNI. 
+ 
+Rationale: 
+ 
+Total ODA flows to developing countries quantify the public effort that donors provide to developing 
+countries. 
+ 
+"
+17.3.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.3 Mobilize additional financial resources for developing countries from multiple sources,"17.3.1 Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",SDG-indicator-pdfs/Metadata-17-03-01a.pdf,"FDI part: FDI inflows (expressed in millions of US dollars) 
+ 
+Rationale: 
+FDI has been the largest source of external finance for developing economies over the past decade, and 
+the most resilient to economic and financial shocks.  
+ 
+"
+17.3.2,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.3 Mobilize additional financial resources for developing countries from multiple sources,17.3.2 Volume of remittances (in United States dollars) as a proportion of total GDP,SDG-indicator-pdfs/Metadata-17-03-02.pdf," 
+Personal remittances received as proportion of GDP is the inflow of personal remittances expressed as a 
+percentage of Gross Domestic Product (GDP).  
+ 
+"
+17.4.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.4 Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress",17.4.1 Debt service as a proportion of exports of goods and services,SDG-indicator-pdfs/Metadata-17-04-01.pdf," 
+Debt service as proportion of exports of goods and services is the percentage of debt services (principle 
+and interest payments) to the exports of goods and services. Debt services covered in this indicator refer 
+only to public and publicly guaranteed debt.. 
+ 
+"
+17.5.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.5 Adopt and implement investment promotion regimes for least developed countries,"17.5.1 Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",SDG-indicator-pdfs/Metadata-17-05-01.pdf,"The indicator provides the number of countries that have adopted and implemented investment 
+promotion regimes for developing countries, including least developed countries. 
+ 
+"
+17.6.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.6 Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism","17.6.1 Fixed Internet broadband subscriptions per 100 inhabitants, by speed5",SDG-indicator-pdfs/Metadata-17-06-01.pdf,"The indicator fixed Internet broadband subscriptions, by speed, refers to the number of fixed-broadband 
+subscriptions to the public Internet, split by advertised download speed. 
+ 
+The indicator is currently broken down by the following subscription speeds: 
+ 
+- 256 kbit/s to less than 2 Mbit/s subscriptions: Refers to all fixed broadband Internet subscriptions with 
+advertised downstream speeds equal to, or greater than, 256 kbit/s and less than 2 Mbit/s. 
+ 
+Last updated: 20 August 2021 
+- 2 Mbit/s to less than 10 Mbit/s subscriptions: Refers to all fixed -broadband Internet subscriptions with 
+advertised downstream speeds equal to, or greater than, 2 Mbit/s and less than 10 Mbit/s. 
+ 
+- Equal to or above 10 Mbit/s subscriptions (4213_G10). Refers to all fixed -broadband Internet 
+subscriptions with advertised downstream speeds equal to, or greater than, 10 Mbit/s. 
+ 
+"
+17.7.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.7 Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed","17.7.1 Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",SDG-indicator-pdfs/Metadata-17-07-01.pdf,"The purpose of this indicator is to develop a methodology for tracking the total amount of approved 
+funding to promote the development, transfer, dissemination and diffusion of environmentally sound 
+technologies. A two-pronged approach is suggested:  
+Last updated:  8 February 2021 
+Level 1. Use globally available data to create a proxy of funding flowing to developing countries for 
+environmentally sound technologies, or of trade in environmentally sound technologies  
+Leve2. Collect national data on investment in environmentally sound technologies. 
+ 
+"
+17.8.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.8 Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology",17.8.1 Proportion of individuals using the Internet,SDG-indicator-pdfs/Metadata-17-08-01.pdf,"The indicator proportion of individuals using the Internet is defined as the proportion of individuals who 
+used the Internet from any location in the last three months. 
+ 
+"
+17.9.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.9 Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation","17.9.1 Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",SDG-indicator-pdfs/Metadata-17-09-01.pdf," 
+Gross disbursements of total ODA and other official flows from all donors for capacity building and 
+national planning. 
+ 
+Rationale: 
+ 
+Total ODA and OOF flows to developing countries quantify the public effort (excluding export credits) 
+that donors provide to developing countries. 
+ 
+"
 17.10.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.10 Promote a universal, rules-based, open, non‑discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda",17.10.1 Worldwide weighted tariff-average,SDG-indicator-pdfs/Metadata-17-10-01.pdf," 
 Value in percentage of weighted average tariffs applied to the imports of goods in HS chapter 01-97. 
  
@@ -2649,8 +3393,7 @@ rationale behind the indicator is to measure the changes in the volume of public
 infrastructure and assess trends and identify constraints for private sector participation. 
  
 "
-17.18.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.18 By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",17.18.1 Statistical capacity indicator for Sustainable Development Goal monitoring,,
-17.18.2,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.18 By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",17.18.2 Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics,SDG-indicator-pdfs/Metadata-17-18-02.pdf,"The indicator refers to the number of countries that have national statistical legislation that complies 
+17.18.2,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,17.18.2 Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics,17.18.2 Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics,SDG-indicator-pdfs/Metadata-17-18-02.pdf,"The indicator refers to the number of countries that have national statistical legislation that complies 
 with the Fundamental Principles of Official Statistics. This refers to the number of countries that have a 
 statistical legislation which respects the principles of UNFOP. 
  
@@ -2659,6 +3402,6 @@ A country’s statistics law will be considered compliant with the UN Fundamenta
 Statistics if the law has provisions relating to all ten Principles. 
  
 "
-17.18.3,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.18 By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts","17.18.3 Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",SDG-indicator-pdfs/Metadata-17-18-03.pdf,
+17.18.3,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.18.3 Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding","17.18.3 Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",SDG-indicator-pdfs/Metadata-17-18-03.pdf,
 17.19.1,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.19 By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries",17.19.1 Dollar value of all resources made available to strengthen statistical capacity in developing countries,SDG-indicator-pdfs/Metadata-17-19-01.pdf,
 17.19.2,Goal 17. Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development,"17.19 By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries",17.19.2 Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration,SDG-indicator-pdfs/Metadata-17-19-02a.pdf,
