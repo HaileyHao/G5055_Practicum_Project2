@@ -1,0 +1,4 @@
+UniqueID,ER_FFS_CMPT                         ,ER_FFS_CMPT_GDP                         ,ER_FFS_CMPT_PC                         
+ER_FFS_CMPT                         ,1.0,0.9852758608515251,0.9993402265516775
+ER_FFS_CMPT_GDP                         ,0.9852758608515251,1.0,0.990835434521372
+ER_FFS_CMPT_PC                         ,0.9993402265516775,0.990835434521372,1.0
