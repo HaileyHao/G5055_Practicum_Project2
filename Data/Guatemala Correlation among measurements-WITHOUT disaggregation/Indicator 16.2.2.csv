@@ -1,13 +1,3 @@
-UniqueID,VC_HTF_DETV BOTHSEX                 ALLAGE       ,VC_HTF_DETVFL FEMALE                 <18Y       ,VC_HTF_DETVFL FEMALE                 ALLAGE       ,VC_HTF_DETVFL MALE                 <18Y       ,VC_HTF_DETVFL MALE                 ALLAGE       ,VC_HTF_DETVOP BOTHSEX                 ALLAGE       ,VC_HTF_DETVOP FEMALE                 18+       ,VC_HTF_DETVOP FEMALE                 <18Y       ,VC_HTF_DETVOP FEMALE                 ALLAGE       ,VC_HTF_DETVOP MALE                 18+       ,VC_HTF_DETVOP MALE                 <18Y       ,VC_HTF_DETVOP MALE                 ALLAGE       
-VC_HTF_DETV BOTHSEX                 ALLAGE       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
-VC_HTF_DETVFL FEMALE                 <18Y       ,-1.0,1.0,,1.0,1.0,-1.0,,-1.0,-1.0,,-1.0,-1.0
-VC_HTF_DETVFL FEMALE                 ALLAGE       ,,,,,,,,,,,,
-VC_HTF_DETVFL MALE                 <18Y       ,-1.0,1.0,,1.0,1.0,-1.0,,-1.0,-1.0,,-1.0,-1.0
-VC_HTF_DETVFL MALE                 ALLAGE       ,-1.0,1.0,,1.0,1.0,-1.0,,-1.0,-1.0,,-1.0,-1.0
-VC_HTF_DETVOP BOTHSEX                 ALLAGE       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
-VC_HTF_DETVOP FEMALE                 18+       ,,,,,,,,,,,,
-VC_HTF_DETVOP FEMALE                 <18Y       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
-VC_HTF_DETVOP FEMALE                 ALLAGE       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
-VC_HTF_DETVOP MALE                 18+       ,,,,,,,,,,,,
-VC_HTF_DETVOP MALE                 <18Y       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
-VC_HTF_DETVOP MALE                 ALLAGE       ,1.0,-1.0,,-1.0,-1.0,1.0,,1.0,1.0,,1.0,1.0
+UniqueID,VC_HTF_DETV BOTHSEX                 ALLAGE       ,VC_HTF_DETVOP BOTHSEX                 ALLAGE       
+VC_HTF_DETV BOTHSEX                 ALLAGE       ,1.0,1.0
+VC_HTF_DETVOP BOTHSEX                 ALLAGE       ,1.0,1.0
