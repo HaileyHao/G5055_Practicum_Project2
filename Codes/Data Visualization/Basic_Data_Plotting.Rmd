@@ -1,6 +1,8 @@
 ---
 title: "Practicum SDG Group 2"
-output: html_notebook
+output:
+  html_document:
+    keep_md: yes
 ---
 
 This notebook includes preliminary attempts to visualize some basic information about the dataset. 
@@ -8,14 +10,18 @@ This notebook includes preliminary attempts to visualize some basic information 
 r = getOption("repos")
 r["CRAN"] = "http://cran.us.r-project.org"
 options(repos = r)
-install.packages("ggthemes") # Install 
+install.packages("ggthemes") # Install renv::snapshot()
+install.packages('tidyr')
 install.packages("gridExtra")
 install.packages('plotly')
 install.packages('listviewer')
 install.packages('gridExtra')
 install.packages('treemap')
 install.packages('highcharter')
+install.packages('viridis')
+install.packages('hrbrthemes')
 install.packages('DT')
+install.packages('naniar')
 ```
 
 ```{r load libraries, echo = FALSE, eval=TRUE, results='hide',message=FALSE,warning=FALSE}
@@ -30,16 +36,24 @@ library(gridExtra)
 library(highcharter)
 library(treemap)
 library(DT)
+library(naniar)
 
 # data manipulation
 library(magrittr)
 library(dplyr)
+library(tidyr)
+```
+
+```{r}
+#df <- read.csv('../../Data/indonesia_indicators_time.csv')
 ```
 
 ```{r, include=FALSE, echo=FALSE}
 ## This is a test use case of the dataset. 
 # Goal 9: Industry, Innovation, and Infrastructure 
 indonesia_time <- read.csv('~/QMSS/G5055_Practicum_Project2/Data/indonesia_indicators_time.csv')
+
+df_9 <- indonesia_time %>% subset(Target == '9.2')
 
 df_9 <- indonesia_time %>% subset(Target == '9.2')
 df_9
@@ -68,7 +82,7 @@ This section details the messiness of our dataset. First, we took a quick look a
 
 When we initially made unique measures seperate from one another, we concatenated all of the columns in the dataset having to do iwth disaggregation. Based on a cursory look, these are some of the breakdowns (note that these categories may not be complete). When we could identify that everyone appeared to be included (e.g., 'ALLREGIONS' or 'BOTHSEX'), we did not count these measures as 'disaggregated.' 
 
-```{r indo tree map, echo=FALSE, eval=TRUE }
+```{r indonesia tree map, echo=FALSE, eval = TRUE }
 
 indonesia_measures <- indonesia_time %>% group_by(Target,Indicator,SeriesDescription,UniqueID) %>% summarize()
 
@@ -83,9 +97,8 @@ indonesia_measures <- indonesia_measures %>% mutate(disaggregation = ifelse(grep
                                                                                                  ifelse(grepl('UPPSEC|LOWSEC',UniqueID)==TRUE,
                                                                                           'sector','other/not_disaggregated'))))))
 
-rlang::last_error()
-tm <-indonesia_measures %>% group_by(disaggregation) %>% mutate(count = n()) %>% ungroup() %>% group_by(disaggregation,count) %>% summarize() %>%
-  treemap(index="disaggregation",
+tm <-indonesia_measures %>% group_by(disaggregation) %>% mutate(count = n()) %>% ungroup() %>% group_by(disaggregation,count) %>% summarize() %>% mutate(disaggregation_count = paste(disaggregation,count,sep="\n")) %>% 
+  treemap(index="disaggregation_count",
           vSize="count",
         type="index",
         fontsize.labels=c(12, 8), 
@@ -104,15 +117,15 @@ hctreemap(tm, allowDrillToNode = TRUE, layoutAlgorithm = "squarified") %>%
 ```
 
 This is a bit more of a look at the above disaggregation, wherein we look also at whether measures are disaggregated and how many (per target, subset by goal)
-```{r indo bar chart, echo=FALSE, eval =TRUE, message=FALSE, warning=FALSE}
+```{r indonesia bar chart, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
 indonesia_disaggregated_indicators <- indonesia_time %>% mutate(disaggregation = ifelse(grepl('MALE|FEMALE|15-24|25+|15-49',UniqueID)==TRUE,'age_sex', ifelse(grepl('URBAN|RURAL',UniqueID)==TRUE,'geographic_region',
                                                                                    ifelse(grepl('<5Y|<1Y|<1M',UniqueID)==TRUE,'time',
 ifelse(grepl('MIL|CAN|DIA|RES|CAR|NFO|CRO|NMA|WOD|ALP|WCH|PET|BIM|MEO|GBO|NMM|FOF|CLO|OIL|TEX|NMC',UniqueID)==TRUE,'raw_material',
        ifelse(grepl('UPPSEC|LOWSEC',UniqueID)==TRUE,'sector','other/not_disaggregated')))))) %>% mutate(disaggregated_ = ifelse(disaggregation =='other/not_disaggregated','not disaggregated','disaggregated')) %>% group_by(Indicator,disaggregated_) %>% mutate(count_disaggregated = n()) %>% ungroup() %>% group_by(Target,Indicator,disaggregated_,count_disaggregated) 
 
 for(i in 1:17){
-print(
-  indonesia_disaggregated_indicators %>% subset(Goal==i) %>% 
+  print(
+    indonesia_disaggregated_indicators %>% subset(Goal==i) %>% 
     ggplot(aes(x=Target,fill=disaggregated_)) +
     geom_bar(position='stack',binwidth=3) +
     scale_fill_manual(values = c('disaggregated'='navy','not disaggregated' = 'lightblue'))+
@@ -123,8 +136,8 @@ print(
       axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
         labs(title = paste('Goal ',i),
               subtitle = "A number of goals and targets include majority of disaggregated measures")+    
-    labs(fill = "Disaggregation", y="count", x = "") 
-)
+    labs(fill = "Disaggregation", y="count", x = "")
+    )
 }
 
 ```
@@ -159,9 +172,8 @@ guatemala_measures <- guatemala_measures %>% mutate(disaggregation = ifelse(grep
                                                                                                  ifelse(grepl('UPPSEC|LOWSEC',UniqueID)==TRUE,
                                                                                           'sector','other/not_disaggregated'))))))
 
-rlang::last_error()
-tm <-guatemala_measures %>% group_by(disaggregation) %>% mutate(count = n()) %>% ungroup() %>% group_by(disaggregation,count) %>% summarize() %>%
-  treemap(index="disaggregation",
+tm <-guatemala_measures %>% group_by(disaggregation) %>% mutate(count = n()) %>% ungroup() %>% group_by(disaggregation,count) %>% summarize() %>% mutate(disaggregation_count = paste(disaggregation,count,sep="\n")) %>%
+  treemap(index="disaggregation_count",
           vSize="count",
         type="index",
         fontsize.labels=c(12, 8), 
@@ -171,7 +183,7 @@ tm <-guatemala_measures %>% group_by(disaggregation) %>% mutate(count = n()) %>%
         border.col="white",
         title = 'Measures and Disaggregation'
   )
-
+tm
 hctreemap(tm, allowDrillToNode = TRUE, layoutAlgorithm = "squarified") %>%
   hc_title(text = "Disaggregated Data (Guatemala)") %>%
   hc_tooltip(pointFormat = "<b>{point.name}</b>:<br>
@@ -180,7 +192,7 @@ hctreemap(tm, allowDrillToNode = TRUE, layoutAlgorithm = "squarified") %>%
 ```
 
 This is a bit more of a look at the above disaggregation, wherein we look also at whether measures are disaggregated and how many (per target, subset by goal)
-```{r guatemala bar chart, echo=FALSE, eval =TRUE, message=FALSE, warning=FALSE}
+```{r guatemala bar chart, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
 guatemala_disaggregated_indicators <- guatemala_time %>% mutate(disaggregation = ifelse(grepl('MALE|FEMALE|15-24|25+|15-49',UniqueID)==TRUE,'age_sex', ifelse(grepl('URBAN|RURAL',UniqueID)==TRUE,'geographic_region',
                                                                                    ifelse(grepl('<5Y|<1Y|<1M',UniqueID)==TRUE,'time',
 ifelse(grepl('MIL|CAN|DIA|RES|CAR|NFO|CRO|NMA|WOD|ALP|WCH|PET|BIM|MEO|GBO|NMM|FOF|CLO|OIL|TEX|NMC',UniqueID)==TRUE,'raw_material',
@@ -205,4 +217,53 @@ print(
 
 ```
 
+## Measures with only one existent year 
 
+```{r missing data charts, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
+#Missingness across time 
+print('Missingness Across Time:')
+guatemala_time %>% select(X2012.0:X2019.0) %>% vis_miss()
+indonesia_time %>% select(X2012.0:X2019.0) %>% vis_miss()
+
+indonesia_time$missing_proportion = rowSums(is.na(indonesia_time %>% select(X2012.0:X2019.0))/8)
+guatemala_time$missing_proportion = rowSums(is.na(guatemala_time %>% select(X2012.0:X2019.0))/8)
+
+guatemala_time <- guatemala_time %>% group_by(Target) %>% mutate(average_missing_prop_t = mean(missing_proportion)) %>% ungroup() %>% group_by(Indicator) %>% mutate(average_missing_prop_i = mean(missing_proportion))
+indonesia_time <- indonesia_time %>% group_by(Target) %>% mutate(average_missing_prop_t = mean(missing_proportion)) %>% ungroup() %>% group_by(Indicator) %>% mutate(average_missing_prop_i = mean(missing_proportion))
+
+for(i in 1:17){
+print(
+  indonesia_time %>% subset(Goal==i) %>% group_by(Target,average_missing_prop_t) %>% summarise() %>% 
+    ggplot(aes(x=Target,y=average_missing_prop_t*100,fill=average_missing_prop_t*100)) +
+    geom_bar(stat="identity") +
+    scale_fill_gradient(high='navy',low = 'lightblue') +
+    theme_ipsum(base_size = 12, axis_title_size = 4) +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+        labs(title = paste('Goal ',i),
+             caption = "** - 2020-2021 excluded because most measures' values were missing in these years")+    
+    labs(fill = "Percent Missing (across 2012-2019)**", y="Percent", x = "") 
+)
+}
+
+for(i in 1:17){
+print(
+  guatemala_time %>% subset(Goal==i) %>% group_by(Target,average_missing_prop_t) %>% summarise() %>% 
+    ggplot(aes(x=Target,y=average_missing_prop_t*100,fill=average_missing_prop_t*100)) +
+    geom_bar(stat="identity") +
+    scale_fill_gradient(high='maroon',low = 'lavender') +
+    theme_ipsum(base_size = 12, axis_title_size = 14) +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+        labs(title = paste('Goal ',i),
+             caption = "** - 2020-2021 excluded because most measures' values were missing in these years")+    
+    labs(fill = "Average Percent Missing (across 2012-2019)**", y="Percent", x = "") 
+)
+}
+```
+## Weighted degree of each measure 
+TBD
