@@ -1,4 +1,2 @@
-UniqueID,SH_STA_POISN BOTHSEX                        ,SH_STA_POISN FEMALE                        ,SH_STA_POISN MALE                        
-SH_STA_POISN BOTHSEX                        ,,,
-SH_STA_POISN FEMALE                        ,,,
-SH_STA_POISN MALE                        ,,,
+UniqueID,SH_STA_POISN BOTHSEX                        
+SH_STA_POISN BOTHSEX                        ,
