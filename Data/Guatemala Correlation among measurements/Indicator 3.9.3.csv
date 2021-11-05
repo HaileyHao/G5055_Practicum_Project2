@@ -1,4 +1,2 @@
-UniqueID,SH_STA_POISN BOTHSEX                        ,SH_STA_POISN FEMALE                        ,SH_STA_POISN MALE                        
-SH_STA_POISN BOTHSEX                        ,1.0,1.0000000000000002,0.9999999999999998
-SH_STA_POISN FEMALE                        ,1.0000000000000002,1.0,1.0
-SH_STA_POISN MALE                        ,0.9999999999999998,1.0,1.0
+UniqueID,SH_STA_POISN BOTHSEX                        
+SH_STA_POISN BOTHSEX                        ,1.0

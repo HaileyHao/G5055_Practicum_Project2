@@ -1,5 +1,3 @@
-UniqueID,EN_MAR_BEALITSQ                         ,EN_MAR_CHLANM                    High     ,EN_MAR_CHLANM                    Moderate     ,EN_MAR_CHLDEV                         
-EN_MAR_BEALITSQ                         ,1.0,,,-0.545954081891157
-EN_MAR_CHLANM                    High     ,,1.0,0.9893986560561359,1.0
-EN_MAR_CHLANM                    Moderate     ,,0.9893986560561359,1.0,1.0
-EN_MAR_CHLDEV                         ,-0.545954081891157,1.0,1.0,1.0
+UniqueID,EN_MAR_BEALITSQ                         ,EN_MAR_CHLDEV                         
+EN_MAR_BEALITSQ                         ,1.0,-0.545954081891157
+EN_MAR_CHLDEV                         ,-0.545954081891157,1.0
