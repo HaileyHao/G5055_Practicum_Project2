@@ -1,11 +1,5 @@
-UniqueID,SG_DMK_PARLCC_LC FEMALE   GEN_EQU              _U       ,SG_DMK_PARLCC_LC MALE   DEFENCE              <=45Y       ,SG_DMK_PARLCC_LC MALE   FINANCE              <=45Y       ,SG_DMK_PARLCC_LC MALE   FOR_AFF              46+       ,SG_DMK_PARLCC_LC MALE   HUM_RIGH              46+       ,SG_DMK_PARLMP_LC                         ,SG_DMK_PARLSP_LC MALE                 <=45Y       ,SG_DMK_PARLYN_LC                  <=45Y       ,SG_DMK_PARLYP_LC                  <=45Y       ,SG_DMK_PARLYR_LC                  <=45Y       
-SG_DMK_PARLCC_LC FEMALE   GEN_EQU              _U       ,,,,,,,,,,
-SG_DMK_PARLCC_LC MALE   DEFENCE              <=45Y       ,,,,,,,,,,
-SG_DMK_PARLCC_LC MALE   FINANCE              <=45Y       ,,,,,,,,,,
-SG_DMK_PARLCC_LC MALE   FOR_AFF              46+       ,,,,,,,,,,
-SG_DMK_PARLCC_LC MALE   HUM_RIGH              46+       ,,,,,,,,,,
-SG_DMK_PARLMP_LC                         ,,,,,,,,,,
-SG_DMK_PARLSP_LC MALE                 <=45Y       ,,,,,,,,,,
-SG_DMK_PARLYN_LC                  <=45Y       ,,,,,,,,,,
-SG_DMK_PARLYP_LC                  <=45Y       ,,,,,,,,,,
-SG_DMK_PARLYR_LC                  <=45Y       ,,,,,,,,,,
+UniqueID,SG_DMK_PARLMP_LC                         ,SG_DMK_PARLYN_LC                  <=45Y       ,SG_DMK_PARLYP_LC                  <=45Y       ,SG_DMK_PARLYR_LC                  <=45Y       
+SG_DMK_PARLMP_LC                         ,,,,
+SG_DMK_PARLYN_LC                  <=45Y       ,,,,
+SG_DMK_PARLYP_LC                  <=45Y       ,,,,
+SG_DMK_PARLYR_LC                  <=45Y       ,,,,

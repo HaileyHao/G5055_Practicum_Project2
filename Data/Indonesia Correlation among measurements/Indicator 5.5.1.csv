@@ -1,5 +1,2 @@
-UniqueID,SG_GEN_LOCGELS FEMALE                        ,SG_GEN_PARL FEMALE                        ,SG_GEN_PARLN FEMALE                        ,SG_GEN_PARLNT BOTHSEX                        
-SG_GEN_LOCGELS FEMALE                        ,1.0,1.0,1.0,
-SG_GEN_PARL FEMALE                        ,1.0,1.0,0.9957203297956264,
-SG_GEN_PARLN FEMALE                        ,1.0,0.9957203297956264,1.0,
-SG_GEN_PARLNT BOTHSEX                        ,,,,
+UniqueID,SG_GEN_PARLNT BOTHSEX                        
+SG_GEN_PARLNT BOTHSEX                        ,
