@@ -42,8 +42,12 @@ one_measure <- nodisagg %>%
 # ineligible measures: indo:75 # gua:90
 ineligible_measure <- rbind(NA_measure, one_measure) %>% unique()
 
-
-
+# eligible measures: indo:191 # gua:207
+eligible_measure <- nodisagg %>%
+  filter(!UniqueID %in% ineligible_measure$UniqueID) %>% 
+  select(UniqueID) %>% 
+  unique()
+  
 
 
 # Indicator:
