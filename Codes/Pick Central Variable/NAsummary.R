@@ -1,14 +1,14 @@
 library(readr)
 library(dplyr)
 
-nodisagg <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
+nodisagg <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
 
-all_indicator <- unique(nodisagg$Indicator) # indo:123 # gua:183
-all_SeriesCode <- unique(nodisagg$SeriesCode) # indo:253 # gua:404
-all_measure <- unique(nodisagg$UniqueID) # indo:266 # gua:1080
+all_indicator <- unique(nodisagg$Indicator) # indo:123 # gua:123
+all_SeriesCode <- unique(nodisagg$SeriesCode) # indo:253 # gua:280
+all_measure <- unique(nodisagg$UniqueID) # indo:266 # gua:297
 
 
-possible_NA_measure <- nodisagg %>% filter(is.na(Value)) %>% select(UniqueID) # indo 54 # gua:116
+possible_NA_measure <- nodisagg %>% filter(is.na(Value)) %>% select(UniqueID) # indo 54 # gua:62
 NA_measure <- nodisagg %>% 
   filter(UniqueID %in% possible_NA_measure$UniqueID) %>% 
   group_by(UniqueID) %>% 
@@ -21,7 +21,7 @@ NA_measure <- nodisagg %>%
   filter(all_na == 1) %>% 
   select(UniqueID) %>% 
   unique()
-# measure with all NAs: indo 12 # gua:20
+# measure with all NAs: indo 12 # gua:13
 
 isna_measure <- nodisagg %>% 
   filter(UniqueID %in% possible_NA_measure$UniqueID) %>% 
@@ -55,7 +55,7 @@ NA_indicator <- nodisagg %>%
 # indicator with all measures with all NAs: indo:3 # gua:4
 
 
-# measures with only one record other than NAs (can't do correlation): indo 63 # gua:190
+# measures with only one record other than NAs (can't do correlation): indo 63 # gua:77
 one_measure <- nodisagg %>% 
   filter(!is.na(Value)) %>%
   group_by(UniqueID) %>% 
@@ -63,7 +63,7 @@ one_measure <- nodisagg %>%
   ungroup() %>% 
   filter(n == 1) 
 
-# indicator with all measures with only one record (can't do correlation): indo:31 # gua:54
+# indicator with all measures with only one record (can't do correlation): indo:31 # gua:35
 isna_indicator <- nodisagg %>% 
   filter(Indicator %in% one_measure$Indicator) %>% 
   group_by(Indicator) %>% 
@@ -73,20 +73,19 @@ isna_indicator <- nodisagg %>%
   group_by(Indicator) %>% 
   mutate(n_one = n()) %>% 
   mutate(all_one = ifelse(n == n_one, 1, 0))
-
 one_indicator <- isna_indicator %>% 
   select(Indicator) %>% 
   unique()
 
 
-# ineligible measures: indo:75 # gua:210
+# ineligible measures: indo:75 # gua:90
 ineligible_measure <- rbind(NA_measure, one_measure)
 
 
-# ineligible indicators: indo:34 # gua:58
+# ineligible indicators: indo:34 # gua:39
 ineligible_indicator <- rbind(NA_indicator, one_indicator)
 
-# eligible indicators: indo:89 # gua:125
+# eligible indicators: indo:89 # gua:84
 eligible_indicator <- nodisagg %>% 
   select(Indicator) %>% 
   unique() %>% 
@@ -94,10 +93,10 @@ eligible_indicator <- nodisagg %>%
   filter(eligible == 1) %>% 
   select(Indicator)
 
-# eligible indicators with multiple measures: indo:34 # gua:70
+# eligible indicators with multiple measures: indo:34 # gua:34
 eligible_indicator_multiple <- nodisagg %>% select(UniqueID, Indicator) %>% 
   unique() %>% 
-  filter(Indicator %in% eligible_indicators$Indicator) %>% 
+  filter(Indicator %in% eligible_indicator$Indicator) %>% 
   group_by(Indicator) %>% 
   mutate(n = n()) %>% 
   filter(n > 1) %>% 
@@ -106,9 +105,10 @@ eligible_indicator_multiple <- nodisagg %>% select(UniqueID, Indicator) %>%
 
 
 write.csv(eligible_indicator, 
-          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/indo_eligible_indicator_all.csv", 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/gua_eligible_indicator_all.csv", 
           row.names = FALSE)
 
 write.csv(eligible_indicator_multiple, 
-          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/indo_eligible_indicator_multimeasure.csv", 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/gua_eligible_indicator_multimeasure.csv", 
           row.names = FALSE)
+
