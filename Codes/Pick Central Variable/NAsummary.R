@@ -87,11 +87,12 @@ ineligible_measure <- rbind(NA_measure, one_measure)
 ineligible_indicator <- rbind(NA_indicator, one_indicator)
 
 # eligible indicators: indo:89 # gua:125
-eligible_indicators <- nodisagg %>% 
+eligible_indicator <- nodisagg %>% 
   select(Indicator) %>% 
   unique() %>% 
   mutate(eligible = ifelse(Indicator %in% ineligible_indicator$Indicator, 0, 1)) %>% 
-  filter(eligible == 1)
+  filter(eligible == 1) %>% 
+  select(Indicator)
 
 # eligible indicators with multiple measures: indo:34 # gua:70
 eligible_indicator_multiple <- nodisagg %>% select(UniqueID, Indicator) %>% 
@@ -102,3 +103,12 @@ eligible_indicator_multiple <- nodisagg %>% select(UniqueID, Indicator) %>%
   filter(n > 1) %>% 
   select(Indicator) %>% 
   unique()
+
+
+write.csv(eligible_indicator, 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/indo_eligible_indicator_all.csv", 
+          row.names = FALSE)
+
+write.csv(eligible_indicator_multiple, 
+          "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/variable types/indo_eligible_indicator_multimeasure.csv", 
+          row.names = FALSE)
