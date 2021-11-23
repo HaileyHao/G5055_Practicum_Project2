@@ -5,9 +5,9 @@ library(ggthemes)
 library(readr)
 library(ggplot2)
 
-#getwd()
-#setwd("/Users/hannahz/Desktop/columbia second semester/practicum/G5055_Practicum_Project2/Data/Text_Model_Data")
-#list.files()
+getwd()
+setwd("/Users/hannahz/Desktop/G5055_Practicum_Project2/Data/Text_Model_Data")
+list.files()
 
 #read in nodes
 nodes_of17 <- read_csv('nodes_ind17.csv')
@@ -41,6 +41,37 @@ plot <-
   labs(size="similarity score") +  scale_size_continuous(range = c(0.05, 1.2)) +theme_blank() 
 plot
 
-path = '/Users/hannahz/Desktop/columbia second semester/practicum/G5055_Practicum_Project2/Visualizations/Text_Model_Viz'
+path = '/Users/hannahz/Desktop/G5055_Practicum_Project2/Visualizations/Text_Model_Viz'
 ggsave('indi17_2_1', plot, path = path, device = 'png',dpi = 300, width = 9.71, height = 6.83)
 ggsave('indi', plot, path = path, device = 'png',dpi = 300)
+
+#########
+edgelist_goal <- read_csv('edgelist_goal.csv')
+edgelist_goal
+nodes_goal <- read_csv('nodes_goal.csv')
+#change the type of the goal to character (before it's seen as number)
+nodes_goal$goal <- as.factor(nodes_goal$goal)
+nodes_goal 
+g <- graph_from_data_frame(d = edgelist_goal, vertices = nodes_goal, directed = FALSE)
+edge_attr(g)
+vertex_attr(g)
+
+library(ggnetwork)
+set.seed(2103)
+dat <- ggnetwork(g, 
+                 layout=igraph::with_kk())
+dat
+dat_label <- dat %>% distinct(name, .keep_all = TRUE)
+library(ggrepel)
+plot <- 
+  ggplot() +
+  geom_edges(data=dat, 
+             aes(x=x, y=y, xend=xend, yend=yend, size=similarity_score), curvature=0.1, alpha = 2/3) +
+  geom_nodes(data=dat,
+             aes(x=x, y=y, xend=xend, yend=yend, color = goal, size = size),show.legend = FALSE) + 
+  geom_label_repel(data = dat_label,aes(x=x, y=y, label= name)) +
+  scale_color_brewer(palette = 'Set3',guide = FALSE) + 
+  labs(size="similarity score")  + scale_size_continuous(range = c(0.1, 10)) + theme_blank() 
+plot
+
+ggsave('indi17_withgoal', plot, path = path, device = 'png',dpi = 300)
