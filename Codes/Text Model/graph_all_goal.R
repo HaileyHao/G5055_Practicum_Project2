@@ -8,14 +8,14 @@ library(qgraph)
 
 
 #read in nodes
-nodes <- read_csv('/Users/lidan/Desktop/qmss/Fall/G5055_Practicum_Project2-main/nlp/edgelist_goal1.csv')
+nodes <- read_csv('/Users/lidan/Desktop/qmss/Fall/G5055_Practicum_Project2-main/nlp/edgelist_02_goal.csv')
 nodes
 #change goal into factor value (not number)
 nodes$Goal <- as.factor(nodes$Goal)
 
 
 #read in edgelist of indicator 17.2.1
-edgelist <- read_csv('/Users/lidan/Desktop/qmss/Fall/G5055_Practicum_Project2-main/nlp/edgelist.csv')
+edgelist <- read_csv('/Users/lidan/Desktop/qmss/Fall/G5055_Practicum_Project2-main/nlp/edgelist_02.csv')
 qgraph(edgelist, groups = nodes$Goal)
 
 #convert it to an igraph object
