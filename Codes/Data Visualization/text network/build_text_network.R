@@ -65,3 +65,9 @@ tg <- g
 # load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_net.RData")
 
 
+
+
+# change the data format to matrix, to build weighted network
+library(tidyr)
+d <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/edgelist.csv") 
+m <- pivot_wider(d, names_from = related_indicator, values_from = similarity_score)
