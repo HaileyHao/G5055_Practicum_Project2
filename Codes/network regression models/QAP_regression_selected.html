@@ -242,8 +242,8 @@ summary(indo_nlo_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate  Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.7140483 2.042242 0.890   0.110   0.110    
-## x1          0.3685637 1.445657 0.858   0.142   0.318    
+## (intercept) 0.7140483 2.042242 0.886   0.114   0.114    
+## x1          0.3685637 1.445657 0.829   0.171   0.321    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -273,15 +273,15 @@ summary(indo_nlo_ct)</code></pre>
 ##  Replications: 1000 
 ##  Distribution Summary:
 ## 
-##        (intercept)      x1
-## Min        27.9150 -6.3847
-## 1stQ       28.5230 -1.6194
-## Median     28.7025 -0.2856
-## Mean       28.7019 -0.1915
-## 3rdQ       28.8818  1.0512
-## Max        29.4524  5.3699</code></pre>
+##        (intercept)       x1
+## Min       27.77352 -5.78385
+## 1stQ      28.52295 -1.28697
+## Median    28.70735  0.04894
+## Mean      28.71262 -0.01781
+## 3rdQ      28.89166  1.38384
+## Max       29.57797  5.11162</code></pre>
 <blockquote>
-<p>Predicting the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity &gt;= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p &gt; 0.05 means we can NOT reject the null hypothesis that there’s no releationship between the Indonesia coefficient network and the Indicator text network, which means there’s a chance for us to see results like this just by accident.</p>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Indonesia text network (whether indicator description similarity &gt;= 0.2) with Network Logit Model shows that with the text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p &gt; 0.05 means we can NOT reject the null hypothesis that there’s no releationship between the Indonesia coefficient network and the Indicator text network, which means there’s a chance for us to see results like this just by accident.</p>
 </blockquote>
 </div>
 </div>
@@ -300,8 +300,8 @@ summary(gua_nlo_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate  Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 1.1101540 3.034826 0.966   0.034   0.034    
-## x1          0.3939233 1.482787 0.780   0.220   0.434    
+## (intercept) 1.1101540 3.034826 0.975   0.025   0.025    
+## x1          0.3939233 1.482787 0.805   0.195   0.430    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -332,12 +332,12 @@ summary(gua_nlo_ct)</code></pre>
 ##  Distribution Summary:
 ## 
 ##        (intercept)       x1
-## Min       37.52681 -5.51216
-## 1stQ      37.98331 -1.52232
-## Median    38.12384 -0.01288
-## Mean      38.14589 -0.03153
-## 3rdQ      38.29863  1.49535
-## Max       38.77672  5.06455</code></pre>
+## Min       37.52681 -6.86472
+## 1stQ      37.98460 -1.52232
+## Median    38.15117 -0.01288
+## Mean      38.15474 -0.14579
+## 3rdQ      38.31859  1.49535
+## Max       38.90106  4.55275</code></pre>
 <blockquote>
 <p>Predicting the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity &gt;= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy. However, p &gt; 0.05 means we can NOT reject the null hypothesis that there’s no releationship between the Guatemala Indicator coefficient network and the Indicator text network, which means there’s a chance for us to see results like this just by accident.</p>
 </blockquote>
@@ -370,8 +370,8 @@ summary(nlo_2country)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate   Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) -0.3682069 0.691974 0.169   0.831   0.198    
-## x1           1.2958614 3.654142 0.998   0.002   0.002    
+## (intercept) -0.3682069 0.691974 0.178   0.822   0.211    
+## x1           1.2958614 3.654142 0.999   0.001   0.001    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -402,13 +402,13 @@ summary(nlo_2country)</code></pre>
 ##  Replications: 1000 
 ##  Distribution Summary:
 ## 
-##        (intercept)       x1
-## Min       -22.0273 -13.0312
-## 1stQ       -5.5745  -4.0789
-## Median     -1.8172  -0.2908
-## Mean       -2.0595   0.1465
-## 3rdQ        1.9363   3.7438
-## Max        10.4938  22.3644</code></pre>
+##        (intercept)        x1
+## Min      -19.84776 -12.68507
+## 1stQ      -5.46881  -4.07894
+## Median    -1.57705  -0.41319
+## Mean      -2.10416   0.07729
+## 3rdQ       1.74025   4.01827
+## Max       10.88320  21.13452</code></pre>
 <blockquote>
 <p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.<br />
 p &lt; 0.05 (very close to 0) means we CAN reject the null hypothesis that there’s no releationship between the Indonesia coefficient network and the Guatemala Indicator coefficient network, which means there’s very low chance for us to see results like this just by accident.</p>
@@ -445,9 +445,9 @@ summary(n2)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.40751475 1.00    0.00    0.000    
-## x1          0.30696270 1.00    0.00    0.000    
-## x2          0.08132084 0.85    0.15    0.295    
+## (intercept) 0.40751475 1.000   0.000   0.000    
+## x1          0.30696270 1.000   0.000   0.000    
+## x2          0.08132084 0.834   0.166   0.344    
 ## 
 ## Residual standard error: 0.4616 on 6003 degrees of freedom
 ## Multiple R-squared: 0.07933  Adjusted R-squared: 0.07902 
@@ -460,13 +460,13 @@ summary(n2)</code></pre>
 ##  Replications: 1000 
 ##  Coefficient Distribution Summary:
 ## 
-##        (intercept)        x1        x2
-## Min       -7.60264 -13.48898  -6.25535
-## 1stQ       6.25517  -4.12693  -1.47601
-## Median     9.59240  -0.56062   0.01193
-## Mean       9.48443  -0.04749  -0.01854
-## 3rdQ      13.23998   3.60423   1.31349
-## Max       24.11686  21.42747   5.67618</code></pre>
+##        (intercept)         x1         x2
+## Min     -12.180599 -14.263690  -6.349127
+## 1stQ      5.572859  -4.233469  -1.534281
+## Median    9.198228  -0.581629   0.029454
+## Mean      9.041374  -0.184078   0.001685
+## 3rdQ     12.783688   3.604460   1.462190
+## Max      26.396791  19.619244   6.110314</code></pre>
 <blockquote>
 <p>Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, <strong>net of each other</strong>, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.000] vs. 0.081 [p &gt; 0.05]) better as a predictor of Indonesia indicator correlations.</p>
 </blockquote>
