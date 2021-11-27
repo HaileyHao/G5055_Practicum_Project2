@@ -92,7 +92,7 @@ indo_nlo_ct <- netlogit(indo_cm, indo_tm)
 summary(indo_nlo_ct)
 ```
 
-> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indonesia text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
 
 
 ### 2) Guatemala
