@@ -20,10 +20,17 @@ library(dplyr)
 In networks: Non-independence of observations            
 The inference problem: The non-independence of observations affects the standard errors, not the coefficients.           
 To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. -- QAP               
-**QAP – the Quadratic Assignment Procedure** - https://www.stata.com/meeting/1nasug/simpson.pdf         
+
+**QAP – the Quadratic Assignment Procedure**         
+https://www.stata.com/meeting/1nasug/simpson.pdf
 
 
 # Part 1: real number matrices
+
+## Preprecessing:
+
+1. To do QAP analysis (network regressions), it requires us to make the matrices in the same shape and row&column order, so I did regressions on the **common indicators** in the different matrices, and deleted the rest ones.   
+
 
 ```{r}
 # 1. coefficient matrix
@@ -40,7 +47,7 @@ load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Da
 tm <- m
 ```
 
-## 1. QAP between text similarity and correlation coefficients
+## 1. QAP between text similarity and correlation coefficients -- Netork OLS Model
 
 ### Use the original value of similarity scores in text network and correlation coefficients in Indictor networks, to see:  How much the similarity between Indicator descriptions predict the correlation coefficient between their measurements?     
 
@@ -59,7 +66,7 @@ indo_nl_ct <- netlm(indo_cm, indo_tm)
 summary(indo_nl_ct)
 ```
 
-> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0005801, which is the R-squared)=0.02408527, with p=0.03508, statistically significant.  
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0005801, which is the R-squared)=0.02408527, with p > 0.05, NOT statistically significant.  
  
 
 
@@ -78,10 +85,10 @@ gua_nl_ct <- netlm(gua_cm, gua_tm)
 summary(gua_nl_ct)
 ```
 
-> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.007584, which is the R-squared)=0.08708616, with p=1.163e-12, statistically significant.    
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.007584, which is the R-squared)=0.08708616, with p < 0.05, statistically significant.    
 
 
-## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients    
+## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients -- Netork OLS Model
 
 ### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Indonesia predict that of Guatemala?
 
@@ -100,10 +107,26 @@ summary(nl_2country)
 # summary(nl_2country2)
 ```
 
-> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0001961, which is the R-squared)=0.01400357, with p=0.2779, not statistically significant.    
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0001961, which is the R-squared)=0.01400357, with p > 0.05, not statistically significant.    
 	
 
 # Part 2: binary matrices
+
+Network regression models are built to predict one binary matrix with another.     
+
+
+## Preprecessing:
+
+1. To do QAP analysis (network regressions), it requires us to make the matrices in the same shape and row&column order, so I did regressions on the **common indicators** in the different matrices, and deleted the rest ones.         
+
+2. Make binary:             
+Coefficients with an absolute value < 0.5 are coded as 0;              
+Coefficients with an absolute value >= 0.5 are coded as 1.            
+Similarity score < 0.2 are coded as 0;         
+Similarity score >= 0.2 are coded as 1;            
+
+
+## load matrices data
 
 ```{r}
 # 1. coefficient matrix
@@ -120,6 +143,7 @@ load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Da
 tm <- m
 ```
 
+## recode as binary
 
 ```{r}
 indo_cm[indo_cm >= -0.5 & indo_cm < 0.5] <- 0
@@ -132,8 +156,13 @@ tm[tm < 0.2] <- 0
 tm[tm >= 0.2] <- 1
 ```
 
+## Results and Findings (interpretation of results) 
+
+## 1. QAP between coefficient networks and text network
 
 ### 1) Indonesia
+
+#### a) Netork OLS Model
 
 ```{r}
 # get the matrices in same shape and indicator order
@@ -149,28 +178,16 @@ summary(indo_nl_ct)
 # summary(indo_nl_tc)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005522, which is the R-squared)=0.02349894, with p=0.03978, statistically significant.       
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005522, which is the R-squared)=0.02349894, with p > 0.05, not statistically significant. 
 
+#### b) Logit Netork Model
 
 ```{r}
 indo_nlo_ct <- netlogit(indo_cm, indo_tm)
 summary(indo_nlo_ct)
 ```
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Indicator text network, we can predict the Indonesia coefficient network with an 67.3% accuracy.       
-  
 
-<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
-<!--        0      1          -->
-<!-- 0      0      0            -->
-<!-- 1   2504   5152              -->
-
-**Total Fraction Correct: 0.6729363**           
-Fraction Predicted 1s Correct: 0.6729363             
-Fraction Predicted 0s Correct: NaN              
-False Negative Rate: 0             
-False Positive Rate: 1                
-
-
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia Indicator coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
 
 
 ### 2) Guatemala
@@ -182,23 +199,29 @@ gua_tm <- tm[rownames(gua_cm), rownames(gua_cm)]
 
 # install.packages("sna")
 library(sna)
+```
+
+#### a) Netork OLS Model
+
+```{r}
 gua_nl_tc <- netlm(gua_tm, gua_cm)
 summary(gua_nl_tc)
 
-gua_nl_ct <- netlm(gua_tm, gua_cm)
-summary(gua_nl_ct)
+# gua_nl_ct <- netlm(gua_cm, gua_tm)
+# summary(gua_nl_ct)
 ```
 
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005318, which is the R-squared)=0.02306079, with p > 0.05, not statistically significant. 
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005318, which is the R-squared)=0.02306079, with p=0.0602, statistically significant(p < 0.1).
 
+#### b) Logit Netork Model
 
 ```{r}
 gua_nlo_ct <- netlogit(gua_cm, gua_tm)
 summary(gua_nlo_ct)
 ```
 
-> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy.
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Guatemala Indicator coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
 
 
 <!-- Contingency Table (predicted (rows) x actual (cols)):     -->
@@ -213,10 +236,11 @@ False Negative Rate: 0
 False Positive Rate: 1               
  
  
- 
 ## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients
 
-### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Indonesia predict that of Guatemala?
+### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Guatemala predict that of Indonesia?
+
+#### a) Netork OLS Model
 
 ```{r}
 diff1 <- setdiff(rownames(indo_cm), rownames(gua_cm))
@@ -234,15 +258,17 @@ summary(nl_2country)
 # summary(nl_2country2)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.0.8869047, with p=0, statistically significant.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.8869047, with p < 0.05 (very close to 0), statistically significant. Such small p value means that we can reject the null hypothesis that there's no releationship between the coefficient network of Indonesia and Guatemala, which means there's nearly no chance for us to see results like this just by accident.
 
+#### b) Logit Netork Model
 
 ```{r}
 nlo_2country <- netlogit(indo_cm2, gua_cm2)
 summary(nlo_2country)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.             
+p < 0.05 (very close to 0) means we can reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Guatemala coefficient network, which means there's very low chance for us to see results like this just by accident.
 
 
 <!-- Contingency Table (predicted (rows) x actual (cols)):            -->
@@ -257,8 +283,10 @@ Fraction Predicted 0s Correct: 0.5910256
 False Negative Rate: 0.166841         
 False Positive Rate: 0.5774519               
            
-	
 
+## Something can be done in future studies:     
+
+## Multiple Network Regression (QAP network regression with multiple x matrices)
 
 ```{r}
 tm2 <- tm[colnames(gua_cm2), colnames(gua_cm2)] # colnames(indo_cm2) and colnames(gua_cm2) are the same
@@ -267,9 +295,9 @@ cm_tm[1,,] <- gua_cm2
 cm_tm[2,,] <- tm2
 n2<-netlm(indo_cm2, cm_tm)
 summary(n2)
-
 ```
-> Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, **net of each other**, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.001] vs. 0.081 [p=0.313]) better as a predictor of Indonesia indicator correlations.       
+
+> Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, **net of each other**, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.000] vs. 0.081 [p > 0.05]) better as a predictor of Indonesia indicator correlations.       
 
 > This multiple network OLS regression here is **not a good practice**, because the Indonesia and Guatemala coefficient networks are two different data objects, we can not and should not hold one constant to see the relationship between the other and the text network.         
 

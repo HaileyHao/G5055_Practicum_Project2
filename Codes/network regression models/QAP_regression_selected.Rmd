@@ -1,0 +1,185 @@
+---
+title: "QAP regression"
+author: "Qinyue Hao"
+date: "11/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(network)
+library(sna)
+library(dplyr)
+```
+
+
+**We need to admit: caveats of statistical inference with networks:**                     
+In networks: Non-independence of observations            
+The inference problem: The non-independence of observations affects the standard errors, not the coefficients.           
+To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. -- QAP               
+**QAP – the Quadratic Assignment Procedure** - https://www.stata.com/meeting/1nasug/simpson.pdf   
+
+
+# Network regression models with binary matrices       
+
+Network regression models are built to predict one binary matrix with another.     
+
+
+## Preprecessing:
+
+1. To do QAP analysis (network regressions), it requires us to make the matrices in the same shape and row&column order, so I did regressions on the **common indicators** in the different matrices, and deleted the rest ones.         
+
+2. Make binary:             
+Coefficients with an absolute value < 0.5 are coded as 0;              
+Coefficients with an absolute value >= 0.5 are coded as 1.            
+Similarity score < 0.2 are coded as 0;         
+Similarity score >= 0.2 are coded as 1;            
+
+
+## load matrices data
+
+```{r}
+# 1. coefficient matrix
+# Indonesia coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net_weighted.RData")
+indo_cm <- cm
+
+# Guatemala coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted.RData")
+gua_cm <- cm
+
+# 2. text similarity matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData")
+tm <- m
+```
+
+## recode as binary
+
+```{r}
+indo_cm[indo_cm >= -0.5 & indo_cm < 0.5] <- 0
+indo_cm[indo_cm <= -0.5 | indo_cm >= 0.5] <- 1
+
+gua_cm[gua_cm >= -0.5 & gua_cm < 0.5] <- 0
+gua_cm[gua_cm <= -0.5 | gua_cm >= 0.5] <- 1
+
+tm[tm < 0.2] <- 0
+tm[tm >= 0.2] <- 1
+```
+
+## Results and Findings (interpretation of results) 
+
+## 1. QAP between coefficient networks and text network with Logit Netork Model
+
+### 1) Indonesia
+
+#### a) Netork OLS Model
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+indo_tm <- tm[rownames(indo_cm), rownames(indo_cm)]
+
+# install.packages("sna")
+library(sna)
+```
+
+
+```{r}
+indo_nlo_ct <- netlogit(indo_cm, indo_tm)
+summary(indo_nlo_ct)
+```
+
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indonesia text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the text network, we can predict the Indonesia coefficient network with an 67.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
+
+
+### 2) Guatemala
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+gua_tm <- tm[rownames(gua_cm), rownames(gua_cm)]
+
+# install.packages("sna")
+library(sna)
+```
+
+
+```{r}
+gua_nlo_ct <- netlogit(gua_cm, gua_tm)
+summary(gua_nlo_ct)
+```
+
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Guatemala Indicator coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
+
+
+<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
+<!--        0      1 -->
+<!-- 0      0      0 -->
+<!-- 1   1636   5006 -->
+
+**Total Fraction Correct: 0.7536886**        
+Fraction Predicted 1s Correct: 0.7536886        
+Fraction Predicted 0s Correct: NaN        
+False Negative Rate: 0             
+False Positive Rate: 1               
+ 
+ 
+## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients with Logit Netork Model
+
+### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Guatemala predict that of Indonesia?
+
+```{r}
+diff1 <- setdiff(rownames(indo_cm), rownames(gua_cm))
+common_for_qap <- setdiff(rownames(indo_cm), diff1)
+# diff2 <- setdiff(rownames(gua_cm), rownames(indo_cm))
+# common_for_qap <- setdiff(rownames(gua_cm), diff2) # same result 87 common indicators
+
+indo_cm2 <- indo_cm[common_for_qap, common_for_qap]
+gua_cm2 <- gua_cm[common_for_qap, common_for_qap]
+```
+
+
+```{r}
+nlo_2country <- netlogit(indo_cm2, gua_cm2)
+summary(nlo_2country)
+```
+
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.             
+p < 0.05 (very close to 0) means we CAN reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Guatemala Indicator coefficient network, which means there's very low chance for us to see results like this just by accident.
+
+
+<!-- Contingency Table (predicted (rows) x actual (cols)):            -->
+<!--          Actual -->
+<!-- Predicted      0      1 -->
+<!--         0    922    638 -->
+<!--         1   1260   3186 -->
+
+**Total Fraction Correct: 0.6839827**         
+Fraction Predicted 1s Correct: 0.7165992          
+Fraction Predicted 0s Correct: 0.5910256             
+False Negative Rate: 0.166841         
+False Positive Rate: 0.5774519               
+           
+
+## Something can be done in future studies:     
+
+## Multiple Network Regression (QAP network regression with multiple X matrices)
+
+```{r}
+tm2 <- tm[colnames(gua_cm2), colnames(gua_cm2)] # colnames(indo_cm2) and colnames(gua_cm2) are the same
+cm_tm <- array(NA, c(2, length(gua_cm2[1,]),length(gua_cm2[1,]))) 
+cm_tm[1,,] <- gua_cm2
+cm_tm[2,,] <- tm2
+n2<-netlm(indo_cm2, cm_tm)
+summary(n2)
+```
+
+> Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, **net of each other**, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.000] vs. 0.081 [p > 0.05]) better as a predictor of Indonesia indicator correlations.       
+
+> This multiple network OLS regression here is **not a good practice**, because the Indonesia and Guatemala coefficient networks are two different data objects, we can not and should not hold one constant to see the relationship between the other and the text network.         
+
+> However, it suggests a way to go in further studies -- multiple network regressions, which may be helpful when we have more than two various types networks for the same country, for example, on the target level, 1) target coefficient network, 2)target description text network, 3)target progress network (suggesting whether the target was achieved on time).            
+
