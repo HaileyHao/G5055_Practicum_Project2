@@ -1,0 +1,175 @@
+---
+title: "ERGMs"
+author: "Qinyue Hao"
+date: "11/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(network)
+library(sna)
+library(dplyr)
+# install.packages("RCurl")
+# install.packages("ergm")
+library(RCurl)
+library(ergm)
+```
+
+
+# ERGMs -- Exponential Random Graph Models                
+## Another way to model relations             
+- Remember the problem:             
+  - We have deep dependence in our data (clustering)            
+- We have structural properties about our network that might matter 
+
+
+## How ERGMs work
+- From Cranmer & Desmarais (p.71): The only assumptions we have to
+make about ERGMs are (1) that we observe the expected values of a
+bunch of parameters that define a network, Γi, and (2) that we have
+identified the factors that influence the probability of observing any
+given graph (i.e., the model is correctly specified). ERGMs thus
+provide a method capable of estimating standard covariate effects as
+well as the effects of other network properties without having to make
+any assumptions about independence.
+
+
+
+First, read in the matrices:
+
+```{r}
+# 1. coefficient matrix
+# Indonesia coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficient_matrix.RData")
+indo_cm <- x
+# Guatemala coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficient_matrix.RData")
+gua_cm <- x
+
+# 2. text similarity matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData")
+tm <- m
+```
+
+```{r}
+indo_cm[indo_cm >= -0.5 & indo_cm < 0.5] <- 0
+indo_cm[indo_cm <= -0.5 | indo_cm >= 0.5] <- 1
+
+gua_cm[gua_cm >= -0.5 & gua_cm < 0.5] <- 0
+gua_cm[gua_cm <= -0.5 | gua_cm >= 0.5] <- 1
+
+tm[tm < 0.2] <- 0
+tm[tm >= 0.2] <- 1
+```
+
+
+Second, read in their attribute tables:
+
+```{r}
+# use the catt (coefficient network attribute form) from the network we built before
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net.RData")
+indo_catt <- catt
+# indo_cg <- cg
+
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net.RData")
+gua_catt <- catt
+# gua_cg <- cg
+
+# use the tatt (text network attribute form) from the network we built before
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_net.RData")
+```
+
+Third, create network object using the matrices and their corresponding attributes. 
+
+```{r}
+# Indonesia coefficient network
+indo_cn <- network(indo_cm, vertex.attr = indo_catt, vertex.attrnames = colnames(indo_catt),
+                   directedm= F, hyper = F, loops = F, multiple = F, bipartite = F)
+# Guatemala coefficient network
+gua_cn <- network(gua_cm, vertex.attr = gua_catt, vertex.attrnames = colnames(gua_catt),
+                   directedm= F, hyper = F, loops = F, multiple = F, bipartite = F)
+
+# Text network
+tn <- network(tm, vertex.attr = tatt, vertex.attrnames = colnames(tatt),
+              directedm= F, hyper = F, loops = F, multiple = F, bipartite = F)
+```
+
+
+# Indonesia
+## Predict ties based on same Goal
+
+```{r}
+indo <- ergm(indo_cn ~ edges + nodematch("Goal"))
+summary(indo)
+```
+The model includes how many edges are in the graph that do not match and then how many of the edges are same-Goal (nodematch).
+
+The coefficient on "nodematch.sex" is -0.10330, not statistically significant (p = 0.239). This means that on this network, ties based on same Goal are **less likely** than ties based on not-same Goal. We can not tell whether the indicators are correlated with an coefficient >= 0.5 based on whether they belong to the same Goal. However, because p > 0.05, we can not reject the null hypothesis that there's no relationship between "homo-goal" and ties.
+
+
+## Predict ties based on same Target
+
+```{r}
+indo2 <- ergm(indo_cn ~ edges + nodematch("Target"))
+summary(indo2)
+```
+
+The model includes how many edges are in the graph that do not match and then how many of the edges are same-Target (nodematch).
+
+The coefficient on "nodematch.sex" is 0.1064, not statistically significant (p = 0.64). This means that on this network, ties based on same Target are **more likely** than ties based on not-same Target. We can not tell whether the indicators are correlated with an coefficient >= 0.5 based on whether they belong to the same Target. However, because p > 0.05, we can not reject the null hypothesis that there's no relationship between "homo-target" and ties.
+
+
+# Guatemala
+## Predict ties based on same Goal
+
+```{r}
+gua <- ergm(gua_cn ~ edges + nodematch("Goal"))
+summary(gua)
+```
+coefficient = -0.33991***, p = 0.000696 
+**less likely**, statistically significant
+
+
+## Predict ties based on same Target
+
+```{r}
+gua2 <- ergm(gua_cn ~ edges + nodematch("Target"))
+summary(gua2)
+```
+coefficient = -0.39575***, p = 0.0879 .  
+**less likely**, statistically significant (0.1 confidence level)
+
+
+
+
+
+# Text
+
+
+## Predict ties based on same Goal
+
+```{r}
+text <- ergm(tn ~ edges + nodematch("Goal"))
+summary(text)
+```
+coefficient = -1.63341***, p < 1e-04              
+**more likely**, statistically significant 
+
+
+
+## Predict ties based on same Target
+
+```{r}
+text2 <- ergm(tn ~ edges + nodematch("Target"))
+summary(text2)
+```
+
+
+coefficient = 2.38935***, p < 1e-04              
+**more likely**, statistically significant 
+
+

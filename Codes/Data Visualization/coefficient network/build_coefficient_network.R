@@ -6,7 +6,7 @@ library(readr)
 
 # load data and keep only the node pairs that are related----
 setwd("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results")
-d <- read_csv("gua_coefficients.csv")
+d <- read_csv("indo_coefficients.csv")
 
 
 # build an unweighted network base (cutoff score = 0.5)----
@@ -16,7 +16,7 @@ el <- d %>%
   select(Var1, Var2)
 
 # ...with some attributes----
-info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
+info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
 # information: goal, target, indicator
 att <- info[3:5] %>% 
   unique() %>% 
@@ -53,13 +53,13 @@ cg <- g
 
 
 # # save attribute table----
-# write_csv(catt, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_attributes.csv")
-# # 
+# write_csv(catt, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_attributes.csv")
+# #
 # # save network object in RData format----
-# save(cd, cel,cg, catt, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net.RData")
+# save(cd, cel,cg, catt, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net.RData")
 # 
 # # To load the data again
-# load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net.RData")
+# load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net.RData")
 # 
 
 
@@ -72,6 +72,7 @@ cg <- g
 
 # ------------------------------------------------------------------
 # build a weighted network base (edge weight = coefficient)----
+setwd("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results")
 matrix_d <- read_csv("indo_coefficients_matrix.csv") # adjacency matrix
 matrix_d <- matrix_d[-1]
 m <- as.matrix(matrix_d)
@@ -87,7 +88,7 @@ info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/p
 # information: goal, target, indicator
 att2 <- info[3:5] %>% 
   unique() %>% 
-  filter(Indicator %in% unique(append(el$Var1, el$Var2)))
+  filter(Indicator %in% colnames(matrix_d))
 
 # add all the attributes to the vertex----
 vertex_attr(g2, index = att2$Indicator) <- att2  #### Error in as.igraph.vs(graph, index) : Invalid vertex names
@@ -120,13 +121,13 @@ cm <- m
 catt2 <- att2
 cg2 <- g2
                          
-# # save attribute table----
-# write_csv(catt, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/attributes.csv")
-# 
-# # save network object in RData format----
-# save(cmatrix_d, cm, cg2, catt2, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/coefficient_net_weighted.RData")
-# 
-# # To load the data again
-# load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/coefficient_net_weighted.RData")
+# save attribute table----
+write_csv(catt2, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_weighted_attributes.csv")
+
+# save network object in RData format----
+save(cmatrix_d, cm, cg2, catt2, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net_weighted.RData")
+
+# To load the data again
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net_weighted.RData")
 
 
