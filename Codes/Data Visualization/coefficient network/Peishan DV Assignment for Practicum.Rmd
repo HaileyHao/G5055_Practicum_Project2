@@ -6,7 +6,6 @@ output:
   html_document:
     toc: yes
     df_print: paged
-    theme: journal   
   html_notebook:
     toc: yes
     theme: journal
@@ -125,12 +124,12 @@ g<-graph_from_data_frame(edgelist, directed=FALSE, vertices=nodes)
 #Add attributes
 E(g)$weight<-E(g)$similarity_score
 V(g)$in_degree<-degree(g, mode="in")
-n <- 17
-#colrs <- c(distinctColorPalette(n))
-colrs<-c("#DA5891", "#757CCE", "#D948D1", "#E2B94F", "#E06444", "#909276", "#7BBADD", "#874CDD", "#D6DED5", "#7EE55C", "#D9E19E", "#D69893", "#D0E357", "#CE83D8", "#82E1D3", "#73DA9C", "#CFB2D7")
+colrs<-c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")
 V(g)$color<-colrs[V(g)$goal]
 
 #Plot graph
+plot(g, vertex.label=NA, edge.color="gray77", vertex.color=V(g)$color, vertex.size=V(g)$in_degree, edge.width=E(g)$weight*10, layout=layout_nicely(g))
+
 plot(g, vertex.label.color="black", vertex.label.cex=2.5, edge.color="gray77", vertex.color=V(g)$color, vertex.size=V(g)$in_degree, edge.width=E(g)$weight*10, layout=layout_nicely(g))
 
 #legend(x=-11, y=-11, c("Goal 1","Goal 2","Goal 3","Goal 4","Goal 5","Goal 6","Goal 7","Goal 8","Goal 9","Goal 10","Goal 11", "Goal 12","Goal 13", "Goal 14", "Goal 15", "Goal 16", "Goal 17"), pch=20, col="#777777", pt.bg=colrs, pt.cex=2, cex=.8, bty="n", ncol=1)
@@ -209,10 +208,12 @@ g2<-graph_from_data_frame(edgelistindo, directed=FALSE, vertices=indonodes)
 #Add attributes
 E(g2)$weight<-E(g2)$abs
 V(g2)$in_degree<-degree(g2, mode="in")
-colrs<-c("#DA5891", "#757CCE", "#D948D1", "#E2B94F", "#E06444", "#909276", "#7BBADD", "#874CDD", "#D6DED5", "#7EE55C", "#D9E19E", "#D69893", "#D0E357", "#CE83D8", "#82E1D3", "#73DA9C", "#CFB2D7")
+colrs<-c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")
 V(g2)$color<-colrs[V(g2)$goal]
 
 #Plot graph
+plot(g2, vertex.label=NA, edge.color="gray77", vertex.color=V(g2)$color, vertex.size=V(g2)$in_degree/10, edge.width=E(g2)$weight, layout=layout_nicely(g2))
+
 plot(g2, vertex.label.color="black", vertex.label.cex=2.5, edge.color="gray77", vertex.color=V(g2)$color, vertex.size=V(g2)$in_degree/10, edge.width=E(g2)$weight, layout=layout_nicely(g2))
 ```
 
@@ -224,10 +225,12 @@ g3<-graph_from_data_frame(edgelistguate, directed=FALSE, vertices=guatenodes)
 #Add attributes
 E(g3)$weight<-E(g3)$abs
 V(g3)$in_degree<-degree(g3, mode="in")
-colrs<-c("#DA5891", "#757CCE", "#D948D1", "#E2B94F", "#E06444", "#909276", "#7BBADD", "#874CDD", "#D6DED5", "#7EE55C", "#D9E19E", "#D69893", "#D0E357", "#CE83D8", "#82E1D3", "#73DA9C", "#CFB2D7")
+colrs<-c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")
 V(g3)$color<-colrs[V(g3)$goal]
 
 #Plot graph
+plot(g3, vertex.label=NA, edge.color="gray77", vertex.color=V(g3)$color, vertex.size=V(g3)$in_degree/10, edge.width=E(g3)$weight, layout=layout_nicely(g3))
+
 plot(g3, vertex.label.color="black", vertex.label.cex=2.5, edge.color="gray77", vertex.color=V(g3)$color, vertex.size=V(g3)$in_degree/10, edge.width=E(g3)$weight, layout=layout_nicely(g3))
 ```
 
