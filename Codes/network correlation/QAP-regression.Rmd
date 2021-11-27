@@ -1,0 +1,190 @@
+---
+title: "QAP regression"
+author: "Qinyue Hao"
+date: "11/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(network)
+library(sna)
+```
+
+
+**We need to admit: caveats of statistical inference with networks:**
+In networks: Non-independence of observations
+The inference problem: The non-independence of observations affects the standard errors, not the coefficients. 
+To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. -- QAP
+**QAP – the Quadratic Assignment Procedure** - https://www.stata.com/meeting/1nasug/simpson.pdf
+
+
+# Part 1: real number matrices
+
+```{r}
+# 1. coefficient matrix
+# Indonesia coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficient_matrix.RData")
+indo_cm <- x
+# Guatemala coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficient_matrix.RData")
+gua_cm <- x
+
+# 2. text similarity matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData")
+tm <- m
+```
+
+## 1. QAP between text similarity and correlation coefficients
+
+### Use the original value of similarity scores in text network and correlation coefficients in Indictor networks, to see:  How much the similarity between Indicator descriptions predict the correlation coefficient between their measurements?
+
+### 1) Indonesia
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+indo_tm <- tm[rownames(indo_cm), rownames(indo_cm)]
+
+# install.packages("sna")
+library(sna)
+indo_nl_tc <- netlm(indo_tm, indo_cm)
+summary(indo_nl_tc)
+
+# indo_nl_ct <- netlm(indo_cm, indo_tm)
+# summary(indo_nl_ct)
+```
+
+### 2) Guatemala
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+gua_tm <- tm[rownames(gua_cm), rownames(gua_cm)]
+
+# install.packages("sna")
+library(sna)
+gua_nl_tc <- netlm(gua_tm, gua_cm)
+summary(gua_nl_tc)
+
+# gua_nl_ct <- netlm(gua_tm, gua_cm)
+# summary(gua_nl_ct)
+```
+
+
+## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients
+
+### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Indonesia predict that of Guatemala?
+
+```{r}
+diff1 <- setdiff(rownames(indo_cm), rownames(gua_cm))
+common_for_qap <- setdiff(rownames(indo_cm), diff1)
+# diff2 <- setdiff(rownames(gua_cm), rownames(indo_cm))
+# common_for_qap <- setdiff(rownames(gua_cm), diff2) # same result 87 common indicators
+
+indo_cm2 <- indo_cm[common_for_qap, common_for_qap]
+gua_cm2 <- gua_cm[common_for_qap, common_for_qap]
+
+nl_2country <- netlm(indo_cm2, gua_cm2)
+summary(nl_2country)
+
+## the opposite direction
+# nl_2country2 <- netlm(gua_cm2, indo_cm2)
+# summary(nl_2country2)
+```
+
+
+
+# Part 2: binary matrices
+
+```{r}
+# 1. coefficient matrix
+# Indonesia coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficient_matrix.RData")
+indo_cm <- x
+# Guatemala coefficient matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficient_matrix.RData")
+gua_cm <- x
+
+# 2. text similarity matrix
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData")
+tm <- m
+```
+
+```{r}
+indo_cm[indo_cm >= -0.5 & indo_cm < 0.5] <- 0
+indo_cm[indo_cm <= -0.5 | indo_cm >= 0.5] <- 1
+
+gua_cm[gua_cm >= -0.5 & gua_cm < 0.5] <- 0
+gua_cm[gua_cm <= -0.5 | gua_cm >= 0.5] <- 1
+
+tm[tm < 0.2] <- 0
+tm[tm >= 0.2] <- 1
+```
+
+
+### 1) Indonesia
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+indo_tm <- tm[rownames(indo_cm), rownames(indo_cm)]
+
+# install.packages("sna")
+library(sna)
+indo_nl_tc <- netlm(indo_tm, indo_cm)
+summary(indo_nl_tc)
+
+# indo_nl_ct <- netlm(indo_cm, indo_tm)
+# summary(indo_nl_ct)
+```
+
+
+
+
+### 2) Guatemala
+
+```{r}
+# get the matrices in same shape and indicator order
+# rownames(tm) # the whole list 
+gua_tm <- tm[rownames(gua_cm), rownames(gua_cm)]
+
+# install.packages("sna")
+library(sna)
+gua_nl_tc <- netlm(gua_tm, gua_cm)
+summary(gua_nl_tc)
+
+# gua_nl_ct <- netlm(gua_tm, gua_cm)
+# summary(gua_nl_ct)
+```
+
+ 
+## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients
+
+### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Indonesia predict that of Guatemala?
+
+```{r}
+diff1 <- setdiff(rownames(indo_cm), rownames(gua_cm))
+common_for_qap <- setdiff(rownames(indo_cm), diff1)
+# diff2 <- setdiff(rownames(gua_cm), rownames(indo_cm))
+# common_for_qap <- setdiff(rownames(gua_cm), diff2) # same result 87 common indicators
+
+indo_cm2 <- indo_cm[common_for_qap, common_for_qap]
+gua_cm2 <- gua_cm[common_for_qap, common_for_qap]
+
+nl_2country <- netlm(indo_cm2, gua_cm2)
+summary(nl_2country)
+
+# # the opposite direction
+# nl_2country2 <- netlm(gua_cm2, indo_cm2)
+# summary(nl_2country2)
+
+nlo_2country <- netlogit(indo_cm2, gua_cm2)
+summary(nlo_2country)
+
+
+```
+
