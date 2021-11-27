@@ -173,17 +173,23 @@ pre code {
 
 
 <pre class="r"><code>library(network)
-library(sna)</code></pre>
-<p><strong>We need to admit: caveats of statistical inference with networks:</strong> In networks: Non-independence of observations The inference problem: The non-independence of observations affects the standard errors, not the coefficients. To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. – QAP <strong>QAP – the Quadratic Assignment Procedure</strong> - <a href="https://www.stata.com/meeting/1nasug/simpson.pdf" class="uri">https://www.stata.com/meeting/1nasug/simpson.pdf</a></p>
+library(sna)
+library(dplyr)</code></pre>
+<p><strong>We need to admit: caveats of statistical inference with networks:</strong><br />
+In networks: Non-independence of observations<br />
+The inference problem: The non-independence of observations affects the standard errors, not the coefficients.<br />
+To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. – QAP<br />
+<strong>QAP – the Quadratic Assignment Procedure</strong> - <a href="https://www.stata.com/meeting/1nasug/simpson.pdf" class="uri">https://www.stata.com/meeting/1nasug/simpson.pdf</a></p>
 <div id="part-1-real-number-matrices" class="section level1">
 <h1>Part 1: real number matrices</h1>
 <pre class="r"><code># 1. coefficient matrix
 # Indonesia coefficient matrix
-load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficient_matrix.RData&quot;)
-indo_cm &lt;- x
+load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net_weighted.RData&quot;)
+indo_cm &lt;- cm
+
 # Guatemala coefficient matrix
-load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficient_matrix.RData&quot;)
-gua_cm &lt;- x
+load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted.RData&quot;)
+gua_cm &lt;- cm
 
 # 2. text similarity matrix
 load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData&quot;)
@@ -201,21 +207,23 @@ indo_tm &lt;- tm[rownames(indo_cm), rownames(indo_cm)]
 
 # install.packages(&quot;sna&quot;)
 library(sna)
-indo_nl_tc &lt;- netlm(indo_tm, indo_cm)
-summary(indo_nl_tc)</code></pre>
+# indo_nl_tc &lt;- netlm(indo_tm, indo_cm)
+# summary(indo_nl_tc)
+indo_nl_ct &lt;- netlm(indo_cm, indo_tm)
+summary(indo_nl_ct)</code></pre>
 <pre><code>## 
 ## OLS Network Model
 ## 
 ## Residuals:
-##           0%          25%          50%          75%         100% 
-## -0.038017121 -0.032636398 -0.019183002  0.003595295  0.961982879 
+##          0%         25%         50%         75%        100% 
+## -1.13108415 -0.76025877 -0.03190619  0.78649337  1.00915479 
 ## 
 ## Coefficients:
-##             Estimate    Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.035527916 0.511   0.489   0.489    
-## x1          0.002489204 0.993   0.007   0.025    
+##             Estimate     Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
+## (intercept) -0.009154787 0.399   0.601   0.399    
+## x1           0.233044460 0.913   0.087   0.118    
 ## 
-## Residual standard error: 0.07585 on 7654 degrees of freedom
+## Residual standard error: 0.7339 on 7654 degrees of freedom
 ## Multiple R-squared: 0.0005801    Adjusted R-squared: 0.0004495 
 ## F-statistic: 4.443 on 1 and 7654 degrees of freedom, p-value: 0.03508 
 ## 
@@ -227,14 +235,15 @@ summary(indo_nl_tc)</code></pre>
 ##  Coefficient Distribution Summary:
 ## 
 ##        (intercept)       x1
-## Min       40.98094 -3.81061
-## 1stQ      40.98475 -0.74095
-## Median    40.98575 -0.05449
-## Mean      40.98574 -0.07193
-## 3rdQ      40.98675  0.60790
-## Max       40.99020  3.00769</code></pre>
-<pre class="r"><code># indo_nl_ct &lt;- netlm(indo_cm, indo_tm)
-# summary(indo_nl_ct)</code></pre>
+## Min       -3.60641 -3.17168
+## 1stQ      -1.30405 -1.07502
+## Median    -0.83505 -0.16459
+## Mean      -0.90498  0.04068
+## 3rdQ      -0.40123  0.92013
+## Max        0.88887  9.22034</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0005801, which is the R-squared)=0.02408527, with p=0.03508, statistically significant.</p>
+</blockquote>
 </div>
 <div id="guatemala" class="section level3">
 <h3>2) Guatemala</h3>
@@ -244,21 +253,23 @@ gua_tm &lt;- tm[rownames(gua_cm), rownames(gua_cm)]
 
 # install.packages(&quot;sna&quot;)
 library(sna)
-gua_nl_tc &lt;- netlm(gua_tm, gua_cm)
-summary(gua_nl_tc)</code></pre>
+# gua_nl_tc &lt;- netlm(gua_tm, gua_cm)
+# summary(gua_nl_tc)
+gua_nl_ct &lt;- netlm(gua_cm, gua_tm)
+summary(gua_nl_ct)</code></pre>
 <pre><code>## 
 ## OLS Network Model
 ## 
 ## Residuals:
-##           0%          25%          50%          75%         100% 
-## -0.046646797 -0.031069610 -0.019254093  0.003850572  0.953353203 
+##         0%        25%        50%        75%       100% 
+## -1.4200761 -0.7570998 -0.0173301  0.7732395  1.0253647 
 ## 
 ## Coefficients:
 ##             Estimate    Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.037281153 0.541   0.459   0.459    
-## x1          0.009365644 1.000   0.000   0.000    
+## (intercept) -0.02536469 0.284   0.716   0.284    
+## x1           0.80979742 1.000   0.000   0.000    
 ## 
-## Residual standard error: 0.07918 on 6640 degrees of freedom
+## Residual standard error: 0.7363 on 6640 degrees of freedom
 ## Multiple R-squared: 0.007584     Adjusted R-squared: 0.007435 
 ## F-statistic: 50.74 on 1 and 6640 degrees of freedom, p-value: 1.163e-12 
 ## 
@@ -270,14 +281,15 @@ summary(gua_nl_tc)</code></pre>
 ##  Coefficient Distribution Summary:
 ## 
 ##        (intercept)       x1
-## Min       38.34367 -3.01528
-## 1stQ      38.36421 -0.70411
-## Median    38.36969 -0.05219
-## Mean      38.36988 -0.02471
-## 3rdQ      38.37553  0.64370
-## Max       38.39545  2.90935</code></pre>
-<pre class="r"><code># gua_nl_ct &lt;- netlm(gua_tm, gua_cm)
-# summary(gua_nl_ct)</code></pre>
+## Min       -5.07310 -3.56529
+## 1stQ      -2.60332 -0.93751
+## Median    -2.19055 -0.12654
+## Mean      -2.24439  0.05816
+## 3rdQ      -1.80806  0.84965
+## Max       -0.65260  6.09095</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.007584, which is the R-squared)=0.08708616, with p=1.163e-12, statistically significant.</p>
+</blockquote>
 </div>
 </div>
 <div id="qap-between-indonesia-and-guatemala-indicator-correlation-coefficients" class="section level2">
@@ -303,8 +315,8 @@ summary(nl_2country)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate     Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) -0.001185224 0.533   0.467   0.533    
-## x1          -0.013846103 0.120   0.880   0.265    
+## (intercept) -0.001185224 0.369   0.631   0.369    
+## x1          -0.013846103 0.113   0.887   0.263    
 ## 
 ## Residual standard error: 0.7199 on 6004 degrees of freedom
 ## Multiple R-squared: 0.0001961    Adjusted R-squared: 2.956e-05 
@@ -318,15 +330,17 @@ summary(nl_2country)</code></pre>
 ##  Coefficient Distribution Summary:
 ## 
 ##        (intercept)       x1
-## Min       -0.16113 -3.73436
-## 1stQ      -0.13430 -0.61219
-## Median    -0.12846  0.07519
-## Mean      -0.12807  0.04800
-## 3rdQ      -0.12149  0.70784
-## Max       -0.09842  3.07515</code></pre>
-<pre class="r"><code>## the opposite direction
-# nl_2country2 &lt;- netlm(gua_cm2, indo_cm2)
+## Min       -0.24872 -1.62838
+## 1stQ      -0.13432 -0.82879
+## Median    -0.12283 -0.40545
+## Mean      -0.12820  0.05921
+## 3rdQ      -0.11608  0.41963
+## Max       -0.10772  8.96062</code></pre>
+<pre class="r"><code># nl_2country2 &lt;- netlm(gua_cm2, indo_cm2)
 # summary(nl_2country2)</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0001961, which is the R-squared)=0.01400357, with p=0.2779, not statistically significant.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -334,11 +348,12 @@ summary(nl_2country)</code></pre>
 <h1>Part 2: binary matrices</h1>
 <pre class="r"><code># 1. coefficient matrix
 # Indonesia coefficient matrix
-load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficient_matrix.RData&quot;)
-indo_cm &lt;- x
+load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net_weighted.RData&quot;)
+indo_cm &lt;- cm
+
 # Guatemala coefficient matrix
-load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficient_matrix.RData&quot;)
-gua_cm &lt;- x
+load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted.RData&quot;)
+gua_cm &lt;- cm
 
 # 2. text similarity matrix
 load(&quot;/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData&quot;)
@@ -370,8 +385,8 @@ summary(indo_nl_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.67129506 1.00    0.00    0.000    
-## x1          0.07569289 0.84    0.16    0.312    
+## (intercept) 0.67129506 1.000   0.000   0.000    
+## x1          0.07569289 0.852   0.148   0.307    
 ## 
 ## Residual standard error: 0.4691 on 7654 degrees of freedom
 ## Multiple R-squared: 0.0005522    Adjusted R-squared: 0.0004216 
@@ -384,15 +399,18 @@ summary(indo_nl_ct)</code></pre>
 ##  Replications: 1000 
 ##  Coefficient Distribution Summary:
 ## 
-##        (intercept)         x1
-## Min     117.567067  -6.584707
-## 1stQ    119.634371  -1.343700
-## Median  120.197112  -0.041332
-## Mean    120.184678   0.006213
-## 3rdQ    120.778557   1.323247
-## Max     122.676194   6.472779</code></pre>
+##        (intercept)        x1
+## Min      117.46569  -5.64905
+## 1stQ     119.25600  -1.62377
+## Median   119.83980   0.04893
+## Mean     119.84429  -0.02831
+## 3rdQ     120.40281   1.38704
+## Max      122.46245   6.08431</code></pre>
 <pre class="r"><code># indo_nl_tc &lt;- netlm(indo_tm, indo_cm)
 # summary(indo_nl_tc)</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Indicator text network (whether indicator description similarity &gt;= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005522, which is the R-squared)=0.02349894, with p=0.03978, statistically significant.</p>
+</blockquote>
 <pre class="r"><code>indo_nlo_ct &lt;- netlogit(indo_cm, indo_tm)
 summary(indo_nlo_ct)</code></pre>
 <pre><code>## 
@@ -400,8 +418,8 @@ summary(indo_nlo_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate  Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.7140483 2.042242 0.886   0.114   0.114    
-## x1          0.3685637 1.445657 0.833   0.167   0.331    
+## (intercept) 0.7140483 2.042242 0.877   0.123   0.123    
+## x1          0.3685637 1.445657 0.813   0.187   0.343    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -431,21 +449,25 @@ summary(indo_nlo_ct)</code></pre>
 ##  Replications: 1000 
 ##  Distribution Summary:
 ## 
-##        (intercept)      x1
-## Min        28.0947 -6.8784
-## 1stQ       28.5594 -1.4048
-## Median     28.7390 -0.0353
-## Mean       28.7326 -0.0400
-## 3rdQ       28.9118  1.4121
-## Max        29.3633  5.6699</code></pre>
-<pre><code>   0      1         </code></pre>
-<p>0 0 0<br />
-1 2504 5152</p>
-<pre><code>**Total Fraction Correct: 0.6729363**          
-Fraction Predicted 1s Correct: 0.6729363          
-Fraction Predicted 0s Correct: NaN          
-False Negative Rate: 0           
-False Positive Rate: 1             </code></pre>
+##        (intercept)       x1
+## Min       27.94901 -6.08605
+## 1stQ      28.52779 -1.28697
+## Median    28.70248  0.04894
+## Mean      28.70781  0.00865
+## 3rdQ      28.89166  1.38384
+## Max       29.43829  5.61073</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Indicator text network (whether indicator description similarity &gt;= 0.2) with Network Logit Model shows that with the Indicator text network, we can predict the Indonesia coefficient network with an 67.3% accuracy.</p>
+</blockquote>
+<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
+<!--        0      1          -->
+<!-- 0      0      0            -->
+<!-- 1   2504   5152              -->
+<p><strong>Total Fraction Correct: 0.6729363</strong><br />
+Fraction Predicted 1s Correct: 0.6729363<br />
+Fraction Predicted 0s Correct: NaN<br />
+False Negative Rate: 0<br />
+False Positive Rate: 1</p>
 </div>
 <div id="guatemala-1" class="section level3">
 <h3>2) Guatemala</h3>
@@ -466,8 +488,8 @@ summary(gua_nl_tc)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate    Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.017114914 0.998   0.002   0.002    
-## x1          0.008054882 0.964   0.036   0.087    
+## (intercept) 0.017114914 0.961   0.039   0.040    
+## x1          0.008054882 0.768   0.232   0.442    
 ## 
 ## Residual standard error: 0.1505 on 6640 degrees of freedom
 ## Multiple R-squared: 0.0005318    Adjusted R-squared: 0.0003813 
@@ -481,12 +503,12 @@ summary(gua_nl_tc)</code></pre>
 ##  Coefficient Distribution Summary:
 ## 
 ##        (intercept)       x1
-## Min       -2.10627 -4.14327
-## 1stQ       0.43591 -0.69632
-## Median     1.22045  0.02848
-## Mean       1.21931  0.02466
-## 3rdQ       1.97813  0.75329
-## Max        4.74623  3.29214</code></pre>
+## Min       -4.88468 -5.70291
+## 1stQ      -0.08072 -1.52677
+## Median     1.32466  0.36554
+## Mean       1.30607  0.09958
+## 3rdQ       2.67828  1.50101
+## Max        7.07262  5.67697</code></pre>
 <pre class="r"><code>gua_nl_ct &lt;- netlm(gua_tm, gua_cm)
 summary(gua_nl_ct)</code></pre>
 <pre><code>## 
@@ -498,8 +520,8 @@ summary(gua_nl_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate    Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 0.017114914 0.998   0.002   0.002    
-## x1          0.008054882 0.957   0.043   0.100    
+## (intercept) 0.017114914 0.952   0.048   0.048    
+## x1          0.008054882 0.802   0.198   0.388    
 ## 
 ## Residual standard error: 0.1505 on 6640 degrees of freedom
 ## Multiple R-squared: 0.0005318    Adjusted R-squared: 0.0003813 
@@ -512,13 +534,16 @@ summary(gua_nl_ct)</code></pre>
 ##  Replications: 1000 
 ##  Coefficient Distribution Summary:
 ## 
-##        (intercept)        x1
-## Min      -1.943528 -4.506878
-## 1stQ      0.410048 -0.696322
-## Median    1.183755  0.028482
-## Mean      1.234003  0.009086
-## 3rdQ      1.993417  0.753292
-## Max       5.432044  3.836970</code></pre>
+##        (intercept)       x1
+## Min       -3.84129 -7.99768
+## 1stQ       0.04445 -1.24285
+## Median     1.38082 -0.01288
+## Mean       1.38553  0.01772
+## 3rdQ       2.68722  1.50101
+## Max        6.26211  6.05832</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Indicator text network (whether indicator description similarity &gt;= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005318, which is the R-squared)=0.02306079, with p=0.0602, statistically significant(p &lt; 0.1).</p>
+</blockquote>
 <pre class="r"><code>gua_nlo_ct &lt;- netlogit(gua_cm, gua_tm)
 summary(gua_nlo_ct)</code></pre>
 <pre><code>## 
@@ -526,8 +551,8 @@ summary(gua_nlo_ct)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate  Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) 1.1101540 3.034826 0.976   0.024   0.024    
-## x1          0.3939233 1.482787 0.847   0.153   0.326    
+## (intercept) 1.1101540 3.034826 0.975   0.025   0.025    
+## x1          0.3939233 1.482787 0.787   0.213   0.410    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -557,22 +582,25 @@ summary(gua_nlo_ct)</code></pre>
 ##  Replications: 1000 
 ##  Distribution Summary:
 ## 
-##        (intercept)        x1
-## Min      37.652006 -7.247647
-## 1stQ     38.067562 -1.262607
-## Median   38.219564  0.001203
-## Mean     38.218931 -0.040202
-## 3rdQ     38.365832  1.281571
-## Max      38.803552  4.796924</code></pre>
-<p>Contingency Table (predicted (rows) x actual (cols)):</p>
-<pre><code>   0      1            </code></pre>
-<p>0 0 0<br />
-1 1636 5006</p>
-<pre><code>**Total Fraction Correct: 0.7536886**             
-Fraction Predicted 1s Correct: 0.7536886              
-Fraction Predicted 0s Correct: NaN          
-False Negative Rate: 0            
-False Positive Rate: 1              </code></pre>
+##        (intercept)       x1
+## Min       37.51948 -5.85634
+## 1stQ      37.99061 -1.52232
+## Median    38.15847 -0.01288
+## Mean      38.15880  0.01663
+## 3rdQ      38.32041  1.49535
+## Max       38.85237  4.78837</code></pre>
+<blockquote>
+<p>Predicting the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity &gt;= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy.</p>
+</blockquote>
+<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
+<!--        0      1 -->
+<!-- 0      0      0 -->
+<!-- 1   1636   5006 -->
+<p><strong>Total Fraction Correct: 0.7536886</strong><br />
+Fraction Predicted 1s Correct: 0.7536886<br />
+Fraction Predicted 0s Correct: NaN<br />
+False Negative Rate: 0<br />
+False Positive Rate: 1</p>
 </div>
 <div id="qap-between-indonesia-and-guatemala-indicator-correlation-coefficients-1" class="section level2">
 <h2>2. QAP between Indonesia and Guatemala Indicator correlation coefficients</h2>
@@ -611,17 +639,17 @@ summary(nl_2country)</code></pre>
 ##  Replications: 1000 
 ##  Coefficient Distribution Summary:
 ## 
-##        (intercept)      x1
-## Min         1.9833 -5.5695
-## 1stQ        7.6627 -1.6271
-## Median      9.0315 -0.1146
-## Mean        9.0428  0.0365
-## 3rdQ       10.5536  1.4990
-## Max        15.8871  9.9012</code></pre>
+##        (intercept)        x1
+## Min      -15.46741 -13.84262
+## 1stQ       5.48356  -4.33508
+## Median     9.36185  -0.29078
+## Mean       9.21660  -0.02375
+## 3rdQ      13.01144   3.62838
+## Max       26.78312  18.97312</code></pre>
 <pre class="r"><code># nl_2country2 &lt;- netlm(gua_cm2, indo_cm2)
 # summary(nl_2country2)</code></pre>
 <blockquote>
-<p>Predciting the Indonesia indicator network from the Guatemala indicator network shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.0.8869047, with p=0.</p>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.0.8869047, with p=0, statistically significant.</p>
 </blockquote>
 <pre class="r"><code>nlo_2country &lt;- netlogit(indo_cm2, gua_cm2)
 summary(nlo_2country)</code></pre>
@@ -630,8 +658,8 @@ summary(nlo_2country)</code></pre>
 ## 
 ## Coefficients:
 ##             Estimate   Exp(b)   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
-## (intercept) -0.3682069 0.691974 0.013   0.987   0.013    
-## x1           1.2958614 3.654142 1.000   0.000   0.000    
+## (intercept) -0.3682069 0.691974 0.180   0.820   0.209    
+## x1           1.2958614 3.654142 0.999   0.001   0.001    
 ## 
 ## Goodness of Fit Statistics:
 ## 
@@ -662,22 +690,72 @@ summary(nlo_2country)</code></pre>
 ##  Replications: 1000 
 ##  Distribution Summary:
 ## 
-##        (intercept)       x1
-## Min       -8.53434 -6.39419
-## 1stQ      -3.49503 -1.69087
-## Median    -1.98756 -0.12096
-## Mean      -2.06779  0.06352
-## 3rdQ      -0.62820  1.67892
-## Max        3.84871 10.19277</code></pre>
-<pre><code>     Actual                  </code></pre>
-<p>Predicted 0 1<br />
-0 922 638<br />
-1 1260 3186</p>
-<pre><code>**Total Fraction Correct: 0.6839827**        
-**Fraction Predicted 1s Correct: 0.7165992**         
-**Fraction Predicted 0s Correct: 0.5910256**          
-False Negative Rate: 0.166841          
-False Positive Rate: 0.5774519             </code></pre>
+##        (intercept)        x1
+## Min      -18.97858 -13.49022
+## 1stQ      -5.85216  -4.20080
+## Median    -1.67287  -0.16846
+## Mean      -2.13313   0.03612
+## 3rdQ       1.97834   3.89628
+## Max       12.08881  22.58649</code></pre>
+<blockquote>
+<p>Predicting the Indonesia coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) from the Guatemala coefficient network (whether there’s a correlation coefficients &gt;= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.</p>
+</blockquote>
+<!-- Contingency Table (predicted (rows) x actual (cols)):            -->
+<!--          Actual -->
+<!-- Predicted      0      1 -->
+<!--         0    922    638 -->
+<!--         1   1260   3186 -->
+<p><strong>Total Fraction Correct: 0.6839827</strong><br />
+Fraction Predicted 1s Correct: 0.7165992<br />
+Fraction Predicted 0s Correct: 0.5910256<br />
+False Negative Rate: 0.166841<br />
+False Positive Rate: 0.5774519</p>
+<pre class="r"><code>tm2 &lt;- tm[colnames(gua_cm2), colnames(gua_cm2)] # colnames(indo_cm2) and colnames(gua_cm2) are the same
+cm_tm &lt;- array(NA, c(2, length(gua_cm2[1,]),length(gua_cm2[1,]))) 
+cm_tm[1,,] &lt;- gua_cm2
+cm_tm[2,,] &lt;- tm2
+n2&lt;-netlm(indo_cm2, cm_tm)
+summary(n2)</code></pre>
+<pre><code>## 
+## OLS Network Model
+## 
+## Residuals:
+##         0%        25%        50%        75%       100% 
+## -0.7957983 -0.4075148  0.2855225  0.2855225  0.5924852 
+## 
+## Coefficients:
+##             Estimate   Pr(&lt;=b) Pr(&gt;=b) Pr(&gt;=|b|)
+## (intercept) 0.40751475 1.000   0.000   0.000    
+## x1          0.30696270 0.999   0.001   0.001    
+## x2          0.08132084 0.823   0.177   0.336    
+## 
+## Residual standard error: 0.4616 on 6003 degrees of freedom
+## Multiple R-squared: 0.07933  Adjusted R-squared: 0.07902 
+## F-statistic: 258.6 on 2 and 6003 degrees of freedom, p-value:     0 
+## 
+## 
+## Test Diagnostics:
+## 
+##  Null Hypothesis: qap 
+##  Replications: 1000 
+##  Coefficient Distribution Summary:
+## 
+##        (intercept)        x1        x2
+## Min       -9.32912 -14.58988  -6.40057
+## 1stQ       5.51243  -4.35813  -1.31529
+## Median     9.41979  -0.58095   0.15764
+## Mean       9.14219  -0.03601   0.13408
+## 3rdQ      12.78347   3.81706   1.46490
+## Max       24.33559  23.06560   6.33302</code></pre>
+<blockquote>
+<p>Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, <strong>net of each other</strong>, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.001] vs. 0.081 [p=0.313]) better as a predictor of Indonesia indicator correlations.</p>
+</blockquote>
+<blockquote>
+<p>This multiple network OLS regression here is <strong>not a good practice</strong>, because the Indonesia and Guatemala coefficient networks are two different data objects, we can not and should not hold one constant to see the relationship between the other and the text network.</p>
+</blockquote>
+<blockquote>
+<p>However, it suggests a way to go in further studies – multiple network regressions, which may be helpful when we have more than two various types networks for the same country, for example, on the target level, 1) target coefficient network, 2)target description text network, 3)target progress network (suggesting whether the target was achieved on time).</p>
+</blockquote>
 </div>
 </div>
 </div>

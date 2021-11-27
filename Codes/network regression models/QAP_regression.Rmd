@@ -16,11 +16,11 @@ library(dplyr)
 ```
 
 
-**We need to admit: caveats of statistical inference with networks:**
-In networks: Non-independence of observations
-The inference problem: The non-independence of observations affects the standard errors, not the coefficients. 
-To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. -- QAP
-**QAP – the Quadratic Assignment Procedure** - https://www.stata.com/meeting/1nasug/simpson.pdf
+**We need to admit: caveats of statistical inference with networks:**                     
+In networks: Non-independence of observations            
+The inference problem: The non-independence of observations affects the standard errors, not the coefficients.           
+To relieve this problem, we adjust standard errors by permuting rows and columns in the matrix, while maintaining the underlying relationship. -- QAP               
+**QAP – the Quadratic Assignment Procedure** - https://www.stata.com/meeting/1nasug/simpson.pdf         
 
 
 # Part 1: real number matrices
@@ -42,7 +42,7 @@ tm <- m
 
 ## 1. QAP between text similarity and correlation coefficients
 
-### Use the original value of similarity scores in text network and correlation coefficients in Indictor networks, to see:  How much the similarity between Indicator descriptions predict the correlation coefficient between their measurements?
+### Use the original value of similarity scores in text network and correlation coefficients in Indictor networks, to see:  How much the similarity between Indicator descriptions predict the correlation coefficient between their measurements?     
 
 ### 1) Indonesia
 
@@ -59,9 +59,8 @@ indo_nl_ct <- netlm(indo_cm, indo_tm)
 summary(indo_nl_ct)
 ```
 
-Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are
-correlated at sqrt(0.0005801, which is the R-squared)=0.02408527, with p=0.03508, statistically significant.
-
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0005801, which is the R-squared)=0.02408527, with p=0.03508, statistically significant.  
+ 
 
 
 ### 2) Guatemala
@@ -79,11 +78,10 @@ gua_nl_ct <- netlm(gua_cm, gua_tm)
 summary(gua_nl_ct)
 ```
 
-Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are
-correlated at sqrt(0.007584, which is the R-squared)=0.08708616, with p=1.163e-12, statistically significant.
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.007584, which is the R-squared)=0.08708616, with p=1.163e-12, statistically significant.    
 
 
-## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients
+## 2. QAP between Indonesia and Guatemala Indicator correlation coefficients    
 
 ### Use the original value of correlation coefficients in the Indictor networks of Indonesia and Guatemala, to see:  How much the correlation coefficient between Indicators of Indonesia predict that of Guatemala?
 
@@ -102,8 +100,7 @@ summary(nl_2country)
 # summary(nl_2country2)
 ```
 
-Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are
-correlated at sqrt(0.0001961, which is the R-squared)=0.01400357, with p=0.2779, not statistically significant.
+> Predicting the Indonesia coefficient network (correlation coefficients between indicators) from the Indicator text network (indicator description similarity) shows that they are correlated at sqrt(0.0001961, which is the R-squared)=0.01400357, with p=0.2779, not statistically significant.    
 	
 
 # Part 2: binary matrices
@@ -152,27 +149,26 @@ summary(indo_nl_ct)
 # summary(indo_nl_tc)
 ```
 
-Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are
-correlated at sqrt(0.0005522, which is the R-squared)=0.02349894, with p=0.03978, statistically significant.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005522, which is the R-squared)=0.02349894, with p=0.03978, statistically significant.       
 
 
 ```{r}
 indo_nlo_ct <- netlogit(indo_cm, indo_tm)
 summary(indo_nlo_ct)
 ```
-Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Indicator text network, we can predict the Indonesia coefficient network with an 67.3% accuracy.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Indicator text network, we can predict the Indonesia coefficient network with an 67.3% accuracy.       
+  
 
+<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
+<!--        0      1          -->
+<!-- 0      0      0            -->
+<!-- 1   2504   5152              -->
 
-Contingency Table (predicted (rows) x actual (cols)):    
-       0      1         
-0      0      0           
-1   2504   5152             
-
-	**Total Fraction Correct: 0.6729363**          
-	Fraction Predicted 1s Correct: 0.6729363          
-	Fraction Predicted 0s Correct: NaN          
-	False Negative Rate: 0           
-	False Positive Rate: 1             
+**Total Fraction Correct: 0.6729363**           
+Fraction Predicted 1s Correct: 0.6729363             
+Fraction Predicted 0s Correct: NaN              
+False Negative Rate: 0             
+False Positive Rate: 1                
 
 
 
@@ -194,8 +190,7 @@ summary(gua_nl_ct)
 ```
 
 
-Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are
-correlated at sqrt(0.0005318, which is the R-squared)=0.02306079, with p=0.0602, statistically significant(p < 0.1).
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0005318, which is the R-squared)=0.02306079, with p=0.0602, statistically significant(p < 0.1).
 
 
 ```{r}
@@ -203,19 +198,19 @@ gua_nlo_ct <- netlogit(gua_cm, gua_tm)
 summary(gua_nlo_ct)
 ```
 
-Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy.
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 75.3% accuracy.
 
 
-Contingency Table (predicted (rows) x actual (cols)):    
-       0      1
-0      0      0
-1   1636   5006
+<!-- Contingency Table (predicted (rows) x actual (cols)):     -->
+<!--        0      1 -->
+<!-- 0      0      0 -->
+<!-- 1   1636   5006 -->
 
-	**Total Fraction Correct: 0.7536886** 
-	Fraction Predicted 1s Correct: 0.7536886 
-	Fraction Predicted 0s Correct: NaN 
-	False Negative Rate: 0 
-	False Positive Rate: 1             
+**Total Fraction Correct: 0.7536886**        
+Fraction Predicted 1s Correct: 0.7536886        
+Fraction Predicted 0s Correct: NaN        
+False Negative Rate: 0             
+False Positive Rate: 1               
  
  
  
@@ -238,7 +233,8 @@ summary(nl_2country)
 # nl_2country2 <- netlm(gua_cm2, indo_cm2)
 # summary(nl_2country2)
 ```
-> Predciting the Indonesia indicator network from the Guatemala indicator network shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.0.8869047, with p=0, statistically significant.
+
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.07866, which is the R-squared)=0.0.8869047, with p=0, statistically significant.
 
 
 ```{r}
@@ -246,20 +242,20 @@ nlo_2country <- netlogit(indo_cm2, gua_cm2)
 summary(nlo_2country)
 ```
 
-Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 68.4% accuracy.
 
 
-Contingency Table (predicted (rows) x actual (cols)):           
-         Actual
-Predicted      0      1
-        0    922    638
-        1   1260   3186
+<!-- Contingency Table (predicted (rows) x actual (cols)):            -->
+<!--          Actual -->
+<!-- Predicted      0      1 -->
+<!--         0    922    638 -->
+<!--         1   1260   3186 -->
 
-	**Total Fraction Correct: 0.6839827** 
-	Fraction Predicted 1s Correct: 0.7165992 
-	Fraction Predicted 0s Correct: 0.5910256 
-	False Negative Rate: 0.166841 
-	False Positive Rate: 0.5774519            
+**Total Fraction Correct: 0.6839827**         
+Fraction Predicted 1s Correct: 0.7165992          
+Fraction Predicted 0s Correct: 0.5910256             
+False Negative Rate: 0.166841         
+False Positive Rate: 0.5774519               
            
 	
 
@@ -273,9 +269,9 @@ n2<-netlm(indo_cm2, cm_tm)
 summary(n2)
 
 ```
-Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, **net of each other**, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.001] vs. 0.081 [p=0.313]) better as a predictor of Indonesia indicator correlations.
+> Predicting the Indonesia indicator coefficient network from the Guatemala indicator coefficient network and the Text network shows, **net of each other**, the Guatemala indicator coefficient network network is more than 3x (0.307 [p=0.001] vs. 0.081 [p=0.313]) better as a predictor of Indonesia indicator correlations.       
 
-This multiple network OLS regression here is **not a good practice**, because the Indonesia and Guatemala coefficient networks are two different data objects, we can not and should not hold one constant to see the relationship between the other and the text network. 
+> This multiple network OLS regression here is **not a good practice**, because the Indonesia and Guatemala coefficient networks are two different data objects, we can not and should not hold one constant to see the relationship between the other and the text network.         
 
-However, it suggests a way to go in further studies -- multiple network regressions, which may be helpful when we have more than two various types networks for the same country, for example, on the target level, 1) target coefficient network, 2)target description text network, 3)target progress network (suggesting whether the target was achieved on time).
+> However, it suggests a way to go in further studies -- multiple network regressions, which may be helpful when we have more than two various types networks for the same country, for example, on the target level, 1) target coefficient network, 2)target description text network, 3)target progress network (suggesting whether the target was achieved on time).            
 
