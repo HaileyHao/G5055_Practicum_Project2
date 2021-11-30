@@ -2,6 +2,8 @@
 
 library(igraph)
 library(dplyr)
+library(readr)
+library(tidyr)
 
 # setwd("../../Data/")
 d <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/edgelist.csv") 
@@ -63,5 +65,17 @@ tg <- g
 # 
 # # To load the data again
 # load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_net.RData")
+
+
+
+
+# change the data format to matrix, to build weighted network
+library(tidyr)
+library(dplyr)
+d <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/outcome.csv") 
+library(reshape2)
+m <- acast(d, indicator ~ related_indicator, value.var="similarity_score")
+diag(m) <- 1
+save(m, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_matrix.RData")
 
 

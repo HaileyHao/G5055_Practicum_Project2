@@ -1,0 +1,51 @@
+---
+title: "centrality_regression"
+author: "Qinyue Hao"
+date: "11/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+# use the catt (coefficient network attribute form) from the network we built before
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_coefficient_net.RData")
+indo_catt <- catt
+
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net.RData")
+gua_catt <- catt
+
+# use the tatt (text network attribute form) from the network we built before
+load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/text_net.RData")
+
+```
+
+
+
+
+
+
+```{r}
+summary(lm(degree ~ as.factor(Goal), indo_catt))
+```
+
+All else being equal, Indicators under Goal 3 has an average degree centrality score 10.75 higher than that of Goal 1. Statistically significant (p = 0.0209 < 0.05).        
+
+All else being equal, Indicators under Goal 6 has an average degree centrality score 10.13 higher than that of Goal 1. Statistically significant (p = 0.0825 < 0.1).         
+
+All else being equal, Indicators under Goal 7 has an average degree centrality score 11 higher than that of Goal 1. Statistically significant (p = 0.0468 < 0.05).          
+
+All else being equal, Indicators under Goal 9 has an average degree centrality score 10.83 higher than that of Goal 1. Statistically significant (p = 0.0848 < 0.05).             
+
+```{r}
+summary(lm(degree ~ as.factor(Target), indo_catt))
+```
+
+
+
