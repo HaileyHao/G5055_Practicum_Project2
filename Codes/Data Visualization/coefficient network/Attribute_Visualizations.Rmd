@@ -47,9 +47,9 @@ library(tidyr)
 ```
 
 ```{r}
-indo_attributes <- read.csv('https://raw.githubusercontent.com/PeishanLi/G5055_Practicum_Project2/main/Data/coefficient_network/indo_attributes.csv')
+indo_attributes <- read.csv('https://raw.githubusercontent.com/HaileyHao/G5055_Practicum_Project2/main/Data/coefficient_network/indo_weighted_attributes_sig.csv')
 indo_attributes
-gua_attributes <- read.csv('https://raw.githubusercontent.com/PeishanLi/G5055_Practicum_Project2/main/Data/coefficient_network/gua_attributes.csv')
+gua_attributes <- read.csv('https://raw.githubusercontent.com/HaileyHao/G5055_Practicum_Project2/main/Data/coefficient_network/gua_weighted_attributes_sig.csv')
 gua_attributes
 ```
 ```{r betweenness centrality}
@@ -67,71 +67,117 @@ MyColour <- c("#ea1d2d","#d19f2a","#2d9a47","#c22033","#ef412a","#00add8",
                              "#48773c","#007dbb","#40ae49","#00558a","#1a3668")
 names(MyColour) <- c("1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17")
 
-indo_attributes %>% arrange(desc(btwn)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
-    ggplot( aes(x=reorder(Indicator, btwn), y=btwn, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
-  scale_fill_manual(values = MyColour) +
-    coord_flip() +
-    xlab("") +
-    theme_bw() + ylab("betweenness centrality") + 
-    theme_bw() + ggtitle("Most Central Indicators (Betweenness) - Indonesia")
-  
-gua_attributes %>% arrange(desc(btwn)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
-    ggplot( aes(x=reorder(Indicator, btwn), y=btwn, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
-  scale_fill_manual(values = MyColour) +
-    coord_flip() +
-    xlab("") + ylab("betweenness centrality") + 
-    theme_bw() + ggtitle("Most Central Indicators (Betweenness) - Guatemala")
+# not looking at betweenness anymrore.
+# indo_attributes %>% arrange(desc(btwn)) %>%
+#     slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+#     ggplot( aes(x=reorder(Indicator, btwn), y=btwn, fill = Goal)) +
+#     geom_bar(stat="identity",  width=.4) + 
+#   scale_fill_manual(values = MyColour) +
+#     coord_flip() +
+#     xlab("") +
+#     theme_bw() + ylab("betweenness centrality") + 
+#     theme_bw() + ggtitle("Most Central Indicators (Betweenness) - Indonesia")
+#   
+# gua_attributes %>% arrange(desc(btwn)) %>%
+#     slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+#     ggplot( aes(x=reorder(Indicator, btwn), y=btwn, fill = Goal)) +
+#     geom_bar(stat="identity",  width=.4) + 
+#   scale_fill_manual(values = MyColour) +
+#     coord_flip() +
+#     xlab("") + ylab("betweenness centrality") + 
+#     theme_bw() + ggtitle("Most Central Indicators (Betweenness) - Guatemala")
   
 ```
 
 ```{r eigen centrality}
-
-indo_attributes %>% arrange(desc(eigen.vector)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
-    ggplot( aes(x=reorder(Indicator, eigen.value), y=eigen.value, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
-  scale_fill_manual(values = MyColour) +
-    coord_flip() +
-    xlab("") +
-    theme_bw() + ylab("eigen centrality") + 
-    theme_bw() + ggtitle("Most Central Indicators (Eigenvector) - Indonesia")
-  
-gua_attributes  %>% arrange(desc(eigen.vector)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
-    ggplot( aes(x=reorder(Indicator, eigen.value), y=eigen.value, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
-  scale_fill_manual(values = MyColour) +
-    coord_flip() +
-    xlab("") +
-    theme_bw() + ylab("eigen centrality") + 
-    theme_bw() + ggtitle("Most Central Indicators (Eigenvector) - Guatemala")
-  
+# Not using these anymore 
+# indo_attributes %>% arrange(desc(eigen.vector)) %>%
+#     slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+#     ggplot( aes(x=reorder(Indicator, eigen.value), y=eigen.value, fill = Goal)) +
+#     geom_bar(stat="identity",  width=.4) + 
+#   scale_fill_manual(values = MyColour) +
+#     coord_flip() +
+#     xlab("") +
+#     theme_bw() + ylab("eigen centrality") + 
+#     theme_bw() + ggtitle("Most Central Indicators (Eigenvector) - Indonesia")
+#   
+# gua_attributes  %>% arrange(desc(eigen.vector)) %>%
+#     slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+#     ggplot( aes(x=reorder(Indicator, eigen.value), y=eigen.value, fill = Goal)) +
+#     geom_bar(stat="identity",  width=.4) + 
+#   scale_fill_manual(values = MyColour) +
+#     coord_flip() +
+#     xlab("") +
+#     theme_bw() + ylab("eigen centrality") + 
+#     theme_bw() + ggtitle("Most Central Indicators (Eigenvector) - Guatemala")
+#   
 ```
 
-```{r degree centrality}
+
+```{r degree and strength centrality}
 indo_attributes %>% arrange(desc(degree)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
     ggplot( aes(x=reorder(Indicator, degree), y=degree, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
+    geom_bar(stat="identity",  width=.4) +
   scale_fill_manual(values = MyColour) +
     coord_flip() +
     xlab("") +
-    theme_bw() + ylab("degree centrality") + 
+    theme_bw() + ylab("degree centrality") +
     theme_bw() + ggtitle("Most Central Indicators (Degree) - Indonesia")
-  
+
 gua_attributes %>% arrange(desc(degree)) %>%
-    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>% 
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
     ggplot( aes(x=reorder(Indicator, degree), y=degree, fill = Goal)) +
-    geom_bar(stat="identity",  width=.4) + 
+    geom_bar(stat="identity",  width=.4) +
   scale_fill_manual(values = MyColour) +
     coord_flip() +
-    xlab("") + ylab("degree centrality") + 
+    xlab("") + ylab("degree centrality") +
     theme_bw() + ggtitle("Most Central Indicators (Degree) - Guatemala")
-  
+
+indo_attributes %>% arrange(desc(strength)) %>%
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
+    ggplot( aes(x=reorder(Indicator, strength), y=strength, fill = Goal)) +
+    geom_bar(stat="identity",  width=.4) +
+  scale_fill_manual(values = MyColour) +
+    coord_flip() +
+    xlab("") +
+    theme_bw() + ylab("strength centrality") +
+    theme_bw() + ggtitle("Most Central Indicators (positive strength centrality)** - Indonesia") + labs(
+              caption = "**: strength centrality is calculated as the sum of correlation coefficients, and gives us information on whether the centrality helps (positive relationships) or hinders (negative relationships) its related indicators.")
+
+
+gua_attributes %>% arrange(desc(strength)) %>%
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
+    ggplot( aes(x=reorder(Indicator, strength), y=strength, fill = Goal)) +
+    geom_bar(stat="identity",  width=.4) +
+  scale_fill_manual(values = MyColour) +
+    coord_flip() +
+    xlab("") + ylab("strength centrality") +
+    theme_bw() + ggtitle("Most Central Indicators (positive strength centrality)** - Guatemala")+ labs(
+              caption = "**: strength centrality is calculated as the sum of correlation coefficients, and gives us information on whether the centrality helps (positive relationships) or hinders (negative relationships) its related indicators.")
+
+indo_attributes %>% arrange(strength) %>%
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
+    ggplot( aes(x=reorder(Indicator, strength), y=strength, fill = Goal)) +
+    geom_bar(stat="identity",  width=.4) +
+  scale_fill_manual(values = MyColour) +
+    coord_flip() +
+    xlab("") +
+    theme_bw() + ylab("strength centrality") +
+    theme_bw() + ggtitle("Most Central Indicators (negative strength centrality)** - Indonesia") + labs(
+              caption = "**: strength centrality is calculated as the sum of correlation coefficients, and gives us information on whether the centrality helps (positive relationships) or hinders (negative relationships) its related indicators.")
+
+
+gua_attributes %>% arrange(strength) %>%
+    slice(1:15) %>% mutate(Goal = as.character(Goal)) %>% merge(dict, on=Goal) %>%
+    ggplot( aes(x=reorder(Indicator, strength), y=strength, fill = Goal)) +
+    geom_bar(stat="identity",  width=.4) +
+  scale_fill_manual(values = MyColour) +
+    coord_flip() +
+    xlab("") + ylab("strength centrality") +
+    theme_bw() + ggtitle("Most Central Indicators (negative strength centrality)** - Guatemala")+ labs(
+              caption = "**: strength centrality is calculated as the sum of correlation coefficients, and gives us information on whether the centrality helps (positive relationships) or hinders (negative relationships) its related indicators.")
+
 ```
 
 indo_attributes
