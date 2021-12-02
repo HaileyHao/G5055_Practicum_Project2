@@ -133,3 +133,5 @@ gua_attributes %>% arrange(desc(degree)) %>%
     theme_bw() + ggtitle("Most Central Indicators (Degree) - Guatemala")
   
 ```
+
+indo_attributes

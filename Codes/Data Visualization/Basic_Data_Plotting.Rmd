@@ -128,14 +128,14 @@ for(i in 1:17){
     indonesia_disaggregated_indicators %>% subset(Goal==i) %>% 
     ggplot(aes(x=Indicator,fill=disaggregated_)) +
     geom_bar(position='stack',binwidth=3) +
-    scale_fill_manual(values = c('disaggregated'='navy','not disaggregated' = 'lightblue'))+
+    scale_fill_manual(values = c('disaggregated'='#009edb','not disaggregated' = '#d1e8feff'))+
     theme_ipsum(base_size = 12, axis_title_size = 14) +
     theme(
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-        labs(title = paste('Goal ',i),
-              subtitle = "A number of goals and targets include majority of disaggregated measures")+    
+        labs(title = paste('Indonesia Goal ',i),
+              subtitle = paste("Disaggregated Measures (Indicator Level)" )) +    
     labs(fill = "Disaggregation", y="count", x = "")
     )
 }
@@ -215,11 +215,11 @@ print(
 processedIndo =  read.csv('~/QMSS/G5055_Practicum_Project2/Data/processedIndo.csv')
 
 processedGuate =  read.csv('~/QMSS/G5055_Practicum_Project2/Data/processedGuate.csv')
-processedGuate_No_Disagg = read.csv('~/QMSS/G5055_Practicum_Project2/Data/processedGuate-WITHOUT disaggregation.csv')
+processedGuate_No_Disagg = read.csv('~/QMSS/G5055_Practicum_Project2/Data/Guatmala Data Without Disaggregation.csv')
 
 guatemala_time_ <- processedGuate_No_Disagg %>% select(-X) %>% tidyr::pivot_wider(names_from = c(TimePeriod),values_from = Value)
 
-processedIndo_No_Disagg = read.csv('~/QMSS/G5055_Practicum_Project2/Data/processedIndo-WITHOUT disaggregation.csv')
+processedIndo_No_Disagg = read.csv('~/QMSS/G5055_Practicum_Project2/Data/Indonesia Data Without Disaggregation.csv')
 indonesia_time_ <- processedIndo_No_Disagg %>% select(-X) %>% tidyr::pivot_wider(names_from = c(TimePeriod),values_from = Value)
 ```
 
@@ -244,7 +244,7 @@ print(
   indonesia_time_ %>% subset(Goal==i) %>% dplyr::group_by(Target,average_missing_prop_t) %>% summarise() %>% 
     ggplot(aes(x=Target,y=average_missing_prop_t*100,fill=average_missing_prop_t*100)) +
     geom_bar(stat="identity") +
-    scale_fill_gradient(low = "lightblue", high = "navy",
+    scale_fill_gradient(low = '#d1e8feff', high = '#009edb',
                          breaks = c(0,100)) +
     #scale_fill_gradient(high='navy',low = 'lightblue') +
     theme_ipsum(base_size = 12, axis_title_size = 4) +
@@ -252,7 +252,7 @@ print(
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-        labs(title = paste('Goal ',i),
+        labs(title = paste('Indonesia Goal',i, "Measure Missingness"),
              caption = "** - 2020-2021 excluded because most measures' values were missing in these years")+    
     labs(fill = "Percent Missing (across 2012-2019)**", y="Percent", x = "")
 )
