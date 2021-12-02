@@ -12,7 +12,7 @@ d2 <- merge(d, p, by = c("Var1", "Var2"))
 # build an unweighted network base (cutoff score = 0.5)----
 el <- d2 %>% 
   filter(Var1 != Var2) %>% 
-  filter(value >= 0.5 | value <= -0.5) %>% 
+  filter(value >= 0.5 | value <= -0.5) %>%
   filter(p <= 0.05) %>%
   select(Var1, Var2)
 
@@ -143,13 +143,13 @@ cm <- m
 catt2 <- att2
 cg2 <- g2
 
-# save attribute table----
-write_csv(catt2, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_weighted_attributes_sig.csv")
-
-# save network object in RData format----
-save(cm, cg2, catt2, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted_sig.RData")
-
-# To load the data again
-load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted_sig.RData")
+# # save attribute table----
+# write_csv(catt2, "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_weighted_attributes_sig.csv")
+# 
+# # save network object in RData format----
+# save(cm, cg2, catt2, file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted_sig.RData")
+# 
+# # To load the data again
+# load("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_coefficient_net_weighted_sig.RData")
 
 
