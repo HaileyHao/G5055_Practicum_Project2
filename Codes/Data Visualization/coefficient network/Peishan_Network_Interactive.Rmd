@@ -175,11 +175,15 @@ Please zoom in to see the indicator labels, and click/hover to see specific indi
 
 ### Indonesia
 ```{r import Indonesia network coefficients, echo=FALSE, eval=TRUE}
-edgelist <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficients_sig.csv")
+edgelist <- read.csv("https://raw.githubusercontent.com/PeishanLi/G5055_Practicum_Project2/main/Data/PCA_results/indo_coefficients_sig.csv")
+
 #Some preprocessing
 edgelist<-edgelist%>%
   select(Var1, Var2, value)%>%
   filter(Var1!=Var2)
+
+edgelist_negative <- edgelist %>% filter(value < 0)
+edgelist_positive <- edgelist %>% filter(value > 0)
 ```
 
 ```{r Indonesia nodes, echo=FALSE, eval=TRUE}
@@ -202,6 +206,7 @@ nodes<-nodes %>%
 ```
 
 ```{r Indonesia Network, echo=FALSE, eval=TRUE, fig.height=10, fig.width=10}
+
 edges <- edgelist %>% dplyr::rename(Indicator = Var1, related_indicator = Var2)
 
 nodes <- data.frame(id = nodes$Indicator,
@@ -253,13 +258,151 @@ visnet
 visSave(visnet, file = "Social Network Model-Indonesia.html")
 ```
 
+```{r positive_negative_indo, echo=FALSE, eval=TRUE, fig.height=10, fig.width=10}
+# Negative Edgelist 
+nodes <- edgelist_negative %>%
+  select(Var1, Var2)
+nodes <- data.frame(Indicator = unlist(nodes, use.names = FALSE))
+nodes <- distinct(nodes)
+nodes<-merge(x=nodes,y=indicator_info,by="Indicator",all.x=TRUE)
+g2<-graph_from_data_frame(edgelist_negative, directed=FALSE, vertices=nodes)
+in_degree<-degree(g2, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+nodes<-merge(x=nodes,y=in_degree,by="Indicator",all.x=TRUE)
+nodes<-nodes %>%
+  arrange(Goal)
+nodes<-nodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+edges <- edgelist_negative %>% dplyr::rename(Indicator = Var1, related_indicator = Var2)
+
+nodes <- data.frame(id = nodes$Indicator,
+                    label = nodes$Indicator,
+                    group = nodes$Goal,
+                    Goal = nodes$Goal,
+                    shape = "dot",
+                    shadow = FALSE,
+                    color = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    highlight = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    size = nodes$in_degree/10, title = paste(nodes$Indicator,nodes$Indicator_title))
+
+edges <- data.frame(from = edges$Indicator, to=edges$related_indicator, width = edges$value, color=ifelse(edges$value>0, "green", "red"),title = paste("Coefficient value:",edges$value), smooth = FALSE, shadow = FALSE)
+
+visnet<-visNetwork(nodes,edges, height = "700px", width = "100%", main="Social Network Model-Indonesia (Negative Ties)",submain= "UN SDG Indicator Database", footer="Zoom in to see indicator name, click/hover to see indicator title/coefficients") %>%
+  visPhysics(enabled = FALSE) %>% # needed to disable due to spastic network movement 
+  visOptions(selectedBy = "Goal",
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Social Network Model-Indonesia-negative.html")
+
+# positive networks 
+nodes <- edgelist_positive %>%
+  select(Var1, Var2)
+nodes <- data.frame(Indicator = unlist(nodes, use.names = FALSE))
+nodes <- distinct(nodes)
+nodes<-merge(x=nodes,y=indicator_info,by="Indicator",all.x=TRUE)
+g2<-graph_from_data_frame(edgelist_positive, directed=FALSE, vertices=nodes)
+in_degree<-degree(g2, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+nodes<-merge(x=nodes,y=in_degree,by="Indicator",all.x=TRUE)
+nodes<-nodes %>%
+  arrange(Goal)
+nodes<-nodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+edges <- edgelist_positive %>% dplyr::rename(Indicator = Var1, related_indicator = Var2)
+
+nodes <- data.frame(id = nodes$Indicator,
+                    label = nodes$Indicator,
+                    group = nodes$Goal,
+                    Goal = nodes$Goal,
+                    shape = "dot",
+                    shadow = FALSE,
+                    color = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    highlight = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    size = nodes$in_degree/10, title = paste(nodes$Indicator,nodes$Indicator_title))
+
+edges <- data.frame(from = edges$Indicator, to=edges$related_indicator, width = edges$value, color=ifelse(edges$value>0, "green", "red"),title = paste("Coefficient value:",edges$value), smooth = FALSE, shadow = FALSE)
+
+visnet<-visNetwork(nodes,edges, height = "700px", width = "100%", main="Social Network Model-Indonesia (Positive Ties)",submain= "UN SDG Indicator Database", footer="Zoom in to see indicator name, click/hover to see indicator title/coefficients") %>%
+  visPhysics(maxVelocity = 30) %>%
+  visOptions(selectedBy = "Goal",
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Social Network Model-Indonesia-positive.html")
+```
 ### Guatemala 
 ```{r import Guatemala network coefficients, echo=FALSE, eval=TRUE}
-edgelist <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficients_sig.csv")
+edgelist <- read.csv("https://raw.githubusercontent.com/PeishanLi/G5055_Practicum_Project2/main/Data/PCA_results/gua_coefficients_sig.csv")
 #Some preprocessing
 edgelist<-edgelist%>%
   select(Var1, Var2, value)%>%
   filter(Var1!=Var2)
+
+edgelist_negative <- edgelist %>% filter(value < 0)
+edgelist_positive <- edgelist %>% filter(value > 0)
 ```
 
 ```{r Guatemala nodes, echo=FALSE, eval=TRUE}
@@ -332,4 +475,140 @@ visnet<-visNetwork(nodes,edges, height = "700px", width = "100%", main="Social N
   visLegend(main="Legend", position="right", ncol=3, width=0.2)
 visnet
 visSave(visnet, file = "Social Network Model-Guatemala.html")
+```
+
+```{r positive_negative_guatemala, echo=FALSE, eval=TRUE, fig.height=10, fig.width=10}
+# Negative Edgelist 
+nodes <- edgelist_negative %>%
+  select(Var1, Var2)
+nodes <- data.frame(Indicator = unlist(nodes, use.names = FALSE))
+nodes <- distinct(nodes)
+nodes<-merge(x=nodes,y=indicator_info,by="Indicator",all.x=TRUE)
+g2<-graph_from_data_frame(edgelist_negative, directed=FALSE, vertices=nodes)
+in_degree<-degree(g2, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+nodes<-merge(x=nodes,y=in_degree,by="Indicator",all.x=TRUE)
+nodes<-nodes %>%
+  arrange(Goal)
+nodes<-nodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+edges <- edgelist_negative %>% dplyr::rename(Indicator = Var1, related_indicator = Var2)
+
+nodes <- data.frame(id = nodes$Indicator,
+                    label = nodes$Indicator,
+                    group = nodes$Goal,
+                    Goal = nodes$Goal,
+                    shape = "dot",
+                    shadow = FALSE,
+                    color = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    highlight = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    size = nodes$in_degree/10, title = paste(nodes$Indicator,nodes$Indicator_title))
+
+edges <- data.frame(from = edges$Indicator, to=edges$related_indicator, width = edges$value, color=ifelse(edges$value>0, "green", "red"),title = paste("Coefficient value:",edges$value), smooth = FALSE, shadow = FALSE)
+
+visnet<-visNetwork(nodes,edges, height = "700px", width = "100%", main="Social Network Model-Guatemala (Negative Ties)",submain= "UN SDG Indicator Database", footer="Zoom in to see indicator name, click/hover to see indicator title/coefficients") %>%
+  visPhysics(enabled = FALSE) %>% # needed to disable due to spastic network movement 
+  visOptions(selectedBy = "Goal",
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Social Network Model-Guatemala-negative.html")
+
+# positive networks 
+nodes <- edgelist_positive %>%
+  select(Var1, Var2)
+nodes <- data.frame(Indicator = unlist(nodes, use.names = FALSE))
+nodes <- distinct(nodes)
+nodes<-merge(x=nodes,y=indicator_info,by="Indicator",all.x=TRUE)
+g2<-graph_from_data_frame(edgelist_positive, directed=FALSE, vertices=nodes)
+in_degree<-degree(g2, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+nodes<-merge(x=nodes,y=in_degree,by="Indicator",all.x=TRUE)
+nodes<-nodes %>%
+  arrange(Goal)
+nodes<-nodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+edges <- edgelist_positive %>% dplyr::rename(Indicator = Var1, related_indicator = Var2)
+
+nodes <- data.frame(id = nodes$Indicator,
+                    label = nodes$Indicator,
+                    group = nodes$Goal,
+                    Goal = nodes$Goal,
+                    shape = "dot",
+                    shadow = FALSE,
+                    color = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    highlight = ifelse(nodes$Goal == 1,"#ea1d2d",ifelse(nodes$Goal == 2,"#d19f2a",ifelse(nodes$Goal == 3,"#2d9a47",
+                            ifelse(nodes$Goal == 4,"#c22033",ifelse(nodes$Goal == 5,"#ef412a",ifelse(nodes$Goal == 6,"#00add8",
+                            ifelse(nodes$Goal == 7,"#fdb714",ifelse(nodes$Goal == 8,"#8f1838",ifelse(nodes$Goal == 9,"#f36e24",
+                            ifelse(nodes$Goal == 10,"#e01a83",ifelse(nodes$Goal == 11,"#f99d25",ifelse(nodes$Goal == 12,"#cd8b2a",
+                            ifelse(nodes$Goal == 13,"#48773c",ifelse(nodes$Goal == 14,"#007dbb",ifelse(nodes$Goal == 15,"#40ae49",
+                            ifelse(nodes$Goal == 16,"#00558a","#1a3668")))))))))))))))),
+                    size = nodes$in_degree/10, title = paste(nodes$Indicator,nodes$Indicator_title))
+
+edges <- data.frame(from = edges$Indicator, to=edges$related_indicator, width = edges$value, color=ifelse(edges$value>0, "green", "red"),title = paste("Coefficient value:",edges$value), smooth = FALSE, shadow = FALSE)
+
+visnet<-visNetwork(nodes,edges, height = "700px", width = "100%", main="Social Network Model-Guatemala (Positive Ties)",submain= "UN SDG Indicator Database", footer="Zoom in to see indicator name, click/hover to see indicator title/coefficients") %>%
+  visPhysics(maxVelocity = 30) %>%
+  visOptions(selectedBy = "Goal",
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Social Network Model-Guatemala-positive.html")
 ```
