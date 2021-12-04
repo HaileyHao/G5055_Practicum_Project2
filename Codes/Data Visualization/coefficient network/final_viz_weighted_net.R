@@ -7,7 +7,7 @@ library(ggnetwork)
 # load data and keep all the node pairs statistically significantly related----
 setwd("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results")
 # d <- read_csv("indo_coefficients.csv")
-# p <- read_csv("Indonesia_scaled_correlation_among_indicators_indicator_model_pval.csv") %>% rename(Var1 = X, Var2 = Y, p = `p-unc`) 
+# p <- read_csv("Indonesia_scaled_correlation_among_indicators_indicator_model_pval.csv") %>% rename(Var1 = X, Var2 = Y, p = `p-unc`)
 d <- read_csv("gua_coefficients.csv")
 p <- read_csv("Guatemala_scaled_correlation_among_indicators_indicator_model_pval.csv") %>% rename(Var1 = X, Var2 = Y, p = `p-unc`)
 d2 <- merge(d, p, by = c("Var1", "Var2"))
@@ -18,7 +18,8 @@ el_weighted <- d2 %>%
   # filter(value >= 0.5 | value <= -0.5) %>% 
   filter(p <= 0.05) %>%
   select(Var1, Var2, value) %>% 
-  arrange(abs(value))
+  arrange(abs(value)) %>% 
+  unique()
 
 # write_csv(el_weighted, file = "indo_coefficients_sig.csv")
 # write_csv(el_weighted, file = "gua_coefficients_sig.csv")
@@ -35,6 +36,13 @@ el_weighted <- d2 %>%
 library(igraph)
 
 g2 <- graph.data.frame(el_weighted, directed = FALSE)
+edge_attr(g2)
+
+
+# density
+edge_density(g2, loops = FALSE)
+# indo: 87 nodes, 2138 ties, density 2138/((87*86)/2) = 0.5715049
+# gua: 79 nodes, 1992 ties, density 1992/((79*78)/2) = 0.6465433
 
 m <- get.adjacency(g2, sparse = FALSE, attr='value')
 
@@ -42,8 +50,8 @@ m <- get.adjacency(g2, sparse = FALSE, attr='value')
 
 # repeat for the weighted network g2----
 # some attributes----
-# info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
-info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
+info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
+# info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
 # information: goal, target, indicator
 att2 <- info[3:5] %>%
   unique() %>%
@@ -88,7 +96,6 @@ cm <- m
 catt <- att2
 cg <- g2
 
-
 hex <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Visualizations/goal_hexcodes.csv")
 # hex2 <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Visualizations/goal_hexcodes_edge.csv")
 
@@ -103,7 +110,7 @@ ggplot(df, aes(x, y, xend = xend, yend = yend)) +
   scale_color_manual(values = hex$hexcode) +
   # geom_nodetext_repel(aes(label = Goal),size = 2) +
   # geom_nodetext(aes(label = Target),size = 2) +
-  # geom_nodetext(aes(label = Indicator),size = 2) +
+  geom_nodetext(aes(label = Indicator),size = 2) +
   # geom_nodetext(aes(label = Indicator), size = 2, color = "white") +
   theme_blank()
 

@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, cache = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE) # , cache = TRUE
 ```
 
 ```{r}
@@ -138,8 +138,7 @@ Network regression models are built to predict one binary matrix with another.
 1. To do QAP analysis (network regressions), it requires us to make the matrices in the same shape and row&column order, so I did regressions on the **common indicators** in the different matrices, and deleted the rest ones.         
 
 2. Make binary:             
-Coefficients with an absolute value < 0.5 are coded as 0;              
-Coefficients with an absolute value >= 0.5 are coded as 1.            
+Coefficients with an absolute value > 0 are coded as 1.            
 Similarity score < 0.2 are coded as 0;         
 Similarity score >= 0.2 are coded as 1;            
 
@@ -164,19 +163,38 @@ tm <- m
 ## recode as binary
 
 ```{r}
-indo_cm[indo_cm > -0.5 & indo_cm < 0.5] <- 0
-indo_cm[indo_cm <= -0.5 | indo_cm >= 0.5] <- 1
 
-gua_cm[gua_cm > -0.5 & gua_cm < 0.5] <- 0
-gua_cm[gua_cm <= -0.5 | gua_cm >= 0.5] <- 1
+indo_cmP <- indo_cm
+indo_cmP[indo_cmP < 0] <- 0
+
+gua_cmP <- gua_cm
+gua_cmP[gua_cmP < 0] <- 0
 
 
-indo_cmP[indo_cmP < 0.5] <- 0
-indo_cmP[indo_cm >= 0.5] <- 1
+# indo_cm[indo_cm > -0.5 & indo_cm < 0.5] <- 0
+# indo_cm[indo_cm <= -0.5 | indo_cm >= 0.5] <- 1
+# 
+# gua_cm[gua_cm > -0.5 & gua_cm < 0.5] <- 0
+# gua_cm[gua_cm <= -0.5 | gua_cm >= 0.5] <- 1
 
-gua_cmP[gua_cmP < 0.5] <- 0
-gua_cmP[gua_cm >= 0.5] <- 1
+# 
+# indo_cmP[indo_cmP < 0.5] <- 0
+# indo_cmP[indo_cm >= 0.5] <- 1
+# 
+# gua_cmP[gua_cmP < 0.5] <- 0
+# gua_cmP[gua_cm >= 0.5] <- 1
 
+
+indo_cm[indo_cm != 0] <- 1
+gua_cm[gua_cm != 0] <- 1
+
+indo_cmP[indo_cmP != 0] <- 1
+gua_cmP[gua_cmP != 0] <- 1
+
+write.csv(colnames(indo_cmP), 
+          file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_positive_coeff_indicator_list.csv")
+write.csv(colnames(gua_cmP), 
+          file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/gua_positive_coeff_indicator_list.csv")
 
 tm[tm < 0.2] <- 0
 tm[tm >= 0.2] <- 1
@@ -204,7 +222,7 @@ summary(indo_nl_ct)
 # summary(indo_nl_tc)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.0001537, which is the R-squared)=0.01239758, with p > 0.05, not statistically significant. 
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(3.182e-07, which is the R-squared)=0.0005640922(very little), with p > 0.05, not statistically significant. 
 
 #### b) Logit Netork Model
 
@@ -213,7 +231,7 @@ indo_nlo_ct <- netlogit(indo_cmP, indo_tm)
 summary(indo_nlo_ct)
 ```
 
-> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 71.4% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia Indicator coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala text network (whether indicator description similarity >= 0.2) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 85.5% accuracy. However, p > 0.05 means we can NOT reject the null hypothesis that there's no releationship between the Indonesia Indicator coefficient network and the Indicator text network, which means there's a chance for us to see results like this just by accident.
 
 
 ### 2) Guatemala
@@ -237,7 +255,7 @@ summary(gua_nl_tc)
 # summary(gua_nl_ct)
 ```
 
-> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.00002514, which is the R-squared)=0.00501398, with p > 0.05, not statistically significant.  ( useless )
+> Predicting the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Indicator text network (whether indicator description similarity >= 0.2) with OLS network model shows that they are correlated at sqrt(0.00005693, which is the R-squared)=0.007545197(very little), with p > 0.05, not statistically significant.  ( useless )
 
 
 #### b) Logit Netork Model
@@ -262,6 +280,10 @@ common_for_qap <- setdiff(rownames(indo_cm), diff1)
 # diff2 <- setdiff(rownames(gua_cm), rownames(indo_cm))
 # common_for_qap <- setdiff(rownames(gua_cm), diff2) # same result 87 common indicators
 
+write.csv(colnames(common_for_qap), 
+          file = "/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/coefficient_network/indo_gua_common.csv")
+
+
 indo_cm2 <- indo_cm[common_for_qap, common_for_qap]
 gua_cm2 <- gua_cm[common_for_qap, common_for_qap]
 
@@ -272,7 +294,7 @@ summary(nl_2country)
 # summary(nl_2country2)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.3356, which is the R-squared)=0.5793099, with p < 0.05 (very close to 0), statistically significant. Such small p value means that we can reject the null hypothesis that there's no releationship between the coefficient network of Indonesia and Guatemala, which means there's nearly no chance for us to see results like this just by accident.
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with OLS Network model shows that they are correlated at sqrt(0.02229, which is the R-squared)=0.1492984, with p < 0.05 (very close to 0), statistically significant. Such small p value means that we can reject the null hypothesis that there's no releationship between the coefficient network of Indonesia and Guatemala, which means there's nearly no chance for us to see results like this just by accident.
 
 #### b) Logit Netork Model
 
@@ -281,5 +303,5 @@ nlo_2country <- netlogit(indo_cm2, gua_cm2)
 summary(nlo_2country)
 ```
 
-> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 82% accuracy.             
+> Predicting the Indonesia coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) from the Guatemala coefficient network (whether there's a correlation coefficients >= 0.5 between indicators) with Network Logit Model shows that with the Guatemala text network, we can predict the Indonesia coefficient network with an 72.3% accuracy.             
 p < 0.05 (very close to 0) means we can reject the null hypothesis that there's no releationship between the Indonesia coefficient network and the Guatemala coefficient network, which means there's very low chance for us to see results like this just by accident.
