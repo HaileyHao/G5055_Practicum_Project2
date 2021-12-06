@@ -50,7 +50,7 @@ m <- get.adjacency(g2, sparse = FALSE, attr='value')
 
 # repeat for the weighted network g2----
 # some attributes----
-info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedIndo.csv")
+info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
 # info <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Data/processedGuate.csv")
 # information: goal, target, indicator
 att2 <- info[3:5] %>%
@@ -97,6 +97,7 @@ catt <- att2
 cg <- g2
 
 hex <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Visualizations/goal_hexcodes.csv")
+hex2 <- filter(hex, goal != 5)
 # hex2 <- read_csv("/Users/hailey/Documents/GitHub/G5055_Practicum_Project2/Visualizations/goal_hexcodes_edge.csv")
 
 # df <- ggnetwork(cg,layout = with_kk())
@@ -107,7 +108,8 @@ df <- ggnetwork(cg,layout = layout_nicely(cg))
 ggplot(df, aes(x, y, xend = xend, yend = yend)) +
   geom_edges(alpha = 0.2, curvature = 0.2, color="seashell3") + # aes(color = color) color="seashell3"
   geom_nodes(aes(colour = as.factor(Goal), size = degree), alpha = 0.8) +
-  scale_color_manual(values = hex$hexcode) +
+  # scale_color_manual(values = hex$hexcode) +
+  scale_color_manual(values = hex2$hexcode) +
   # geom_nodetext_repel(aes(label = Goal),size = 2) +
   # geom_nodetext(aes(label = Target),size = 2) +
   geom_nodetext(aes(label = Indicator),size = 2) +
