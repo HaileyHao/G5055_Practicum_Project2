@@ -1,4 +1,7 @@
-# G5055_Practicum_Project2
+# G5055_Practicum_Project2 | Fall 2021 
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 
 **Team Members (in alphabetical order)**
 
@@ -7,29 +10,35 @@
 
 ## Project Description
 
-This project is developed by graduate students in the Social Sciences program of Columbia University in collaboration with the UN SDG Fund. The objectives of this project is to develop models that could define and quantitatively measure the networks among the 17 Sustainable Development Goals (SDG). To do this we built two models, one text model based on indicator descriptions from UN SDG Indicator Metadata, and coefficient networks based on coefficients calculated using UN SDG Indicator Database. The team also looks at the similarity between the two models, and the generalizability of the network model from the two example countries. The importance of this project lies in the context that the different domains of SDGs are interconnected and cannot be effectively resolved without being considered as interdependent, and the fact that although this networks should be both theoretical and evidence-based, few research have been conducted to validate their empirial groundings.
+This project is developed by graduate students in the Social Sciences program of Columbia University in collaboration with the UN SDG Fund. The objectives of this project was to develop models that could define and quantitatively measure the networks among the 17 Sustainable Development Goals (SDG). To do this we built two models, one text model based on indicator descriptions from UN SDG Indicator Metadata, and coefficient networks based on coefficients calculated using UN SDG Indicator Database. The team also looked at the similarity between the two models, and the generalizability of the network model from the two example countries. 
 
-Languages used include Python and R.
+The importance of this project lies in the context that the different domains of SDGs are interconnected and cannot be effectively resolved without being considered as interdependent, and the fact that although this networks should be both theoretical and evidence-based, few research have been conducted to validate their empirial groundings.
 
 Additional information about the project can be found on the project slides [here](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf)
 
 Team member contact information can also be found on the slides.
 
-## Project Scope
+## Scoping and Methodologies:
 
-For the coefficient model chooses two specific countries, Indonesia and Guatemala.
+### Scoping: 
+For the coefficient model, we selected two specific countries: Indonesia and Guatemala.
 
 The two countries were chosen considering countries of interest from the UN Joint SDG Fund, geographical distribution differences, similarities in factors such as population density, political stability, etc., as well as relative data availability.
 
 For the coefficient model, the team is looking at data starting from 2012 to 2020.
 
-## Model Methodlogies (Pending)
+### Model Methodologies Used: 
 
-1. Text Model
+1. Text Model: Network Model based on cosine similarities between indicator descriptions from [SDG metadata](https://unstats.un.org/sdgs/metadata/) 
 
-2. Coefficient Social Network Model
+2. Coefficient Social Network Model: Positive and Negative Network Models based on coefficients for year-to-year changes in [SDG indicator measures](https://unstats.un.org/sdgs/UNSDG/IndDatabasePage)
+	- Positive Network
 
-3. QAP Analysis
+3. QAP Analysis: Calculation of similarity and associations between text and network models. 
+
+## Initial Results: 
+![cute cat image](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Visualizations/Interactive/Social%20Network%20Model-Guatemala-negative.html)
+
 
 ## Final Deliverables
 
@@ -41,7 +50,23 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 4. **The team's key findings including other visualization works could be seen the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
 
-## User Guide for the Repository (Pending)
+## Repository Directory: 
+
+	├── cs_repayment_rate
+	├── cs_student_debt 
+	├── twitter_data
+	├── shiny
+	├── data
+	├── temp
+	├── www
+	├── solutions_and_visualizations 
+	├── census_student_debt_etc 
+	# exploratory data about poverty and student debt - not really used in current iteration of project
+	├── repay_rate
+		├── repay_rate_visuals
+	├── student_debt
+	├── twitter
+		├── twitter_visuals
 
 ### Codes
 
