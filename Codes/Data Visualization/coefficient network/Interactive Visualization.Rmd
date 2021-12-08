@@ -1,0 +1,316 @@
+---
+title: "Interactive Networks"
+author: "Li Peishan"
+date: "11/23/2021"
+output:
+  html_notebook:
+    toc: yes
+    theme: journal
+---
+<style>
+body{ /* Normal */
+font-size: 15px;
+color: black;
+}
+write {  
+line-height: 7em;
+}
+table { /* Table */
+font-size: 12px;
+}
+h1 { /* Header 1 */
+font-size: 30px;
+}
+h2 { /* Header 2 *
+font-size: 26px;
+}
+h3 { /* Header 3 */
+font-size: 22px;
+}
+code.r{ /* Code block */
+font-size: 14px;
+}
+pre { /* Code block */
+font-size: 14px
+}
+.main-container {
+    width: 80%;
+    max-width: unset;
+}
+</style>
+
+```{r setup, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE,eval=TRUE, message=FALSE, warning=FALSE)
+```
+
+```{r load packages, echo=FALSE, eval=TRUE}
+library(readxl)
+library(magrittr)
+library(dplyr)
+library(ggplot2)    
+library(ggthemes)
+library(tidyverse)
+library(jsonlite)
+library(tidyr)
+library(tigris)
+library(tidytext)
+library(textdata)
+library(tm)
+library(quanteda)
+library(rvest)
+library(stringr)
+library(SnowballC)
+library(wordcloud)
+library(plotrix)
+library(qdapDictionaries)
+library(formattable)
+library(stringr)
+library(DT)
+library(network)
+library(ggnetwork)
+library(igraph)
+library(RColorBrewer)
+library(randomcoloR)
+library(stringi)
+library(igraph)
+library(ggraph)
+library(graphlayouts)
+library(visNetwork)
+```
+
+# Network visualization using output from text model
+
+## Data preparation
+
+```{r import data, echo=TRUE, eval=TRUE}
+edgelist <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/edgelist.csv")
+edgelist
+```
+
+Indicator title
+```{r, text titles, echo=TRUE, eval=TRUE}
+indicator_info <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/Text_Model_Data/indicator_att.csv")
+library(stringr)
+str_replace_all(indicator_info$Indicator, fixed(" "), "")
+Textdata <- datatable(indicator_info, rownames=TRUE, caption=htmltools::tags$caption(style="caption-side: bottom; text-align: center;", "Innovative counties in the U.S."), filter="top", extensions="Buttons", options=list(dom = "Bfrtip", buttons = c("colvis", "copy", "csv", "excel", "pdf", "print")))
+Textdata
+```
+
+For future classification of indicators into the goals they belong to, create the nodes dataframe:
+```{r create nodes, echo=TRUE, eval=TRUE}
+nodes <- edgelist %>%
+  select(indicator, related_indicator)
+nodes <- data.frame(Indicator = unlist(nodes, use.names = FALSE))
+nodes <- distinct(nodes)
+str_replace_all(nodes$Indicator, fixed(" "), "")
+
+#nodes$goal <- stri_match_first_regex(nodes$indicator, "(.*?)\\.")[,2]
+#nodes$goal <-as.numeric(nodes$goal)
+nodes<-merge(x=nodes,y=indicator_info,by="Indicator",all.x=TRUE)
+
+g<-graph_from_data_frame(edgelist, directed=FALSE, vertices=nodes)
+in_degree<-degree(g, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+str_replace_all(in_degree$Indicator, fixed(" "), "")
+nodes<-merge(x=nodes,y=in_degree,by="Indicator",all.x=TRUE)
+
+nodes<-nodes %>%
+  arrange(Goal)
+nodes<-nodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+nodes
+```
+
+## Visualization
+
+In the network graph below, the size of each vertices (each indicator) represents the number of related indicators that are connected to it. The width of the edges linking each indicator is determined according to the similarity score between each pair of related indicators. The indicators are grouped according to the goals they belong to, which are denoted by different colors of the vertices.
+```{r Static network from text, fig.width=15, fig.height=15, echo=FALSE, eval=FALSE}
+g<-graph_from_data_frame(edgelist, directed=FALSE, vertices=nodes)
+
+#Add attributes
+E(g)$weight<-E(g)$similarity_score
+V(g)$in_degree<-degree(g, mode="in")
+colrs<-c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")
+V(g)$color<-colrs[V(g)$Goal]
+
+#Plot graph
+plot(g, vertex.label=NA, edge.color="gray77", vertex.color=V(g)$color, vertex.size=V(g)$in_degree, edge.width=E(g)$weight*10, layout=layout_nicely(g))
+
+plot(g, vertex.label.color="black", vertex.label.cex=2.5, edge.color="gray77", vertex.color=V(g)$color, vertex.size=V(g)$in_degree, edge.width=E(g)$weight*10, layout=layout_nicely(g))
+
+#legend(x=-11, y=-11, c("Goal 1","Goal 2","Goal 3","Goal 4","Goal 5","Goal 6","Goal 7","Goal 8","Goal 9","Goal 10","Goal 11", "Goal 12","Goal 13", "Goal 14", "Goal 15", "Goal 16", "Goal 17"), pch=20, col="#777777", pt.bg=colrs, pt.cex=2, cex=.8, bty="n", ncol=1)
+```
+
+```{r, Interactive network from text, echo=TRUE, eval=TRUE}
+vis.nodes <- nodes
+vis.links <- edgelist
+
+vis.nodes$shape  <- "dot"  
+vis.nodes$shadow <- FALSE
+vis.nodes$title  <- paste(vis.nodes$Indicator,vis.nodes$Indicator_title) # Text on click
+vis.nodes$label  <- vis.nodes$Indicator # Node label
+vis.nodes$size   <- vis.nodes$in_degree*10 # Node size
+vis.nodes$group <- vis.nodes$Goal
+vis.nodes$color.background <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.border <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.highlight.background <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.highlight.border <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+
+vis.links$width <- vis.links$similarity_score*100 # line width
+vis.links$color <- "gray"    # line color  
+#vis.links$arrows <- "middle"
+vis.links$smooth <- FALSE    # should the edges be curved?
+vis.links$shadow <- FALSE
+vis.links$title <-paste("Similarity score:",vis.links$value)
+
+visnet<-visNetwork(vis.nodes,vis.links, height = "700px", width = "100%", main="Text Network Model",submain= "UN SDG Indicator Metadata", footer="Zoom in to see indicator name, click/hover to see indicator title") %>%
+  visOptions(selectedBy = "Goal", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Text Network Model.html")
+```
+
+# Network visualization using output from the social network model
+
+## Indonesia
+
+###Data preparation
+
+```{r import Indonesia network coefficients, echo=TRUE, eval=TRUE}
+edgelistindo <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/indo_coefficients_sig.csv")
+#Some preprocessing
+edgelistindo<-edgelistindo%>%
+  select(Var1, Var2, value)%>%
+  filter(Var1!=Var2)
+names(edgelistindo)<-c("from","to","value")
+edgelistindo
+```
+
+For future classification of indicators into the goals they belong to, create the nodes dataframe:
+```{r Indonesia nodes, echo=TRUE, eval=TRUE}
+indonodes <- edgelistindo %>%
+  select(from, to)
+indonodes <- data.frame(Indicator = unlist(indonodes, use.names = FALSE))
+indonodes <- distinct(indonodes)
+
+#indonodes$goal <- stri_match_first_regex(indonodes$indicator, "(.*?)\\.")[,2]
+#indonodes$goal <-as.numeric(indonodes$goal)
+indonodes<-merge(x=indonodes,y=indicator_info,by="Indicator",all.x=TRUE)
+
+g2<-graph_from_data_frame(edgelistindo, directed=FALSE, vertices=indonodes)
+in_degree<-degree(g2, mode="in")
+in_degree<-as.data.frame(in_degree)
+in_degree <- cbind(rownames(in_degree), in_degree)
+rownames(in_degree) <- NULL
+colnames(in_degree) <- c("Indicator","in_degree")
+indonodes<-merge(x=indonodes,y=in_degree,by="Indicator",all.x=TRUE)
+
+indonodes<-indonodes %>%
+  arrange(Goal)
+indonodes<-indonodes %>%
+  select(Indicator, Goal, Indicator_title, in_degree)
+indonodes
+indonodes
+```
+
+### Visualization
+
+```{r, echo=TRUE, eval=TRUE, fig.height=10, fig.width=10}
+vis.nodes <- indonodes
+vis.links <- edgelistindo
+
+vis.nodes$shape  <- "dot"  
+vis.nodes$shadow <- FALSE # Nodes will drop shadow
+vis.nodes$title  <- paste(vis.nodes$Indicator,vis.nodes$Indicator_title) # Text on click
+vis.nodes$label  <- vis.nodes$Indicator # Node label
+vis.nodes$size   <- vis.nodes$in_degree # Node size
+vis.nodes$group <- vis.nodes$Goal
+vis.nodes$color.background <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.border <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.highlight.background <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+vis.nodes$color.highlight.border <- c("#ea1d2d", "#d19f2a","#2d9a47", "#c22033","#ef412a", "#00add9", "#fdb714", "#8f1838", "#f36e24", "#e01a83", "#f99d25", "#cd8b2a", "#48773c", "#007dbb", "#40ae49",  "#00558a", "#1a3668")[vis.nodes$Goal]
+
+vis.links$width <- vis.links$value*100 # line width
+vis.links$color <- "gray"    # line color  
+#vis.links$arrows <- "middle" # arrows: 'from', 'to', or 'middle'
+vis.links$smooth <- FALSE    # should the edges be curved?
+vis.links$shadow <- FALSE 
+vis.links$title <-paste("Coefficient:",vis.links$value)
+
+visnet<-visNetwork(vis.nodes,vis.links, height = "700px", width = "100%", main="Social Network Model-Indonesia", submain="UN SDG Indicator Database",footer= "Zoom in to see indicator name, click or hover to see indicator title") %>%
+  visOptions(selectedBy = "Goal", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE) %>%
+  visGroups(groupname = "1", shape="dot", color = "#ea1d2d") %>%
+  visGroups(groupname = "2",  shape="dot",color = "#d19f2a") %>%
+  visGroups(groupname = "3",  shape="dot",color = "#2d9a47") %>%
+  visGroups(groupname = "4",  shape="dot",color = "#c22033") %>%
+  visGroups(groupname = "5",  shape="dot",color = "#ef412a") %>%
+  visGroups(groupname = "6",  shape="dot",color = "#00add9") %>%
+  visGroups(groupname = "7",  shape="dot",color = "#fdb714") %>%
+  visGroups(groupname = "8",  shape="dot",color = "#8f1838") %>%
+  visGroups(groupname = "9",  shape="dot",color = "#f36e24") %>%
+  visGroups(groupname = "10", shape="dot", color = "#e01a83") %>%
+  visGroups(groupname = "11",  shape="dot",color = "#f99d25") %>%
+  visGroups(groupname = "12",  shape="dot",color = "#cd8b2a") %>%
+  visGroups(groupname = "13", shape="dot", color = "#48773c") %>%
+  visGroups(groupname = "14",  shape="dot",color = "#007dbb") %>%
+  visGroups(groupname = "15", shape="dot", color = "#40ae49") %>%
+  visGroups(groupname = "16",  shape="dot",color = "#00558a") %>%
+  visGroups(groupname = "17",  shape="dot",color = "#1a3668") %>%
+  visLegend(main="Legend", position="right", ncol=3, width=0.2)
+visnet
+visSave(visnet, file = "Social Network Model-Indonesia.html")
+```
+
+## Guatemala (Not finished)
+
+### Data preparation
+```{r import Guatemala network coefficients, echo=TRUE, eval=TRUE}
+edgelistguate <- read.csv("~/Documents/GitHub/G5055_Practicum_Project2/Data/PCA_results/gua_coefficients_sig.csv")
+#Some preprocessing
+edgelistguate<-edgelistguate%>%
+  select(Var1, Var2, value)%>%
+  filter(Var1!=Var2)
+names(edgelistindo)<-c("from","to","value")
+edgelistguate
+```
+
+### Visualization
+
+```{r Guatemala nodes, echo=TRUE, eval=TRUE}
+guatenodes <- edgelistguate %>%
+  select(Var1, Var2)
+guatenodes <- data.frame(indicatorname = unlist(guatenodes, use.names = FALSE))
+guatenodes <- distinct(guatenodes)
+
+#guatenodes$goal <- stri_match_first_regex(guatenodes$indicator, "(.*?)\\.")[,2]
+#guatenodes$goal <-as.numeric(guatenodes$goal)
+g3<-graph_from_data_frame(edgelistguate, directed=FALSE, vertices=guatenodes)
+guatenodes
+```
+
+
+
