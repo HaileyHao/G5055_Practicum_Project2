@@ -3,10 +3,12 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 
+
 **Team Members (in alphabetical order)**
 
 * **Core Team**: Qinyue Hao, Jasmine Hwang, Dan Li, Peishan Li, Rina Shin, Connie Xu, Hanyu Zhang
 * **Supporting Team**: Zhiwen Huang, Cara Latinazo, Xingchen Li, Soobin Oh, Lizabeth Singh, Mengying Xu, Tianqing Zhou
+
 
 ## Project Description
 
@@ -36,10 +38,6 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 3. QAP Analysis: Calculation of similarity and associations between text and network models. 
 
-## Initial Results: 
-![cute cat image](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Visualizations/Interactive/Social%20Network%20Model-Guatemala-negative.html)
-
-
 ## Final Deliverables
 
 1. [Blog](https://docs.google.com/presentation/d/1zmhJTMVDWkgyJlh7xcl0nNyeMsjiqfmjNm4FKSYFkJ4/edit)
@@ -50,23 +48,57 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 4. **The team's key findings including other visualization works could be seen the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
 
-## Repository Directory: 
+## Repository Directory Contents: 
 
-	├── cs_repayment_rate
-	├── cs_student_debt 
-	├── twitter_data
-	├── shiny
-	├── data
-	├── temp
-	├── www
-	├── solutions_and_visualizations 
-	├── census_student_debt_etc 
-	# exploratory data about poverty and student debt - not really used in current iteration of project
-	├── repay_rate
-		├── repay_rate_visuals
-	├── student_debt
-	├── twitter
-		├── twitter_visuals
+	├── Codes
+		├── Composite (1b) 
+		├── Correlation Analysis (1c) 
+		├── Data Accessing and Preprocessing (1a)
+		├── Data Visualization (4)
+			├── coefficient network 
+			├── text network 
+			├── data missingness and disaggregation 
+		├── Pick Central Variable (1) ^^ 
+		├── Regression Models (3) 
+		├── Text Model (2) 
+		
+	├── Data  
+		├── Centrality_representative_results (1) ^^ 
+			├── centrality_scores(after removing disaggregation)
+			├── indicator_picked(before removing disaggregation)
+			├── measure_picked(before removing disaggregation)
+		├── Guatemala & Indonesia Correlation among Indicators (1) ^^
+		├── Guatemala & Indonesia Correlation among Targets (1) ^^
+		├── Guatemala & Indonesia Correlation among measurements (1) ^^ 
+		├── Guatemala & Indonesia Correlation among measurements-WITHOUT disaggregation ^^ (1) 
+		Guatemala & Indonesia Correlation among Targets Ungrouped.csv ^^
+		Indonesia.csv & Guatemala.csv ^^
+		Guatemala & Indonesia data after selecting one measurement for each indicator.csv ^^
+		Guatmala & Indonesia Data Without Disaggregation.csv ^^
+		├── variable_types (1) ^^
+		├── variables_picked (1) ^^
+		├── List of indicators (1) 
+		├── Data_preprocessed_for_PCA (1) 
+		├── PCA_results (1) 
+		├── coefficient_network (1) ^^
+
+		├── SDG-indicator-metadata (2) 
+		├── Text_Model_Data (2) 
+		├── Voluntary National Reviews (2) ^^ 
+
+	├── Literature
+
+	├── Visualizations 
+		├── Disaggregated_Data (1a) 
+		├── Missing_Data (1a) 
+		├── Model_Viz (1c) 	
+		├── Interactive	(1c) 	 
+		├── Text_Model_Viz (2) 
+		├── goal_hexcodes_edge.csv 
+		├── goal_hexcodes.csv
+	
+	^^ - item is likely deprecated 
+	(1), (2), (1 & 2) - refers to model that the folder is corresponding to. 
 
 ### Codes
 
@@ -80,12 +112,6 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 4. Data Visualization
 
-### Data
-
-**Original data sources include:**
-
-* [UN SDG Indicators](https://unstats.un.org/sdgs/indicators/database/)
-* [UN SDG Indicator Metadata](https://unstats.un.org/sdgs/metadata/)
 
 **Preprocessed data:**
 
