@@ -31,7 +31,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 ### Model Methodologies Used: 
 
-1. Text Model: Network Model based on cosine similarities between indicator descriptions from [SDG metadata](https://unstats.un.org/sdgs/metadata/) 
+1. Text Model: Network Model based on TF-IDF and cosine similarities between indicator descriptions from [SDG metadata](https://unstats.un.org/sdgs/metadata/) 
 
 2. Coefficient Social Network Model: Positive and Negative Network Models based on coefficients for year-to-year changes in [SDG indicator measures](https://unstats.un.org/sdgs/UNSDG/IndDatabasePage)
 	- Positive Network
@@ -82,9 +82,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 		├── PCA_results (1) 
 		├── coefficient_network (1) ^^
 
-		├── SDG-indicator-metadata (2) 
 		├── Text_Model_Data (2) 
-		├── Voluntary National Reviews (2) ^^ 
 
 	├── Literature
 
@@ -104,6 +102,10 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 1. Text Model
 
+* [three_models.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/three_models.ipynb) shows the use of three word embedding models TF-IDF, Word2vec and Doc2vec and their results.
+* [25sample_indicator.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/25sample_indicator.ipynb) is the sampling process for the three models' results to decide the final model.
+* [tf_idf_final.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/tf_idf_final.ipynb) represents the final result using TF-IDF.
+
 2. Coefficient Social Network Model
 
 * [UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py) This python package includes a function called **preprocess**. If users ```import UN_SDG_2_Functions```, read an SDG file (2012-2021) CSV from the API, they can use this function to directly pivot data into indicator metric / time (year) format. 
@@ -116,6 +118,8 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 **Preprocessed data:**
 
 1. Text Model
+
+* [fill_definition_incomplete.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/fill_definition_incomplete.ipynb) shows the process of scraping the 246 indicators' definitions from the metadata PDF files. 
 
 2. Coefficient Social Network Model
 
