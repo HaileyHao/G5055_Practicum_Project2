@@ -39,7 +39,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 3. [Interactive Visualizations](http://rpubs.com/LPS/unsdginteractivenetworks)
 
-4. Other Visualization works could be seen in the seperate folder on GitHub as well as in the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).
+4. **The team's key findings including other visualization works could be seen the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
 
 ## User Guide for the Repository (Pending)
 
