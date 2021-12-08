@@ -35,7 +35,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 1. [Blog](https://docs.google.com/presentation/d/1zmhJTMVDWkgyJlh7xcl0nNyeMsjiqfmjNm4FKSYFkJ4/edit)
 
-2.[Research Paper](https://docs.google.com/document/d/1r9EB9jqlAU1O_vVY4bYghDMNJcdc4Olw/edit)
+2. [Research Paper](https://docs.google.com/document/d/1r9EB9jqlAU1O_vVY4bYghDMNJcdc4Olw/edit)
 
 3. [Interactive Visualizations](http://rpubs.com/LPS/unsdginteractivenetworks)
 
