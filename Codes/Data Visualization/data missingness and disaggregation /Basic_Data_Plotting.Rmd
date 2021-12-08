@@ -196,7 +196,7 @@ print(
   guatemala_disaggregated_indicators %>% subset(Goal==i) %>% 
     ggplot(aes(x=Target,fill=disaggregated_)) +
     geom_bar(position='stack',binwidth=3) +
-    scale_fill_manual(values = c('disaggregated'='maroon','not disaggregated' = 'lavender'))+
+    scale_fill_manual(values = c('not disaggregated'='#e6b2ccff','disaggregated' = '#e02883ff'))+
     theme_ipsum(base_size = 12, axis_title_size = 14) +
     theme(
       panel.grid.major = element_blank(),
@@ -264,7 +264,7 @@ print(
   guatemala_time_ %>% subset(Goal==i) %>% dplyr::group_by(Target,average_missing_prop_t) %>% summarise() %>% 
     ggplot(aes(x=Target,y=average_missing_prop_t*100,fill=average_missing_prop_t*100)) +
     geom_bar(stat="identity") +
-    scale_fill_gradient(low = "lavender", high = "maroon",
+    scale_fill_gradient(low = '#e6b2ccff',high = '#e02883ff',
                          breaks = c(0,100)) +
     theme_ipsum(base_size = 12, axis_title_size = 14) +
     theme(
