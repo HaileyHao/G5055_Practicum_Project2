@@ -31,7 +31,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 3. QAP Analysis
 
-## Final Diliverables
+## Final Deliverables
 
 1. [Blog](https://docs.google.com/presentation/d/1zmhJTMVDWkgyJlh7xcl0nNyeMsjiqfmjNm4FKSYFkJ4/edit)
 
