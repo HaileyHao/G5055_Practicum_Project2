@@ -33,10 +33,12 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 1. Text Model: Network Model based on TF-IDF and cosine similarities between indicator descriptions from [SDG metadata](https://unstats.un.org/sdgs/metadata/) 
 
-2. Coefficient Social Network Model: Positive and Negative Network Models based on coefficients for year-to-year changes in [SDG indicator measures](https://unstats.un.org/sdgs/UNSDG/IndDatabasePage)
-	- Positive Network
+2. Coefficient Social Network Model: Whole Network, Positive and Negative Network Models based on coefficients for year-to-year changes in [SDG indicator measures](https://unstats.un.org/sdgs/UNSDG/IndDatabasePage)
+	- Whole Network: An undirected, weighted network. All availalable indicators as nodes, statistically significant(p < 0.05) relationships as ties, and the corresponding correlation coefficents as weights of ties.
+	- Positive Network: A subgraph of the whole network, with only the positive linkages and the indicators they connect.
+	- Negative Network: A subgraph of the whole network, with only the negative linkages and the indicators they connect.
 
-3. QAP Analysis: Calculation of similarity and associations between text and network models. 
+3. QAP Procedure and Network Logistic Regression : [QAP (Quadratic Assignment Procedure) procedure](https://www.stata.com/meeting/1nasug/simpson.pdf) is a way to handel non-independence problem by permuting rows and columns in the matrix, while maintaining the underlying relationship. To focus on predicting the existence rather than the strength of ties, we made the positive and negative network models binary by recoding all the coefficients to 1, before doing Network Logistic Regression between them, to test for the predcitive strength of one network on another.
 
 ## Final Deliverables
 
@@ -46,7 +48,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 3. [Interactive Visualizations](http://rpubs.com/LPS/interactivevisualizations)
 
-4. **The team's key findings including other visualization works could be seen the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
+4. **See key findings and other visualizations on the [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
 
 ## Repository Directory Contents: 
 
@@ -111,11 +113,12 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 * [UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py) This python package includes a function called **preprocess**. If users ```import UN_SDG_2_Functions```, read an SDG file (2012-2021) CSV from the API, they can use this function to directly pivot data into indicator metric / time (year) format. 
 
 3. QAP Analysis
+* [QAP_regression_sig.Rmd](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Regression%20Models%20/QAP_regression_sig.Rmd) This Rmd shows the process of regressions between different networks with OLS Network models and Network Logistic Models.
 
 4. Data Visualization
+* [final_viz_weighted_net.R](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Visualization/coefficient%20network/final_viz_weighted_net.R) Visualization of static indicator network built with correlation coefficients.
 
-
-**Preprocessed data:**
+**Data pre-processing:**
 
 1. Text Model
 
@@ -126,6 +129,6 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 * Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
 * Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
 
-3. QAP Analysis
+
 
 *Note: If users have feedback, please feel free to contact our team with questions, issues, and concerns.* 
