@@ -44,7 +44,7 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 2. [Research Paper](https://docs.google.com/document/d/1r9EB9jqlAU1O_vVY4bYghDMNJcdc4Olw/edit)
 
-3. [Interactive Visualizations](http://rpubs.com/LPS/unsdginteractivenetworks)
+3. [Interactive Visualizations](http://rpubs.com/LPS/interactivevisualizations)
 
 4. **The team's key findings including other visualization works could be seen the team's [final presentation slides](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/G5055%20Project%202%20Deck%20.pdf).**
 
