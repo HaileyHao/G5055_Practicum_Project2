@@ -53,16 +53,18 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 ## Repository Directory Contents: 
 
 	├── Codes
-		├── Data Accessing and Preprocessing (1a)
-		├── Coefficient Network Model (1b) 
-		├── Correlation Analysis (1c) 
-		├── Data Visualization (4)
+		├── Data Accessing and Preprocessing 
+		├── Text Model
+		├── Coefficient Network Model 
+			├── Composite Method
+			├── Regression Models
+		├── Representative Method ^^
+			├── Correlation Analysis
+			├── Pick Central Variable
+		├── Data Visualizations
 			├── coefficient network 
 			├── text network 
 			├── data missingness and disaggregation 
-		├── Pick Central Variable (1) ^^ 
-		├── Regression Models (3) 
-		├── Text Model (2) 
 		
 	├── Data  
 		├── Centrality_representative_results (1) ^^ 
@@ -83,16 +85,13 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 		├── Data_preprocessed_for_PCA (1) 
 		├── PCA_results (1) 
 		├── coefficient_network (1) ^^
-
 		├── Text_Model_Data (2) 
-
-	├── Literature
 
 	├── Visualizations 
 		├── Disaggregated_Data (1a) 
 		├── Missing_Data (1a) 
 		├── Model_Viz (1c) 	
-		├── Interactive	(1c) 	 
+		├── Interactive_Plots 
 		├── Text_Model_Viz (2) 
 		├── goal_hexcodes_edge.csv 
 		├── goal_hexcodes.csv
@@ -109,8 +108,8 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 * [tf_idf_final.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/tf_idf_final.ipynb) represents the final result using TF-IDF.
 
 2. Coefficient Social Network Model
+* [Correlation_among_indicators_Indicator_model.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Coefficient%20Network%20Model/Composite%20Method/Correlation%20Analysis/Correlation_among_indicators_Indicator_model.ipynb) This jupyter notebook includes Pearson correlation calculation using PCA vectors. (outputs include simple matrices showing pearson correlation coefficient and statistical significance). 
 
-* [UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py) This python package includes a function called **preprocess**. If users ```import UN_SDG_2_Functions```, read an SDG file (2012-2021) CSV from the API, they can use this function to directly pivot data into indicator metric / time (year) format. 
 
 3. QAP Analysis
 * [QAP_regression_sig.Rmd](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Regression%20Models%20/QAP_regression_sig.Rmd) This Rmd shows the process of regressions between different networks with OLS Network models and Network Logistic Models.
@@ -125,9 +124,9 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 * [fill_definition_incomplete.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Text%20Model/fill_definition_incomplete.ipynb) shows the process of scraping the 246 indicators' definitions from the metadata PDF files. 
 
 2. Coefficient Social Network Model
+* [UN_SDG_2_Functions.py](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/UN_SDG2_Functions.py) This python package includes a function called **preprocess**. If users ```import UN_SDG_2_Functions```, read an SDG file (2012-2021) CSV from the API, they can use this function to directly pivot data into indicator metric / time (year) format. Also available in more detail as [.ipynb file](Preprocessing_UNSDG_Data.ipynb)
+* [For_PCA_Data_Preprocessing.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Coefficient%20Network%20Model/Composite%20Method/Data%20Processing/For_PCA_Data_Preprocessing.ipynb) This jupyter notebook uses PCA to preprocess data for building coefficients at the indicator level.  
+* [Missingness_Imputation.ipynb](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Coefficient%20Network%20Model/Composite%20Method/Data%20Processing/Missingness_Imputation.ipynb) This jupyter notebook includes code to impute missing data for UN countries' using linear regression slope fitting over time.  
 
-* Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021
-* Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021
-
-
-*Note: If users have feedback, please feel free to contact our team with questions, issues, and concerns.* 
+---
+Please feel free to contact our team with questions, issues, and concerns. Thank you! 
