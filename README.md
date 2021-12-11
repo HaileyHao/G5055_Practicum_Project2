@@ -126,9 +126,8 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 
 2. Coefficient Social Network Model
 
-* Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
-* Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021 (Output from [the code](https://github.com/PeishanLi/G5055_Practicum_Project2/blob/main/Codes/Data%20Accessing%20and%20Preprocessing/Accessing_UNSDG_Data.ipynb))
-
+* Indonesia.csv: contains data of UN SDG Indicators for Indonesia from 2012 to 2021
+* Guatemala.csv: contains data of UN SDG Indicators for Guatemala from 2012 to 2021
 
 
 *Note: If users have feedback, please feel free to contact our team with questions, issues, and concerns.* 
