@@ -53,9 +53,9 @@ For the coefficient model, the team is looking at data starting from 2012 to 202
 ## Repository Directory Contents: 
 
 	├── Codes
-		├── Composite (1b) 
-		├── Correlation Analysis (1c) 
 		├── Data Accessing and Preprocessing (1a)
+		├── Coefficient Network Model (1b) 
+		├── Correlation Analysis (1c) 
 		├── Data Visualization (4)
 			├── coefficient network 
 			├── text network 
